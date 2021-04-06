@@ -316,6 +316,9 @@ class Base(gym.Env):
         self.viz.display(qw)
         time.sleep(0.05)
 
+    def get_model(self):
+        return self.model_wrapper
+
     def get_curr_state(self):
         return self.state
 
