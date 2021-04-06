@@ -107,3 +107,10 @@ By default the checkpointing will be in your home directory. You can change it b
 ```
 export CHECKPOINT=/path/to/checkpoints
 ```
+
+## Documentation
+- Class `gym.Env`: basically the whole environment defined by the user, including operating robots and obstacles
+- Class `ConfigurationWrapper`: configuration, which corresponds to q in the paper
+- Class `ModelWrapper`: model of objects for collision checking and so on
+- Colission Checker: `m.collision(q)` - m is ModelWrapper instance and q is ConfigurationWrapper intance
+

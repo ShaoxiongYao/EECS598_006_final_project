@@ -316,6 +316,9 @@ class Base(gym.Env):
         self.viz.display(qw)
         time.sleep(0.05)
 
+    def get_curr_state(self):
+        return self.state
+
     def get_state(self):
         return {"current": self.state, "goal": self.goal_state}
 
