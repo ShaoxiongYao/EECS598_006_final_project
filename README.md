@@ -114,3 +114,30 @@ export CHECKPOINT=/path/to/checkpoints
 - Class `ModelWrapper`: model of objects for collision checking and so on
 - Colission Checker: `m.collision(q)` - m is ModelWrapper instance and q is ConfigurationWrapper intance
 
+Code execution structure:
+1. call run.py in `nmp`, with arguments
+2. initialize environment and policy
+3. use `multitask_rollout` function to rollout and collection results
+  - in `render` mode, will rollout run infinitely many times
+  - in `evaluate` mode, will run finite time according to specified number of episodes
+
+
+System dynamics forward:
+
+- in `env`, the function `step` takes in action
+
+  - function `step` calls `move` and use `model_wrapper` to apply action
+
+        next_state = model_wrapper.integrate(
+              state, velocity, self.cartesian_integration
+          )
+    
+    the model is pure kinematics
+  
+  - need to check what action is actually applied, also the action needs to be formatted before calling `move` function 
+
+Bidirection RRT is implemented in `planning`, `env` has `solve_rrt` to call planning, will return planning results. 
+
+To change sampling startegy, can change `solve.solve` state sampling distribution
+
+To integrate poliy as local planner, needs to modify the extend function, but not sure whether to use `rollout` function from `rlkit`.
