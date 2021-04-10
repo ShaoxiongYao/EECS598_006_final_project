@@ -28,6 +28,9 @@ def solve(env, delta_growth, iterations, simplify):
         return model_wrapper.interpolate(q0, q1, t)
 
     def arange_fn(q0, q1, resolution):
+        print("q0:", q0)
+        print("q1:", q1)
+        print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
     def expand_fn(q0, q1, limit_growth=True):
@@ -37,7 +40,7 @@ def solve(env, delta_growth, iterations, simplify):
             q1 = interpolate_fn(q0, q1, t1)
         path = arange_fn(q0, q1, delta_collision_check)
         q_stop, collide = env.stopping_configuration(path)
-        return q_stop, not collide
+        return q_stop, not collide.any()
 
     def close_fn(qw0, qw1):
         return np.allclose(qw0.q, qw1.q)
@@ -55,7 +58,8 @@ def solve(env, delta_growth, iterations, simplify):
                 path["points"], expand_fn, interpolate_fn, distance_fn
             )
             path["points"] = utils.limit_step_size(
-                path["points"], arange_fn, action_range
+                # path["points"], arange_fn, action_range
+                path["points"], arange_fn, delta_growth
             )
         else:
             path["points"] = np.array(path["points"])

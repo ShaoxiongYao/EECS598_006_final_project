@@ -27,6 +27,9 @@ def nearest_neighbor(x, nodes, distance_fn):
 
 
 def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations):
+    print("RRT start:", start)
+    print("RRT goal:", goal)
+
     nodes_ab = [[], []]
     for i, x in enumerate((start, goal)):
         node = Node(x, parent=None)
@@ -37,6 +40,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
     for i in range(iterations):
         nodes_a, nodes_b = nodes_ab[growing_index], nodes_ab[1 - growing_index]
         x_rand = sample_fn()
+        print("x_rand", x_rand)
+
         # grows tree_a toward x_rand
         node_a = nearest_neighbor(x_rand, nodes_a, distance_fn)
         solution["n_samples"] += 1

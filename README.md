@@ -141,3 +141,11 @@ Bidirection RRT is implemented in `planning`, `env` has `solve_rrt` to call plan
 To change sampling startegy, can change `solve.solve` state sampling distribution
 
 To integrate poliy as local planner, needs to modify the extend function, but not sure whether to use `rollout` function from `rlkit`.
+
+### Environment structure
+
+`env = gym.make(env_name)` returns environment `mpenv.observers.robot_links.RobotLinksObserver`
+
+`env.env` type `mpenv.observers.ray_tracing.RayTracingObserver`
+
+`env.env.env` type `mpenv.envs.boxes.Boxes`

@@ -128,8 +128,14 @@ class ModelWrapper:
     def random_configuration(self, project_fn=None):
         q = pin.randomConfiguration(self.model)
         # q = np.random.uniform(-np.pi, np.pi, size=(6,))
+        print("joint names:", self.model.names)
+        print("number of bodies:", self.model.nbodies)
+        print("number of joints:", self.model.njoints)
+        print("dimension of space:", self.model.nq)
+        print("configuration", q)
         qw = ConfigurationWrapper(self, q)
-        qw = self.clip(qw, self._clip_bounds[0], self._clip_bounds[1])[1]
+        clipped, qw = self.clip(qw, self._clip_bounds[0], self._clip_bounds[1])
+        print("clipped:", clipped)
         if project_fn:
             qw = project_fn(qw)
         return qw

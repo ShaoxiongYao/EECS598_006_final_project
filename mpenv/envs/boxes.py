@@ -81,6 +81,9 @@ class Boxes(Base):
             self.goal_state = goal
         else:
             self.goal_state = self.random_configuration()
+        
+        print("start q:", self.state.q)
+        print("goal q:", self.goal_state.q)
 
         return self.observation()
 
