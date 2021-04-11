@@ -21,4 +21,3 @@ dependencies:
     - tensorboard==2.3.0
     - networkx==2.5
     - git+https://github.com/rstrudel/nmprepr.git
-    - git+https://github.com/rstrudel/rlkit.git@nmprepr
