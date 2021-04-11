@@ -33,7 +33,8 @@ def solve(env, delta_growth, iterations, simplify):
         print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=True):
+    def expand_fn(q0, q1, limit_growth=True, policy=None):
+        # TODO: add policy
         if limit_growth:
             dist = distance_fn(q0, q1)
             t1 = min(dist, delta_growth) / (dist + EPSILON)

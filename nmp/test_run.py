@@ -69,6 +69,9 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     return
 
+    # TODO: 
+    # - define start and goal in env - pass in to rlkit
+
     def rollout_fn():
         return multitask_rollout(
             env,
