@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+rlkit/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -47,10 +48,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-<<<<<<< HEAD
-*.py,cover
-=======
->>>>>>> master-holder
 .hypothesis/
 .pytest_cache/
 
@@ -58,19 +55,6 @@ coverage.xml
 *.mo
 *.pot
 
-<<<<<<< HEAD
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-=======
->>>>>>> master-holder
 # Scrapy stuff:
 .scrapy
 
@@ -80,16 +64,6 @@ docs/_build/
 # PyBuilder
 target/
 
-<<<<<<< HEAD
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-=======
->>>>>>> master-holder
 # pyenv
 .python-version
 
@@ -100,33 +74,12 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-<<<<<<< HEAD
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-=======
 # celery beat schedule file
 celerybeat-schedule
->>>>>>> master-holder
 
 # SageMath parsed files
 *.sage.py
 
-<<<<<<< HEAD
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-=======
->>>>>>> master-holder
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -134,14 +87,11 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-<<<<<<< HEAD
-=======
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
 
->>>>>>> master-holder
 # mkdocs documentation
 /site
 
@@ -152,8 +102,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< HEAD
-=======
 
 # End of https://www.gitignore.io/api/python
->>>>>>> master-holder
