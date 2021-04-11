@@ -149,3 +149,9 @@ To integrate poliy as local planner, needs to modify the extend function, but no
 `env.env` type `mpenv.observers.ray_tracing.RayTracingObserver`
 
 `env.env.env` type `mpenv.envs.boxes.Boxes`
+
+### RRT?
+
+Command:
+
+    python -m nmp.test_run --cpu SShape-Boxes-64Pts-Rays-v0 --exp-name log_dir/params.pkl --seed 100 --horizon 80 --episodes 0 > test_run_output

@@ -61,7 +61,11 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
     o = env.reset(start=None, goal=None)
 
     # Try to use solve RRT
-    env.env.env.solve_rrt(True)
+    success, path, trees, iterations = env.env.env.solve_rrt(True)
+
+    print("success:", success)
+    print("path:", path)
+    print("iterations:", iterations)
 
     return
 
