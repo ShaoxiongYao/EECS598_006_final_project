@@ -30,7 +30,6 @@ class PathBuilder(dict):
     Note that the key should be "actions" and not "action" since the
     resulting dictionary will have those keys.
     """
-
     def __init__(self):
         super().__init__()
         self._path_length = 0

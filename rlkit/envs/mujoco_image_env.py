@@ -11,16 +11,17 @@ from rlkit.envs.wrappers import ProxyEnv
 
 
 class ImageMujocoEnv(ProxyEnv, Env):
-    def __init__(self,
-                 wrapped_env,
-                 imsize=32,
-                 keep_prev=0,
-                 init_camera=None,
-                 camera_name=None,
-                 transpose=False,
-                 grayscale=False,
-                 normalize=False,
-                 ):
+    def __init__(
+            self,
+            wrapped_env,
+            imsize=32,
+            keep_prev=0,
+            init_camera=None,
+            camera_name=None,
+            transpose=False,
+            grayscale=False,
+            normalize=False,
+    ):
         import mujoco_py
         super().__init__(wrapped_env)
 
@@ -48,8 +49,7 @@ class ImageMujocoEnv(ProxyEnv, Env):
 
         self.observation_space = Box(low=0.0,
                                      high=1.0,
-                                     shape=(
-                                     self.image_length * self.history_length,))
+                                     shape=(self.image_length * self.history_length, ))
 
     def step(self, action):
         # image observation get returned as a flattened 1D array
@@ -119,15 +119,11 @@ class ImageMujocoEnv(ProxyEnv, Env):
         imlength = self.image_length * self.history_length
         obs_length = self.observation_space.low.size
         obs = obs.view(-1, obs_length)
-        image_obs = obs.narrow(start=0,
-                               length=imlength,
-                               dimension=1)
+        image_obs = obs.narrow(start=0, length=imlength, dimension=1)
         if obs_length == imlength:
             return image_obs, None
 
-        fc_obs = obs.narrow(start=imlength,
-                            length=obs.shape[1] - imlength,
-                            dimension=1)
+        fc_obs = obs.narrow(start=imlength, length=obs.shape[1] - imlength, dimension=1)
         return image_obs, fc_obs
 
     def enable_render(self):
@@ -139,10 +135,8 @@ class ImageMujocoWithObsEnv(ImageMujocoEnv):
         super().__init__(env, **kwargs)
         self.observation_space = Box(low=0.0,
                                      high=1.0,
-                                     shape=(
-                                     self.image_length * self.history_length +
-                                     self.wrapped_env.obs_dim,))
+                                     shape=(self.image_length * self.history_length +
+                                            self.wrapped_env.obs_dim, ))
 
     def _get_obs(self, history_flat, true_state):
-        return np.concatenate([history_flat,
-                               true_state])
+        return np.concatenate([history_flat, true_state])

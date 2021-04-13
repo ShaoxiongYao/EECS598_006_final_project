@@ -1,11 +1,12 @@
 import datetime
-import json
+import yaml
 import os
 import os.path as osp
 import pickle
 import random
 import sys
 import time
+import torch
 from collections import namedtuple
 
 import __main__ as main
@@ -18,20 +19,15 @@ from rlkit.torch.pytorch_util import set_gpu_mode
 import rlkit.pythonplusplus as ppp
 
 GitInfo = namedtuple(
-    'GitInfo',
-    [
-        'directory',
-        'code_diff',
-        'code_diff_staged',
-        'commit_hash',
-        'branch_name',
-    ],
+    "GitInfo",
+    ["directory", "code_diff", "code_diff_staged", "commit_hash", "branch_name",],
 )
 
 
 def get_git_infos(dirs):
     try:
         import git
+
         git_infos = []
         for directory in dirs:
             # Idk how to query these things, so I'm just doing try-catch
@@ -40,14 +36,16 @@ def get_git_infos(dirs):
                 try:
                     branch_name = repo.active_branch.name
                 except TypeError:
-                    branch_name = '[DETACHED]'
-                git_infos.append(GitInfo(
-                    directory=directory,
-                    code_diff=repo.git.diff(None),
-                    code_diff_staged=repo.git.diff('--staged'),
-                    commit_hash=repo.head.commit.hexsha,
-                    branch_name=branch_name,
-                ))
+                    branch_name = "[DETACHED]"
+                git_infos.append(
+                    GitInfo(
+                        directory=directory,
+                        code_diff=repo.git.diff(None),
+                        code_diff_staged=repo.git.diff("--staged"),
+                        commit_hash=repo.head.commit.hexsha,
+                        branch_name=branch_name,
+                    )
+                )
             except git.exc.InvalidGitRepositoryError as e:
                 print("Not a valid git repo: {}".format(directory))
     except ImportError:
@@ -81,26 +79,26 @@ def recursive_items(dictionary):
 
 
 def save_experiment_data(dictionary, log_dir):
-    with open(log_dir + '/experiment.pkl', 'wb') as handle:
+    with open(log_dir + "/experiment.pkl", "wb") as handle:
         pickle.dump(dictionary, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
 def run_experiment_here(
-        experiment_function,
-        variant=None,
-        exp_id=0,
-        seed=None,
-        use_gpu=True,
-        # Logger params:
-        exp_prefix="default",
-        snapshot_mode='last',
-        snapshot_gap=1,
-        git_infos=None,
-        script_name=None,
-        base_log_dir=None,
-        force_randomize_seed=False,
-        log_dir=None,
-        **setup_logger_kwargs
+    experiment_function,
+    variant=None,
+    exp_id=0,
+    seed=None,
+    use_gpu=True,
+    # Logger params:
+    exp_prefix="default",
+    snapshot_mode="last",
+    snapshot_gap=1,
+    git_infos=None,
+    script_name=None,
+    base_log_dir=None,
+    force_randomize_seed=False,
+    log_dir=None,
+    **setup_logger_kwargs
 ):
     """
     Run an experiment locally without any serialization.
@@ -120,11 +118,11 @@ def run_experiment_here(
     """
     if variant is None:
         variant = {}
-    variant['exp_id'] = str(exp_id)
+    variant["exp_id"] = str(exp_id)
 
     if force_randomize_seed or seed is None:
         seed = random.randint(0, 100000)
-        variant['seed'] = str(seed)
+        variant["seed"] = str(seed)
     reset_execution_environment()
 
     actual_log_dir = setup_logger(
@@ -158,10 +156,7 @@ def run_experiment_here(
         **setup_logger_kwargs
     )
     save_experiment_data(
-        dict(
-            run_experiment_here_kwargs=run_experiment_here_kwargs
-        ),
-        actual_log_dir
+        dict(run_experiment_here_kwargs=run_experiment_here_kwargs), actual_log_dir
     )
     return experiment_function(variant)
 
@@ -174,16 +169,12 @@ def create_exp_name(exp_prefix, exp_id=0, seed=0):
     :return:
     """
     now = datetime.datetime.now(dateutil.tz.tzlocal())
-    timestamp = now.strftime('%Y_%m_%d_%H_%M_%S')
+    timestamp = now.strftime("%Y_%m_%d_%H_%M_%S")
     return "%s_%s_%04d--s-%d" % (exp_prefix, timestamp, exp_id, seed)
 
 
 def create_log_dir(
-        exp_prefix,
-        exp_id=0,
-        seed=0,
-        base_log_dir=None,
-        include_exp_prefix_sub_dir=True,
+    exp_prefix, exp_id=0, seed=0, base_log_dir=None, include_exp_prefix_sub_dir=True,
 ):
     """
     Creates and returns a unique log directory.
@@ -195,8 +186,7 @@ def create_log_dir(
     :param base_log_dir: The directory where all log should be saved.
     :return:
     """
-    exp_name = create_exp_name(exp_prefix, exp_id=exp_id,
-                               seed=seed)
+    exp_name = create_exp_name(exp_prefix, exp_id=exp_id, seed=seed)
     if base_log_dir is None:
         base_log_dir = conf.LOCAL_LOG_DIR
     if include_exp_prefix_sub_dir:
@@ -210,18 +200,18 @@ def create_log_dir(
 
 
 def setup_logger(
-        exp_prefix="default",
-        variant=None,
-        text_log_file="debug.log",
-        variant_log_file="variant.json",
-        tabular_log_file="progress.csv",
-        snapshot_mode="last",
-        snapshot_gap=1,
-        log_tabular_only=False,
-        log_dir=None,
-        git_infos=None,
-        script_name=None,
-        **create_log_dir_kwargs
+    exp_prefix="default",
+    variant=None,
+    text_log_file="debug.log",
+    variant_log_file="variant.yml",
+    tabular_log_file="progress.csv",
+    snapshot_mode="last",
+    snapshot_gap=1,
+    log_tabular_only=False,
+    log_dir=None,
+    git_infos=None,
+    script_name=None,
+    **create_log_dir_kwargs
 ):
     """
     Set up logger to have some reasonable default settings.
@@ -255,7 +245,7 @@ def setup_logger(
 
     if variant is not None:
         logger.log("Variant:")
-        logger.log(json.dumps(dict_to_safe_json(variant), indent=2))
+        logger.log("\n" + yaml.dump(variant))
         variant_log_path = osp.join(log_dir, variant_log_file)
         logger.log_variant(variant_log_path, variant)
 
@@ -266,8 +256,9 @@ def setup_logger(
     if first_time:
         logger.add_tabular_output(tabular_log_path)
     else:
-        logger._add_output(tabular_log_path, logger._tabular_outputs,
-                           logger._tabular_fds, mode='a')
+        logger._add_output(
+            tabular_log_path, logger._tabular_outputs, logger._tabular_fds, mode="a"
+        )
         for tabular_fd in logger._tabular_fds:
             logger._tabular_header_written.add(tabular_fd)
     logger.set_snapshot_dir(log_dir)
@@ -279,20 +270,22 @@ def setup_logger(
 
     if git_infos is not None:
         for (
-            directory, code_diff, code_diff_staged, commit_hash, branch_name
+            directory,
+            code_diff,
+            code_diff_staged,
+            commit_hash,
+            branch_name,
         ) in git_infos:
-            if directory[-1] == '/':
+            if directory[-1] == "/":
                 directory = directory[:-1]
             diff_file_name = directory[1:].replace("/", "-") + ".patch"
-            diff_staged_file_name = (
-                directory[1:].replace("/", "-") + "_staged.patch"
-            )
+            diff_staged_file_name = directory[1:].replace("/", "-") + "_staged.patch"
             if code_diff is not None and len(code_diff) > 0:
                 with open(osp.join(log_dir, diff_file_name), "w") as f:
-                    f.write(code_diff + '\n')
+                    f.write(code_diff + "\n")
             if code_diff_staged is not None and len(code_diff_staged) > 0:
                 with open(osp.join(log_dir, diff_staged_file_name), "w") as f:
-                    f.write(code_diff_staged + '\n')
+                    f.write(code_diff_staged + "\n")
             with open(osp.join(log_dir, "git_infos.txt"), "a") as f:
                 f.write("directory: {}\n".format(directory))
                 f.write("git hash: {}\n".format(commit_hash))
@@ -303,36 +296,6 @@ def setup_logger(
     return log_dir
 
 
-def dict_to_safe_json(d):
-    """
-    Convert each value in the dictionary into a JSON'able primitive.
-    :param d:
-    :return:
-    """
-    new_d = {}
-    for key, item in d.items():
-        if safe_json(item):
-            new_d[key] = item
-        else:
-            if isinstance(item, dict):
-                new_d[key] = dict_to_safe_json(item)
-            else:
-                new_d[key] = str(item)
-    return new_d
-
-
-def safe_json(data):
-    if data is None:
-        return True
-    elif isinstance(data, (bool, int, float)):
-        return True
-    elif isinstance(data, (tuple, list)):
-        return all(safe_json(x) for x in data)
-    elif isinstance(data, dict):
-        return all(isinstance(k, str) and safe_json(v) for k, v in data.items())
-    return False
-
-
 def set_seed(seed):
     """
     Set the seed for all the possible random number generators.
@@ -340,9 +303,11 @@ def set_seed(seed):
     :param seed:
     :return: None
     """
-    seed = int(seed)
-    random.seed(seed)
-    np.random.seed(seed)
+    if seed is not None:
+        seed = int(seed)
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
 
 
 def reset_execution_environment():
@@ -363,8 +328,7 @@ def query_yes_no(question, default="yes"):
 
     The "answer" return value is True for "yes" or False for "no".
     """
-    valid = {"yes": True, "y": True, "ye": True,
-             "no": False, "n": False}
+    valid = {"yes": True, "y": True, "ye": True, "no": False, "n": False}
     if default is None:
         prompt = " [y/n] "
     elif default == "yes":
@@ -377,13 +341,13 @@ def query_yes_no(question, default="yes"):
     while True:
         sys.stdout.write(question + prompt)
         choice = input().lower()
-        if default is not None and choice == '':
+        if default is not None and choice == "":
             return valid[default]
         elif choice in valid:
             return valid[choice]
         else:
-            sys.stdout.write("Please respond with 'yes' or 'no' "
-                             "(or 'y' or 'n').\n")
+            sys.stdout.write("Please respond with 'yes' or 'no' " "(or 'y' or 'n').\n")
+
 
 """
 Below is doodad-specific code
@@ -395,6 +359,7 @@ first_sss_launch = True
 try:
     import doodad.mount as mount
     from doodad.utils import REPO_DIR
+
     CODE_MOUNTS = [
         mount.MountLocal(local_dir=REPO_DIR, pythonpath=True),
     ]
@@ -407,10 +372,10 @@ try:
 
     SSS_CODE_MOUNTS = []
     SSS_NON_CODE_MOUNTS = []
-    if hasattr(conf, 'SSS_DIR_AND_MOUNT_POINT_MAPPINGS'):
+    if hasattr(conf, "SSS_DIR_AND_MOUNT_POINT_MAPPINGS"):
         for non_code_mapping in conf.SSS_DIR_AND_MOUNT_POINT_MAPPINGS:
             SSS_NON_CODE_MOUNTS.append(mount.MountLocal(**non_code_mapping))
-    if hasattr(conf, 'SSS_CODE_DIRS_TO_MOUNT'):
+    if hasattr(conf, "SSS_CODE_DIRS_TO_MOUNT"):
         for code_dir in conf.SSS_CODE_DIRS_TO_MOUNT:
             SSS_CODE_MOUNTS.append(
                 mount.MountLocal(local_dir=code_dir, pythonpath=True)
@@ -422,33 +387,33 @@ target_mount = None
 
 
 def run_experiment(
-        method_call,
-        mode='local',
-        exp_prefix='default',
-        seed=None,
-        variant=None,
-        exp_id=0,
-        prepend_date_to_exp_prefix=True,
-        use_gpu=False,
-        snapshot_mode='last',
-        snapshot_gap=1,
-        base_log_dir=None,
-        local_input_dir_to_mount_point_dict=None,  # TODO(vitchyr): test this
-        # local settings
-        skip_wait=False,
-        # ec2 settings
-        sync_interval=180,
-        region='us-east-1',
-        instance_type=None,
-        spot_price=None,
-        verbose=False,
-        num_exps_per_instance=1,
-        # sss settings
-        time_in_mins=None,
-        # ssh settings
-        ssh_host=None,
-        # gcp
-        gcp_kwargs=None,
+    method_call,
+    mode="local",
+    exp_prefix="default",
+    seed=None,
+    variant=None,
+    exp_id=0,
+    prepend_date_to_exp_prefix=True,
+    use_gpu=False,
+    snapshot_mode="last",
+    snapshot_gap=1,
+    base_log_dir=None,
+    local_input_dir_to_mount_point_dict=None,  # TODO(vitchyr): test this
+    # local settings
+    skip_wait=False,
+    # ec2 settings
+    sync_interval=180,
+    region="us-east-1",
+    instance_type=None,
+    spot_price=None,
+    verbose=False,
+    num_exps_per_instance=1,
+    # sss settings
+    time_in_mins=None,
+    # ssh settings
+    ssh_host=None,
+    # gcp
+    gcp_kwargs=None,
 ):
     """
     Usage:
@@ -503,12 +468,11 @@ def run_experiment(
         import doodad.ssh
     except ImportError:
         print("Doodad not set up! Running experiment here.")
-        mode = 'here_no_doodad'
+        mode = "here_no_doodad"
     global ec2_okayed
     global gpu_ec2_okayed
     global target_mount
     global first_sss_launch
-
     """
     Sanitize inputs as needed
     """
@@ -516,10 +480,10 @@ def run_experiment(
         seed = random.randint(0, 100000)
     if variant is None:
         variant = {}
-    if mode == 'ssh' and base_log_dir is None:
+    if mode == "ssh" and base_log_dir is None:
         base_log_dir = conf.SSH_LOG_DIR
     if base_log_dir is None:
-        if mode == 'sss':
+        if mode == "sss":
             base_log_dir = conf.SSS_LOG_DIR
         else:
             base_log_dir = conf.LOCAL_LOG_DIR
@@ -534,17 +498,15 @@ def run_experiment(
             )
     if prepend_date_to_exp_prefix:
         exp_prefix = time.strftime("%m-%d") + "-" + exp_prefix
-    variant['seed'] = str(seed)
-    variant['exp_id'] = str(exp_id)
-    variant['exp_prefix'] = str(exp_prefix)
-    variant['instance_type'] = str(instance_type)
+    variant["seed"] = str(seed)
+    variant["exp_id"] = str(exp_id)
+    variant["exp_prefix"] = str(exp_prefix)
+    variant["instance_type"] = str(instance_type)
 
     try:
         import git
-        doodad_path = osp.abspath(osp.join(
-            osp.dirname(doodad.__file__),
-            os.pardir
-        ))
+
+        doodad_path = osp.abspath(osp.join(osp.dirname(doodad.__file__), os.pardir))
         dirs = conf.CODE_DIRS_TO_MOUNT + [doodad_path]
 
         git_infos = []
@@ -555,14 +517,16 @@ def run_experiment(
                 try:
                     branch_name = repo.active_branch.name
                 except TypeError:
-                    branch_name = '[DETACHED]'
-                git_infos.append(GitInfo(
-                    directory=directory,
-                    code_diff=repo.git.diff(None),
-                    code_diff_staged=repo.git.diff('--staged'),
-                    commit_hash=repo.head.commit.hexsha,
-                    branch_name=branch_name,
-                ))
+                    branch_name = "[DETACHED]"
+                git_infos.append(
+                    GitInfo(
+                        directory=directory,
+                        code_diff=repo.git.diff(None),
+                        code_diff_staged=repo.git.diff("--staged"),
+                        commit_hash=repo.head.commit.hexsha,
+                        branch_name=branch_name,
+                    )
+                )
             except git.exc.InvalidGitRepositoryError:
                 pass
     except ImportError:
@@ -578,30 +542,25 @@ def run_experiment(
         git_infos=git_infos,
         script_name=main.__file__,
     )
-    if mode == 'here_no_doodad':
-        run_experiment_kwargs['base_log_dir'] = base_log_dir
-        return run_experiment_here(
-            method_call,
-            **run_experiment_kwargs
-        )
-
+    if mode == "here_no_doodad":
+        run_experiment_kwargs["base_log_dir"] = base_log_dir
+        return run_experiment_here(method_call, **run_experiment_kwargs)
     """
     Safety Checks
     """
 
-    if mode == 'ec2' or mode == 'gcp':
+    if mode == "ec2" or mode == "gcp":
         if not ec2_okayed and not query_yes_no(
-                "{} costs money. Are you sure you want to run?".format(mode)
+            "{} costs money. Are you sure you want to run?".format(mode)
         ):
             sys.exit(1)
         if not gpu_ec2_okayed and use_gpu:
             if not query_yes_no(
-                    "{} is more expensive with GPUs. Confirm?".format(mode)
+                "{} is more expensive with GPUs. Confirm?".format(mode)
             ):
                 sys.exit(1)
             gpu_ec2_okayed = True
         ec2_okayed = True
-
     """
     GPU vs normal configs
     """
@@ -610,7 +569,7 @@ def run_experiment(
         if instance_type is None:
             instance_type = conf.GPU_INSTANCE_TYPE
         else:
-            assert instance_type[0] == 'g'
+            assert instance_type[0] == "g"
         if spot_price is None:
             spot_price = conf.GPU_SPOT_PRICE
     else:
@@ -619,26 +578,22 @@ def run_experiment(
             instance_type = conf.INSTANCE_TYPE
         if spot_price is None:
             spot_price = conf.SPOT_PRICE
-    if mode == 'sss':
+    if mode == "sss":
         singularity_image = conf.SSS_IMAGE
-    elif mode in ['local_singularity', 'slurm_singularity']:
+    elif mode in ["local_singularity", "slurm_singularity"]:
         singularity_image = conf.SINGULARITY_IMAGE
     else:
         singularity_image = None
-
-
     """
     Get the mode
     """
     mode_kwargs = {}
-    if use_gpu and mode == 'ec2':
+    if use_gpu and mode == "ec2":
         image_id = conf.REGION_TO_GPU_AWS_IMAGE_ID[region]
-        if region == 'us-east-1':
+        if region == "us-east-1":
             avail_zone = conf.REGION_TO_GPU_AWS_AVAIL_ZONE.get(region, "us-east-1b")
-            mode_kwargs['extra_ec2_instance_kwargs'] = dict(
-                Placement=dict(
-                    AvailabilityZone=avail_zone,
-                ),
+            mode_kwargs["extra_ec2_instance_kwargs"] = dict(
+                Placement=dict(AvailabilityZone=avail_zone,),
             )
     else:
         image_id = None
@@ -646,44 +601,35 @@ def run_experiment(
         aws_s3_path = conf.AWS_S3_PATH
     else:
         aws_s3_path = None
-
     """
     Create mode
     """
-    if mode == 'local':
+    if mode == "local":
         dmode = doodad.mode.Local(skip_wait=skip_wait)
-    elif mode == 'local_docker':
-        dmode = doodad.mode.LocalDocker(
-            image=docker_image,
-            gpu=use_gpu,
-        )
-    elif mode == 'ssh':
+    elif mode == "local_docker":
+        dmode = doodad.mode.LocalDocker(image=docker_image, gpu=use_gpu,)
+    elif mode == "ssh":
         if ssh_host == None:
             ssh_dict = conf.SSH_HOSTS[conf.SSH_DEFAULT_HOST]
         else:
             ssh_dict = conf.SSH_HOSTS[ssh_host]
         credentials = doodad.ssh.credentials.SSHCredentials(
-            username=ssh_dict['username'],
-            hostname=ssh_dict['hostname'],
-            identity_file=conf.SSH_PRIVATE_KEY
+            username=ssh_dict["username"],
+            hostname=ssh_dict["hostname"],
+            identity_file=conf.SSH_PRIVATE_KEY,
         )
         dmode = doodad.mode.SSHDocker(
-            credentials=credentials,
-            image=docker_image,
-            gpu=use_gpu,
+            credentials=credentials, image=docker_image, gpu=use_gpu,
         )
-    elif mode == 'local_singularity':
-        dmode = doodad.mode.LocalSingularity(
-            image=singularity_image,
-            gpu=use_gpu,
-        )
-    elif mode == 'slurm_singularity' or mode == 'sss':
+    elif mode == "local_singularity":
+        dmode = doodad.mode.LocalSingularity(image=singularity_image, gpu=use_gpu,)
+    elif mode == "slurm_singularity" or mode == "sss":
         assert time_in_mins is not None, "Must approximate/set time in minutes"
         if use_gpu:
             kwargs = conf.SLURM_GPU_CONFIG
         else:
             kwargs = conf.SLURM_CPU_CONFIG
-        if mode == 'slurm_singularity':
+        if mode == "slurm_singularity":
             dmode = doodad.mode.SlurmSingularity(
                 image=singularity_image,
                 gpu=use_gpu,
@@ -701,7 +647,7 @@ def run_experiment(
                 pre_cmd=conf.SSS_PRE_CMDS,
                 **kwargs
             )
-    elif mode == 'ec2':
+    elif mode == "ec2":
         # Do this separately in case someone does not have EC2 configured
         dmode = doodad.mode.EC2AutoconfigDocker(
             image=docker_image,
@@ -719,7 +665,7 @@ def run_experiment(
             num_exps=num_exps_per_instance,
             **mode_kwargs
         )
-    elif mode == 'gcp':
+    elif mode == "gcp":
         image_name = conf.GCP_IMAGE_NAME
         if use_gpu:
             image_name = conf.GCP_GPU_IMAGE_NAME
@@ -729,7 +675,7 @@ def run_experiment(
         config_kwargs = {
             **conf.GCP_DEFAULT_KWARGS,
             **dict(image_name=image_name),
-            **gcp_kwargs
+            **gcp_kwargs,
         }
         dmode = doodad.mode.GCPDocker(
             image=docker_image,
@@ -741,7 +687,6 @@ def run_experiment(
         )
     else:
         raise NotImplementedError("Mode not supported: {}".format(mode))
-
     """
     Get the mounts
     """
@@ -751,61 +696,60 @@ def run_experiment(
         sync_interval=sync_interval,
         local_input_dir_to_mount_point_dict=local_input_dir_to_mount_point_dict,
     )
-
     """
     Get the outputs
     """
     launch_locally = None
     target = conf.RUN_DOODAD_EXPERIMENT_SCRIPT_PATH
-    if mode == 'ec2':
+    if mode == "ec2":
         # Ignored since I'm setting the snapshot dir directly
         base_log_dir_for_script = None
-        run_experiment_kwargs['force_randomize_seed'] = True
+        run_experiment_kwargs["force_randomize_seed"] = True
         # The snapshot dir needs to be specified for S3 because S3 will
         # automatically create the experiment director and sub-directory.
         snapshot_dir_for_script = conf.OUTPUT_DIR_FOR_DOODAD_TARGET
-    elif mode == 'local':
+    elif mode == "local":
         base_log_dir_for_script = base_log_dir
         # The snapshot dir will be automatically created
         snapshot_dir_for_script = None
-    elif mode == 'local_docker':
+    elif mode == "local_docker":
         base_log_dir_for_script = conf.OUTPUT_DIR_FOR_DOODAD_TARGET
         # The snapshot dir will be automatically created
         snapshot_dir_for_script = None
-    elif mode == 'ssh':
+    elif mode == "ssh":
         base_log_dir_for_script = conf.OUTPUT_DIR_FOR_DOODAD_TARGET
         # The snapshot dir will be automatically created
         snapshot_dir_for_script = None
-    elif mode in ['local_singularity', 'slurm_singularity', 'sss']:
+    elif mode in ["local_singularity", "slurm_singularity", "sss"]:
         base_log_dir_for_script = base_log_dir
         # The snapshot dir will be automatically created
         snapshot_dir_for_script = None
         launch_locally = True
-        if mode == 'sss':
+        if mode == "sss":
             dmode.set_first_time(first_sss_launch)
             first_sss_launch = False
             target = conf.SSS_RUN_DOODAD_EXPERIMENT_SCRIPT_PATH
-    elif mode == 'here_no_doodad':
+    elif mode == "here_no_doodad":
         base_log_dir_for_script = base_log_dir
         # The snapshot dir will be automatically created
         snapshot_dir_for_script = None
-    elif mode == 'gcp':
+    elif mode == "gcp":
         # Ignored since I'm setting the snapshot dir directly
         base_log_dir_for_script = None
-        run_experiment_kwargs['force_randomize_seed'] = True
+        run_experiment_kwargs["force_randomize_seed"] = True
         snapshot_dir_for_script = conf.OUTPUT_DIR_FOR_DOODAD_TARGET
     else:
         raise NotImplementedError("Mode not supported: {}".format(mode))
-    run_experiment_kwargs['base_log_dir'] = base_log_dir_for_script
+    run_experiment_kwargs["base_log_dir"] = base_log_dir_for_script
     target_mount = doodad.launch_python(
         target=target,
         mode=dmode,
         mount_points=mounts,
         args={
-            'method_call': method_call,
-            'output_dir': snapshot_dir_for_script,
-            'run_experiment_kwargs': run_experiment_kwargs,
-            'mode': mode,
+            "method_call": method_call,
+            "output_dir": snapshot_dir_for_script,
+            "run_experiment_kwargs": run_experiment_kwargs,
+            "mode": mode,
         },
         use_cloudpickle=True,
         target_mount=target_mount,
@@ -815,12 +759,9 @@ def run_experiment(
 
 
 def create_mounts(
-        mode,
-        base_log_dir,
-        sync_interval=180,
-        local_input_dir_to_mount_point_dict=None,
+    mode, base_log_dir, sync_interval=180, local_input_dir_to_mount_point_dict=None,
 ):
-    if mode == 'sss':
+    if mode == "sss":
         code_mounts = SSS_CODE_MOUNTS
         non_code_mounts = SSS_NON_CODE_MOUNTS
     else:
@@ -834,52 +775,70 @@ def create_mounts(
 
     mounts = [m for m in code_mounts]
     for dir, mount_point in local_input_dir_to_mount_point_dict.items():
-        mounts.append(mount.MountLocal(
-            local_dir=dir,
-            mount_point=mount_point,
-            pythonpath=False,
-        ))
+        mounts.append(
+            mount.MountLocal(local_dir=dir, mount_point=mount_point, pythonpath=False,)
+        )
 
-    if mode != 'local':
+    if mode != "local":
         for m in non_code_mounts:
             mounts.append(m)
 
-    if mode == 'ec2':
+    if mode == "ec2":
         output_mount = mount.MountS3(
-            s3_path='',
+            s3_path="",
             mount_point=conf.OUTPUT_DIR_FOR_DOODAD_TARGET,
             output=True,
             sync_interval=sync_interval,
-            include_types=('*.txt', '*.csv', '*.json', '*.gz', '*.tar',
-                           '*.log', '*.pkl', '*.mp4', '*.png', '*.jpg',
-                           '*.jpeg', '*.patch'),
+            include_types=(
+                "*.txt",
+                "*.csv",
+                "*.yml",
+                "*.gz",
+                "*.tar",
+                "*.log",
+                "*.pkl",
+                "*.mp4",
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
+                "*.patch",
+            ),
         )
-    elif mode == 'gcp':
+    elif mode == "gcp":
         output_mount = mount.MountGCP(
-            gcp_path='',
+            gcp_path="",
             mount_point=conf.OUTPUT_DIR_FOR_DOODAD_TARGET,
             output=True,
             gcp_bucket_name=conf.GCP_BUCKET_NAME,
             sync_interval=sync_interval,
-            include_types=('*.txt', '*.csv', '*.json', '*.gz', '*.tar',
-                           '*.log', '*.pkl', '*.mp4', '*.png', '*.jpg',
-                           '*.jpeg', '*.patch'),
+            include_types=(
+                "*.txt",
+                "*.csv",
+                "*.yml",
+                "*.gz",
+                "*.tar",
+                "*.log",
+                "*.pkl",
+                "*.mp4",
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
+                "*.patch",
+            ),
         )
 
-    elif mode in ['local', 'local_singularity', 'slurm_singularity', 'sss']:
+    elif mode in ["local", "local_singularity", "slurm_singularity", "sss"]:
         # To save directly to local files (singularity does this), skip mounting
         output_mount = mount.MountLocal(
-            local_dir=base_log_dir,
-            mount_point=None,
-            output=True,
+            local_dir=base_log_dir, mount_point=None, output=True,
         )
-    elif mode == 'local_docker':
+    elif mode == "local_docker":
         output_mount = mount.MountLocal(
             local_dir=base_log_dir,
             mount_point=conf.OUTPUT_DIR_FOR_DOODAD_TARGET,
             output=True,
         )
-    elif mode == 'ssh':
+    elif mode == "ssh":
         output_mount = mount.MountLocal(
             local_dir=base_log_dir,
             mount_point=conf.OUTPUT_DIR_FOR_DOODAD_TARGET,

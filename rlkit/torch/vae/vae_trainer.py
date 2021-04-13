@@ -29,13 +29,12 @@ def relative_probs_from_log_probs(log_probs):
     assert not np.any(probs <= 0), 'choose a smaller power'
     return probs
 
-def compute_log_p_log_q_log_d(
-    model,
-    data,
-    decoder_distribution='bernoulli',
-    num_latents_to_sample=1,
-    sampling_method='importance_sampling'
-):
+
+def compute_log_p_log_q_log_d(model,
+                              data,
+                              decoder_distribution='bernoulli',
+                              num_latents_to_sample=1,
+                              sampling_method='importance_sampling'):
     assert data.dtype == np.float64, 'images should be normalized'
     imgs = ptu.from_numpy(data)
     latent_distribution_params = model.encode(imgs)
@@ -62,7 +61,8 @@ def compute_log_p_log_q_log_d(
         log_q_z_given_x = vae_dist.log_prob(latents).sum(dim=1)
         if decoder_distribution == 'bernoulli':
             decoded = model.decode(latents)[0]
-            log_d_x_given_z = torch.log(imgs * decoded + (1 - imgs) * (1 - decoded) + 1e-8).sum(dim=1)
+            log_d_x_given_z = torch.log(imgs * decoded + (1 - imgs) * (1 - decoded) +
+                                        1e-8).sum(dim=1)
         elif decoder_distribution == 'gaussian_identity_variance':
             _, obs_distribution_params = model.decode(latents)
             dec_mu, dec_logvar = obs_distribution_params
@@ -77,24 +77,18 @@ def compute_log_p_log_q_log_d(
         log_d[:, i] = log_d_x_given_z
     return log_p, log_q, log_d
 
-def compute_p_x_np_to_np(
-    model,
-    data,
-    power,
-    decoder_distribution='bernoulli',
-    num_latents_to_sample=1,
-    sampling_method='importance_sampling'
-):
+
+def compute_p_x_np_to_np(model,
+                         data,
+                         power,
+                         decoder_distribution='bernoulli',
+                         num_latents_to_sample=1,
+                         sampling_method='importance_sampling'):
     assert data.dtype == np.float64, 'images should be normalized'
     assert power >= -1 and power <= 0, 'power for skew-fit should belong to [-1, 0]'
 
-    log_p, log_q, log_d = compute_log_p_log_q_log_d(
-        model,
-        data,
-        decoder_distribution,
-        num_latents_to_sample,
-        sampling_method
-    )
+    log_p, log_q, log_d = compute_log_p_log_q_log_d(model, data, decoder_distribution,
+                                                    num_latents_to_sample, sampling_method)
 
     if sampling_method == 'importance_sampling':
         log_p_x = (log_p - log_q + log_d).mean(dim=1)
@@ -157,7 +151,8 @@ class ConvVAETrainer(object):
 
         self.lr = lr
         params = list(self.model.parameters())
-        self.optimizer = optim.Adam(params,
+        self.optimizer = optim.Adam(
+            params,
             lr=self.lr,
             weight_decay=weight_decay,
         )
@@ -184,19 +179,12 @@ class ConvVAETrainer(object):
             self._train_weights = None
 
         if use_parallel_dataloading:
-            self.train_dataset_pt = ImageDataset(
-                train_dataset,
-                should_normalize=True
-            )
-            self.test_dataset_pt = ImageDataset(
-                test_dataset,
-                should_normalize=True
-            )
+            self.train_dataset_pt = ImageDataset(train_dataset, should_normalize=True)
+            self.test_dataset_pt = ImageDataset(test_dataset, should_normalize=True)
 
             if self.skew_dataset:
-                base_sampler = InfiniteWeightedRandomSampler(
-                    self.train_dataset, self._train_weights
-                )
+                base_sampler = InfiniteWeightedRandomSampler(self.train_dataset,
+                                                             self._train_weights)
             else:
                 base_sampler = InfiniteRandomSampler(self.train_dataset)
             self.train_dataloader = DataLoader(
@@ -224,9 +212,7 @@ class ConvVAETrainer(object):
 
         if self.normalize or self.background_subtract:
             self.train_data_mean = np.mean(self.train_dataset, axis=0)
-            self.train_data_mean = normalize_image(
-                np.uint8(self.train_data_mean)
-            )
+            self.train_data_mean = normalize_image(np.uint8(self.train_data_mean))
         self.eval_statistics = OrderedDict()
         self._extra_stats_to_log = None
 
@@ -265,7 +251,10 @@ class ConvVAETrainer(object):
             data = self.train_dataset[idxs, :]
             if method == 'vae_prob':
                 data = normalize_image(data)
-                weights[idxs] = compute_p_x_np_to_np(self.model, data, power=power, **self.priority_function_kwargs)
+                weights[idxs] = compute_p_x_np_to_np(self.model,
+                                                     data,
+                                                     power=power,
+                                                     **self.priority_function_kwargs)
             else:
                 raise NotImplementedError('Method {} not supported'.format(method))
             cur_idx = next_idx
@@ -335,11 +324,13 @@ class ConvVAETrainer(object):
                 obs = None
                 actions = None
             self.optimizer.zero_grad()
-            reconstructions, obs_distribution_params, latent_distribution_params = self.model(next_obs)
+            reconstructions, obs_distribution_params, latent_distribution_params = self.model(
+                next_obs)
             log_prob = self.model.logprob(next_obs, obs_distribution_params)
             kle = self.model.kl_divergence(latent_distribution_params)
 
-            encoder_mean = self.model.get_encoding_from_latent_distribution_params(latent_distribution_params)
+            encoder_mean = self.model.get_encoding_from_latent_distribution_params(
+                latent_distribution_params)
             z_data = ptu.get_numpy(encoder_mean.cpu())
             for i in range(len(z_data)):
                 zs.append(z_data[i, :])
@@ -355,9 +346,7 @@ class ConvVAETrainer(object):
             self.optimizer.step()
             if self.log_interval and batch_idx % self.log_interval == 0:
                 print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                    epoch,
-                    batch_idx * len(data),
-                    len(self.train_loader.dataset),
+                    epoch, batch_idx * len(data), len(self.train_loader.dataset),
                     100. * batch_idx / len(self.train_loader),
                     loss.item() / len(next_obs)))
         if not from_rl:
@@ -387,7 +376,8 @@ class ConvVAETrainer(object):
         beta = float(self.beta_schedule.get_value(epoch))
         for batch_idx in range(10):
             next_obs = self.get_batch(train=False)
-            reconstructions, obs_distribution_params, latent_distribution_params = self.model(next_obs)
+            reconstructions, obs_distribution_params, latent_distribution_params = self.model(
+                next_obs)
             log_prob = self.model.logprob(next_obs, obs_distribution_params)
             kle = self.model.kl_divergence(latent_distribution_params)
             loss = -1 * log_prob + beta * kle
@@ -403,10 +393,10 @@ class ConvVAETrainer(object):
             if batch_idx == 0 and save_reconstruction:
                 n = min(next_obs.size(0), 8)
                 comparison = torch.cat([
-                    next_obs[:n].narrow(start=0, length=self.imlength, dim=1)
-                        .contiguous().view(
-                        -1, self.input_channels, self.imsize, self.imsize
-                    ).transpose(2, 3),
+                    next_obs[:n].narrow(start=0, length=self.imlength,
+                                        dim=1).contiguous().view(-1, self.input_channels,
+                                                                 self.imsize,
+                                                                 self.imsize).transpose(2, 3),
                     reconstructions.view(
                         self.batch_size,
                         self.input_channels,
@@ -414,8 +404,7 @@ class ConvVAETrainer(object):
                         self.imsize,
                     )[:n].transpose(2, 3)
                 ])
-                save_dir = osp.join(logger.get_snapshot_dir(),
-                                    'r%d.png' % epoch)
+                save_dir = osp.join(logger.get_snapshot_dir(), 'r%d.png' % epoch)
                 save_image(comparison.data.cpu(), save_dir, nrow=n)
 
         zs = np.array(zs)
@@ -447,29 +436,25 @@ class ConvVAETrainer(object):
         data = self.get_batch(train=False)
         reconstructions, _, _ = self.model(data)
         img = data[0]
-        recon_mse = ((reconstructions[0] - img) ** 2).mean().view(-1)
+        recon_mse = ((reconstructions[0] - img)**2).mean().view(-1)
         img_repeated = img.expand((debug_batch_size, img.shape[0]))
 
         samples = ptu.randn(debug_batch_size, self.representation_size)
         random_imgs, _ = self.model.decode(samples)
-        random_mses = (random_imgs - img_repeated) ** 2
+        random_mses = (random_imgs - img_repeated)**2
         mse_improvement = ptu.get_numpy(random_mses.mean(dim=1) - recon_mse)
         stats = create_stats_ordered_dict(
             'debug/MSE improvement over random',
             mse_improvement,
         )
-        stats.update(create_stats_ordered_dict(
-            'debug/MSE of random decoding',
-            ptu.get_numpy(random_mses),
-        ))
-        stats['debug/MSE of reconstruction'] = ptu.get_numpy(
-            recon_mse
-        )[0]
-        if self.skew_dataset:
-            stats.update(create_stats_ordered_dict(
-                'train weight',
-                self._train_weights
+        stats.update(
+            create_stats_ordered_dict(
+                'debug/MSE of random decoding',
+                ptu.get_numpy(random_mses),
             ))
+        stats['debug/MSE of reconstruction'] = ptu.get_numpy(recon_mse)[0]
+        if self.skew_dataset:
+            stats.update(create_stats_ordered_dict('train weight', self._train_weights))
         return stats
 
     def dump_samples(self, epoch):
@@ -479,8 +464,7 @@ class ConvVAETrainer(object):
         save_dir = osp.join(logger.get_snapshot_dir(), 's%d.png' % epoch)
         save_image(
             sample.data.view(64, self.input_channels, self.imsize, self.imsize).transpose(2, 3),
-            save_dir
-        )
+            save_dir)
 
     def _dump_imgs_and_reconstructions(self, idxs, filename):
         imgs = []
@@ -512,7 +496,8 @@ class ConvVAETrainer(object):
         for i in range(0, data.shape[0], self.batch_size):
             img = normalize_image(data[i:min(data.shape[0], i + self.batch_size), :])
             torch_img = ptu.from_numpy(img)
-            reconstructions, obs_distribution_params, latent_distribution_params = self.model(torch_img)
+            reconstructions, obs_distribution_params, latent_distribution_params = self.model(
+                torch_img)
 
             priority_function_kwargs['sampling_method'] = 'true_prior_sampling'
             log_p, log_q, log_d = compute_log_p_log_q_log_d(model, img, **priority_function_kwargs)

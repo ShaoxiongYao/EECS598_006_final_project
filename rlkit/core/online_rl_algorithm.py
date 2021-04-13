@@ -84,8 +84,7 @@ class OnlineRLAlgorithm(BaseRLAlgorithm, metaclass=abc.ABCMeta):
 
                     self.training_mode(True)
                     for _ in range(num_trains_per_expl_step):
-                        train_data = self.replay_buffer.random_batch(
-                            self.batch_size)
+                        train_data = self.replay_buffer.random_batch(self.batch_size)
                         self.trainer.train(train_data)
                     gt.stamp('training', unique=False)
                     self.training_mode(False)

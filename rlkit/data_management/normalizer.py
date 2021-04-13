@@ -56,11 +56,7 @@ class Normalizer(object):
     def synchronize(self):
         self.mean[...] = self.sum / self.count[0]
         self.std[...] = np.sqrt(
-            np.maximum(
-                np.square(self.eps),
-                self.sumsq / self.count[0] - np.square(self.mean)
-            )
-        )
+            np.maximum(np.square(self.eps), self.sumsq / self.count[0] - np.square(self.mean)))
         self.synchronized = True
 
 

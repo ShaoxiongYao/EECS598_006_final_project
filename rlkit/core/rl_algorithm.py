@@ -2,10 +2,11 @@ import abc
 from collections import OrderedDict
 
 import gtimer as gt
-
-from rlkit.core import logger, eval_util
+from rlkit.core import eval_util, logger
 from rlkit.data_management.replay_buffer import ReplayBuffer
 from rlkit.samplers.data_collector import DataCollector
+from torch.utils.tensorboard import SummaryWriter
+import rlkit.torch.pytorch_util as ptu
 
 
 def _get_epoch_timings():
@@ -15,21 +16,21 @@ def _get_epoch_timings():
     for key in sorted(times_itrs):
         time = times_itrs[key][-1]
         epoch_time += time
-        times['time/{} (s)'.format(key)] = time
-    times['time/epoch (s)'] = epoch_time
-    times['time/total (s)'] = gt.get_times().total
+        times["time/{} (s)".format(key)] = time
+    times["time/epoch (s)"] = epoch_time
+    times["time/total (s)"] = gt.get_times().total
     return times
 
 
 class BaseRLAlgorithm(object, metaclass=abc.ABCMeta):
     def __init__(
-            self,
-            trainer,
-            exploration_env,
-            evaluation_env,
-            exploration_data_collector: DataCollector,
-            evaluation_data_collector: DataCollector,
-            replay_buffer: ReplayBuffer,
+        self,
+        trainer,
+        exploration_env,
+        evaluation_env,
+        exploration_data_collector: DataCollector,
+        evaluation_data_collector: DataCollector,
+        replay_buffer: ReplayBuffer,
     ):
         self.trainer = trainer
         self.expl_env = exploration_env
@@ -49,12 +50,14 @@ class BaseRLAlgorithm(object, metaclass=abc.ABCMeta):
         """
         Train model.
         """
-        raise NotImplementedError('_train must implemented by inherited class')
+        raise NotImplementedError("_train must implemented by inherited class")
 
     def _end_epoch(self, epoch):
         snapshot = self._get_snapshot()
-        logger.save_itr_params(epoch, snapshot)
-        gt.stamp('saving')
+        # only save params for the first gpu
+        if ptu.dist_rank == 0:
+            logger.save_itr_params(epoch, snapshot)
+        gt.stamp("saving")
         self._log_stats(epoch)
 
         self.expl_data_collector.end_epoch(epoch)
@@ -68,46 +71,49 @@ class BaseRLAlgorithm(object, metaclass=abc.ABCMeta):
     def _get_snapshot(self):
         snapshot = {}
         for k, v in self.trainer.get_snapshot().items():
-            snapshot['trainer/' + k] = v
+            snapshot["trainer/" + k] = v
         for k, v in self.expl_data_collector.get_snapshot().items():
-            snapshot['exploration/' + k] = v
+            snapshot["exploration/" + k] = v
         for k, v in self.eval_data_collector.get_snapshot().items():
-            snapshot['evaluation/' + k] = v
+            snapshot["evaluation/" + k] = v
         for k, v in self.replay_buffer.get_snapshot().items():
-            snapshot['replay_buffer/' + k] = v
+            snapshot["replay_buffer/" + k] = v
         return snapshot
 
     def _log_stats(self, epoch):
         logger.log("Epoch {} finished".format(epoch), with_timestamp=True)
-
         """
         Replay Buffer
         """
         logger.record_dict(
             self.replay_buffer.get_diagnostics(),
-            prefix='replay_buffer/'
+            global_step=epoch,
+            prefix="replay_buffer/",
         )
-
         """
         Trainer
         """
-        logger.record_dict(self.trainer.get_diagnostics(), prefix='trainer/')
-
+        logger.record_dict(
+            self.trainer.get_diagnostics(), global_step=epoch, prefix="trainer/"
+        )
         """
         Exploration
         """
         logger.record_dict(
             self.expl_data_collector.get_diagnostics(),
-            prefix='exploration/'
+            global_step=epoch,
+            prefix="exploration/",
         )
         expl_paths = self.expl_data_collector.get_epoch_paths()
-        if hasattr(self.expl_env, 'get_diagnostics'):
+        if hasattr(self.expl_env, "get_diagnostics"):
             logger.record_dict(
                 self.expl_env.get_diagnostics(expl_paths),
-                prefix='exploration/',
+                global_step=epoch,
+                prefix="exploration/",
             )
         logger.record_dict(
             eval_util.get_generic_path_information(expl_paths),
+            global_step=epoch,
             prefix="exploration/",
         )
         """
@@ -115,25 +121,27 @@ class BaseRLAlgorithm(object, metaclass=abc.ABCMeta):
         """
         logger.record_dict(
             self.eval_data_collector.get_diagnostics(),
-            prefix='evaluation/',
+            global_step=epoch,
+            prefix="evaluation/",
         )
         eval_paths = self.eval_data_collector.get_epoch_paths()
-        if hasattr(self.eval_env, 'get_diagnostics'):
+        if hasattr(self.eval_env, "get_diagnostics"):
             logger.record_dict(
                 self.eval_env.get_diagnostics(eval_paths),
-                prefix='evaluation/',
+                global_step=epoch,
+                prefix="evaluation/",
             )
         logger.record_dict(
             eval_util.get_generic_path_information(eval_paths),
+            global_step=epoch,
             prefix="evaluation/",
         )
-
         """
         Misc
         """
-        gt.stamp('logging')
-        logger.record_dict(_get_epoch_timings())
-        logger.record_tabular('Epoch', epoch)
+        gt.stamp("logging")
+        logger.record_dict(_get_epoch_timings(), global_step=epoch)
+        logger.record_tabular("Epoch", epoch)
         logger.dump_tabular(with_prefix=False, with_timestamp=False)
 
     @abc.abstractmethod

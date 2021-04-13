@@ -6,28 +6,24 @@ from rlkit.data_management.shared_obs_dict_replay_buffer \
     import SharedObsDictRelabelingBuffer
 import rlkit.torch.vae.vae_schedules as vae_schedules
 from rlkit.torch.torch_rl_algorithm import (
-    TorchBatchRLAlgorithm,
-)
+    TorchBatchRLAlgorithm, )
 import rlkit.torch.pytorch_util as ptu
 from torch.multiprocessing import Process, Pipe
 from threading import Thread
 
 
 class OnlineVaeAlgorithm(TorchBatchRLAlgorithm):
-
-    def __init__(
-            self,
-            vae,
-            vae_trainer,
-            *base_args,
-            vae_save_period=1,
-            vae_training_schedule=vae_schedules.never_train,
-            oracle_data=False,
-            parallel_vae_train=True,
-            vae_min_num_steps_before_training=0,
-            uniform_dataset=None,
-            **base_kwargs
-    ):
+    def __init__(self,
+                 vae,
+                 vae_trainer,
+                 *base_args,
+                 vae_save_period=1,
+                 vae_training_schedule=vae_schedules.never_train,
+                 oracle_data=False,
+                 parallel_vae_train=True,
+                 vae_min_num_steps_before_training=0,
+                 uniform_dataset=None,
+                 **base_kwargs):
         super().__init__(*base_args, **base_kwargs)
         assert isinstance(self.replay_buffer, OnlineVaeRelabelingBuffer)
         self.vae = vae
@@ -75,9 +71,8 @@ class OnlineVaeAlgorithm(TorchBatchRLAlgorithm):
         if self.parallel_vae_train and self._vae_training_process is None:
             self.init_vae_training_subprocess()
         should_train, amount_to_train = self.vae_training_schedule(epoch)
-        rl_start_epoch = int(self.min_num_steps_before_training / (
-                self.num_expl_steps_per_train_loop * self.num_train_loops_per_epoch
-        ))
+        rl_start_epoch = int(self.min_num_steps_before_training /
+                             (self.num_expl_steps_per_train_loop * self.num_train_loops_per_epoch))
         if should_train or epoch <= (rl_start_epoch - 1):
             if self.parallel_vae_train:
                 assert self._vae_training_process.is_alive()
@@ -87,17 +82,11 @@ class OnlineVaeAlgorithm(TorchBatchRLAlgorithm):
                     self._update_subprocess_vae_thread.join()
                 self._update_subprocess_vae_thread = Thread(
                     target=OnlineVaeAlgorithm.update_vae_in_training_subprocess,
-                    args=(self, epoch, ptu.device)
-                )
+                    args=(self, epoch, ptu.device))
                 self._update_subprocess_vae_thread.start()
                 self._vae_conn_pipe.send((amount_to_train, epoch))
             else:
-                _train_vae(
-                    self.vae_trainer,
-                    self.replay_buffer,
-                    epoch,
-                    amount_to_train
-                )
+                _train_vae(self.vae_trainer, self.replay_buffer, epoch, amount_to_train)
                 self.replay_buffer.refresh_latents(epoch)
                 _test_vae(
                     self.vae_trainer,
@@ -122,17 +111,15 @@ class OnlineVaeAlgorithm(TorchBatchRLAlgorithm):
         assert isinstance(self.replay_buffer, SharedObsDictRelabelingBuffer)
 
         self._vae_conn_pipe, process_pipe = Pipe()
-        self._vae_training_process = Process(
-            target=subprocess_train_vae_loop,
-            args=(
-                process_pipe,
-                self.vae,
-                self.vae.state_dict(),
-                self.replay_buffer,
-                self.replay_buffer.get_mp_info(),
-                ptu.device,
-            )
-        )
+        self._vae_training_process = Process(target=subprocess_train_vae_loop,
+                                             args=(
+                                                 process_pipe,
+                                                 self.vae,
+                                                 self.vae.state_dict(),
+                                                 self.replay_buffer,
+                                                 self.replay_buffer.get_mp_info(),
+                                                 ptu.device,
+                                             ))
         self._vae_training_process.start()
         self._vae_conn_pipe.send(self.vae_trainer)
 
@@ -164,7 +151,9 @@ def _test_vae(vae_trainer, epoch, replay_buffer, vae_save_period=1, uniform_data
     save_imgs = epoch % vae_save_period == 0
     log_fit_skew_stats = replay_buffer._prioritize_vae_samples and uniform_dataset is not None
     if uniform_dataset is not None:
-        replay_buffer.log_loss_under_uniform(uniform_dataset, vae_trainer.batch_size, rl_logger=vae_trainer.vae_logger_stats_for_rl)
+        replay_buffer.log_loss_under_uniform(uniform_dataset,
+                                             vae_trainer.batch_size,
+                                             rl_logger=vae_trainer.vae_logger_stats_for_rl)
     vae_trainer.test_epoch(
         epoch,
         from_rl=True,
@@ -177,7 +166,8 @@ def _test_vae(vae_trainer, epoch, replay_buffer, vae_save_period=1, uniform_data
             replay_buffer.dump_worst_reconstruction(epoch)
             replay_buffer.dump_sampling_histogram(epoch, batch_size=vae_trainer.batch_size)
         if uniform_dataset is not None:
-            replay_buffer.dump_uniform_imgs_and_reconstructions(dataset=uniform_dataset, epoch=epoch)
+            replay_buffer.dump_uniform_imgs_and_reconstructions(dataset=uniform_dataset,
+                                                                epoch=epoch)
 
 
 def subprocess_train_vae_loop(

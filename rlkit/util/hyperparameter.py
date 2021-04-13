@@ -51,13 +51,12 @@ class LogFloatParam(RandomHyperparameter):
     """
     def __init__(self, name, min_value, max_value, *, offset=0):
         super(LogFloatParam, self).__init__(name)
-        self._linear_float_param = LinearFloatParam("log_" + name,
-                                                    math.log(min_value),
+        self._linear_float_param = LinearFloatParam("log_" + name, math.log(min_value),
                                                     math.log(max_value))
         self.offset = offset
 
     def generate_next_value(self):
-        return math.e ** (self._linear_float_param.generate()) + self.offset
+        return math.e**(self._linear_float_param.generate()) + self.offset
 
 
 class LinearFloatParam(RandomHyperparameter):
@@ -73,15 +72,12 @@ class LinearFloatParam(RandomHyperparameter):
 class LogIntParam(RandomHyperparameter):
     def __init__(self, name, min_value, max_value, *, offset=0):
         super().__init__(name)
-        self._linear_float_param = LinearFloatParam("log_" + name,
-                                                    math.log(min_value),
+        self._linear_float_param = LinearFloatParam("log_" + name, math.log(min_value),
                                                     math.log(max_value))
         self.offset = offset
 
     def generate_next_value(self):
-        return int(
-            math.e ** (self._linear_float_param.generate()) + self.offset
-        )
+        return int(math.e**(self._linear_float_param.generate()) + self.offset)
 
 
 class LinearIntParam(RandomHyperparameter):
@@ -120,8 +116,7 @@ class RandomHyperparameterSweeper(Sweeper):
         for hp in self._hyperparameters:
             name = hp.name
             if name in names:
-                raise Exception("Hyperparameter '{0}' already added.".format(
-                    name))
+                raise Exception("Hyperparameter '{0}' already added.".format(name))
             names.add(name)
 
     def set_default_parameters(self, default_kwargs):
@@ -173,9 +168,7 @@ class DeterministicHyperparameterSweeper(Sweeper):
         self._default_kwargs = default_parameters or {}
         named_hyperparameters = []
         for name, values in self._hyperparameters.items():
-            named_hyperparameters.append(
-                [(name, v) for v in values]
-            )
+            named_hyperparameters.append([(name, v) for v in values])
         self._hyperparameters_dicts = [
             ppp.dot_map_dict_to_nested_dict(dict(tuple_list))
             for tuple_list in itertools.product(*named_hyperparameters)
@@ -193,8 +186,7 @@ class DeterministicHyperparameterSweeper(Sweeper):
                 hyperparameters,
                 copy.deepcopy(self._default_kwargs),
                 ignore_duplicate_keys_in_second_dict=True,
-            )
-            for hyperparameters in self._hyperparameters_dicts
+            ) for hyperparameters in self._hyperparameters_dicts
         ]
 
 
@@ -222,7 +214,4 @@ class DeterministicSweeperCombiner(object):
         :return: Generator of hyperparameters, in the same order as provided
         sweepers.
         """
-        return itertools.product(
-            sweeper.iterate_hyperparameters()
-            for sweeper in self._sweepers
-        )
+        return itertools.product(sweeper.iterate_hyperparameters() for sweeper in self._sweepers)

@@ -1,12 +1,14 @@
 import numpy as np
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
+from mpenv.core.model import ConfigurationWrapper
 
 EPSILON = 1e-7
 
 
 def solve(env, delta_growth, iterations, simplify):
     """
+    env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
     sample_fn : return a configuration
     """
@@ -33,15 +35,55 @@ def solve(env, delta_growth, iterations, simplify):
         print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=True, policy=None):
-        # TODO: add policy
+    def expand_fn(q0, q1, limit_growth=True, policy_env=None, policy=None, horizon=None, render=None):
+        """
+        policy_env: mpenv.observers.robot_links.RobotLinksObserver
+        """
         if limit_growth:
             dist = distance_fn(q0, q1)
             t1 = min(dist, delta_growth) / (dist + EPSILON)
             q1 = interpolate_fn(q0, q1, t1)
-        path = arange_fn(q0, q1, delta_collision_check)
-        q_stop, collide = env.stopping_configuration(path)
-        return q_stop, not collide.any()
+
+        reset_kwargs = {}
+        def rollout_fn():
+            return multitask_rollout(
+                policy_env,
+                policy,
+                horizon, # max length in one step
+                render,
+                observation_key="observation",
+                desired_goal_key="desired_goal",
+                representation_goal_key="representation_goal",
+                **reset_kwargs,
+            )
+
+        if policy == None:
+            path = arange_fn(q0, q1, delta_collision_check)
+            q_stop, collide = env.stopping_configuration(path)
+            q_stop_list = []
+            q_stop_list.append(q_stop)
+            # q_stop: ConfigurationWrapper
+
+            return q_stop, not collide.any()
+        else:
+            path = arange_fn(q0, q1, delta_collision_check)
+            q_stop, collide = env.stopping_configuration(path)
+            q_stop_list = []
+            if collide.any():
+                # TODO: set the beginning and ending
+                policy_path = rollout_fn()
+                end = policy_path["terminals"][-1][0]
+                obs = policy_path["observations"]
+                n = obs.shape[0]
+                for i in range(n):
+                    q = obs[i]["achieved_q"]
+                    config = ConfigurationWrapper(model_wrapper, q)
+                    q_stop_list.append(config)
+
+                return q_stop_list, end
+            else:
+                q_stop_list.append(q_stop)
+                return q_stop_list, not collide.any()
 
     def close_fn(qw0, qw1):
         return np.allclose(qw0.q, qw1.q)

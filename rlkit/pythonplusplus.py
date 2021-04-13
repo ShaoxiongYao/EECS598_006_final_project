@@ -25,9 +25,7 @@ def clip_magnitude(value, magnitude):
 
 
 def is_numeric(x):
-    return not isinstance(x, bool) and (
-        isinstance(x, int) or isinstance(x, float)
-    )
+    return not isinstance(x, bool) and (isinstance(x, int) or isinstance(x, float))
 
 
 """
@@ -66,11 +64,7 @@ def dot_map_dict_to_nested_dict(dot_map_dict):
                 t = t.setdefault(sub_key, {})
             last_key = split_keys[-1]
             if not isinstance(t, dict):
-                raise TypeError(
-                    "Key inside dot map must point to dictionary: {}".format(
-                        key
-                    )
-                )
+                raise TypeError("Key inside dot map must point to dictionary: {}".format(key))
             if last_key in t:
                 raise ValueError("Duplicate key: {}".format(last_key))
             t[last_key] = item
@@ -95,8 +89,7 @@ def nested_dict_to_dot_map_dict(d, parent_key=''):
     return dict(items)
 
 
-def merge_recursive_dicts(a, b, path=None,
-                          ignore_duplicate_keys_in_second_dict=False):
+def merge_recursive_dicts(a, b, path=None, ignore_duplicate_keys_in_second_dict=False):
     """
     Merge two dicts that may have nested dicts.
     """
@@ -104,8 +97,11 @@ def merge_recursive_dicts(a, b, path=None,
     for key in b:
         if key in a:
             if isinstance(a[key], dict) and isinstance(b[key], dict):
-                merge_recursive_dicts(a[key], b[key], path + [str(key)],
-                                      ignore_duplicate_keys_in_second_dict=ignore_duplicate_keys_in_second_dict)
+                merge_recursive_dicts(
+                    a[key],
+                    b[key],
+                    path + [str(key)],
+                    ignore_duplicate_keys_in_second_dict=ignore_duplicate_keys_in_second_dict)
             elif a[key] == b[key]:
                 print("Same value for key: {}".format(key))
             else:
@@ -113,9 +109,7 @@ def merge_recursive_dicts(a, b, path=None,
                 if ignore_duplicate_keys_in_second_dict:
                     print("duplicate key ignored: {}".format(duplicate_key))
                 else:
-                    raise Exception(
-                        'Duplicate keys at {}'.format(duplicate_key)
-                    )
+                    raise Exception('Duplicate keys at {}'.format(duplicate_key))
         else:
             a[key] = b[key]
     return a
@@ -162,7 +156,7 @@ def list_of_dicts__to__dict_of_lists(lst):
     keys = lst[0].keys()
     output_dict = collections.defaultdict(list)
     for d in lst:
-        assert set(d.keys()) == set(keys), (d.keys(), keys)
+        assert set(d.keys()) == set(keys)
         for k in keys:
             output_dict[k].append(d[k])
     return output_dict
@@ -194,10 +188,7 @@ def dict_to_safe_json(d, sort=False):
         if safe_json(item):
             new_d[key] = item
         else:
-            if (
-                    isinstance(item, dict)
-                    or isinstance(item, collections.OrderedDict)
-            ):
+            if (isinstance(item, dict) or isinstance(item, collections.OrderedDict)):
                 new_d[key] = dict_to_safe_json(item, sort=sort)
             else:
                 new_d[key] = str(item)
@@ -233,8 +224,6 @@ def recursive_items(dictionary):
 
 
 # TODO(vitchyr): test methods/classes below
-
-
 """
 Itertools++
 """
@@ -254,9 +243,7 @@ def map_recursive(fctn, x_or_iterable):
     """
     # if isinstance(x_or_iterable, Iterable):
     if isinstance(x_or_iterable, list) or isinstance(x_or_iterable, tuple):
-        return type(x_or_iterable)(
-            map_recursive(fctn, item) for item in x_or_iterable
-        )
+        return type(x_or_iterable)(map_recursive(fctn, item) for item in x_or_iterable)
     else:
         return fctn(x_or_iterable)
 
@@ -274,10 +261,8 @@ def filter_recursive(x_or_iterable):
         new_items = []
         for sub_elem in x_or_iterable:
             filtered_sub_elem = filter_recursive(sub_elem)
-            if filtered_sub_elem is not None and not (
-                        isinstance(filtered_sub_elem, list) and
-                            len(filtered_sub_elem) == 0
-            ):
+            if filtered_sub_elem is not None and not (isinstance(filtered_sub_elem, list)
+                                                      and len(filtered_sub_elem) == 0):
                 new_items.append(filtered_sub_elem)
         return new_items
     else:
@@ -362,7 +347,6 @@ class IntIdDict(collections.defaultdict):
     ```
     :return:
     """
-
     def __init__(self, **kwargs):
         c = itertools.count()
         self.inverse_dict = {}
@@ -391,7 +375,6 @@ class ConditionTimer(object):
     timer.check(210) # True
     ```
     """
-
     def __init__(self, trigger_period):
         """
         :param trigger_period: If None or 0, `check` will always return False.

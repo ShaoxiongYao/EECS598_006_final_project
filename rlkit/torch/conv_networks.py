@@ -66,8 +66,9 @@ class CNN(nn.Module):
             input_channels = out_channels
 
         # find output dim of conv_layers by trial and add normalization conv layers
-        test_mat = torch.zeros(1, self.input_channels, self.input_width,
-                               self.input_height)  # initially the model is on CPU (caller should then move it to GPU if
+        test_mat = torch.zeros(
+            1, self.input_channels, self.input_width, self.input_height
+        )  # initially the model is on CPU (caller should then move it to GPU if
         for conv_layer in self.conv_layers:
             test_mat = conv_layer(test_mat)
             self.conv_norm_layers.append(nn.BatchNorm2d(test_mat.shape[1]))
@@ -94,33 +95,32 @@ class CNN(nn.Module):
     def forward(self, input):
         fc_input = (self.added_fc_input_size != 0)
 
-        conv_input = input.narrow(start=0,
-                                  length=self.conv_input_length,
-                                  dim=1).contiguous()
+        conv_input = input.narrow(start=0, length=self.conv_input_length, dim=1).contiguous()
         if fc_input:
             extra_fc_input = input.narrow(start=self.conv_input_length,
                                           length=self.added_fc_input_size,
                                           dim=1)
         # need to reshape from batch of flattened images into (channsls, w, h)
-        h = conv_input.view(conv_input.shape[0],
-                            self.input_channels,
-                            self.input_height,
+        h = conv_input.view(conv_input.shape[0], self.input_channels, self.input_height,
                             self.input_width)
 
-        h = self.apply_forward(h, self.conv_layers, self.conv_norm_layers,
+        h = self.apply_forward(h,
+                               self.conv_layers,
+                               self.conv_norm_layers,
                                use_batch_norm=self.batch_norm_conv)
         # flatten channels for fc layers
         h = h.view(h.size(0), -1)
         if fc_input:
             h = torch.cat((h, extra_fc_input), dim=1)
-        h = self.apply_forward(h, self.fc_layers, self.fc_norm_layers,
+        h = self.apply_forward(h,
+                               self.fc_layers,
+                               self.fc_norm_layers,
                                use_batch_norm=self.batch_norm_fc)
 
         output = self.output_activation(self.last_fc(h))
         return output
 
-    def apply_forward(self, input, hidden_layers, norm_layers,
-                      use_batch_norm=False):
+    def apply_forward(self, input, hidden_layers, norm_layers, use_batch_norm=False):
         h = input
         for layer, norm_layer in zip(hidden_layers, norm_layers):
             h = layer(h)
@@ -135,20 +135,16 @@ class TwoHeadDCNN(nn.Module):
             self,
             fc_input_size,
             hidden_sizes,
-
             deconv_input_width,
             deconv_input_height,
             deconv_input_channels,
-
             deconv_output_kernel_size,
             deconv_output_strides,
             deconv_output_channels,
-
             kernel_sizes,
             n_channels,
             strides,
             paddings,
-
             batch_norm_deconv=False,
             batch_norm_fc=False,
             init_w=1e-3,
@@ -207,9 +203,9 @@ class TwoHeadDCNN(nn.Module):
             self.deconv_layers.append(deconv_layer)
             deconv_input_channels = out_channels
 
-        test_mat = torch.zeros(1, self.deconv_input_channels,
-                               self.deconv_input_width,
-                               self.deconv_input_height)  # initially the model is on CPU (caller should then move it to GPU if
+        test_mat = torch.zeros(
+            1, self.deconv_input_channels, self.deconv_input_width, self.deconv_input_height
+        )  # initially the model is on CPU (caller should then move it to GPU if
         for deconv_layer in self.deconv_layers:
             test_mat = deconv_layer(test_mat)
             self.deconv_norm_layers.append(nn.BatchNorm2d(test_mat.shape[1]))
@@ -233,19 +229,22 @@ class TwoHeadDCNN(nn.Module):
         self.second_deconv_output.bias.data.fill_(0)
 
     def forward(self, input):
-        h = self.apply_forward(input, self.fc_layers, self.fc_norm_layers,
+        h = self.apply_forward(input,
+                               self.fc_layers,
+                               self.fc_norm_layers,
                                use_batch_norm=self.batch_norm_fc)
         h = self.hidden_activation(self.last_fc(h))
         h = h.view(-1, self.deconv_input_channels, self.deconv_input_width,
                    self.deconv_input_height)
-        h = self.apply_forward(h, self.deconv_layers, self.deconv_norm_layers,
+        h = self.apply_forward(h,
+                               self.deconv_layers,
+                               self.deconv_norm_layers,
                                use_batch_norm=self.batch_norm_deconv)
         first_output = self.output_activation(self.first_deconv_output(h))
         second_output = self.output_activation(self.second_deconv_output(h))
         return first_output, second_output
 
-    def apply_forward(self, input, hidden_layers, norm_layers,
-                      use_batch_norm=False):
+    def apply_forward(self, input, hidden_layers, norm_layers, use_batch_norm=False):
         h = input
         for layer, norm_layer in zip(hidden_layers, norm_layers):
             h = layer(h)

@@ -109,18 +109,14 @@ class GaussianLatentVAE(VAEBase):
 
     def kl_divergence(self, latent_distribution_params):
         mu, logvar = latent_distribution_params
-        return - 0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp(), dim=1).mean()
+        return -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp(), dim=1).mean()
 
     def get_encoding_from_latent_distribution_params(self, latent_distribution_params):
         return latent_distribution_params[0].cpu()
 
 
 def compute_bernoulli_log_prob(x, reconstruction_of_x):
-    return -1 * F.binary_cross_entropy(
-        reconstruction_of_x,
-        x,
-        reduction='elementwise_mean'
-    )
+    return -1 * F.binary_cross_entropy(reconstruction_of_x, x, reduction='elementwise_mean')
 
 
 def compute_gaussian_log_prob(input, dec_mu, dec_var):
@@ -128,4 +124,3 @@ def compute_gaussian_log_prob(input, dec_mu, dec_var):
     log_probs = decoder_dist.log_prob(input)
     vals = log_probs.sum(dim=1, keepdim=True)
     return vals.mean()
-

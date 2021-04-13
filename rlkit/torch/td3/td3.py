@@ -14,7 +14,6 @@ class TD3Trainer(TorchTrainer):
     """
     Twin Delayed Deep Deterministic policy gradients
     """
-
     def __init__(
             self,
             policy,
@@ -25,10 +24,8 @@ class TD3Trainer(TorchTrainer):
             target_policy,
             target_policy_noise=0.2,
             target_policy_noise_clip=0.5,
-
             discount=0.99,
             reward_scale=1.0,
-
             policy_learning_rate=1e-3,
             qf_learning_rate=1e-3,
             policy_and_target_update_period=2,
@@ -78,18 +75,13 @@ class TD3Trainer(TorchTrainer):
         obs = batch['observations']
         actions = batch['actions']
         next_obs = batch['next_observations']
-
         """
         Critic operations.
         """
 
         next_actions = self.target_policy(next_obs)
         noise = ptu.randn(next_actions.shape) * self.target_policy_noise
-        noise = torch.clamp(
-            noise,
-            -self.target_policy_noise_clip,
-            self.target_policy_noise_clip
-        )
+        noise = torch.clamp(noise, -self.target_policy_noise_clip, self.target_policy_noise_clip)
         noisy_next_actions = next_actions + noise
 
         target_q1_values = self.target_qf1(next_obs, noisy_next_actions)
@@ -99,13 +91,12 @@ class TD3Trainer(TorchTrainer):
         q_target = q_target.detach()
 
         q1_pred = self.qf1(obs, actions)
-        bellman_errors_1 = (q1_pred - q_target) ** 2
+        bellman_errors_1 = (q1_pred - q_target)**2
         qf1_loss = bellman_errors_1.mean()
 
         q2_pred = self.qf2(obs, actions)
-        bellman_errors_2 = (q2_pred - q_target) ** 2
+        bellman_errors_2 = (q2_pred - q_target)**2
         qf2_loss = bellman_errors_2.mean()
-
         """
         Update Networks
         """
@@ -121,7 +112,7 @@ class TD3Trainer(TorchTrainer):
         if self._n_train_steps_total % self.policy_and_target_update_period == 0:
             policy_actions = self.policy(obs)
             q_output = self.qf1(obs, policy_actions)
-            policy_loss = - q_output.mean()
+            policy_loss = -q_output.mean()
 
             self.policy_optimizer.zero_grad()
             policy_loss.backward()
@@ -136,37 +127,41 @@ class TD3Trainer(TorchTrainer):
             if policy_loss is None:
                 policy_actions = self.policy(obs)
                 q_output = self.qf1(obs, policy_actions)
-                policy_loss = - q_output.mean()
+                policy_loss = -q_output.mean()
 
             self.eval_statistics['QF1 Loss'] = np.mean(ptu.get_numpy(qf1_loss))
             self.eval_statistics['QF2 Loss'] = np.mean(ptu.get_numpy(qf2_loss))
-            self.eval_statistics['Policy Loss'] = np.mean(ptu.get_numpy(
-                policy_loss
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Q1 Predictions',
-                ptu.get_numpy(q1_pred),
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Q2 Predictions',
-                ptu.get_numpy(q2_pred),
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Q Targets',
-                ptu.get_numpy(q_target),
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Bellman Errors 1',
-                ptu.get_numpy(bellman_errors_1),
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Bellman Errors 2',
-                ptu.get_numpy(bellman_errors_2),
-            ))
-            self.eval_statistics.update(create_stats_ordered_dict(
-                'Policy Action',
-                ptu.get_numpy(policy_actions),
-            ))
+            self.eval_statistics['Policy Loss'] = np.mean(ptu.get_numpy(policy_loss))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Q1 Predictions',
+                    ptu.get_numpy(q1_pred),
+                ))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Q2 Predictions',
+                    ptu.get_numpy(q2_pred),
+                ))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Q Targets',
+                    ptu.get_numpy(q_target),
+                ))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Bellman Errors 1',
+                    ptu.get_numpy(bellman_errors_1),
+                ))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Bellman Errors 2',
+                    ptu.get_numpy(bellman_errors_2),
+                ))
+            self.eval_statistics.update(
+                create_stats_ordered_dict(
+                    'Policy Action',
+                    ptu.get_numpy(policy_actions),
+                ))
         self._n_train_steps_total += 1
 
     def get_diagnostics(self):

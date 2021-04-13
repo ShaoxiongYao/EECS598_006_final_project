@@ -61,12 +61,12 @@ class HistoryEnv(ProxyEnv, Env):
         super().__init__(wrapped_env)
         self.history_len = history_len
 
-        high = np.inf * np.ones(
-            self.history_len * self.observation_space.low.size)
+        high = np.inf * np.ones(self.history_len * self.observation_space.low.size)
         low = -high
-        self.observation_space = Box(low=low,
-                                     high=high,
-                                     )
+        self.observation_space = Box(
+            low=low,
+            high=high,
+        )
         self.history = deque(maxlen=self.history_len)
 
     def step(self, action):
@@ -97,13 +97,8 @@ class DiscretizeEnv(ProxyEnv, Env):
         super().__init__(wrapped_env)
         low = self.wrapped_env.action_space.low
         high = self.wrapped_env.action_space.high
-        action_ranges = [
-            np.linspace(low[i], high[i], num_bins)
-            for i in range(len(low))
-        ]
-        self.idx_to_continuous_action = [
-            np.array(x) for x in itertools.product(*action_ranges)
-        ]
+        action_ranges = [np.linspace(low[i], high[i], num_bins) for i in range(len(low))]
+        self.idx_to_continuous_action = [np.array(x) for x in itertools.product(*action_ranges)]
         self.action_space = Discrete(len(self.idx_to_continuous_action))
 
     def step(self, action):
@@ -117,7 +112,6 @@ class NormalizedBoxEnv(ProxyEnv):
 
     Optionally normalize observations and scale reward.
     """
-
     def __init__(
             self,
             env,
@@ -166,4 +160,3 @@ class NormalizedBoxEnv(ProxyEnv):
 
     def __str__(self):
         return "Normalized: %s" % self._wrapped_env
-

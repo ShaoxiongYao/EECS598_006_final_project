@@ -8,8 +8,7 @@ import numpy as np
 import os.path as osp
 
 from rlkit.samplers.data_collector.vae_env import (
-    VAEWrappedEnvPathCollector,
-)
+    VAEWrappedEnvPathCollector, )
 from rlkit.torch.her.her import HERTrainer
 from rlkit.torch.sac.policies import MakeDeterministic
 from rlkit.torch.sac.sac import SACTrainer
@@ -36,19 +35,13 @@ def full_experiment_variant_preprocess(variant):
     else:
         env_class = variant['env_class']
         env_kwargs = variant['env_kwargs']
-        train_vae_variant['generate_vae_dataset_kwargs']['env_class'] = (
-            env_class
-        )
-        train_vae_variant['generate_vae_dataset_kwargs']['env_kwargs'] = (
-            env_kwargs
-        )
+        train_vae_variant['generate_vae_dataset_kwargs']['env_class'] = (env_class)
+        train_vae_variant['generate_vae_dataset_kwargs']['env_kwargs'] = (env_kwargs)
         skewfit_variant['env_class'] = env_class
         skewfit_variant['env_kwargs'] = env_kwargs
     init_camera = variant.get('init_camera', None)
     imsize = variant.get('imsize', 84)
-    train_vae_variant['generate_vae_dataset_kwargs']['init_camera'] = (
-        init_camera
-    )
+    train_vae_variant['generate_vae_dataset_kwargs']['init_camera'] = (init_camera)
     train_vae_variant['generate_vae_dataset_kwargs']['imsize'] = imsize
     train_vae_variant['imsize'] = imsize
     skewfit_variant['imsize'] = imsize
@@ -60,14 +53,9 @@ def train_vae_and_update_variant(variant):
     skewfit_variant = variant['skewfit_variant']
     train_vae_variant = variant['train_vae_variant']
     if skewfit_variant.get('vae_path', None) is None:
-        logger.remove_tabular_output(
-            'progress.csv', relative_to_snapshot_dir=True
-        )
-        logger.add_tabular_output(
-            'vae_progress.csv', relative_to_snapshot_dir=True
-        )
-        vae, vae_train_data, vae_test_data = train_vae(train_vae_variant,
-                                                       return_data=True)
+        logger.remove_tabular_output('progress.csv', relative_to_snapshot_dir=True)
+        logger.add_tabular_output('vae_progress.csv', relative_to_snapshot_dir=True)
+        vae, vae_train_data, vae_test_data = train_vae(train_vae_variant, return_data=True)
         if skewfit_variant.get('save_vae_data', False):
             skewfit_variant['vae_train_data'] = vae_train_data
             skewfit_variant['vae_test_data'] = vae_test_data
@@ -84,8 +72,7 @@ def train_vae_and_update_variant(variant):
     else:
         if skewfit_variant.get('save_vae_data', False):
             vae_train_data, vae_test_data, info = generate_vae_dataset(
-                train_vae_variant['generate_vae_dataset_kwargs']
-            )
+                train_vae_variant['generate_vae_dataset_kwargs'])
             skewfit_variant['vae_train_data'] = vae_train_data
             skewfit_variant['vae_test_data'] = vae_test_data
 
@@ -93,8 +80,7 @@ def train_vae_and_update_variant(variant):
 def train_vae(variant, return_data=False):
     from rlkit.util.ml_util import PiecewiseLinearSchedule
     from rlkit.torch.vae.conv_vae import (
-        ConvVAE,
-    )
+        ConvVAE, )
     import rlkit.torch.vae.conv_vae as conv_vae
     from rlkit.torch.vae.vae_trainer import ConvVAETrainer
     from rlkit.core import logger
@@ -103,16 +89,12 @@ def train_vae(variant, return_data=False):
     import torch
     beta = variant["beta"]
     representation_size = variant["representation_size"]
-    generate_vae_dataset_fctn = variant.get('generate_vae_data_fctn',
-                                            generate_vae_dataset)
-    train_data, test_data, info = generate_vae_dataset_fctn(
-        variant['generate_vae_dataset_kwargs']
-    )
+    generate_vae_dataset_fctn = variant.get('generate_vae_data_fctn', generate_vae_dataset)
+    train_data, test_data, info = generate_vae_dataset_fctn(variant['generate_vae_dataset_kwargs'])
     logger.save_extra_data(info)
     logger.get_snapshot_dir()
     if 'beta_schedule_kwargs' in variant:
-        beta_schedule = PiecewiseLinearSchedule(
-            **variant['beta_schedule_kwargs'])
+        beta_schedule = PiecewiseLinearSchedule(**variant['beta_schedule_kwargs'])
     else:
         beta_schedule = None
     if variant.get('decoder_activation', None) == 'sigmoid':
@@ -127,14 +109,16 @@ def train_vae(variant, return_data=False):
     variant['vae_kwargs']['architecture'] = architecture
     variant['vae_kwargs']['imsize'] = variant.get('imsize')
 
-    m = ConvVAE(
-        representation_size,
-        decoder_output_activation=decoder_activation,
-        **variant['vae_kwargs']
-    )
+    m = ConvVAE(representation_size,
+                decoder_output_activation=decoder_activation,
+                **variant['vae_kwargs'])
     m.to(ptu.device)
-    t = ConvVAETrainer(train_data, test_data, m, beta=beta,
-                       beta_schedule=beta_schedule, **variant['algo_kwargs'])
+    t = ConvVAETrainer(train_data,
+                       test_data,
+                       m,
+                       beta=beta,
+                       beta_schedule=beta_schedule,
+                       **variant['algo_kwargs'])
     save_period = variant['save_period']
     dump_skew_debug_plots = variant.get('dump_skew_debug_plots', False)
     for epoch in range(variant['num_epochs']):
@@ -166,20 +150,15 @@ def generate_vae_dataset(variant):
     show = variant.get('show', False)
     init_camera = variant.get('init_camera', None)
     dataset_path = variant.get('dataset_path', None)
-    oracle_dataset_using_set_to_goal = variant.get(
-        'oracle_dataset_using_set_to_goal', False)
+    oracle_dataset_using_set_to_goal = variant.get('oracle_dataset_using_set_to_goal', False)
     random_rollout_data = variant.get('random_rollout_data', False)
-    random_and_oracle_policy_data = variant.get('random_and_oracle_policy_data',
-                                                False)
-    random_and_oracle_policy_data_split = variant.get(
-        'random_and_oracle_policy_data_split', 0)
+    random_and_oracle_policy_data = variant.get('random_and_oracle_policy_data', False)
+    random_and_oracle_policy_data_split = variant.get('random_and_oracle_policy_data_split', 0)
     policy_file = variant.get('policy_file', None)
     n_random_steps = variant.get('n_random_steps', 100)
-    vae_dataset_specific_env_kwargs = variant.get(
-        'vae_dataset_specific_env_kwargs', None)
+    vae_dataset_specific_env_kwargs = variant.get('vae_dataset_specific_env_kwargs', None)
     save_file_prefix = variant.get('save_file_prefix', None)
-    non_presampled_goal_img_is_garbage = variant.get(
-        'non_presampled_goal_img_is_garbage', None)
+    non_presampled_goal_img_is_garbage = variant.get('non_presampled_goal_img_is_garbage', None)
     tag = variant.get('tag', '')
     from multiworld.core.image_env import ImageEnv, unormalize_image
     import rlkit.torch.pytorch_util as ptu
@@ -241,12 +220,10 @@ def generate_vae_dataset(variant):
             if random_rollout_data:
                 from rlkit.exploration_strategies.ou_strategy import OUStrategy
                 policy = OUStrategy(env.action_space)
-            dataset = np.zeros((N, imsize * imsize * num_channels),
-                               dtype=np.uint8)
+            dataset = np.zeros((N, imsize * imsize * num_channels), dtype=np.uint8)
             for i in range(N):
                 if random_and_oracle_policy_data:
-                    num_random_steps = int(
-                        N * random_and_oracle_policy_data_split)
+                    num_random_steps = int(N * random_and_oracle_policy_data_split)
                     if i < num_random_steps:
                         env.reset()
                         for _ in range(n_random_steps):
@@ -268,13 +245,11 @@ def generate_vae_dataset(variant):
                     obs = env._get_obs()
                 elif random_rollout_data:
                     if i % n_random_steps == 0:
-                        g = dict(
-                            state_desired_goal=env.sample_goal_for_rollout())
+                        g = dict(state_desired_goal=env.sample_goal_for_rollout())
                         env.set_to_goal(g)
                         policy.reset()
                         # env.reset()
-                    u = policy.get_action_from_raw_action(
-                        env.action_space.sample())
+                    u = policy.get_action_from_raw_action(env.action_space.sample())
                     obs = env.step(u)[0]
                 else:
                     env.reset()
@@ -308,12 +283,10 @@ def get_envs(variant):
     init_camera = variant.get("init_camera", None)
     do_state_exp = variant.get("do_state_exp", False)
     presample_goals = variant.get('presample_goals', False)
-    presample_image_goals_only = variant.get('presample_image_goals_only',
-                                             False)
+    presample_image_goals_only = variant.get('presample_image_goals_only', False)
     presampled_goals_path = variant.get('presampled_goals_path', None)
 
-    vae = load_local_or_remote_file(vae_path) if type(
-        vae_path) is str else vae_path
+    vae = load_local_or_remote_file(vae_path) if type(vae_path) is str else vae_path
     if 'env_id' in variant:
         import gym
         import multiworld
@@ -339,64 +312,51 @@ def get_envs(variant):
             """
             if presampled_goals_path is None:
                 image_env.non_presampled_goal_img_is_garbage = True
-                vae_env = VAEWrappedEnv(
-                    image_env,
-                    vae,
-                    imsize=image_env.imsize,
-                    decode_goals=render,
-                    render_goals=render,
-                    render_rollouts=render,
-                    reward_params=reward_params,
-                    **variant.get('vae_wrapped_env_kwargs', {})
-                )
+                vae_env = VAEWrappedEnv(image_env,
+                                        vae,
+                                        imsize=image_env.imsize,
+                                        decode_goals=render,
+                                        render_goals=render,
+                                        render_rollouts=render,
+                                        reward_params=reward_params,
+                                        **variant.get('vae_wrapped_env_kwargs', {}))
                 presampled_goals = variant['generate_goal_dataset_fctn'](
                     env=vae_env,
                     env_id=variant.get('env_id', None),
-                    **variant['goal_generation_kwargs']
-                )
+                    **variant['goal_generation_kwargs'])
                 del vae_env
             else:
-                presampled_goals = load_local_or_remote_file(
-                    presampled_goals_path
-                ).item()
+                presampled_goals = load_local_or_remote_file(presampled_goals_path).item()
             del image_env
-            image_env = ImageEnv(
-                env,
-                variant.get('imsize'),
-                init_camera=init_camera,
-                transpose=True,
-                normalize=True,
-                presampled_goals=presampled_goals,
-                **variant.get('image_env_kwargs', {})
-            )
-            vae_env = VAEWrappedEnv(
-                image_env,
-                vae,
-                imsize=image_env.imsize,
-                decode_goals=render,
-                render_goals=render,
-                render_rollouts=render,
-                reward_params=reward_params,
-                presampled_goals=presampled_goals,
-                **variant.get('vae_wrapped_env_kwargs', {})
-            )
+            image_env = ImageEnv(env,
+                                 variant.get('imsize'),
+                                 init_camera=init_camera,
+                                 transpose=True,
+                                 normalize=True,
+                                 presampled_goals=presampled_goals,
+                                 **variant.get('image_env_kwargs', {}))
+            vae_env = VAEWrappedEnv(image_env,
+                                    vae,
+                                    imsize=image_env.imsize,
+                                    decode_goals=render,
+                                    render_goals=render,
+                                    render_rollouts=render,
+                                    reward_params=reward_params,
+                                    presampled_goals=presampled_goals,
+                                    **variant.get('vae_wrapped_env_kwargs', {}))
             print("Presampling all goals only")
         else:
-            vae_env = VAEWrappedEnv(
-                image_env,
-                vae,
-                imsize=image_env.imsize,
-                decode_goals=render,
-                render_goals=render,
-                render_rollouts=render,
-                reward_params=reward_params,
-                **variant.get('vae_wrapped_env_kwargs', {})
-            )
+            vae_env = VAEWrappedEnv(image_env,
+                                    vae,
+                                    imsize=image_env.imsize,
+                                    decode_goals=render,
+                                    render_goals=render,
+                                    render_rollouts=render,
+                                    reward_params=reward_params,
+                                    **variant.get('vae_wrapped_env_kwargs', {}))
             if presample_image_goals_only:
                 presampled_goals = variant['generate_goal_dataset_fctn'](
-                    image_env=vae_env.wrapped_env,
-                    **variant['goal_generation_kwargs']
-                )
+                    image_env=vae_env.wrapped_env, **variant['goal_generation_kwargs'])
                 image_env.set_presampled_goals(presampled_goals)
                 print("Presampling image goals only")
             else:
@@ -447,7 +407,7 @@ def skewfit_experiment(variant):
     import rlkit.torch.pytorch_util as ptu
     from rlkit.data_management.online_vae_replay_buffer import \
         OnlineVaeRelabelingBuffer
-    from rlkit.torch.networks import ConcatMlp
+    from rlkit.torch.networks import FlattenMlp
     from rlkit.torch.sac.policies import TanhGaussianPolicy
     from rlkit.torch.vae.vae_trainer import ConvVAETrainer
 
@@ -456,37 +416,33 @@ def skewfit_experiment(variant):
 
     uniform_dataset_fn = variant.get('generate_uniform_dataset_fn', None)
     if uniform_dataset_fn:
-        uniform_dataset = uniform_dataset_fn(
-            **variant['generate_uniform_dataset_kwargs']
-        )
+        uniform_dataset = uniform_dataset_fn(**variant['generate_uniform_dataset_kwargs'])
     else:
         uniform_dataset = None
 
     observation_key = variant.get('observation_key', 'latent_observation')
     desired_goal_key = variant.get('desired_goal_key', 'latent_desired_goal')
     achieved_goal_key = desired_goal_key.replace("desired", "achieved")
-    obs_dim = (
-            env.observation_space.spaces[observation_key].low.size
-            + env.observation_space.spaces[desired_goal_key].low.size
-    )
+    obs_dim = (env.observation_space.spaces[observation_key].low.size +
+               env.observation_space.spaces[desired_goal_key].low.size)
     action_dim = env.action_space.low.size
     hidden_sizes = variant.get('hidden_sizes', [400, 300])
-    qf1 = ConcatMlp(
+    qf1 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
         hidden_sizes=hidden_sizes,
     )
-    qf2 = ConcatMlp(
+    qf2 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
         hidden_sizes=hidden_sizes,
     )
-    target_qf1 = ConcatMlp(
+    target_qf1 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
         hidden_sizes=hidden_sizes,
     )
-    target_qf2 = ConcatMlp(
+    target_qf2 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
         hidden_sizes=hidden_sizes,
@@ -499,32 +455,24 @@ def skewfit_experiment(variant):
 
     vae = env.vae
 
-    replay_buffer = OnlineVaeRelabelingBuffer(
-        vae=env.vae,
-        env=env,
-        observation_key=observation_key,
-        desired_goal_key=desired_goal_key,
-        achieved_goal_key=achieved_goal_key,
-        **variant['replay_buffer_kwargs']
-    )
-    vae_trainer = ConvVAETrainer(
-        variant['vae_train_data'],
-        variant['vae_test_data'],
-        env.vae,
-        **variant['online_vae_trainer_kwargs']
-    )
+    replay_buffer = OnlineVaeRelabelingBuffer(vae=env.vae,
+                                              env=env,
+                                              observation_key=observation_key,
+                                              desired_goal_key=desired_goal_key,
+                                              achieved_goal_key=achieved_goal_key,
+                                              **variant['replay_buffer_kwargs'])
+    vae_trainer = ConvVAETrainer(variant['vae_train_data'], variant['vae_test_data'], env.vae,
+                                 **variant['online_vae_trainer_kwargs'])
     assert 'vae_training_schedule' not in variant, "Just put it in algo_kwargs"
     max_path_length = variant['max_path_length']
 
-    trainer = SACTrainer(
-        env=env,
-        policy=policy,
-        qf1=qf1,
-        qf2=qf2,
-        target_qf1=target_qf1,
-        target_qf2=target_qf2,
-        **variant['twin_sac_trainer_kwargs']
-    )
+    trainer = SACTrainer(env=env,
+                         policy=policy,
+                         qf1=qf1,
+                         qf2=qf2,
+                         target_qf1=target_qf1,
+                         target_qf2=target_qf2,
+                         **variant['twin_sac_trainer_kwargs'])
     trainer = HERTrainer(trainer)
     eval_path_collector = VAEWrappedEnvPathCollector(
         variant['evaluation_goal_sampling_mode'],
@@ -543,19 +491,17 @@ def skewfit_experiment(variant):
         desired_goal_key=desired_goal_key,
     )
 
-    algorithm = OnlineVaeAlgorithm(
-        trainer=trainer,
-        exploration_env=env,
-        evaluation_env=env,
-        exploration_data_collector=expl_path_collector,
-        evaluation_data_collector=eval_path_collector,
-        replay_buffer=replay_buffer,
-        vae=vae,
-        vae_trainer=vae_trainer,
-        uniform_dataset=uniform_dataset,
-        max_path_length=max_path_length,
-        **variant['algo_kwargs']
-    )
+    algorithm = OnlineVaeAlgorithm(trainer=trainer,
+                                   exploration_env=env,
+                                   evaluation_env=env,
+                                   exploration_data_collector=expl_path_collector,
+                                   evaluation_data_collector=eval_path_collector,
+                                   replay_buffer=replay_buffer,
+                                   vae=vae,
+                                   vae_trainer=vae_trainer,
+                                   uniform_dataset=uniform_dataset,
+                                   max_path_length=max_path_length,
+                                   **variant['algo_kwargs'])
 
     if variant['custom_goal_sampler'] == 'replay_buffer':
         env.custom_goal_sampler = replay_buffer.sample_buffer_goals
@@ -583,32 +529,25 @@ def get_video_save_func(rollout_function, env, policy, variant):
 
         def save_video(algo, epoch):
             if epoch % save_period == 0 or epoch == algo.num_epochs:
-                filename = osp.join(logdir,
-                                    'video_{epoch}_env.mp4'.format(epoch=epoch))
-                dump_video(image_env, policy, filename, rollout_function,
-                           **dump_video_kwargs)
+                filename = osp.join(logdir, 'video_{epoch}_env.mp4'.format(epoch=epoch))
+                dump_video(image_env, policy, filename, rollout_function, **dump_video_kwargs)
     else:
         image_env = env
         dump_video_kwargs['imsize'] = env.imsize
 
         def save_video(algo, epoch):
             if epoch % save_period == 0 or epoch == algo.num_epochs:
-                filename = osp.join(logdir,
-                                    'video_{epoch}_env.mp4'.format(epoch=epoch))
-                temporary_mode(
-                    image_env,
-                    mode='video_env',
-                    func=dump_video,
-                    args=(image_env, policy, filename, rollout_function),
-                    kwargs=dump_video_kwargs
-                )
-                filename = osp.join(logdir,
-                                    'video_{epoch}_vae.mp4'.format(epoch=epoch))
-                temporary_mode(
-                    image_env,
-                    mode='video_vae',
-                    func=dump_video,
-                    args=(image_env, policy, filename, rollout_function),
-                    kwargs=dump_video_kwargs
-                )
+                filename = osp.join(logdir, 'video_{epoch}_env.mp4'.format(epoch=epoch))
+                temporary_mode(image_env,
+                               mode='video_env',
+                               func=dump_video,
+                               args=(image_env, policy, filename, rollout_function),
+                               kwargs=dump_video_kwargs)
+                filename = osp.join(logdir, 'video_{epoch}_vae.mp4'.format(epoch=epoch))
+                temporary_mode(image_env,
+                               mode='video_vae',
+                               func=dump_video,
+                               args=(image_env, policy, filename, rollout_function),
+                               kwargs=dump_video_kwargs)
+
     return save_video

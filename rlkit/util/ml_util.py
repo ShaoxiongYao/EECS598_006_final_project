@@ -35,11 +35,8 @@ class LinearSchedule(ScalarSchedule):
         self._ramp_duration = ramp_duration
 
     def get_value(self, t):
-        return (
-            self._init_value
-            + (self._final_value - self._init_value)
-            * min(1.0, t * 1.0 / self._ramp_duration)
-        )
+        return (self._init_value +
+                (self._final_value - self._init_value) * min(1.0, t * 1.0 / self._ramp_duration))
 
 
 class IntLinearSchedule(LinearSchedule):

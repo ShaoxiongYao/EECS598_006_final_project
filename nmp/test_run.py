@@ -65,9 +65,10 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     print("success:", success)
     print("path:", path)
+    print("path keys:", path.keys())
     print("iterations:", iterations)
 
-    return
+    # return
 
     # TODO: 
     # - define start and goal in env - pass in to rlkit
@@ -113,6 +114,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     path = rollout_fn()
     print("type of path:", type(path))
+    print("keys of path:", path.keys())
     process_path(path)
 
     print("returns:", returns)
@@ -120,6 +122,8 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
     print("n_steps:", n_steps)
     print("lengths:", lengths)
     print("successes:", successes)
+    print("observation exmaple:", path["observations"][0])
+    print("terminal:", path["terminals"])
     print("path_states:", paths_states)
 
 if __name__ == "__main__":

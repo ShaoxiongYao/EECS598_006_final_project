@@ -4,11 +4,9 @@ from rlkit.samplers.data_collector.base import (
     StepCollector,
 )
 from rlkit.samplers.data_collector.path_collector import (
-    MdpPathCollector,
-    ObsDictPathCollector,
     GoalConditionedPathCollector,
-    VAEWrappedEnvPathCollector,
+    ParallelGoalConditionedPathCollector,
+    MdpPathCollector,
+    MultiAgentGoalConditionedPathCollector,
 )
-from rlkit.samplers.data_collector.step_collector import (
-    GoalConditionedStepCollector
-)
+from rlkit.samplers.data_collector.step_collector import GoalConditionedStepCollector
