@@ -64,13 +64,13 @@ def solve(env, delta_growth, iterations, simplify):
             q_stop_list.append(q_stop)
             # q_stop: ConfigurationWrapper
 
-            return q_stop, not collide.any()
+            return q_stop_list, not collide.any()
         else:
             path = arange_fn(q0, q1, delta_collision_check)
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
             if collide.any():
-                # TODO: set the beginning and ending
+                policy_env.reset(start=q0, goal=q1)
                 policy_path = rollout_fn()
                 end = policy_path["terminals"][-1][0]
                 obs = policy_path["observations"]
