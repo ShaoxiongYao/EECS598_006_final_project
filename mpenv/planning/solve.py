@@ -2,11 +2,12 @@ import numpy as np
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
 from mpenv.core.model import ConfigurationWrapper
+from rlkit.samplers.rollout_functions import multitask_rollout
 
 EPSILON = 1e-7
 
 
-def solve(env, delta_growth, iterations, simplify):
+def solve(env, delta_growth, iterations, simplify, nmp_input=None):
     """
     env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
@@ -35,10 +36,12 @@ def solve(env, delta_growth, iterations, simplify):
         print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=True, policy_env=None, policy=None, horizon=None, render=None):
+    def expand_fn(q0, q1, limit_growth=True, nmp_input=nmp_input):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
+        if not nmp_input == None:
+            policy_env, policy, horizon, render = nmp_input
         if limit_growth:
             dist = distance_fn(q0, q1)
             t1 = min(dist, delta_growth) / (dist + EPSILON)

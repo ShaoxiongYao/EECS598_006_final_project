@@ -61,7 +61,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
     o = env.reset(start=None, goal=None)
 
     # Try to use solve RRT
-    success, path, trees, iterations = env.env.env.solve_rrt(True)
+    success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
 
     print("success:", success)
     print("path:", path)
