@@ -58,6 +58,8 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     reset_kwargs = {}
 
+    # start = np.array([-0.3957,   0.21246, -0.39556,  0.55368, -0.40724,  0.52797,  0.49884])
+    # goal = np.array([ 0.48026,  0.22924,  0.11136, -0.51902,  0.81974,  0.09123,  0.22434])
     o = env.reset(start=None, goal=None)
 
     # Try to use solve RRT
@@ -84,6 +86,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
             desired_goal_key="desired_goal",
             representation_goal_key="representation_goal",
             **reset_kwargs,
+            is_reset=False
         )
 
     returns = []
@@ -113,8 +116,9 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
         returns.append(np.sum(path["rewards"]))
         n_steps.append(len(path["rewards"]))
     
+    
+    # path = rollout_fn()
     '''
-    path = rollout_fn()
     print("type of path:", type(path))
     print("keys of path:", path.keys())
     process_path(path)

@@ -1,2 +1,262 @@
 No personal conf_private.py found.
 doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+env RayTracingObserver type: <class 'mpenv.envs.boxes.Boxes'>
+num params: 335372
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fca0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.37327  0.02591 -0.49745 -0.32478  0.42174  0.18664 -0.82573]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fc40>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.11099 -0.23245  0.1641  -0.15503  0.87503 -0.40192  0.22076]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fd60>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.27601 -0.50065 -0.21436  0.62907  0.66059 -0.25567  0.32019]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fdc0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.12472 -0.25709 -0.09576  0.4043  -0.77727 -0.44253 -0.19119]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fe20>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.54996 -0.19377  0.10461 -0.50947  0.70828 -0.3658   0.32399]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fe80>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.47265 -0.33491  0.41695 -0.13144 -0.23296 -0.9618   0.05825]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fee0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.40438 -0.56869  0.41293  0.42837  0.83466  0.3211  -0.12936]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fd00>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.45804 -0.33202 -0.27079 -0.11679  0.5382  -0.3873  -0.73939]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fca0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.29812 -0.2052   0.16204  0.62841 -0.16246 -0.37715  0.66066]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fc40>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.40351 -0.49526  0.48391 -0.12935  0.60023 -0.25132 -0.74822]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fd60>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.29917  0.13995  0.04083 -0.52304 -0.15605  0.75658 -0.36009]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fdc0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.43849  0.31078  0.59247 -0.13611 -0.32311  0.93504 -0.05266]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fe20>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.3957   0.21246 -0.39556  0.55368 -0.40724  0.52797  0.49884]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fe80>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.35265  0.43818 -0.33068  0.73874  0.52146 -0.39621  0.15923]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fee0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.59237  0.44406 -0.07117 -0.08664  0.81043  0.49001  0.30918]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fd00>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.34799 -0.54865  0.33609 -0.32357  0.60594 -0.6139  -0.38894]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fca0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.25399  0.32898 -0.43798  0.00974 -0.788   -0.2906  -0.5427 ]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fc40>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.18292  0.50773 -0.15502 -0.2837   0.07098 -0.9043   0.31099]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fd60>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.26188 -0.40611 -0.17678 -0.20179  0.6353  -0.7342  -0.12892]
+clipped: False
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a10fdc0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103]
+clipped: False
+start q: [-0.3957   0.21246 -0.39556  0.55368 -0.40724  0.52797  0.49884]
+goal q: [-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103]
+RRT start: ConfigurationWrapper([-0.3957   0.21246 -0.39556  0.55368 -0.40724  0.52797  0.49884])
+RRT goal: ConfigurationWrapper([-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103])
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a180c40>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.48026  0.22924  0.11136 -0.51902  0.81974  0.09123  0.22434]
+clipped: False
+x_rand ConfigurationWrapper([ 0.48026  0.22924  0.11136 -0.51902  0.81974  0.09123  0.22434])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.3957   0.21246 -0.39556  0.55368 -0.40724  0.52797  0.49884])
+q1: ConfigurationWrapper([-0.36961  0.2311  -0.39429  0.56266 -0.42919  0.51598  0.48267])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103])
+q1: ConfigurationWrapper([-0.25145  0.09936 -0.29716 -0.52069 -0.24076 -0.81816  0.03923])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a1807c0>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.5324  -0.42393 -0.59218  0.53817 -0.43668  0.02573 -0.72043]
+clipped: False
+x_rand ConfigurationWrapper([-0.5324  -0.42393 -0.59218  0.53817 -0.43668  0.02573 -0.72043])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.36961  0.2311  -0.39429  0.56266 -0.42919  0.51598  0.48267])
+q1: ConfigurationWrapper([-0.38109  0.22342 -0.37534  0.57739 -0.4413   0.51388  0.45585])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.25145  0.09936 -0.29716 -0.52069 -0.24076 -0.81816  0.03923])
+q1: ConfigurationWrapper([-0.25841  0.09789 -0.30161 -0.53192 -0.21528 -0.81877  0.01845])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a180b20>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.46214  0.00545  0.21897 -0.40287  0.15686  0.48097  0.76273]
+clipped: False
+x_rand ConfigurationWrapper([ 0.46214  0.00545  0.21897 -0.40287  0.15686  0.48097  0.76273])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.25841  0.09789 -0.30161 -0.53192 -0.21528 -0.81877  0.01845])
+q1: ConfigurationWrapper([-0.23539  0.10685 -0.31299 -0.5149  -0.21892 -0.8288  -0.00678])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.3957   0.21246 -0.39556  0.55368 -0.40724  0.52797  0.49884])
+q1: ConfigurationWrapper([-0.39418  0.20336 -0.3941   0.56065 -0.38548  0.54981  0.48455])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5a180d60>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.29217 -0.54531 -0.3459   0.94811 -0.29355  0.09995 -0.07021]
+clipped: False
+x_rand ConfigurationWrapper([ 0.29217 -0.54531 -0.3459   0.94811 -0.29355  0.09995 -0.07021])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.25841  0.09789 -0.30161 -0.53192 -0.21528 -0.81877  0.01845])
+q1: ConfigurationWrapper([-0.24016  0.08706 -0.27972 -0.55641 -0.20014 -0.80618  0.02068])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.39418  0.20336 -0.3941   0.56065 -0.38548  0.54981  0.48455])
+q1: ConfigurationWrapper([-0.39289  0.19377 -0.39073  0.56877 -0.36396  0.5699   0.46824])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fdb05534100>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.02084 -0.25883 -0.13638  0.50626 -0.63634  0.57813  0.06743]
+clipped: False
+x_rand ConfigurationWrapper([-0.02084 -0.25883 -0.13638  0.50626 -0.63634  0.57813  0.06743])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.38109  0.22342 -0.37534  0.57739 -0.4413   0.51388  0.45585])
+q1: ConfigurationWrapper([-0.35583  0.1949  -0.36022  0.57625 -0.45673  0.5212   0.43323])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.24016  0.08706 -0.27972 -0.55641 -0.20014 -0.80618  0.02068])
+q1: ConfigurationWrapper([-0.24661  0.0859  -0.2842  -0.56603 -0.17354 -0.80591  0.00046])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5ba6db20>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.25301  0.50555  0.0701  -0.27593 -0.03846  0.93834 -0.2047 ]
+clipped: False
+x_rand ConfigurationWrapper([-0.25301  0.50555  0.0701  -0.27593 -0.03846  0.93834 -0.2047 ])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103])
+q1: ConfigurationWrapper([-0.23378  0.12033 -0.28912 -0.48378 -0.25641 -0.83401  0.06808])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.39289  0.19377 -0.39073  0.56877 -0.36396  0.5699   0.46824])
+q1: ConfigurationWrapper([-0.39037  0.18557 -0.38842  0.57413 -0.34221  0.5908   0.45191])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fdb05534100>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [-0.46282  0.18949 -0.43175  0.54761 -0.01677  0.3472  -0.76112]
+clipped: False
+x_rand ConfigurationWrapper([-0.46282  0.18949 -0.43175  0.54761 -0.01677  0.3472  -0.76112])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.24471  0.10095 -0.29217 -0.50942 -0.26528 -0.81633  0.06103])
+q1: ConfigurationWrapper([-0.24711  0.10386 -0.30292 -0.51951 -0.25745 -0.80951  0.09238])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.39037  0.18557 -0.38842  0.57413 -0.34221  0.5908   0.45191])
+q1: ConfigurationWrapper([-0.38851  0.17776 -0.38618  0.58053 -0.3202   0.60991  0.43412])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fda5ba6db20>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.45624  0.28126 -0.00377  0.66008 -0.67005  0.3372  -0.0402 ]
+clipped: False
+x_rand ConfigurationWrapper([ 0.45624  0.28126 -0.00377  0.66008 -0.67005  0.3372  -0.0402 ])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.24661  0.0859  -0.2842  -0.56603 -0.17354 -0.80591  0.00046])
+q1: ConfigurationWrapper([-0.23536  0.11038 -0.2763  -0.57936 -0.14467 -0.80213  0.00197])
+resolution: 0.01
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.38851  0.17776 -0.38618  0.58053 -0.3202   0.60991  0.43412])
+q1: ConfigurationWrapper([-0.38376  0.16921 -0.38145  0.58721 -0.29832  0.62757  0.41514])
+resolution: 0.01
+joint names: <pinocchio.pinocchio_pywrap.StdVec_StdString object at 0x7fdb05534100>
+number of bodies: 1
+number of joints: 2
+dimension of space: 7
+configuration [ 0.13542  0.28055  0.44373  0.20165 -0.70685  0.57005 -0.36708]
+clipped: False
+x_rand ConfigurationWrapper([ 0.13542  0.28055  0.44373  0.20165 -0.70685  0.57005 -0.36708])
+Use RL policy to extend
+q0: ConfigurationWrapper([-0.23536  0.11038 -0.2763  -0.57936 -0.14467 -0.80213  0.00197])
+q1: ConfigurationWrapper([-0.22417  0.13699 -0.27043 -0.57647 -0.11667 -0.8086   0.01515])
+resolution: 0.01
+stop policy run

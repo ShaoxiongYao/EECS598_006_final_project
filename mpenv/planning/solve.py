@@ -36,7 +36,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
         print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=True, nmp_input=nmp_input):
+    def expand_fn(q0, q1, limit_growth=False, nmp_input=nmp_input):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
@@ -79,6 +79,9 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
             q_stop_list = []
             if collide.any():
 
+                # q0 = np.array([-0.3957, 0.21246, -0.39556, 0.55368, -0.40724, 0.52797, 0.49884])
+                # q1 = np.array([-0.24471, 0.10095, -0.29217, -0.50942, -0.26528, -0.81633, 0.06103])
+
                 start, goal = q0, q1
                 if not isinstance(start, ConfigurationWrapper):
                     start = ConfigurationWrapper(policy_env.env.env.model_wrapper, start)
@@ -89,7 +92,10 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
 
 
                 policy_path = rollout_fn()
+                print("finish")
                 end = policy_path["terminals"][-1][0]
+                print("end or nor: ", end)
+                input()
                 obs = policy_path["observations"]
                 n = obs.shape[0]
                 for i in range(n):

@@ -46,9 +46,11 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         node_a = nearest_neighbor(x_rand, nodes_a, distance_fn)
         solution["n_samples"] += 1
         x_a = node_a.point
+        print("x_a", x_a)
         # path_a = interpolate_fn(x_a, x_a_new)
         x_a_new_list, col_free_a = expand_fn(x_a, x_rand)
-        if col_free_a and not close_fn(x_a, x_a_new_list[-1]):
+        # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
+        if not close_fn(x_a, x_a_new_list[-1]):
             for x_a_new in x_a_new_list:
                 node_a_new = Node(x_a_new, parent=node_a)
                 nodes_ab[growing_index].append(node_a_new)
@@ -60,12 +62,13 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             x_b = node_b.point
             # path_b = interpolate_fn(x_b, x_b_new)
             x_b_new_list, col_free_b = expand_fn(x_b, x_a_new)
-            if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
+            # if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
+            if not close_fn(x_b, x_b_new_list[-1]):
                 for x_b_new in x_b_new_list:
                     node_b_new = Node(x_b_new, parent=node_b)
                     nodes_ab[1 - growing_index].append(node_b_new)
                 node_b_new = nodes_ab[1 - growing_index][-1]
-                x_b_new = x_b_new_list[-1]
+            x_b_new = x_b_new_list[-1]
             # if the two trees are connected, stop the algorithm
             if close_fn(x_a_new, x_b_new):
                 print("Tree a and tree b connected")
@@ -76,7 +79,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
-
+        print("tree a length: ", len(nodes_ab[0]))
+        print("tree b length: ", len(nodes_ab[1]))
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
         elif len(nodes_ab[0]) > len(nodes_ab[1]):
