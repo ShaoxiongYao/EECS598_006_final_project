@@ -40,8 +40,11 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
+        policy_env, policy, horizon, render = None, None, None, None
         if not nmp_input == None:
             policy_env, policy, horizon, render = nmp_input
+            print("Use RL policy to extend")
+
         if limit_growth:
             dist = distance_fn(q0, q1)
             t1 = min(dist, delta_growth) / (dist + EPSILON)
@@ -57,10 +60,12 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
+                is_reset=False,
                 **reset_kwargs,
             )
 
         if policy == None:
+            print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
@@ -73,7 +78,16 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
             if collide.any():
-                policy_env.reset(start=q0, goal=q1)
+
+                start, goal = q0, q1
+                if not isinstance(start, ConfigurationWrapper):
+                    start = ConfigurationWrapper(policy_env.env.env.model_wrapper, start)
+                policy_env.env.env.state = start
+                if not isinstance(goal, ConfigurationWrapper):
+                    goal = ConfigurationWrapper(policy_env.env.env.model_wrapper, goal)
+                policy_env.env.env.goal_state = goal
+
+
                 policy_path = rollout_fn()
                 end = policy_path["terminals"][-1][0]
                 obs = policy_path["observations"]
@@ -87,6 +101,17 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
             else:
                 q_stop_list.append(q_stop)
                 return q_stop_list, not collide.any()
+
+    '''
+    def expand_fn(q0, q1, limit_growth=True):
+        if limit_growth:
+            dist = distance_fn(q0, q1)
+            t1 = min(dist, delta_growth) / (dist + EPSILON)
+            q1 = interpolate_fn(q0, q1, t1)
+        path = arange_fn(q0, q1, delta_collision_check)
+        q_stop, collide = env.stopping_configuration(path)
+        return q_stop, not collide.any()
+    '''
 
     def close_fn(qw0, qw1):
         return np.allclose(qw0.q, qw1.q)

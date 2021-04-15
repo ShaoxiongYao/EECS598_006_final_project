@@ -62,6 +62,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     # Try to use solve RRT
     success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
+    # success, path, trees, iterations = env.env.env.solve_rrt(True)
 
     print("success:", success)
     print("path:", path)
@@ -111,7 +112,8 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
         rewards.append(path["rewards"])
         returns.append(np.sum(path["rewards"]))
         n_steps.append(len(path["rewards"]))
-
+    
+    '''
     path = rollout_fn()
     print("type of path:", type(path))
     print("keys of path:", path.keys())
@@ -125,6 +127,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
     print("observation exmaple:", path["observations"][0])
     print("terminal:", path["terminals"])
     print("path_states:", paths_states)
+    '''
 
 if __name__ == "__main__":
     main()

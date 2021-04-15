@@ -65,9 +65,10 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                     node_b_new = Node(x_b_new, parent=node_b)
                     nodes_ab[1 - growing_index].append(node_b_new)
                 node_b_new = nodes_ab[1 - growing_index][-1]
-                x_b_new = x_a_new_list[-1]
+                x_b_new = x_b_new_list[-1]
             # if the two trees are connected, stop the algorithm
             if close_fn(x_a_new, x_b_new):
+                print("Tree a and tree b connected")
                 if growing_index == 1:
                     node_a_new, node_b_new = node_b_new, node_a_new
                 seq_start_a = node_a_new.path_from_root()

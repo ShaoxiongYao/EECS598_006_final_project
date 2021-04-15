@@ -85,6 +85,7 @@ def multitask_rollout(
     get_action_kwargs=None,
     return_dict_obs=False,
     reset_kwargs=None,
+    is_reset=True
 ):
     if render_kwargs is None:
         render_kwargs = {}
@@ -100,15 +101,26 @@ def multitask_rollout(
     env_infos = {}
     next_observations = []
     path_length = 0
-    if reset_kwargs:
-        o = env.reset(**reset_kwargs)
+    if is_reset:
+        if reset_kwargs:
+            o = env.reset(**reset_kwargs)
+        else:
+            o = env.reset()
     else:
-        o = env.reset()
+        # check no reset
+        # print("No reset")
+        # input()
+        o = env.env.env.observation()
+        o = env.env.observation(o)
+        o = env.observation(o)
+
     agent.reset()
     if render:
         env.render(**render_kwargs)
     desired_goal = o[desired_goal_key]
     while path_length < max_path_length:
+        # print("before step")
+        # input()
         dict_obs.append(o)
         if observation_key:
             s = o[observation_key]
@@ -116,8 +128,13 @@ def multitask_rollout(
         new_obs = np.hstack((s, g))
         a, agent_info = agent.get_action(new_obs, **get_action_kwargs)
         next_o, r, d, env_info = env.step(a)
+        # print("environment step")
+        # input()
         if render:
             env.render(**render_kwargs)
+        # print("after render")
+        # input()
+
         observations.append(o)
         rewards.append(r)
         terminals.append(d)
@@ -125,6 +142,7 @@ def multitask_rollout(
         next_observations.append(next_o)
         dict_next_obs.append(next_o)
         agent_infos.append(agent_info)
+
         if not env_infos:
             for k, v in env_info.items():
                 env_infos[k] = [v]
@@ -145,6 +163,7 @@ def multitask_rollout(
         next_observations = dict_next_obs
     for k, v in env_infos.items():
         env_infos[k] = np.array(v)
+    print("stop policy run")
     return dict(
         observations=observations,
         actions=actions,
