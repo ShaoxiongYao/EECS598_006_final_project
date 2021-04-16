@@ -40,9 +40,9 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         return model_wrapper.interpolate(q0, q1, t)
 
     def arange_fn(q0, q1, resolution):
-        print("q0:", q0)
-        print("q1:", q1)
-        print("resolution:", resolution)
+        # print("q0:", q0)
+        # print("q1:", q1)
+        # print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
     def expand_fn(q0, q1, limit_growth=False, nmp_input=nmp_input):
@@ -74,7 +74,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             )
 
         if policy == None:
-            print("Normal extension function")
+            # print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
@@ -101,9 +101,8 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
 
 
                 policy_path = rollout_fn()
-                print("finish")
                 end = policy_path["terminals"][-1][0]
-                print("end or nor: ", end)
+                # print("end or nor: ", end)
                 # input()
                 obs = policy_path["observations"]
                 n = obs.shape[0]

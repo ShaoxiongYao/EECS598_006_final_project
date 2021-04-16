@@ -2,6 +2,7 @@ import click
 import numpy as np
 import gym
 import time
+import pickle
 
 import mpenv.envs
 
@@ -33,7 +34,8 @@ from rlkit.samplers.rollout_functions import (
     is_flag=True,
     help="stochastic mode",
 )
-def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
+@click.option("-from_file", "--from_file", default=None, type=str, help="use cpu")
+def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, from_file):
     if not cpu:
         set_gpu_mode(True)
     set_seed(seed)
@@ -42,8 +44,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
     env.set_eval()
     log_dir = settings.log_dir()
 
-    print("env RayTracingObserver type:", type(env.env.env))
-
+    print("seed:", seed)
     if exp_name:
         policy = utils.load(log_dir, exp_name, cpu, stochastic)
         if stochastic:
@@ -60,28 +61,26 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     # start = np.array([-0.3957,   0.21246, -0.39556,  0.55368, -0.40724,  0.52797,  0.49884])
     # goal = np.array([ 0.48026,  0.22924,  0.11136, -0.51902,  0.81974,  0.09123,  0.22434])
-    num_trails = 3
+    num_trails = 0
     iterations_list = []
+    o = env.reset(start=None, goal=None)
     for _ in range(num_trails):
         o = env.reset(start=None, goal=None)
 
         # Try to use solve RRT
-        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
-        # success, path, trees, iterations = env.env.env.solve_rrt(True)
+        # success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
+        success, path, trees, iterations = env.env.env.solve_rrt(True)
 
         print("success:", success)
-        print("path:", path)
-        print("path keys:", path.keys())
-        print("iterations:", iterations)
+        # print("path:", path)
+        # print("path keys:", path.keys())
+        if iterations > 100:
+            print("iterations:", iterations)
 
         iterations_list.append(iterations)
     
-    print("average iterations:", np.mean(iterations_list))
+    # print("average iterations:", np.mean(iterations_list))
 
-    # return
-
-    # TODO: 
-    # - define start and goal in env - pass in to rlkit
 
     def rollout_fn():
         return multitask_rollout(
@@ -124,11 +123,12 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
         n_steps.append(len(path["rewards"]))
     
     
-    # path = rollout_fn()
+    path = rollout_fn()
+    process_path(path)
+    print("successes", successes)
     '''
     print("type of path:", type(path))
     print("keys of path:", path.keys())
-    process_path(path)
 
     print("returns:", returns)
     print("rewards:", rewards)

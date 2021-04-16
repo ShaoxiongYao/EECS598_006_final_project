@@ -40,13 +40,13 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
     for i in range(iterations):
         nodes_a, nodes_b = nodes_ab[growing_index], nodes_ab[1 - growing_index]
         x_rand = sample_fn()
-        print("x_rand", x_rand)
+        # print("x_rand", x_rand)
 
         # grows tree_a toward x_rand
         node_a = nearest_neighbor(x_rand, nodes_a, distance_fn)
         solution["n_samples"] += 1
         x_a = node_a.point
-        print("x_a", x_a)
+        # print("x_a", x_a)
         # path_a = interpolate_fn(x_a, x_a_new)
         x_a_new_list, col_free_a = expand_fn(x_a, x_rand)
         # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
@@ -79,8 +79,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
-        print("tree a length: ", len(nodes_ab[0]))
-        print("tree b length: ", len(nodes_ab[1]))
+        # print("tree a length: ", len(nodes_ab[0]))
+        # print("tree b length: ", len(nodes_ab[1]))
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
         elif len(nodes_ab[0]) > len(nodes_ab[1]):
