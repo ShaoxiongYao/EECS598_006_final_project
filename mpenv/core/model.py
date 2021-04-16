@@ -128,14 +128,13 @@ class ModelWrapper:
     def random_configuration(self, project_fn=None):
         q = pin.randomConfiguration(self.model)
         # q = np.random.uniform(-np.pi, np.pi, size=(6,))
-        print("joint names:", self.model.names)
-        print("number of bodies:", self.model.nbodies)
-        print("number of joints:", self.model.njoints)
-        print("dimension of space:", self.model.nq)
-        print("configuration", q)
+        # print("joint names:", self.model.names)
+        # print("number of bodies:", self.model.nbodies)
+        # print("number of joints:", self.model.njoints)
+        # print("dimension of space:", self.model.nq)
+        # print("configuration", q)
         qw = ConfigurationWrapper(self, q)
         clipped, qw = self.clip(qw, self._clip_bounds[0], self._clip_bounds[1])
-        print("clipped:", clipped)
         if project_fn:
             qw = project_fn(qw)
         return qw
@@ -146,6 +145,55 @@ class ModelWrapper:
             qw = self.random_configuration(project_fn)
             collide = self.collision(qw)
         return qw
+    
+    def random_collision_configuration(self, project_fn=None):
+        collide = False
+        while not collide:
+            qw = self.random_configuration(project_fn)
+            collide = self.collision(qw)
+        return qw
+    
+    def random_near_surface(self, project_fn=None):
+
+        qw_free = self.random_free_configuration(project_fn)
+        assert(not self.collision(qw_free))
+
+        qw_collide = self.random_collision_configuration(project_fn)
+        assert(self.collision(qw_collide))
+        # print("q free", qw_free.q)
+        # print("q collide", qw_collide.q)
+        # input()
+
+        t_array = np.linspace(0, 1, 10)
+        for t in t_array:
+            q_mid = pin.interpolate(self._model, qw_collide.q, qw_free.q, t)
+            q_midw = ConfigurationWrapper(self, q_mid)
+            if not self.collision(q_midw):
+                break
+
+        print("Found one")
+        # input()
+        return q_midw
+
+    def random_bridge_configuration(self, project_fn=None):
+
+        while True:
+            qw1 = self.random_configuration(project_fn)
+            if not self.collision(qw1):
+                continue
+            qw2 = self.random_configuration(project_fn)
+            if not self.collision(qw2):
+                continue
+            q_mid = pin.interpolate(self._model, qw1.q, qw2.q, 0.5)
+            q_midw = ConfigurationWrapper(self, q_mid)
+            if not self.collision(q_midw):
+                break
+
+            print("Tried once")
+            # input()
+        print("Found one")
+        # input()
+        return q_midw
 
     def set_clipping(self, min_q, max_q):
         self._clip_bounds = [min_q, max_q]

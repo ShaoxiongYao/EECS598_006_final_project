@@ -7,7 +7,7 @@ from rlkit.samplers.rollout_functions import multitask_rollout
 EPSILON = 1e-7
 
 
-def solve(env, delta_growth, iterations, simplify, nmp_input=None):
+def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full"):
     """
     env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
@@ -21,8 +21,17 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
     def collision_fn(q):
         return not model_wrapper.collision(q)
 
-    def sample_fn():
+    def sample_full_fn():
         return model_wrapper.random_configuration()
+    
+    def sample_free_fn():
+        return model_wrapper.random_free_configuration()
+    
+    def sample_bridge_fn():
+        return model_wrapper.random_bridge_configuration()
+    
+    def sample_near_surface_fn():
+        return model_wrapper.random_near_surface()
 
     def distance_fn(q0, q1):
         return model_wrapper.distance(q0, q1)
@@ -95,7 +104,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
                 print("finish")
                 end = policy_path["terminals"][-1][0]
                 print("end or nor: ", end)
-                input()
+                # input()
                 obs = policy_path["observations"]
                 n = obs.shape[0]
                 for i in range(n):
@@ -124,6 +133,15 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None):
 
     start = env.state
     goal = env.goal_state
+
+    if sampler == "Full":
+        sample_fn = sample_full_fn
+    elif sampler == "Free":
+        sample_fn = sample_free_fn
+    elif sampler == "Bridge":
+        sample_fn = sample_bridge_fn
+    elif sampler == "NearSurface":
+        sample_fn = sample_near_surface_fn
 
     success, path, trees, iterations = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations

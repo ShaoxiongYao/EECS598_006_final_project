@@ -60,16 +60,23 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic):
 
     # start = np.array([-0.3957,   0.21246, -0.39556,  0.55368, -0.40724,  0.52797,  0.49884])
     # goal = np.array([ 0.48026,  0.22924,  0.11136, -0.51902,  0.81974,  0.09123,  0.22434])
-    o = env.reset(start=None, goal=None)
+    num_trails = 3
+    iterations_list = []
+    for _ in range(num_trails):
+        o = env.reset(start=None, goal=None)
 
-    # Try to use solve RRT
-    success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
-    # success, path, trees, iterations = env.env.env.solve_rrt(True)
+        # Try to use solve RRT
+        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
+        # success, path, trees, iterations = env.env.env.solve_rrt(True)
 
-    print("success:", success)
-    print("path:", path)
-    print("path keys:", path.keys())
-    print("iterations:", iterations)
+        print("success:", success)
+        print("path:", path)
+        print("path keys:", path.keys())
+        print("iterations:", iterations)
+
+        iterations_list.append(iterations)
+    
+    print("average iterations:", np.mean(iterations_list))
 
     # return
 
