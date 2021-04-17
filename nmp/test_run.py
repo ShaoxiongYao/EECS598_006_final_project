@@ -80,7 +80,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
                 env,
                 policy,
                 horizon,
-                render,
+                # render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
