@@ -50,10 +50,15 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         # path_a = interpolate_fn(x_a, x_a_new)
         x_a_new_list, col_free_a = expand_fn(x_a, x_rand)
         # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
+        # TODO: col_free_a should be added to if condition
         if not close_fn(x_a, x_a_new_list[-1]):
-            for x_a_new in x_a_new_list:
-                node_a_new = Node(x_a_new, parent=node_a)
+            for i_a, x_a_new in enumerate(x_a_new_list):
+                if i_a == 0:
+                    node_a_new = Node(x_a_new, parent=node_a)
+                else:
+                    node_a_new = Node(x_a_new, parent=nodes_ab[growing_index][-1])
                 nodes_ab[growing_index].append(node_a_new)
+                print("I append a ", type(node_a_new))
             node_a_new = nodes_ab[growing_index][-1]
             x_a_new = x_a_new_list[-1]
             # grows tree_b toward x_a_new
@@ -64,8 +69,11 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             x_b_new_list, col_free_b = expand_fn(x_b, x_a_new)
             # if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
             if not close_fn(x_b, x_b_new_list[-1]):
-                for x_b_new in x_b_new_list:
-                    node_b_new = Node(x_b_new, parent=node_b)
+                for i_b, x_b_new in enumerate(x_b_new_list):
+                    if i_b == 0:
+                        node_b_new = Node(x_b_new, parent=node_b)
+                    else:
+                        node_b_new = Node(x_b_new, parent=nodes_ab[1-growing_index][-1])
                     nodes_ab[1 - growing_index].append(node_b_new)
                 node_b_new = nodes_ab[1 - growing_index][-1]
             x_b_new = x_b_new_list[-1]

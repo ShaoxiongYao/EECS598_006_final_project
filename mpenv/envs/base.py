@@ -207,6 +207,14 @@ class Base(gym.Env):
             )
 
         if self.viz:
+            # fake drawing
+            # start = np.array([0.3631,  -0.10471,  0.40929,  0.22057,  0.89626, -0.23803,  0.30234])
+            # goal = np.array([-0.25956, -0.04894,  0.48368,  0.35592,  0.62283, 0.45564, 0.52707])
+            # previous_oMg = ConfigurationWrapper(self.model_wrapper, start).q_oM[2]
+            # current_oMg = ConfigurationWrapper(self.model_wrapper, goal).q_oM[2]
+            # previous_ee = self.robot.get_ee(previous_oMg).translation
+            # current_ee = self.robot.get_ee(current_oMg).translation
+            # self.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
             previous_oMg = self.state.q_oM[2]
             current_oMg = new_state.q_oM[2]
             previous_ee = self.robot.get_ee(previous_oMg).translation

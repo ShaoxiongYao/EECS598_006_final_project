@@ -155,3 +155,18 @@ To integrate poliy as local planner, needs to modify the extend function, but no
 Command:
 
     python -m nmp.test_run --cpu SShape-Boxes-64Pts-Rays-v0 --exp-name log_dir/params.pkl --seed 100 --horizon 80 --episodes 0 > test_run_output
+
+### Visualization
+
+Display robot:
+
+    env.env.env.viz.display(ConfigurationWrapper(env.env.env.model_wrapper,q))
+
+Draw edge:
+
+    # see base.py under envs
+    previous_oMg = ConfigurationWrapper.q_oM[2]
+    current_oMg = ConfigurationWrapper.q_oM[2]
+    previous_ee = env.env.env.robot.get_ee(previous_oMg).translation
+    current_ee = env.env.env.robot.get_ee(current_oMg).translation
+    env.env.env.viz.add_edge_to_roadmap("path", previous_ee, current_ee) # path is the node name, which can be modified
