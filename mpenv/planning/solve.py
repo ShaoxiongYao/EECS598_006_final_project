@@ -23,13 +23,13 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
 
     def sample_full_fn():
         return model_wrapper.random_configuration()
-    
+
     def sample_free_fn():
         return model_wrapper.random_free_configuration()
-    
+
     def sample_bridge_fn():
         return model_wrapper.random_bridge_configuration()
-    
+
     def sample_near_surface_fn():
         return model_wrapper.random_near_surface()
 
@@ -60,11 +60,12 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             q1 = interpolate_fn(q0, q1, t1)
 
         reset_kwargs = {}
+
         def rollout_fn():
             return multitask_rollout(
                 policy_env,
                 policy,
-                horizon, # max length in one step
+                horizon,  # max length in one step
                 render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
@@ -80,6 +81,20 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             q_stop_list = []
             q_stop_list.append(q_stop)
             # q_stop: ConfigurationWrapper
+
+            # visualization
+            # print("before viz")
+            # input()
+            env.render()
+
+            previous_oMg = q0.q_oM[2]
+            current_oMg = q_stop.q_oM[2]
+            previous_ee = env.robot.get_ee(previous_oMg).translation
+            current_ee = env.robot.get_ee(current_oMg).translation
+            # path is the node name, which can be modified
+            env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+            # print("after viz")
+            # input()
 
             return q_stop_list, not collide.any()
         else:
@@ -99,7 +114,6 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                     goal = ConfigurationWrapper(policy_env.env.env.model_wrapper, goal)
                 policy_env.env.env.goal_state = goal
 
-
                 policy_path = rollout_fn()
                 end = policy_path["terminals"][-1][0]
                 # print("end or nor: ", end)
@@ -114,10 +128,18 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                 return q_stop_list, end
             else:
                 q_stop_list.append(q_stop)
+                # visualization
+                env.render()
+                
+                previous_oMg = q0.q_oM[2]
+                current_oMg = q_stop.q_oM[2]
+                previous_ee = env.robot.get_ee(previous_oMg).translation
+                current_ee = env.robot.get_ee(current_oMg).translation
+                # path is the node name, which can be modified
+                env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
                 return q_stop_list, not collide.any()
 
-    '''
-    def expand_fn(q0, q1, limit_growth=True):
+    def expand_fn_short(q0, q1, limit_growth=False):
         if limit_growth:
             dist = distance_fn(q0, q1)
             t1 = min(dist, delta_growth) / (dist + EPSILON)
@@ -125,7 +147,6 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         path = arange_fn(q0, q1, delta_collision_check)
         q_stop, collide = env.stopping_configuration(path)
         return q_stop, not collide.any()
-    '''
 
     def close_fn(qw0, qw1):
         return np.allclose(qw0.q, qw1.q)
@@ -149,7 +170,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
     if success:
         if simplify:
             path["points"], iterations_simplify = utils.shorten(
-                path["points"], expand_fn, interpolate_fn, distance_fn
+                path["points"], expand_fn_short, interpolate_fn, distance_fn
             )
             path["points"] = utils.limit_step_size(
                 # path["points"], arange_fn, action_range
@@ -160,4 +181,4 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         path["collisions"] = np.array(path["collisions"])
         path["start"] = path["points"][0]
         path["goal"] = path["points"][-1]
-    return success, path, trees, iterations + iterations_simplify
+    return success, path, trees, iterations

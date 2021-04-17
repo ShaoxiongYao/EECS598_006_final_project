@@ -1,0 +1,1758 @@
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 55
+num params: 335372
+start q: [-0.3696  -0.39236 -0.36651 -0.03316 -0.41749 -0.59202 -0.68856]
+goal q: [ 0.03991  0.32002  0.47866  0.52972 -0.68437  0.4689  -0.17654]
+RRT start: ConfigurationWrapper([-0.3696  -0.39236 -0.36651 -0.03316 -0.41749 -0.59202 -0.68856])
+RRT goal: ConfigurationWrapper([ 0.03991  0.32002  0.47866  0.52972 -0.68437  0.4689  -0.17654])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 40
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 82
+num params: 335372
+start q: [ 0.0615  -0.43599  0.07994 -0.91738 -0.22624  0.20468  0.25559]
+goal q: [-0.31726  0.01082 -0.16409  0.1446   0.44215  0.77101  0.4349 ]
+RRT start: ConfigurationWrapper([ 0.0615  -0.43599  0.07994 -0.91738 -0.22624  0.20468  0.25559])
+RRT goal: ConfigurationWrapper([-0.31726  0.01082 -0.16409  0.1446   0.44215  0.77101  0.4349 ])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 12
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 88
+num params: 335372
+start q: [-0.11046  0.47664 -0.21952 -0.8007  -0.21836 -0.51978 -0.20256]
+goal q: [-0.18973  0.47758 -0.37761 -0.54529 -0.10745  0.81888 -0.14333]
+RRT start: ConfigurationWrapper([-0.11046  0.47664 -0.21952 -0.8007  -0.21836 -0.51978 -0.20256])
+RRT goal: ConfigurationWrapper([-0.18973  0.47758 -0.37761 -0.54529 -0.10745  0.81888 -0.14333])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 4
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+num params: 335372
+start q: [ 0.3631  -0.10471  0.40929  0.22057  0.89626 -0.23803  0.30234]
+goal q: [-0.25956 -0.04894  0.48368  0.35592  0.62283  0.45564  0.52707]
+RRT start: ConfigurationWrapper([ 0.3631  -0.10471  0.40929  0.22057  0.89626 -0.23803  0.30234])
+RRT goal: ConfigurationWrapper([-0.25956 -0.04894  0.48368  0.35592  0.62283  0.45564  0.52707])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 8
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 107
+num params: 335372
+start q: [-0.35884  0.45784  0.38498  0.62038 -0.30574  0.06792  0.71905]
+goal q: [-0.08776 -0.41495  0.09707 -0.62414 -0.74459  0.1688  -0.16598]
+RRT start: ConfigurationWrapper([-0.35884  0.45784  0.38498  0.62038 -0.30574  0.06792  0.71905])
+RRT goal: ConfigurationWrapper([-0.08776 -0.41495  0.09707 -0.62414 -0.74459  0.1688  -0.16598])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 22
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 141
+num params: 335372
+start q: [ 0.39997  0.20493 -0.2714  -0.25296 -0.25681  0.66271  0.65641]
+goal q: [ 0.2238  -0.18216 -0.33891  0.12042 -0.1601  -0.9668  -0.15863]
+RRT start: ConfigurationWrapper([ 0.39997  0.20493 -0.2714  -0.25296 -0.25681  0.66271  0.65641])
+RRT goal: ConfigurationWrapper([ 0.2238  -0.18216 -0.33891  0.12042 -0.1601  -0.9668  -0.15863])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 28
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 147
+num params: 335372
+start q: [-0.33556  0.46133  0.25431 -0.05214 -0.16966 -0.98411  0.00433]
+goal q: [ 0.17304 -0.31627  0.05627  0.07147 -0.43282  0.86783 -0.2333 ]
+RRT start: ConfigurationWrapper([-0.33556  0.46133  0.25431 -0.05214 -0.16966 -0.98411  0.00433])
+RRT goal: ConfigurationWrapper([ 0.17304 -0.31627  0.05627  0.07147 -0.43282  0.86783 -0.2333 ])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 34
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 172
+num params: 335372
+start q: [ 0.14201  0.30824  0.42287  0.79712 -0.02432 -0.29576  0.52586]
+goal q: [-0.45964 -0.29819 -0.25625 -0.3421  -0.07586 -0.67833 -0.64581]
+RRT start: ConfigurationWrapper([ 0.14201  0.30824  0.42287  0.79712 -0.02432 -0.29576  0.52586])
+RRT goal: ConfigurationWrapper([-0.45964 -0.29819 -0.25625 -0.3421  -0.07586 -0.67833 -0.64581])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 40
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 193
+num params: 335372
+start q: [-0.47159  0.29656  0.28463 -0.48026  0.55959 -0.62693  0.25133]
+goal q: [ 0.48006 -0.42787  0.31008 -0.69451 -0.09766  0.66712  0.25114]
+RRT start: ConfigurationWrapper([-0.47159  0.29656  0.28463 -0.48026  0.55959 -0.62693  0.25133])
+RRT goal: ConfigurationWrapper([ 0.48006 -0.42787  0.31008 -0.69451 -0.09766  0.66712  0.25114])
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 66
+successes []
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 197
+num params: 335372
+start q: [-0.17534 -0.19196  0.39566  0.15736  0.38284  0.53281  0.7381 ]
+goal q: [-0.16733  0.4731  -0.22872  0.81381  0.40034 -0.40231  0.12481]
+RRT start: ConfigurationWrapper([-0.17534 -0.19196  0.39566  0.15736  0.38284  0.53281  0.7381 ])
+RRT goal: ConfigurationWrapper([-0.16733  0.4731  -0.22872  0.81381  0.40034 -0.40231  0.12481])
+Use RL policy to extend
+I append a  <class 'mpenv.planning.rrt_bidir.Node'>
+Use RL policy to extend
+Tree a and tree b connected
+success: True
+iterations: 0
+successes []

@@ -60,24 +60,25 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, from_file
 
     reset_kwargs = {}
 
-    # start = np.array([ 0.3631,  -0.10471,  0.40929,  0.22057,  0.89626, -0.23803,  0.30234])
-    # goal = np.array([-0.25956, -0.04894,  0.48368,  0.35592,  0.62283 , 0.45564 , 0.52707])
-    num_trails = 1
+    start = np.array([ 0.3631,  -0.10471,  0.40929,  0.22057,  0.89626, -0.23803,  0.30234])
+    goal = np.array([-0.25956, -0.04894,  0.48368,  0.35592,  0.62283 , 0.45564 , 0.52707])
+    # num_trails = 0
     # iterations_list = []
-    # o = env.reset(start=None, goal=None)
-    for _ in range(num_trails):
-        o = env.reset(start=None, goal=None)
+    o = env.reset(start=None, goal=None)
+    # for _ in range(num_trails):
+    #     o = env.reset(start=None, goal=None)
 
-        # Try to use solve RRT
-        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render], max_iterations=250)
-        # success, path, trees, iterations = env.env.env.solve_rrt(True)
+    #     # Try to use solve RRT
+    #     # success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render])
+    #     success, path, trees, iterations = env.env.env.solve_rrt(True)
 
-        print("success:", success)
-        # print("path:", path)
-        # print("path keys:", path.keys())
-        print("iterations:", iterations)
+    #     print("success:", success)
+    #     # print("path:", path)
+    #     # print("path keys:", path.keys())
+    #     if iterations > 100:
+    #         print("iterations:", iterations)
 
-        # iterations_list.append(iterations)
+    #     iterations_list.append(iterations)
     
     # print("average iterations:", np.mean(iterations_list))
 
@@ -124,9 +125,8 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, from_file
     
     # env.env.env.init_viz()
     # env.env.env.viz.display(ConfigurationWrapper(env.env.env.model_wrapper,goal))
-    # o = env.reset(start=None, goal=None)
-    # path = rollout_fn()
-    # process_path(path)
+    path = rollout_fn()
+    process_path(path)
     print("successes", successes)
     '''
     print("type of path:", type(path))
