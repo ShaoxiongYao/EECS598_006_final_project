@@ -35,8 +35,8 @@ from rlkit.samplers.rollout_functions import (
     is_flag=True,
     help="stochastic mode",
 )
-@click.option("-from_file", "--from_file", default=None, type=str, help="use cpu")
-def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, from_file):
+@click.option("-solver_type", "--solver_type", default=None, type=str, help="type of solver")
+def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_type):
     if not cpu:
         set_gpu_mode(True)
     set_seed(seed)
@@ -60,87 +60,65 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, from_file
 
     reset_kwargs = {}
 
-    # start = np.array([ 0.3631,  -0.10471,  0.40929,  0.22057,  0.89626, -0.23803,  0.30234])
-    # goal = np.array([-0.25956, -0.04894,  0.48368,  0.35592,  0.62283 , 0.45564 , 0.52707])
-    num_trails = 0
-    # iterations_list = []
-    # o = env.reset(start=None, goal=None)
-    for _ in range(num_trails):
-        o = env.reset(start=None, goal=None)
-
-        # Try to use solve RRT
-        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render], max_iterations=250)
-        # success, path, trees, iterations = env.env.env.solve_rrt(True)
-
+    o = env.reset(start=None, goal=None)
+    if solver_type == "Normal_RRT":
+        success, path, trees, iterations = env.env.env.solve_rrt(True)
+        print("SOLVER: Normal RRT")
         print("success:", success)
-        # print("path:", path)
-        # print("path keys:", path.keys())
         print("iterations:", iterations)
 
-        # iterations_list.append(iterations)
+    elif solver_type == "RL_RRT":
+        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render], max_iterations=250)
+        print("SOLVER: RL_RRT")
+        print("success:", success)
+        print("iterations:", iterations)
     
-    # print("average iterations:", np.mean(iterations_list))
+    elif solver_type == "RL":
 
+        def rollout_fn():
+            return multitask_rollout(
+                env,
+                policy,
+                horizon,
+                render,
+                observation_key="observation",
+                desired_goal_key="desired_goal",
+                representation_goal_key="representation_goal",
+                **reset_kwargs,
+                is_reset=False
+            )
 
-    def rollout_fn():
-        return multitask_rollout(
-            env,
-            policy,
-            horizon,
-            render,
-            observation_key="observation",
-            desired_goal_key="desired_goal",
-            representation_goal_key="representation_goal",
-            **reset_kwargs,
-            is_reset=False
-        )
+        returns = []
+        rewards = []
+        n_steps = []
+        lengths = []
+        successes = []
+        paths_states = []
 
-    returns = []
-    rewards = []
-    n_steps = []
-    lengths = []
-    successes = []
-    paths_states = []
-
-    def process_path(path):
-        obs = path["observations"]
-        n = obs.shape[0]
-        length = 0
-        path_states = []
-        # calculate path length
-        for i in range(n):
-            q0 = obs[i]["achieved_q"]
-            if i < n - 1:
-                q1 = obs[i + 1]["achieved_q"]
-                length += np.linalg.norm(q1 - q0)
-            path_states.append(q0[:2])
-        # append a list of states
-        paths_states.append(path_states)
-        lengths.append(length)
-        successes.append(path["env_infos"]["success"][-1])
-        rewards.append(path["rewards"])
-        returns.append(np.sum(path["rewards"]))
-        n_steps.append(len(path["rewards"]))
-    
-    # env.env.env.init_viz()
-    # env.env.env.viz.display(ConfigurationWrapper(env.env.env.model_wrapper,goal))
-    o = env.reset(start=None, goal=None)
-    path = rollout_fn()
-    process_path(path)
-    print("successes", successes)
-    '''
-    print("type of path:", type(path))
-    print("keys of path:", path.keys())
-
-    print("returns:", returns)
-    print("rewards:", rewards)
-    print("n_steps:", n_steps)
-    print("lengths:", lengths)
-    print("successes:", successes)
-    print("observation exmaple:", path["observations"][0])
-    print("terminal:", path["terminals"])
-    print("path_states:", paths_states)
-    '''
+        def process_path(path):
+            obs = path["observations"]
+            n = obs.shape[0]
+            length = 0
+            path_states = []
+            # calculate path length
+            for i in range(n):
+                q0 = obs[i]["achieved_q"]
+                if i < n - 1:
+                    q1 = obs[i + 1]["achieved_q"]
+                    length += np.linalg.norm(q1 - q0)
+                path_states.append(q0[:2])
+            # append a list of states
+            paths_states.append(path_states)
+            lengths.append(length)
+            successes.append(path["env_infos"]["success"][-1])
+            rewards.append(path["rewards"])
+            returns.append(np.sum(path["rewards"]))
+            n_steps.append(len(path["rewards"]))
+        
+        path = rollout_fn()
+        process_path(path)
+        print("SOLVER: RL")
+        print("successes", successes)
 
 if __name__ == "__main__":
     main()

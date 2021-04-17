@@ -58,7 +58,6 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 else:
                     node_a_new = Node(x_a_new, parent=nodes_ab[growing_index][-1])
                 nodes_ab[growing_index].append(node_a_new)
-                print("I append a ", type(node_a_new))
             node_a_new = nodes_ab[growing_index][-1]
             x_a_new = x_a_new_list[-1]
             # grows tree_b toward x_a_new
@@ -87,8 +86,9 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
-        # print("tree a length: ", len(nodes_ab[0]))
-        # print("tree b length: ", len(nodes_ab[1]))
+        print("iteration: ", i)
+        print("tree a length: ", len(nodes_ab[0]))
+        print("tree b length: ", len(nodes_ab[1]))
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
         elif len(nodes_ab[0]) > len(nodes_ab[1]):
