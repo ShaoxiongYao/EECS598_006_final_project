@@ -1,0 +1,820 @@
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 776
+num params: 335372
+start q: [ 0.12877 -0.31962  0.25836  0.15258 -0.01399  0.45386 -0.8778 ]
+goal q: [ 0.1395   0.1697   0.05811 -0.04616  0.57387  0.81754  0.0132 ]
+RRT start: ConfigurationWrapper([ 0.12877 -0.31962  0.25836  0.15258 -0.01399  0.45386 -0.8778 ])
+RRT goal: ConfigurationWrapper([ 0.1395   0.1697   0.05811 -0.04616  0.57387  0.81754  0.0132 ])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  14
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  94
+tree b length:  26
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  174
+tree b length:  42
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 6
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 786
+num params: 335372
+start q: [-0.38478  0.01583  0.29542 -0.39585 -0.60029  0.62553 -0.30277]
+goal q: [ 0.30372  0.25832 -0.26709 -0.69237 -0.47934  0.51914  0.14612]
+RRT start: ConfigurationWrapper([-0.38478  0.01583  0.29542 -0.39585 -0.60029  0.62553 -0.30277])
+RRT goal: ConfigurationWrapper([ 0.30372  0.25832 -0.26709 -0.69237 -0.47934  0.51914  0.14612])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  81
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  161
+tree b length:  161
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 4
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 824
+num params: 335372
+start q: [ 0.37475  0.079   -0.48715  0.2034   0.53867 -0.32933 -0.74833]
+goal q: [-0.34544  0.08948 -0.09123 -0.71172  0.22884  0.65576  0.10519]
+RRT start: ConfigurationWrapper([ 0.37475  0.079   -0.48715  0.2034   0.53867 -0.32933 -0.74833])
+RRT goal: ConfigurationWrapper([-0.34544  0.08948 -0.09123 -0.71172  0.22884  0.65576  0.10519])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  58
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  161
+tree b length:  138
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  241
+tree b length:  218
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  252
+tree b length:  298
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  4
+tree a length:  265
+tree b length:  378
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  5
+tree a length:  278
+tree b length:  388
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  6
+tree a length:  300
+tree b length:  468
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 14
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 840
+num params: 335372
+start q: [-0.29515 -0.30419  0.35188 -0.05997 -0.53399 -0.17519 -0.82496]
+goal q: [ 0.40219  0.37662  0.25016  0.7382  -0.05308  0.47037  0.48062]
+RRT start: ConfigurationWrapper([-0.29515 -0.30419  0.35188 -0.05997 -0.53399 -0.17519 -0.82496])
+RRT goal: ConfigurationWrapper([ 0.40219  0.37662  0.25016  0.7382  -0.05308  0.47037  0.48062])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 0
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 853
+num params: 335372
+start q: [ 0.18483  0.44738  0.0603  -0.51823 -0.32163 -0.66805 -0.42626]
+goal q: [ 0.38899 -0.26327  0.06036  0.18439  0.55414 -0.81086  0.03793]
+RRT start: ConfigurationWrapper([ 0.18483  0.44738  0.0603  -0.51823 -0.32163 -0.66805 -0.42626])
+RRT goal: ConfigurationWrapper([ 0.38899 -0.26327  0.06036  0.18439  0.55414 -0.81086  0.03793])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  22
+tree b length:  13
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  42
+tree b length:  42
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  50
+tree b length:  48
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  65
+tree b length:  128
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  4
+tree a length:  75
+tree b length:  137
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  5
+tree a length:  92
+tree b length:  217
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  6
+tree a length:  108
+tree b length:  232
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 14
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 857
+num params: 335372
+start q: [-0.26473 -0.4471  -0.10475 -0.32081  0.74996  0.4479   0.36609]
+goal q: [ 0.23048  0.51807  0.17081 -0.32172  0.01395  0.32339 -0.88979]
+RRT start: ConfigurationWrapper([-0.26473 -0.4471  -0.10475 -0.32081  0.74996  0.4479   0.36609])
+RRT goal: ConfigurationWrapper([ 0.23048  0.51807  0.17081 -0.32172  0.01395  0.32339 -0.88979])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  22
+tree b length:  81
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  102
+tree b length:  120
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  182
+tree b length:  132
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  262
+tree b length:  212
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 8
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 861
+num params: 335372
+start q: [-0.40683  0.01148 -0.4157   0.02707  0.49188  0.08516 -0.86606]
+goal q: [-0.34488 -0.29288  0.50685 -0.56814 -0.52668  0.02083 -0.63197]
+RRT start: ConfigurationWrapper([-0.40683  0.01148 -0.4157   0.02707  0.49188  0.08516 -0.86606])
+RRT goal: ConfigurationWrapper([-0.34488 -0.29288  0.50685 -0.56814 -0.52668  0.02083 -0.63197])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  26
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  88
+tree b length:  106
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  94
+tree b length:  116
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 6
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 866
+num params: 335372
+start q: [-0.29566 -0.28876 -0.11376 -0.38953 -0.86314  0.26098  0.18745]
+goal q: [ 0.20517 -0.53496  0.35705  0.68561 -0.02913 -0.31091 -0.65759]
+RRT start: ConfigurationWrapper([-0.29566 -0.28876 -0.11376 -0.38953 -0.86314  0.26098  0.18745])
+RRT goal: ConfigurationWrapper([ 0.20517 -0.53496  0.35705  0.68561 -0.02913 -0.31091 -0.65759])
+Use RL policy to extend
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  2
+tree b length:  14
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  82
+tree b length:  29
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  94
+tree b length:  109
+Use RL policy to extend
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  111
+tree b length:  110
+Use RL policy to extend
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 8
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 890
+num params: 335372
+start q: [ 0.36335  0.37928 -0.15605  0.19482 -0.70399 -0.31068  0.60821]
+goal q: [-0.36429  0.34502  0.31935  0.39091  0.53656  0.0349   0.74704]
+RRT start: ConfigurationWrapper([ 0.36335  0.37928 -0.15605  0.19482 -0.70399 -0.31068  0.60821])
+RRT goal: ConfigurationWrapper([-0.36429  0.34502  0.31935  0.39091  0.53656  0.0349   0.74704])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  81
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 2
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 926
+num params: 335372
+start q: [-0.19867 -0.40574 -0.35343 -0.37389  0.00445  0.8986   0.22958]
+goal q: [ 0.16915 -0.37733  0.36209  0.3915   0.89671  0.20576 -0.0171 ]
+RRT start: ConfigurationWrapper([-0.19867 -0.40574 -0.35343 -0.37389  0.00445  0.8986   0.22958])
+RRT goal: ConfigurationWrapper([ 0.16915 -0.37733  0.36209  0.3915   0.89671  0.20576 -0.0171 ])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  12
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  92
+tree b length:  27
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 4
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 930
+num params: 335372
+start q: [-0.49103  0.42037 -0.34926 -0.7944   0.44397 -0.24068 -0.33748]
+goal q: [-0.23647 -0.25792  0.3912  -0.80022  0.13802 -0.18105 -0.55482]
+RRT start: ConfigurationWrapper([-0.49103  0.42037 -0.34926 -0.7944   0.44397 -0.24068 -0.33748])
+RRT goal: ConfigurationWrapper([-0.23647 -0.25792  0.3912  -0.80022  0.13802 -0.18105 -0.55482])
+Use RL policy to extend
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  2
+tree b length:  81
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  36
+tree b length:  103
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  116
+tree b length:  125
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  196
+tree b length:  164
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 8
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 934
+num params: 335372
+start q: [ 0.23111  0.25168  0.2191  -0.93236 -0.11387 -0.30073 -0.16521]
+goal q: [-0.27054  0.43028  0.16317 -0.39719 -0.67734  0.04506 -0.6176 ]
+RRT start: ConfigurationWrapper([ 0.23111  0.25168  0.2191  -0.93236 -0.11387 -0.30073 -0.16521])
+RRT goal: ConfigurationWrapper([-0.27054  0.43028  0.16317 -0.39719 -0.67734  0.04506 -0.6176 ])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  78
+tree b length:  26
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  98
+tree b length:  106
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 4
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 938
+num params: 335372
+start q: [ 0.42201  0.38853  0.14263 -0.56569  0.81214 -0.06412  0.1277 ]
+goal q: [-0.33064  0.28027  0.08698 -0.29045  0.34433  0.73113 -0.51236]
+RRT start: ConfigurationWrapper([ 0.42201  0.38853  0.14263 -0.56569  0.81214 -0.06412  0.1277 ])
+RRT goal: ConfigurationWrapper([-0.33064  0.28027  0.08698 -0.29045  0.34433  0.73113 -0.51236])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  24
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  161
+tree b length:  104
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  241
+tree b length:  184
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  321
+tree b length:  264
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  4
+tree a length:  401
+tree b length:  344
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  5
+tree a length:  481
+tree b length:  424
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  6
+tree a length:  561
+tree b length:  504
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  7
+tree a length:  582
+tree b length:  512
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  8
+tree a length:  662
+tree b length:  512
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  9
+tree a length:  677
+tree b length:  522
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 20
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 953
+num params: 335372
+start q: [ 0.29147  0.44529  0.33932 -0.44613  0.64117 -0.30532 -0.54465]
+goal q: [ 0.14963 -0.19023  0.035   -0.19837 -0.86505 -0.2861  -0.36123]
+RRT start: ConfigurationWrapper([ 0.29147  0.44529  0.33932 -0.44613  0.64117 -0.30532 -0.54465])
+RRT goal: ConfigurationWrapper([ 0.14963 -0.19023  0.035   -0.19837 -0.86505 -0.2861  -0.36123])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  81
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  102
+tree b length:  95
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 4
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 967
+num params: 335372
+start q: [ 0.11021  0.41526  0.33818  0.25916  0.17678 -0.74121  0.59346]
+goal q: [-0.39693 -0.17275  0.26705  0.11872  0.62266  0.69549  0.33836]
+RRT start: ConfigurationWrapper([ 0.11021  0.41526  0.33818  0.25916  0.17678 -0.74121  0.59346])
+RRT goal: ConfigurationWrapper([-0.39693 -0.17275  0.26705  0.11872  0.62266  0.69549  0.33836])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  21
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  101
+tree b length:  101
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  181
+tree b length:  181
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  196
+tree b length:  193
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  4
+tree a length:  276
+tree b length:  273
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  5
+tree a length:  356
+tree b length:  353
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 12
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 979
+num params: 335372
+start q: [ 0.29023  0.38632 -0.30707  0.4277  -0.36424 -0.70207 -0.43761]
+goal q: [-0.26827 -0.44523 -0.31279  0.01978  0.46864  0.54857 -0.69214]
+RRT start: ConfigurationWrapper([ 0.29023  0.38632 -0.30707  0.4277  -0.36424 -0.70207 -0.43761])
+RRT goal: ConfigurationWrapper([-0.26827 -0.44523 -0.31279  0.01978  0.46864  0.54857 -0.69214])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 0
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 983
+num params: 335372
+start q: [ 0.12427  0.22205 -0.31943  0.32716  0.65273  0.67793  0.08554]
+goal q: [-0.2354  -0.20375  0.04415 -0.38533 -0.03529  0.65399 -0.65006]
+RRT start: ConfigurationWrapper([ 0.12427  0.22205 -0.31943  0.32716  0.65273  0.67793  0.08554])
+RRT goal: ConfigurationWrapper([-0.2354  -0.20375  0.04415 -0.38533 -0.03529  0.65399 -0.65006])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  81
+tree b length:  9
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  1
+tree a length:  161
+tree b length:  89
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  2
+tree a length:  184
+tree b length:  132
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  3
+tree a length:  264
+tree b length:  212
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  4
+tree a length:  344
+tree b length:  233
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  5
+tree a length:  394
+tree b length:  313
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  6
+tree a length:  474
+tree b length:  325
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  7
+tree a length:  515
+tree b length:  405
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  8
+tree a length:  522
+tree b length:  420
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  9
+tree a length:  536
+tree b length:  500
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  10
+tree a length:  616
+tree b length:  521
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  11
+tree a length:  696
+tree b length:  601
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  12
+tree a length:  776
+tree b length:  680
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  13
+tree a length:  782
+tree b length:  760
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  14
+tree a length:  790
+tree b length:  784
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  15
+tree a length:  793
+tree b length:  864
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 32
+No personal conf_private.py found.
+doodad not detected
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 998
+num params: 335372
+start q: [ 0.50326 -0.03478  0.14516  0.11585  0.37635 -0.84269  0.36716]
+goal q: [ 0.16864 -0.37882  0.46155 -0.85065  0.03843  0.06998  0.51963]
+RRT start: ConfigurationWrapper([ 0.50326 -0.03478  0.14516  0.11585  0.37635 -0.84269  0.36716])
+RRT goal: ConfigurationWrapper([ 0.16864 -0.37882  0.46155 -0.85065  0.03843  0.06998  0.51963])
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+stop policy run
+iteration:  0
+tree a length:  12
+tree b length:  16
+Use RL policy to extend
+stop policy run
+Use RL policy to extend
+Tree a and tree b connected
+SOLVER: RL_RRT
+success: True
+iterations: 2
