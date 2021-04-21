@@ -170,3 +170,7 @@ Draw edge:
     previous_ee = env.env.env.robot.get_ee(previous_oMg).translation
     current_ee = env.env.env.robot.get_ee(current_oMg).translation
     env.env.env.viz.add_edge_to_roadmap("path", previous_ee, current_ee) # path is the node name, which can be modified
+  
+## Evaluation metric
+
+Time, success rate, path quality
