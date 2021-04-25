@@ -1,0 +1,60 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 55
+horizon:  5
+cpu:  True
+start q: [-0.3696  -0.39236 -0.36651 -0.03316 -0.41749 -0.59202 -0.68856]
+goal q: [ 0.03991  0.32002  0.47866  0.52972 -0.68437  0.4689  -0.17654]
+SOLVER: RL_RRT
+success:  True
+length:  0.18903562307133798
+time spent:  20.59109878540039
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 82
+horizon:  5
+cpu:  True
+start q: [ 0.0615  -0.43599  0.07994 -0.91738 -0.22624  0.20468  0.25559]
+goal q: [-0.31726  0.01082 -0.16409  0.1446   0.44215  0.77101  0.4349 ]
+SOLVER: RL_RRT
+success:  True
+length:  0.20478755857780295
+time spent:  36.98744869232178
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 88
+horizon:  5
+cpu:  True
+start q: [-0.11046  0.47664 -0.21952 -0.8007  -0.21836 -0.51978 -0.20256]
+goal q: [-0.18973  0.47758 -0.37761 -0.54529 -0.10745  0.81888 -0.14333]
+SOLVER: RL_RRT
+success:  True
+length:  0.195423175147864
+time spent:  4.12524676322937
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+horizon:  5
+cpu:  True
+start q: [ 0.3631  -0.10471  0.40929  0.22057  0.89626 -0.23803  0.30234]
+goal q: [-0.25956 -0.04894  0.48368  0.35592  0.62283  0.45564  0.52707]
+SOLVER: RL_RRT
+success:  True
+length:  0.19140658304678587
+time spent:  4.8734869956970215
+-------- stop running --------
