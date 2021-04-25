@@ -10,7 +10,7 @@
 HORIZON=5
 LOG_DIR=/home/yixuan/sshape_boxes/seed0
 # LOG_DIR=log_dir
-SOLVER_TYPE=RL_RRT
+SOLVER_TYPE=Normal_RRT
 
 # NMP Failure cases
 
