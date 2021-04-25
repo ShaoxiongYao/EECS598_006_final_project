@@ -52,7 +52,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         policy_env, policy, horizon, render = None, None, None, None
         if not nmp_input == None:
             policy_env, policy, horizon, render = nmp_input
-            print("Use RL policy to extend")
+            # print("Use RL policy to extend")
 
         if limit_growth:
             dist = distance_fn(q0, q1)

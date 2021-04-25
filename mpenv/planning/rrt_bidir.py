@@ -27,8 +27,8 @@ def nearest_neighbor(x, nodes, distance_fn):
 
 
 def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations):
-    print("RRT start:", start)
-    print("RRT goal:", goal)
+    # print("RRT start:", start)
+    # print("RRT goal:", goal)
 
     nodes_ab = [[], []]
     for i, x in enumerate((start, goal)):
@@ -78,7 +78,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             x_b_new = x_b_new_list[-1]
             # if the two trees are connected, stop the algorithm
             if close_fn(x_a_new, x_b_new):
-                print("Tree a and tree b connected")
+                # print("Tree a and tree b connected")
                 if growing_index == 1:
                     node_a_new, node_b_new = node_b_new, node_a_new
                 seq_start_a = node_a_new.path_from_root()
@@ -86,9 +86,9 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
-        print("iteration: ", i)
-        print("tree a length: ", len(nodes_ab[0]))
-        print("tree b length: ", len(nodes_ab[1]))
+        # print("iteration: ", i)
+        # print("tree a length: ", len(nodes_ab[0]))
+        # print("tree b length: ", len(nodes_ab[1]))
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
         elif len(nodes_ab[0]) > len(nodes_ab[1]):
