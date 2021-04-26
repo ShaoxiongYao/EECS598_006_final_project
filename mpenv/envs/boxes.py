@@ -23,9 +23,9 @@ class Boxes(Base):
         robot_name,
         has_boxes,
         cube_bounds=True,
-        # obstacles_type="boxes",
+        obstacles_type="boxes",
         # obstacles_type="shapes",
-        obstacles_type="ycb",
+        # obstacles_type="ycb",
         dynamic_obstacles=False,
     ):
         super().__init__(robot_name)
@@ -46,7 +46,7 @@ class Boxes(Base):
         self.normalizer_global = {"mean": 0, "std": 0.5}
 
     def _set_obstacles_props(self):
-        bound_range = 1.0
+        bound_range = 0.6
         if self.robot_name == "s_shape":
             self.freeflyer_bounds = np.array(
                 [
@@ -95,7 +95,7 @@ class Boxes(Base):
         if not self.has_boxes:
             return Geometries()
         
-        min_num_obs, max_num_obs = 15, 20
+        min_num_obs, max_num_obs = 3, 10
         # boxes
         if self.n_obstacles is None:
             n_obstacles = self._np_random.randint(min_num_obs, max_num_obs)
