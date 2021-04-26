@@ -189,3 +189,15 @@ mpenv/envs/boxes.py line 49:
 mpenv/envs/boxes.py line 98: 
 
     min_num_obs, max_num_obs = 15, 20
+  
+Use handcraft narrow environment:
+
+    Function generate_geom_objs, set parameter handcraft=True
+
+Example seed: 10
+
+Choose one set of parameters from 2, in function 
+
+    add_handcraft_obs, set parameters set 1 or parameter set 2
+    decide variable translation_matrix and obst_size_matrix 
+
