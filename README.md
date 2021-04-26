@@ -174,3 +174,18 @@ Draw edge:
 ## Evaluation metric
 
 Time, success rate, path quality
+
+## Environment parameters
+mpenv/envs/boxes.py line 26-28: 
+    
+    obstacles_type="boxes" or "shapes" "ycb"
+
+`YCB` models are stored in `mpenv/assets/ycb_data`
+
+mpenv/envs/boxes.py line 49: 
+
+    bound_range = 1.0
+
+mpenv/envs/boxes.py line 98: 
+
+    min_num_obs, max_num_obs = 15, 20

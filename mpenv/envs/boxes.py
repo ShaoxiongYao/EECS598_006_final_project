@@ -23,7 +23,9 @@ class Boxes(Base):
         robot_name,
         has_boxes,
         cube_bounds=True,
-        obstacles_type="boxes",
+        # obstacles_type="boxes",
+        # obstacles_type="shapes",
+        obstacles_type="ycb",
         dynamic_obstacles=False,
     ):
         super().__init__(robot_name)
@@ -44,15 +46,17 @@ class Boxes(Base):
         self.normalizer_global = {"mean": 0, "std": 0.5}
 
     def _set_obstacles_props(self):
+        bound_range = 1.0
         if self.robot_name == "s_shape":
             self.freeflyer_bounds = np.array(
                 [
-                    [-0.6, -0.6, -0.6, -np.inf, -np.inf, -np.inf, -np.inf],
-                    [0.6, 0.6, 0.6, np.inf, np.inf, np.inf, np.inf],
+                    [-bound_range, -bound_range, -bound_range, -np.inf, -np.inf, -np.inf, -np.inf],
+                    [bound_range, bound_range, bound_range, np.inf, np.inf, np.inf, np.inf],
                 ]
             )
         else:
-            self.freeflyer_bounds = np.array([[-0.6, -0.6, -0.6], [0.6, 0.6, 0.6]])
+            self.freeflyer_bounds = np.array([[-bound_range, -bound_range, -bound_range], 
+                                              [bound_range, bound_range, bound_range]])
 
         # constrain box xyz position to not be on boundary to get a denser obstacle set
         self.center_bounds = self.freeflyer_bounds[:, :3].copy()
@@ -90,10 +94,11 @@ class Boxes(Base):
     def get_obstacles_geoms(self):
         if not self.has_boxes:
             return Geometries()
-
+        
+        min_num_obs, max_num_obs = 15, 20
         # boxes
         if self.n_obstacles is None:
-            n_obstacles = self._np_random.randint(3, 10)
+            n_obstacles = self._np_random.randint(min_num_obs, max_num_obs)
         else:
             n_obstacles = self.n_obstacles
 
@@ -152,8 +157,10 @@ def sample_geom(np_random, obst_type, size, index=None):
             # geom = hppfcl.Cone(size[0] * 1.5, 3 * size[1])
             geom = hppfcl.Capsule(size[0], 2 * size[1])
     elif obst_type == "ycb":
-        dataset_path = "YCB_PATH"
-        files = os.listdir(dataset_path)
+        # dataset_path = "YCB_PATH"
+        current_dir = os.path.dirname(__file__)
+        dataset_path = "../assets/ycb_data"
+        files = os.listdir(os.path.realpath(os.path.join(current_dir, dataset_path)))
         idx = np.random.randint(len(files))
         path = os.path.join(dataset_path, files[idx])
         scale = 3.5 * np.ones(3)

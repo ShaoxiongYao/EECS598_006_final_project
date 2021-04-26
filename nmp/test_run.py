@@ -138,7 +138,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
         process_path(path)
         print("SOLVER: RL")
         print("successes", successes)
-        print("length: ", length)
+        print("length: ", lengths)
 
     stop_t = time.time()
     print("time spent: ", stop_t - begin_t)
