@@ -178,6 +178,7 @@ def generate_geom_objs(
     dynamic_obstacles,
     obstacles_color,
     obstacles_alpha,
+    handcraft=False
 ):
     colors = np_random.uniform(0, 1, (n_obstacles, 4))
     colors[:, 3] = obstacles_alpha
@@ -188,14 +189,21 @@ def generate_geom_objs(
     placement_tuple = []
     # obstacles
     for i in range(n_obstacles):
-        rand_se3_init, obst_size = sample_box_parameters(
-            np_random, center_bounds, size_bounds
-        )
-        rand_se3_target, obst_size = sample_box_parameters(
-            np_random, center_bounds, size_bounds
-        )
+        if not handcraft:
+            rand_se3_init, obst_size = sample_box_parameters(
+                np_random, center_bounds, size_bounds
+            )
+        else:
+            rand_se3_init, obst_size = add_handcraft_obs(i)
+        
+        if not handcraft:
+            rand_se3_target, obst_size = sample_box_parameters(
+                np_random, center_bounds, size_bounds
+            )
+        else:
+            rand_se3_target, obst_size = add_handcraft_obs(i)
+
         placement_tuple.append((rand_se3_init, rand_se3_target))
-        # rand_se3.rotation = np.eye(3)
         geom, path, scale = sample_geom(np_random, obstacles_type, obst_size, i)
         mesh = Mesh(
             name=name.format(i),
@@ -212,6 +220,28 @@ def generate_geom_objs(
         geom_objs += geom_objs_bounds
     return geom_objs, placement_tuple
 
+def add_handcraft_obs(idx):
+
+    # parameter set 1
+    translation_matrix = np.array([[0.3, -0.3, 0], [-0.3, -0.3, 0], [0, 0.3, 0], 
+                                   [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+    obst_size_matrix = np.array([[0.35, 0.5, 0.1], [0.35, 0.5, 0.1], [0.05, 0.5, 0.1], 
+                                 [0.2, 0.5, 0.1], [0.2, 0.5, 0.1]])
+
+    # parameter set 2
+    # translation_matrix = np.array([[0.35, 0, 0], [-0.35, 0, 0]])
+    # obst_size_matrix = np.array([[0.45, 1.2, 0.1], [0.45, 1.2, 0.1]])
+
+    se3 = pin.SE3.Identity()
+    se3.rotation = np.eye(3)
+    if idx < translation_matrix.shape[0]:
+        se3.translation = translation_matrix[idx, :]
+        obst_size = obst_size_matrix[idx, :]
+    else:
+        se3.translation = translation_matrix[0, :]
+        obst_size = obst_size_matrix[0, :]
+
+    return se3, obst_size
 
 def obstacles_to_surface_pcd(geoms, n_pts, bounds):
     points, normals = geoms.compute_surface_pcd(n_pts)
