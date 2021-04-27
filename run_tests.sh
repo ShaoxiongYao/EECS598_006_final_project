@@ -15,7 +15,7 @@ SOLVER_TYPE=RL_RRT
 
 # for SEED in {866..1000}
 
-for HORIZON in $(seq 20 5 81)
+for HORIZON in $(seq 5 5 81)
 do
 FILENAME=test_output/$(whoami)_$(date +%y_%m_%d_%H_%M_%S)_horizon_${HORIZON}_solver_${SOLVER_TYPE}_cpu_True
 touch $FILENAME

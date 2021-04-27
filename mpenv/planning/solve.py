@@ -66,7 +66,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                 policy_env,
                 policy,
                 horizon,  # max length in one step
-                render,
+                # render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
@@ -85,7 +85,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             # visualization
             # print("before viz")
             # input()
-            env.render()
+            # env.render()
 
             previous_oMg = q0.q_oM[2]
             current_oMg = q_stop.q_oM[2]
@@ -129,14 +129,14 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             else:
                 q_stop_list.append(q_stop)
                 # visualization
-                env.render()
+                # env.render()
                 
-                previous_oMg = q0.q_oM[2]
-                current_oMg = q_stop.q_oM[2]
-                previous_ee = env.robot.get_ee(previous_oMg).translation
-                current_ee = env.robot.get_ee(current_oMg).translation
+                # previous_oMg = q0.q_oM[2]
+                # current_oMg = q_stop.q_oM[2]
+                # previous_ee = env.robot.get_ee(previous_oMg).translation
+                # current_ee = env.robot.get_ee(current_oMg).translation
                 # path is the node name, which can be modified
-                env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+                # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
                 return q_stop_list, not collide.any()
 
     def expand_fn_short(q0, q1, limit_growth=False):
