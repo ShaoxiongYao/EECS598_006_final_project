@@ -201,3 +201,20 @@ Choose one set of parameters from 2, in function
     add_handcraft_obs, set parameters set 1 or parameter set 2
     decide variable translation_matrix and obst_size_matrix 
 
+## Change sampling function
+
+In `solve.py`, 
+
+    def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full"):
+
+Change parameter sampler:
+
+    if sampler == "Full":
+        sample_fn = sample_full_fn
+    elif sampler == "Free":
+        sample_fn = sample_free_fn
+    elif sampler == "Bridge":
+        sample_fn = sample_bridge_fn
+    elif sampler == "NearSurface":
+        sample_fn = sample_near_surface_fn
+
