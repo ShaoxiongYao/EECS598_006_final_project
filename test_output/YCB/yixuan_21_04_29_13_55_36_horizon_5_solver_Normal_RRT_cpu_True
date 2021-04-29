@@ -1,0 +1,1824 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon:  5
+cpu:  True
+start q: [ 0.10888  0.08015 -0.39861 -0.65015 -0.14125 -0.2323   0.7095 ]
+goal q: [-0.10963  0.39876  0.00306 -0.72607  0.36307  0.2757  -0.51477]
+SOLVER: Normal RRT
+success:  True
+length:  5.550362688959624
+time spent:  5.4057886600494385
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon:  5
+cpu:  True
+start q: [-0.21576  0.27959 -0.37525  0.18282  0.48123  0.81607  0.26272]
+goal q: [-0.06447  0.23259  0.35813  0.14693  0.08348 -0.9234  -0.34465]
+SOLVER: Normal RRT
+success:  True
+length:  5.007905358802877
+time spent:  3.1671860218048096
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 27
+horizon:  5
+cpu:  True
+start q: [0.06626 0.27    0.31057 0.85095 0.15158 0.17694 0.47074]
+goal q: [-0.44773  0.24362 -0.00694 -0.64299 -0.71784  0.26697  0.00302]
+SOLVER: Normal RRT
+success:  True
+length:  5.700349941174162
+time spent:  3.025303602218628
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 36
+horizon:  5
+cpu:  True
+start q: [ 0.31598 -0.32231 -0.04831 -0.80887 -0.01839 -0.38892 -0.44061]
+goal q: [-0.41115  0.06229  0.24224  0.46644  0.38476 -0.50207  0.61832]
+SOLVER: Normal RRT
+success:  True
+length:  7.976269390186582
+time spent:  6.428199291229248
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 42
+horizon:  5
+cpu:  True
+start q: [-0.39726  0.07602  0.33499 -0.71933 -0.23325 -0.65098  0.06627]
+goal q: [ 0.21078  0.41788 -0.43728 -0.61357  0.62505 -0.47911 -0.05746]
+SOLVER: Normal RRT
+success:  True
+length:  3.3788884875731333
+time spent:  2.6388585567474365
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 58
+horizon:  5
+cpu:  True
+start q: [-0.12329 -0.47518 -0.22774  0.57015  0.38164  0.43433 -0.58364]
+goal q: [-0.24718  0.36563 -0.06147  0.48519  0.55337 -0.34996  0.57957]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 61
+horizon:  5
+cpu:  True
+start q: [-0.03523  0.31727  0.14568 -0.59604 -0.66404  0.44307  0.08644]
+goal q: [ 0.06361  0.07518 -0.25502 -0.33092 -0.36404 -0.57159 -0.65669]
+SOLVER: Normal RRT
+success:  True
+length:  2.456943448902926
+time spent:  2.762241840362549
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 68
+horizon:  5
+cpu:  True
+start q: [-0.16253  0.42022 -0.16265 -0.54397  0.09263 -0.7769  -0.30323]
+goal q: [ 0.326   -0.40128 -0.12975 -0.00733 -0.81401 -0.43494 -0.38492]
+SOLVER: Normal RRT
+success:  True
+length:  9.037417692111303
+time spent:  4.265662670135498
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 72
+horizon:  5
+cpu:  True
+start q: [-0.45787 -0.37014 -0.05649  0.93225 -0.29197 -0.17599 -0.12121]
+goal q: [ 0.32908  0.46838 -0.23279 -0.79711 -0.12913  0.1335  -0.57456]
+SOLVER: Normal RRT
+success:  True
+length:  9.472748339859638
+time spent:  3.8891212940216064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 76
+horizon:  5
+cpu:  True
+start q: [ 0.40788  0.26759 -0.25466 -0.89533  0.44372  0.03724 -0.01073]
+goal q: [-0.21623  0.43283  0.00688 -0.34891 -0.4645   0.04979 -0.81242]
+SOLVER: Normal RRT
+success:  True
+length:  3.798947166262555
+time spent:  2.2191083431243896
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 77
+horizon:  5
+cpu:  True
+start q: [ 0.36054  0.31132  0.2064  -0.45999 -0.75666 -0.45222  0.10664]
+goal q: [-0.12509  0.16839 -0.15716 -0.01599  0.95595  0.2931   0.00043]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon:  5
+cpu:  True
+start q: [ 0.30602 -0.21366 -0.29265 -0.05836  0.85214 -0.51984  0.01467]
+goal q: [-0.4573   0.13625  0.11444 -0.7259   0.1357  -0.67304 -0.0408 ]
+SOLVER: Normal RRT
+success:  True
+length:  5.28530454591737
+time spent:  3.3699917793273926
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 91
+horizon:  5
+cpu:  True
+start q: [ 0.05296 -0.21463 -0.3527  -0.75448  0.64081 -0.07268  0.12179]
+goal q: [ 0.03736  0.00854 -0.12011  0.10339 -0.40495 -0.41817 -0.80651]
+SOLVER: Normal RRT
+success:  True
+length:  3.429236755252431
+time spent:  5.215906381607056
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+horizon:  5
+cpu:  True
+start q: [ 0.3631  -0.10471  0.40929  0.22057  0.89626 -0.23803  0.30234]
+goal q: [-0.25956 -0.04894  0.48368  0.35592  0.62283  0.45564  0.52707]
+SOLVER: Normal RRT
+success:  True
+length:  5.536310607660401
+time spent:  2.8207991123199463
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 105
+horizon:  5
+cpu:  True
+start q: [-0.37686  0.3512  -0.28883  0.48752 -0.61268 -0.41957 -0.45924]
+goal q: [-0.02514 -0.30615  0.23891  0.58058 -0.67261 -0.24344  0.38891]
+SOLVER: Normal RRT
+success:  True
+length:  5.85206498094296
+time spent:  4.206131219863892
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 107
+horizon:  5
+cpu:  True
+start q: [-0.35884  0.45784  0.38498  0.62038 -0.30574  0.06792  0.71905]
+goal q: [-0.35298 -0.4981   0.31722  0.62676 -0.19914  0.03692 -0.75243]
+SOLVER: Normal RRT
+success:  True
+length:  2.897672548679506
+time spent:  5.442628383636475
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 114
+horizon:  5
+cpu:  True
+start q: [-0.20251  0.499   -0.04029  0.82976  0.0114   0.34716  0.43687]
+goal q: [-0.40126  0.18748  0.21089  0.08431  0.26778  0.58465 -0.76116]
+SOLVER: Normal RRT
+success:  True
+length:  2.7815250900452178
+time spent:  6.127793550491333
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 127
+horizon:  5
+cpu:  True
+start q: [-0.46478 -0.42385  0.05955  0.08035  0.75723  0.34475  0.5489 ]
+goal q: [ 0.1855  -0.23585 -0.48023  0.3526   0.18831  0.48318  0.77894]
+SOLVER: Normal RRT
+success:  True
+length:  7.921965348596768
+time spent:  5.927446126937866
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 129
+horizon:  5
+cpu:  True
+start q: [ 0.35192 -0.31495 -0.22086  0.40787 -0.51435 -0.10745 -0.74668]
+goal q: [-0.10632  0.4833   0.22115 -0.00217  0.41889 -0.45714  0.78457]
+SOLVER: Normal RRT
+success:  True
+length:  4.100700401191867
+time spent:  2.069939136505127
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 141
+horizon:  5
+cpu:  True
+start q: [ 0.39997  0.20493 -0.2714  -0.25296 -0.25681  0.66271  0.65641]
+goal q: [ 0.4818   0.10679  0.22007  0.23085  0.72932 -0.41505 -0.49247]
+SOLVER: Normal RRT
+success:  True
+length:  8.243993470351734
+time spent:  3.951479196548462
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 145
+horizon:  5
+cpu:  True
+start q: [ 0.08837  0.42793 -0.17728 -0.09709  0.56764 -0.69747 -0.42648]
+goal q: [-0.1405  -0.48802 -0.39377 -0.39376 -0.63452 -0.20602  0.63237]
+SOLVER: Normal RRT
+success:  True
+length:  4.8759318305739
+time spent:  3.855315685272217
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 147
+horizon:  5
+cpu:  True
+start q: [-0.33556  0.46133  0.25431 -0.05214 -0.16966 -0.98411  0.00433]
+goal q: [ 0.45325 -0.03308 -0.2433  -0.38033 -0.91403  0.11427 -0.08271]
+SOLVER: Normal RRT
+success:  True
+length:  5.413453859684818
+time spent:  7.561713695526123
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 152
+horizon:  5
+cpu:  True
+start q: [-0.30522  0.33937 -0.13502  0.23218 -0.05705  0.74246  0.62578]
+goal q: [-0.16157  0.03553  0.18006 -0.14675  0.22662 -0.51584  0.81303]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 178
+horizon:  5
+cpu:  True
+start q: [-0.0769  -0.43134 -0.16271  0.91132 -0.1399   0.12546 -0.36631]
+goal q: [-0.13159  0.27199  0.06488 -0.23923  0.55914  0.44341  0.65842]
+SOLVER: Normal RRT
+success:  True
+length:  7.869532428320645
+time spent:  2.8581652641296387
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 179
+horizon:  5
+cpu:  True
+start q: [-0.36795 -0.48768 -0.06948 -0.75659 -0.19307 -0.62296 -0.04706]
+goal q: [-0.44783  0.27556  0.01863  0.75779 -0.46179 -0.26863 -0.37462]
+SOLVER: Normal RRT
+success:  True
+length:  9.428618170454245
+time spent:  3.3509631156921387
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 188
+horizon:  5
+cpu:  True
+start q: [ 0.13805 -0.34209  0.43391  0.33062 -0.04682 -0.90633 -0.25898]
+goal q: [ 0.30813  0.23919  0.34236  0.23024 -0.45623 -0.72073 -0.4684 ]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 192
+horizon:  5
+cpu:  True
+start q: [ 0.24408  0.20329  0.16657  0.7065   0.20231 -0.15964 -0.65913]
+goal q: [-0.39447 -0.11411  0.21498 -0.42875 -0.32959 -0.83753  0.0781 ]
+SOLVER: Normal RRT
+success:  True
+length:  5.804533466167606
+time spent:  4.5438621044158936
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 196
+horizon:  5
+cpu:  True
+start q: [ 0.12599  0.27324  0.04193  0.40084  0.32162 -0.04144  0.85684]
+goal q: [ 0.46933 -0.37804 -0.38369  0.22028  0.91017 -0.09914 -0.33651]
+SOLVER: Normal RRT
+success:  True
+length:  6.295317076443767
+time spent:  8.620600938796997
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 204
+horizon:  5
+cpu:  True
+start q: [ 0.12307  0.27185 -0.22261 -0.32083 -0.90384  0.25761 -0.11739]
+goal q: [ 0.24036 -0.35305  0.3728   0.18922 -0.18382  0.49426 -0.82832]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 206
+horizon:  5
+cpu:  True
+start q: [ 0.41513 -0.0631   0.07542  0.19569  0.60205  0.00766 -0.77407]
+goal q: [-0.10001  0.14282 -0.476    0.24188  0.55769 -0.32582 -0.72409]
+SOLVER: Normal RRT
+success:  True
+length:  7.080971309337377
+time spent:  6.573554039001465
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 220
+horizon:  5
+cpu:  True
+start q: [ 0.17508 -0.1273  -0.20213  0.32937  0.93252  0.06339  0.1338 ]
+goal q: [0.30114 0.31024 0.0674  0.86952 0.35966 0.21386 0.26238]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 223
+horizon:  5
+cpu:  True
+start q: [ 0.20791 -0.45444 -0.35884 -0.30725  0.34899 -0.23686 -0.85306]
+goal q: [-0.10905  0.39355  0.25459  0.62401  0.43032 -0.65185  0.02296]
+SOLVER: Normal RRT
+success:  True
+length:  3.5468764608626113
+time spent:  1.6540088653564453
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 240
+horizon:  5
+cpu:  True
+start q: [-0.01562 -0.11118 -0.27874  0.09637 -0.89095  0.12674 -0.42528]
+goal q: [ 0.24035  0.18481  0.37323  0.05757 -0.67684 -0.60769 -0.41144]
+SOLVER: Normal RRT
+success:  True
+length:  7.922219391208322
+time spent:  2.2883315086364746
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 263
+horizon:  5
+cpu:  True
+start q: [-0.25192  0.30963  0.37024  0.63772  0.27651  0.52564 -0.49047]
+goal q: [-0.30136 -0.12716 -0.364    0.66587 -0.32681  0.56708 -0.35808]
+SOLVER: Normal RRT
+success:  True
+length:  3.995393524932896
+time spent:  3.031562089920044
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 266
+horizon:  5
+cpu:  True
+start q: [ 0.07195  0.04797  0.08112 -0.53762  0.46125 -0.60897  0.3569 ]
+goal q: [ 0.10451 -0.28353  0.21846  0.53618  0.79956 -0.2696  -0.02277]
+SOLVER: Normal RRT
+success:  True
+length:  4.252870644589703
+time spent:  3.842885971069336
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 271
+horizon:  5
+cpu:  True
+start q: [ 0.35731  0.34175 -0.09738  0.24381  0.37562  0.58369 -0.67733]
+goal q: [-0.38085  0.16989  0.31652  0.77465 -0.24621  0.13408  0.56686]
+SOLVER: Normal RRT
+success:  True
+length:  3.2516446259787615
+time spent:  1.8249199390411377
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 284
+horizon:  5
+cpu:  True
+start q: [-0.45709 -0.09119 -0.37914 -0.47233 -0.0211  -0.55108 -0.68759]
+goal q: [ 0.18231  0.24051  0.42782 -0.59417  0.56118 -0.56876  0.09243]
+SOLVER: Normal RRT
+success:  True
+length:  4.118566032192562
+time spent:  8.096951723098755
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 291
+horizon:  5
+cpu:  True
+start q: [-0.35817 -0.37161 -0.45843  0.2949  -0.63646 -0.58984 -0.40005]
+goal q: [-0.36623  0.28529 -0.23619 -0.53521 -0.19856  0.33481 -0.74968]
+SOLVER: Normal RRT
+success:  True
+length:  4.209983085541937
+time spent:  3.8353750705718994
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 293
+horizon:  5
+cpu:  True
+start q: [-0.23936  0.348    0.49587  0.96465  0.07153 -0.25001 -0.04269]
+goal q: [-0.08943 -0.49648 -0.13821 -0.29079  0.63416  0.27632  0.66101]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 298
+horizon:  5
+cpu:  True
+start q: [-0.40817 -0.30783 -0.06698 -0.33303 -0.63482 -0.44367  0.53782]
+goal q: [ 0.49758  0.43112  0.44511  0.70435  0.61834 -0.34799 -0.02128]
+SOLVER: Normal RRT
+success:  True
+length:  5.2654002558224455
+time spent:  4.685150861740112
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 301
+horizon:  5
+cpu:  True
+start q: [-0.43612  0.32302  0.15649  0.66405  0.1867  -0.69806  0.19208]
+goal q: [ 0.22157 -0.15096 -0.06304  0.63332  0.34943 -0.60072  0.34048]
+SOLVER: Normal RRT
+success:  True
+length:  3.882116205929743
+time spent:  3.218761920928955
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 306
+horizon:  5
+cpu:  True
+start q: [ 0.41456  0.24403  0.17326  0.14918  0.60436  0.29492 -0.72493]
+goal q: [-0.49795  0.38744  0.03415 -0.60814  0.40508 -0.5309   0.42922]
+SOLVER: Normal RRT
+success:  True
+length:  4.884222061429881
+time spent:  1.2398197650909424
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 322
+horizon:  5
+cpu:  True
+start q: [ 0.26758  0.10249 -0.33766  0.71429 -0.00651  0.19073  0.67332]
+goal q: [ 0.31285  0.43806  0.4216   0.82108 -0.17189 -0.10587 -0.53393]
+SOLVER: Normal RRT
+success:  True
+length:  4.704790348637015
+time spent:  3.593714952468872
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 326
+horizon:  5
+cpu:  True
+start q: [ 0.0483   0.36828 -0.05167  0.52579  0.35144  0.37989 -0.67507]
+goal q: [ 0.16213 -0.49408  0.27727  0.85781 -0.22564 -0.28231 -0.36543]
+SOLVER: Normal RRT
+success:  True
+length:  5.700742304868708
+time spent:  2.213690996170044
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 345
+horizon:  5
+cpu:  True
+start q: [-0.19634 -0.21801 -0.15768  0.0317   0.79634  0.06234  0.60079]
+goal q: [-0.04149  0.39652  0.25789 -0.58572 -0.41949  0.08353 -0.68846]
+SOLVER: Normal RRT
+success:  True
+length:  4.025500855236026
+time spent:  5.811250925064087
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 349
+horizon:  5
+cpu:  True
+start q: [-0.37612  0.46229  0.07742 -0.30883  0.51198  0.00131 -0.80156]
+goal q: [-0.10361 -0.17265 -0.03151  0.0669  -0.48957 -0.75587  0.42955]
+SOLVER: Normal RRT
+success:  True
+length:  4.936376961114795
+time spent:  4.1479761600494385
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 358
+horizon:  5
+cpu:  True
+start q: [-0.47387 -0.02632  0.21202 -0.67237 -0.57881  0.459    0.04714]
+goal q: [ 0.09737  0.47459 -0.30257 -0.67257 -0.51581  0.52993  0.02778]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 363
+horizon:  5
+cpu:  True
+start q: [0.10704 0.42348 0.35832 0.83091 0.10212 0.33901 0.42922]
+goal q: [ 0.08195 -0.26969  0.3777  -0.49024  0.43369 -0.72368 -0.21877]
+SOLVER: Normal RRT
+success:  True
+length:  4.2609277018431415
+time spent:  4.66775369644165
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 367
+horizon:  5
+cpu:  True
+start q: [-0.31161  0.16771 -0.48396  0.08481 -0.03128  0.96158 -0.25921]
+goal q: [ 0.27095 -0.46598  0.4988   0.40979 -0.8863  -0.19229  0.09785]
+SOLVER: Normal RRT
+success:  True
+length:  8.7640065152021
+time spent:  7.220880031585693
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 375
+horizon:  5
+cpu:  True
+start q: [ 0.00642 -0.29151 -0.46766  0.16913  0.46215  0.00872 -0.87048]
+goal q: [-0.05196  0.14051  0.48328 -0.36607 -0.92445 -0.08012  0.07044]
+SOLVER: Normal RRT
+success:  True
+length:  5.396860099517874
+time spent:  4.307389497756958
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 393
+horizon:  5
+cpu:  True
+start q: [-0.15105 -0.31624  0.09393 -0.22268  0.22135 -0.78072 -0.54027]
+goal q: [ 0.08079 -0.08552 -0.15014  0.78887  0.14638  0.35239  0.48175]
+SOLVER: Normal RRT
+success:  True
+length:  3.382815676886535
+time spent:  4.813726186752319
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 400
+horizon:  5
+cpu:  True
+start q: [-0.11393 -0.49396 -0.1384   0.97306  0.21042  0.09421 -0.00147]
+goal q: [-0.23178  0.31136  0.27639  0.52879 -0.24307  0.81208  0.04265]
+SOLVER: Normal RRT
+success:  True
+length:  2.8128424314268723
+time spent:  2.113614797592163
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 429
+horizon:  5
+cpu:  True
+start q: [-0.04225  0.32634 -0.30392 -0.03983  0.07815  0.94519 -0.31451]
+goal q: [-0.04078  0.23425 -0.30801 -0.11627  0.15573 -0.918    0.34571]
+SOLVER: Normal RRT
+success:  True
+length:  2.262081908178125
+time spent:  3.4322638511657715
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 444
+horizon:  5
+cpu:  True
+start q: [ 0.23211  0.2591  -0.23277  0.13559 -0.92271  0.24936  0.26083]
+goal q: [-0.31636 -0.14483  0.30951 -0.6676   0.68455  0.0918  -0.27799]
+SOLVER: Normal RRT
+success:  True
+length:  3.308674878894394
+time spent:  2.677604913711548
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 448
+horizon:  5
+cpu:  True
+start q: [-0.29648  0.23166 -0.02983  0.66831  0.64636 -0.18927  0.31586]
+goal q: [ 0.36192 -0.47323  0.31233  0.67942 -0.20227 -0.35734 -0.6081 ]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 458
+horizon:  5
+cpu:  True
+start q: [-0.4987   0.21299  0.2728   0.44735  0.7887   0.26913  0.32465]
+goal q: [ 0.25009  0.20751 -0.02618  0.06304 -0.62088 -0.78039 -0.03902]
+SOLVER: Normal RRT
+success:  True
+length:  3.266915254927682
+time spent:  4.897103786468506
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 459
+horizon:  5
+cpu:  True
+start q: [ 0.25216 -0.19278 -0.1358   0.16836 -0.9305  -0.27431 -0.17487]
+goal q: [ 0.3663   0.32139  0.37074  0.59255 -0.51512 -0.30184  0.54077]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 464
+horizon:  5
+cpu:  True
+start q: [ 0.24027  0.31007  0.22761 -0.50802  0.41713  0.54936 -0.51587]
+goal q: [-0.37837 -0.23022 -0.34186  0.07738 -0.50327  0.64444 -0.57046]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 466
+horizon:  5
+cpu:  True
+start q: [-0.3365  -0.16332  0.04849 -0.34295 -0.7529   0.51722 -0.21911]
+goal q: [-0.38449  0.3799  -0.38919  0.14593  0.56971 -0.72178  0.36493]
+SOLVER: Normal RRT
+success:  True
+length:  5.15418279394998
+time spent:  4.9991796016693115
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 477
+horizon:  5
+cpu:  True
+start q: [ 0.07108  0.42969  0.1781  -0.44175  0.71273  0.29141 -0.46038]
+goal q: [-0.34137  0.16    -0.30524  0.51141 -0.21296 -0.33953 -0.76015]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 482
+horizon:  5
+cpu:  True
+start q: [-0.21176  0.38246  0.03015  0.64275  0.26548  0.69666 -0.17621]
+goal q: [-0.42551 -0.39136 -0.38328 -0.39674 -0.17627 -0.78953  0.43378]
+SOLVER: Normal RRT
+success:  True
+length:  5.4071753057615
+time spent:  4.772355079650879
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 489
+horizon:  5
+cpu:  True
+start q: [-0.30125  0.29441 -0.44548 -0.1172  -0.65448 -0.24243 -0.7065 ]
+goal q: [-0.09957 -0.44612  0.48486 -0.87193 -0.40915 -0.06543  0.26087]
+SOLVER: Normal RRT
+success:  True
+length:  4.530688116321672
+time spent:  4.9220569133758545
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 499
+horizon:  5
+cpu:  True
+start q: [-0.36032 -0.35829 -0.20211 -0.72375 -0.36599  0.57922 -0.08207]
+goal q: [ 0.42435  0.13932 -0.12608  0.49829  0.57348 -0.6127   0.21779]
+SOLVER: Normal RRT
+success:  True
+length:  4.144727130824422
+time spent:  1.1826589107513428
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 504
+horizon:  5
+cpu:  True
+start q: [-0.03889 -0.16847  0.43551 -0.05321  0.68567 -0.66444  0.29248]
+goal q: [-0.23061 -0.46276 -0.09663 -0.0367   0.30482  0.93021  0.20112]
+SOLVER: Normal RRT
+success:  True
+length:  6.11822163389206
+time spent:  3.6816396713256836
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 505
+horizon:  5
+cpu:  True
+start q: [-0.38327 -0.2745   0.33085  0.02778  0.10482  0.0509  -0.9928 ]
+goal q: [ 0.14516  0.34168  0.3624   0.8625   0.07651 -0.21542  0.45149]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 507
+horizon:  5
+cpu:  True
+start q: [-0.26341 -0.26717 -0.12631  0.79662 -0.57172  0.1935   0.03297]
+goal q: [-0.08151  0.42514  0.38732 -0.12438  0.5955   0.04033  0.79265]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 514
+horizon:  5
+cpu:  True
+start q: [ 0.16962  0.31267 -0.35864  0.00162  0.16344  0.77797 -0.60666]
+goal q: [-0.30563 -0.00993  0.07437 -0.2052  -0.93184  0.13637  0.26641]
+SOLVER: Normal RRT
+success:  True
+length:  3.1168445244796215
+time spent:  1.4483952522277832
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 517
+horizon:  5
+cpu:  True
+start q: [-0.392    0.44993  0.24551 -0.43863 -0.35116 -0.82391  0.07386]
+goal q: [ 0.09776 -0.37577 -0.52899 -0.1577   0.03381 -0.94693 -0.27804]
+SOLVER: Normal RRT
+success:  True
+length:  1.7676037457581086
+time spent:  1.843778371810913
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 523
+horizon:  5
+cpu:  True
+start q: [-0.32368  0.51914 -0.3049  -0.81501  0.07043 -0.21231 -0.53453]
+goal q: [ 0.3438  -0.21227 -0.18319 -0.28042  0.49092 -0.60977 -0.55547]
+SOLVER: Normal RRT
+success:  True
+length:  4.358880555658367
+time spent:  3.592905282974243
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 554
+horizon:  5
+cpu:  True
+start q: [-0.13063  0.29855  0.30886  0.65316  0.24583  0.67355  0.24347]
+goal q: [-0.06944 -0.19324 -0.08227 -0.06413 -0.33066  0.13638 -0.93164]
+SOLVER: Normal RRT
+success:  True
+length:  5.028091962657038
+time spent:  4.344417095184326
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 562
+horizon:  5
+cpu:  True
+start q: [ 0.2569  -0.22938  0.15786  0.84986  0.3747  -0.36849  0.03941]
+goal q: [-0.25781 -0.20341 -0.42857  0.514   -0.7994   0.06258  0.3047 ]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 569
+horizon:  5
+cpu:  True
+start q: [-0.36121 -0.18746  0.43515 -0.39073 -0.88993 -0.16998  0.16266]
+goal q: [ 0.2313   0.39213 -0.00691 -0.89018  0.2649   0.34949 -0.12356]
+SOLVER: Normal RRT
+success:  True
+length:  4.617939547140514
+time spent:  4.223815202713013
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 576
+horizon:  5
+cpu:  True
+start q: [-0.02941 -0.01943  0.21531  0.06514 -0.86821 -0.17441 -0.45994]
+goal q: [ 0.18957 -0.42114  0.10167  0.65779  0.12322 -0.54799 -0.50182]
+SOLVER: Normal RRT
+success:  True
+length:  4.039005649743784
+time spent:  3.0741922855377197
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 581
+horizon:  5
+cpu:  True
+start q: [-0.11812 -0.3731  -0.00137  0.66729  0.45611  0.57283  0.13623]
+goal q: [-0.07717  0.31407  0.30303  0.22801 -0.88978 -0.25666 -0.30072]
+SOLVER: Normal RRT
+success:  True
+length:  3.065226323631785
+time spent:  4.954482793807983
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 597
+horizon:  5
+cpu:  True
+start q: [-0.1025   0.49322 -0.14064 -0.87686 -0.05157 -0.21203 -0.42836]
+goal q: [ 0.33743 -0.33827  0.10079  0.06451  0.27105 -0.15144 -0.94839]
+SOLVER: Normal RRT
+success:  True
+length:  3.3036616980445017
+time spent:  3.7587075233459473
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 603
+horizon:  5
+cpu:  True
+start q: [-0.26549 -0.211   -0.4042  -0.06637  0.96509  0.0668  -0.2444 ]
+goal q: [-0.05995 -0.32451  0.33833  0.18125  0.55727 -0.6444   0.49127]
+SOLVER: Normal RRT
+success:  True
+length:  6.352003932519235
+time spent:  2.7140777111053467
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 606
+horizon:  5
+cpu:  True
+start q: [ 0.20154  0.40144 -0.27132  0.16946 -0.25289  0.83616  0.45626]
+goal q: [ 0.07305 -0.3833  -0.28823  0.40717  0.4729   0.43886 -0.64651]
+SOLVER: Normal RRT
+success:  True
+length:  4.39475177123261
+time spent:  8.193580150604248
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 609
+horizon:  5
+cpu:  True
+start q: [ 0.31763  0.03915 -0.29777  0.73846 -0.32342  0.29712 -0.51166]
+goal q: [ 0.09656  0.25603  0.21089  0.45496 -0.82971 -0.03285  0.32172]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 620
+horizon:  5
+cpu:  True
+start q: [-0.13754 -0.3276   0.16243  0.19109 -0.65555 -0.65867 -0.31606]
+goal q: [-0.29653 -0.07508 -0.50232 -0.10535 -0.46464  0.81997  0.31726]
+SOLVER: Normal RRT
+success:  True
+length:  3.458585119699903
+time spent:  2.1578171253204346
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 622
+horizon:  5
+cpu:  True
+start q: [-0.42142  0.56856 -0.31443  0.4193  -0.63908  0.48781  0.42167]
+goal q: [-0.16465  0.44856  0.14172  0.20767 -0.2029   0.93054  0.22316]
+SOLVER: Normal RRT
+success:  True
+length:  8.080684664167379
+time spent:  2.4382410049438477
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 626
+horizon:  5
+cpu:  True
+start q: [ 0.40494  0.39152  0.16318  0.31752 -0.71195 -0.56736 -0.26534]
+goal q: [-0.44726 -0.05378  0.36094 -0.62564 -0.21138 -0.70988 -0.24487]
+SOLVER: Normal RRT
+success:  True
+length:  7.080898765287306
+time spent:  8.883262395858765
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 669
+horizon:  5
+cpu:  True
+start q: [-0.05892  0.42851  0.19772 -0.19309 -0.29524 -0.53216  0.76965]
+goal q: [-0.04656 -0.04446 -0.11998 -0.73925 -0.55438  0.22731 -0.30741]
+SOLVER: Normal RRT
+success:  True
+length:  3.203537180878518
+time spent:  3.474414348602295
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 670
+horizon:  5
+cpu:  True
+start q: [-0.33425 -0.00059 -0.24212 -0.89011 -0.17357 -0.25282 -0.33712]
+goal q: [ 0.3612   0.09845 -0.00053  0.84514  0.50105  0.10777  0.15188]
+SOLVER: Normal RRT
+success:  True
+length:  5.507809160627369
+time spent:  3.6361753940582275
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 672
+horizon:  5
+cpu:  True
+start q: [-0.10627 -0.29716 -0.09033 -0.15144  0.10262 -0.44704  0.87561]
+goal q: [-0.10196  0.42499  0.33167  0.29952  0.29813 -0.042    0.90534]
+SOLVER: Normal RRT
+success:  True
+length:  7.378430884588223
+time spent:  2.120070695877075
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 678
+horizon:  5
+cpu:  True
+start q: [ 0.20575  0.39024 -0.29893 -0.25097  0.58819  0.76643  0.06027]
+goal q: [-0.41306 -0.12781 -0.34959 -0.02133 -0.21315  0.7674  -0.60433]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 691
+horizon:  5
+cpu:  True
+start q: [ 0.26809  0.28279 -0.2055  -0.74098 -0.61703  0.14672  0.22068]
+goal q: [ 0.06706 -0.41067  0.06543 -0.31579  0.04995  0.93922 -0.12509]
+SOLVER: Normal RRT
+success:  True
+length:  1.992305256117258
+time spent:  1.6918139457702637
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 723
+horizon:  5
+cpu:  True
+start q: [ 0.27914 -0.20175  0.05315 -0.77181  0.20294  0.44196 -0.40963]
+goal q: [ 0.28193  0.00999  0.49899  0.88759 -0.41955  0.13443  0.13452]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 728
+horizon:  5
+cpu:  True
+start q: [ 0.12592  0.37609 -0.30569  0.47453 -0.14035 -0.82213 -0.28149]
+goal q: [ 0.03808 -0.49391 -0.26154 -0.16153  0.96121 -0.22214 -0.02506]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 731
+horizon:  5
+cpu:  True
+start q: [-0.13862  0.335    0.13383 -0.16726  0.01836 -0.2583   0.9513 ]
+goal q: [-0.47799  0.1076   0.06955  0.3411   0.81143  0.43664 -0.18598]
+SOLVER: Normal RRT
+success:  True
+length:  3.5479884474167287
+time spent:  2.350522041320801
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 736
+horizon:  5
+cpu:  True
+start q: [ 0.22798  0.41156 -0.48599 -0.44192  0.04781 -0.36513  0.81799]
+goal q: [ 0.13121 -0.009    0.07724  0.47517 -0.60724 -0.63575  0.03598]
+SOLVER: Normal RRT
+success:  True
+length:  7.809265964996707
+time spent:  2.990046262741089
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 738
+horizon:  5
+cpu:  True
+start q: [ 0.25229 -0.37821 -0.4558  -0.55335 -0.28482  0.12662  0.77243]
+goal q: [-0.29641 -0.53748 -0.44127 -0.17092 -0.73481 -0.65574  0.0289 ]
+SOLVER: Normal RRT
+success:  True
+length:  5.639703494912384
+time spent:  2.944248676300049
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 739
+horizon:  5
+cpu:  True
+start q: [ 0.2677  -0.30049  0.13228 -0.16544  0.14953 -0.26682  0.93759]
+goal q: [-0.17195  0.2936  -0.31185 -0.51285 -0.82673  0.21799  0.07739]
+SOLVER: Normal RRT
+success:  True
+length:  2.6757678603234134
+time spent:  2.6627650260925293
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 744
+horizon:  5
+cpu:  True
+start q: [-0.01017  0.23789  0.16576 -0.57419 -0.4652  -0.06    -0.67104]
+goal q: [ 0.36954 -0.13097  0.14707  0.06787  0.02092  0.33864 -0.93823]
+SOLVER: Normal RRT
+success:  True
+length:  1.9953013894715779
+time spent:  2.8261985778808594
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 747
+horizon:  5
+cpu:  True
+start q: [ 0.34883 -0.51407 -0.30846 -0.33544 -0.48523 -0.80564  0.05458]
+goal q: [-0.3257  -0.21249 -0.00378 -0.00944 -0.89899 -0.01757  0.43752]
+SOLVER: Normal RRT
+success:  True
+length:  4.68038446104143
+time spent:  2.9187629222869873
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 748
+horizon:  5
+cpu:  True
+start q: [ 0.44085 -0.23787 -0.32325  0.45529  0.31247 -0.78887  0.26975]
+goal q: [ 0.48782 -0.09309  0.23935 -0.49204 -0.51557  0.53739 -0.45089]
+SOLVER: Normal RRT
+success:  True
+length:  3.038592160405691
+time spent:  4.043837070465088
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 751
+horizon:  5
+cpu:  True
+start q: [-0.18076  0.42466 -0.11341  0.61148 -0.58869  0.46102  0.25884]
+goal q: [-0.19552  0.09648  0.27597 -0.17067  0.44575  0.83663  0.26876]
+SOLVER: Normal RRT
+success:  True
+length:  9.847547670281342
+time spent:  4.524147987365723
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 753
+horizon:  5
+cpu:  True
+start q: [-0.05174  0.4508  -0.22744  0.61592 -0.65949 -0.08648  0.42219]
+goal q: [ 0.42568 -0.18868 -0.53315 -0.06293 -0.02067 -0.83751 -0.54239]
+SOLVER: Normal RRT
+success:  True
+length:  4.176872801483852
+time spent:  2.0385310649871826
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 768
+horizon:  5
+cpu:  True
+start q: [ 0.05354  0.4837  -0.25768  0.83072  0.07774  0.29543  0.46538]
+goal q: [ 0.15914 -0.17395  0.01614  0.77362  0.41971  0.40618 -0.24571]
+SOLVER: Normal RRT
+success:  True
+length:  4.994802639940124
+time spent:  1.3126659393310547
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 769
+horizon:  5
+cpu:  True
+start q: [ 0.42858 -0.32691  0.43558  0.24939  0.37392 -0.40556 -0.79593]
+goal q: [-0.27469 -0.4153   0.37278 -0.39201 -0.67434 -0.51191  0.35991]
+SOLVER: Normal RRT
+success:  True
+length:  3.3575063514304504
+time spent:  7.07586932182312
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 777
+horizon:  5
+cpu:  True
+start q: [-0.10214 -0.08753 -0.40457 -0.39147 -0.88859 -0.17564 -0.1622 ]
+goal q: [-0.46916 -0.03224 -0.03097  0.43349  0.32146  0.78644  0.30042]
+SOLVER: Normal RRT
+success:  True
+length:  4.218789894150148
+time spent:  2.4737231731414795
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 781
+horizon:  5
+cpu:  True
+start q: [-0.1     -0.42974 -0.38236  0.22144  0.51721 -0.7666  -0.3095 ]
+goal q: [ 0.37521  0.18001 -0.29383 -0.48395 -0.77984 -0.12403  0.37716]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 783
+horizon:  5
+cpu:  True
+start q: [-0.10183 -0.13432  0.1363   0.73398 -0.11443  0.14983  0.65247]
+goal q: [-0.50672 -0.09032 -0.38565 -0.45688 -0.58462 -0.65403 -0.14742]
+SOLVER: Normal RRT
+success:  True
+length:  3.9974390544752803
+time spent:  1.425487756729126
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 795
+horizon:  5
+cpu:  True
+start q: [ 0.12553  0.42819 -0.31212 -0.36674  0.4807  -0.27453  0.74771]
+goal q: [ 0.07408  0.26425  0.26685  0.43197  0.0465  -0.87222 -0.22468]
+SOLVER: Normal RRT
+success:  True
+length:  6.941423460778054
+time spent:  4.3358070850372314
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 798
+horizon:  5
+cpu:  True
+start q: [-0.39068 -0.32334 -0.1797   0.52148 -0.41604 -0.01404  0.74483]
+goal q: [ 0.31777  0.03161  0.21659  0.36929 -0.11159  0.45512 -0.80252]
+SOLVER: Normal RRT
+success:  True
+length:  5.547532819033361
+time spent:  3.7137181758880615
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 803
+horizon:  5
+cpu:  True
+start q: [-0.01182 -0.26918  0.41501 -0.94699  0.16463 -0.27473  0.02517]
+goal q: [-0.30487  0.07468  0.43224 -0.39301  0.11661  0.90391 -0.12204]
+SOLVER: Normal RRT
+success:  True
+length:  5.232341680659319
+time spent:  1.7211856842041016
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 804
+horizon:  5
+cpu:  True
+start q: [ 0.18359  0.15942 -0.34876 -0.07816  0.2327  -0.21881  0.94439]
+goal q: [-0.09097 -0.37988  0.09269  0.15803  0.18599 -0.25169  0.93653]
+SOLVER: Normal RRT
+success:  True
+length:  5.253887649049271
+time spent:  6.26406192779541
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 816
+horizon:  5
+cpu:  True
+start q: [ 0.14565  0.19213  0.33031 -0.01988  0.87627 -0.00911  0.48133]
+goal q: [ 0.33715 -0.16366 -0.37843  0.68413 -0.00178  0.72705  0.05796]
+SOLVER: Normal RRT
+success:  True
+length:  4.354327895729794
+time spent:  4.249309301376343
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 841
+horizon:  5
+cpu:  True
+start q: [-0.42119 -0.22423 -0.3185  -0.30061 -0.65871 -0.68747  0.05593]
+goal q: [-0.03998  0.42093  0.43901  0.02499  0.71657 -0.43335 -0.54599]
+SOLVER: Normal RRT
+success:  True
+length:  5.188063167775952
+time spent:  2.168135643005371
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 857
+horizon:  5
+cpu:  True
+start q: [ 0.1761  -0.12594  0.4476   0.49298 -0.7826   0.2704  -0.2672 ]
+goal q: [ 0.23048  0.51807  0.17081 -0.32172  0.01395  0.32339 -0.88979]
+SOLVER: Normal RRT
+success:  True
+length:  6.123644107965524
+time spent:  4.292297601699829
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 861
+horizon:  5
+cpu:  True
+start q: [ 0.38061 -0.08376  0.44888  0.688    0.36637 -0.28024 -0.56027]
+goal q: [-0.40683  0.01148 -0.4157   0.02707  0.49188  0.08516 -0.86606]
+SOLVER: Normal RRT
+success:  True
+length:  6.491485292878621
+time spent:  5.191393613815308
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 864
+horizon:  5
+cpu:  True
+start q: [ 0.07847 -0.28392 -0.35803  0.34548  0.1752  -0.90549 -0.17329]
+goal q: [ 0.33024 -0.47307  0.30445 -0.20745 -0.32132 -0.57936  0.71976]
+SOLVER: Normal RRT
+success:  True
+length:  7.357908319906189
+time spent:  7.085862398147583
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 866
+horizon:  5
+cpu:  True
+start q: [-0.29566 -0.28876 -0.11376 -0.38953 -0.86314  0.26098  0.18745]
+goal q: [ 0.20517 -0.53496  0.35705  0.68561 -0.02913 -0.31091 -0.65759]
+SOLVER: Normal RRT
+success:  True
+length:  7.008287693887408
+time spent:  1.9445164203643799
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 871
+horizon:  5
+cpu:  True
+start q: [ 0.20798 -0.32059 -0.43524 -0.47445 -0.49349  0.16935 -0.70901]
+goal q: [-0.40692 -0.20736  0.5007   0.9775  -0.04413  0.12898 -0.16095]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 873
+horizon:  5
+cpu:  True
+start q: [-0.03726  0.41646  0.40426  0.47493  0.72962 -0.24379  0.42739]
+goal q: [-0.37791 -0.45327 -0.14371  0.8359   0.09031 -0.54029 -0.03461]
+SOLVER: Normal RRT
+success:  True
+length:  7.67169634214725
+time spent:  4.565598249435425
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 875
+horizon:  5
+cpu:  True
+start q: [ 0.01526 -0.25159 -0.38166  0.41933  0.22637  0.56407 -0.67435]
+goal q: [-0.42282  0.34834  0.0611   0.58931  0.19262  0.78383  0.03499]
+SOLVER: Normal RRT
+success:  True
+length:  5.838183309839987
+time spent:  5.7940216064453125
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 891
+horizon:  5
+cpu:  True
+start q: [ 0.44238 -0.28365  0.11565 -0.78189 -0.39616  0.2814   0.39054]
+goal q: [-0.42191  0.42055 -0.05927  0.5143  -0.31959  0.66797  0.43264]
+SOLVER: Normal RRT
+success:  True
+length:  2.4245369097756186
+time spent:  3.0775842666625977
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 898
+horizon:  5
+cpu:  True
+start q: [-0.07256  0.04852  0.02425  0.07976 -0.50402 -0.64921 -0.56403]
+goal q: [-0.13969 -0.0906   0.13004 -0.24753 -0.28125 -0.56258  0.73698]
+SOLVER: Normal RRT
+success:  True
+length:  2.9198724130663307
+time spent:  7.159284591674805
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 902
+horizon:  5
+cpu:  True
+start q: [ 0.12578 -0.35356  0.09767  0.0089   0.10115 -0.14499  0.98421]
+goal q: [ 0.36757  0.42271 -0.43109 -0.14125  0.64323 -0.61819  0.42911]
+SOLVER: Normal RRT
+success:  True
+length:  8.78938893203948
+time spent:  3.5335776805877686
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 920
+horizon:  5
+cpu:  True
+start q: [ 0.28235 -0.07794 -0.21     0.22774 -0.46054  0.72145  0.46427]
+goal q: [ 0.27482 -0.28365 -0.1324  -0.64435 -0.70829  0.04281 -0.28516]
+SOLVER: Normal RRT
+success:  True
+length:  2.7492435071950725
+time spent:  5.171797037124634
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 924
+horizon:  5
+cpu:  True
+start q: [-0.35364  0.40794 -0.35786  0.78129 -0.5119   0.34487  0.09274]
+goal q: [-0.27536  0.31546 -0.2837   0.03444  0.78595 -0.58781  0.1886 ]
+SOLVER: Normal RRT
+success:  True
+length:  7.085208453471941
+time spent:  3.023746967315674
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 928
+horizon:  5
+cpu:  True
+start q: [-0.48761 -0.43148  0.00437  0.63002  0.06461  0.71067 -0.30635]
+goal q: [-0.39943  0.13216  0.08134 -0.59168 -0.11767  0.51939 -0.60523]
+SOLVER: Normal RRT
+success:  True
+length:  3.338750196332988
+time spent:  3.6230080127716064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 959
+horizon:  5
+cpu:  True
+start q: [-0.21245  0.35738  0.38555  0.5098  -0.1045  -0.75043 -0.40746]
+goal q: [ 0.03566 -0.2498  -0.22845 -0.07789  0.75734 -0.2918  -0.57898]
+SOLVER: Normal RRT
+success:  False
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 965
+horizon:  5
+cpu:  True
+start q: [-0.41865  0.43785 -0.15214 -0.33186  0.73132 -0.42944  0.41307]
+goal q: [-0.26775  0.22144  0.05599  0.21503  0.72329 -0.11519  0.64603]
+SOLVER: Normal RRT
+success:  True
+length:  6.756244939048669
+time spent:  2.38869047164917
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 970
+horizon:  5
+cpu:  True
+start q: [ 0.42969 -0.09533 -0.06967 -0.16868  0.62347 -0.68442  0.33825]
+goal q: [ 0.18135  0.36063  0.14619  0.09204 -0.94902 -0.28294  0.10405]
+SOLVER: Normal RRT
+success:  True
+length:  3.9585113957229785
+time spent:  4.284621238708496
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 974
+horizon:  5
+cpu:  True
+start q: [-0.27635 -0.20237  0.393   -0.21803 -0.90825  0.2552   0.24982]
+goal q: [-0.2954  -0.41102 -0.20238  0.725   -0.18461  0.62833 -0.21331]
+SOLVER: Normal RRT
+success:  True
+length:  3.2065850375930145
+time spent:  3.407304525375366
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 980
+horizon:  5
+cpu:  True
+start q: [-0.34551  0.25535 -0.40577  0.77582 -0.53372  0.14047  0.3058 ]
+goal q: [ 0.23078 -0.1505   0.29249 -0.04511 -0.83256 -0.17494 -0.52365]
+SOLVER: Normal RRT
+success:  True
+length:  6.682956466044746
+time spent:  4.868967771530151
+-------- stop running --------

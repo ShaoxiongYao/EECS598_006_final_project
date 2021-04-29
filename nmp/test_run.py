@@ -22,11 +22,12 @@ def path_len(path):
     # print("path type: ", type(path))
     # print("path element type: ", path.keys())
     # print("path element q type: ", type(path['points'][0]))
-    n = len(path)
+    n = len(path['points'])
     length = 0
     # calculate path length
     for i in range(n):
         q0 = path['points'][i].q
+        # print(q0)
         if i < n - 1:
             q1 = path['points'][i+1].q
             length += np.linalg.norm(q1 - q0)
@@ -99,7 +100,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
                 env,
                 policy,
                 horizon,
-                render,
+                # render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
@@ -138,7 +139,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
         process_path(path)
         print("SOLVER: RL")
         print("successes", successes)
-        print("length: ", lengths)
+        print("length: ", lengths[0])
 
     stop_t = time.time()
     print("time spent: ", stop_t - begin_t)
