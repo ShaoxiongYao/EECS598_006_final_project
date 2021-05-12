@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 import numpy as np
 import trimesh
@@ -92,7 +93,9 @@ class RayTracingObserver(BaseObserver):
     def observation(self, obs):
         state = self.env.get_state()
         current_state, goal_state = state["current"], state["goal"]
+        start_time = time.time()
         obs_wrapper = self.compute_obs(current_state)
+        print("compute obs:", time.time()-start_time)
 
         obs["observation"] = np.concatenate((obs["observation"], obs_wrapper["pcd"]))
 
