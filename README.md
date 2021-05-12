@@ -146,6 +146,8 @@ To integrate poliy as local planner, needs to modify the extend function, but no
 
 `env = gym.make(env_name)` returns environment `mpenv.observers.robot_links.RobotLinksObserver`
 
+`env.step()` is equal to `env.env.step()`, which is equal to `env.env.env.step()` (refer to `gym/core.py`)
+
 `env.env` type `mpenv.observers.ray_tracing.RayTracingObserver`
 
 `env.env.env` type `mpenv.envs.boxes.Boxes`
