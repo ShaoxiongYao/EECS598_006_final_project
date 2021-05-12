@@ -1,4 +1,5 @@
 import numpy as np
+import time
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
 from mpenv.core.model import ConfigurationWrapper
@@ -49,6 +50,8 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
+        print("start expand")
+        start_t = time.time()
         policy_env, policy, horizon, render = None, None, None, None
         if not nmp_input == None:
             policy_env, policy, horizon, render = nmp_input
@@ -94,7 +97,8 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
             # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
             # print("after viz")
             # input()
-
+            end_t = time.time()
+            print("expanding needs:", end_t-start_t)
             return q_stop_list, not collide.any()
         else:
             path = arange_fn(q0, q1, delta_collision_check)
@@ -123,7 +127,8 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                     q = obs[i]["achieved_q"]
                     config = ConfigurationWrapper(model_wrapper, q)
                     q_stop_list.append(config)
-
+                end_t = time.time()
+                print("expanding needs:", end_t-start_t)
                 return q_stop_list, end
             else:
                 q_stop_list.append(q_stop)
@@ -136,6 +141,8 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                 # current_ee = env.robot.get_ee(current_oMg).translation
                 # path is the node name, which can be modified
                 # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+                end_t = time.time()
+                print("expanding needs:", end_t-start_t)
                 return q_stop_list, not collide.any()
 
     def expand_fn_short(q0, q1, limit_growth=False):

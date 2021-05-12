@@ -15,10 +15,10 @@ SOLVER_TYPE=RL_RRT
 
 # for SEED in {866..1000}
 
-for HORIZON in $(seq 10 5 81)
-# for HORIZON in 5
+# for HORIZON in $(seq 10 5 81)
+for HORIZON in 5
 do
-FILENAME=test_output/horizon/$(whoami)_$(date +%y_%m_%d_%H_%M_%S)_horizon_${HORIZON}_solver_${SOLVER_TYPE}_cpu_True
+FILENAME=test_output/time_test/$(whoami)_$(date +%y_%m_%d_%H_%M_%S)_horizon_${HORIZON}_solver_${SOLVER_TYPE}_cpu_True
 touch $FILENAME
 # for SEED in {0..9}
 for SEED in 55 82 88 100 107 141 147 172 193 197 211 217 234 248 275 283 285 320 360 378 386 391 393 404 426 458 464 466 486 493 577 597 630 633 653 668 683 685 688 703 722 728 735 753 776 786 824 840 853 857 861 866 890 926 930 934 938 953 967 979 983 998
