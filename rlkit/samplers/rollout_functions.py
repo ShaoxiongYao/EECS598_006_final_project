@@ -118,6 +118,7 @@ def multitask_rollout(
     if render:
         env.render(**render_kwargs)
     desired_goal = o[desired_goal_key]
+    step_time, policy_time = 0, 0
     while path_length < max_path_length:
         # print("before step")
         # input()
@@ -126,8 +127,17 @@ def multitask_rollout(
             s = o[observation_key]
         g = o[representation_goal_key]
         new_obs = np.hstack((s, g))
+
+        # policy time
+        start_time = time.time()
         a, agent_info = agent.get_action(new_obs, **get_action_kwargs)
+        policy_time += time.time()-start_time
+
+        # step time
+        start_time = time.time()
         next_o, r, d, env_info = env.step(a)
+        step_time += time.time()-start_time
+
         # print("environment step")
         # input()
         if render:
