@@ -220,3 +220,9 @@ Change parameter sampler:
     elif sampler == "NearSurface":
         sample_fn = sample_near_surface_fn
 
+## Set render as an option
+
+Use `--render` or not in the command:
+
+        python -m nmp.test_run --cpu SShape-Boxes-64Pts-Rays-v0 --exp-name log_dir/params.pkl --seed 100 --horizon 5 --render --solver_type Normal_RRT
+

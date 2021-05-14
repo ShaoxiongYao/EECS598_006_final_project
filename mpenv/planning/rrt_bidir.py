@@ -86,12 +86,12 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
-        # print("iteration: ", i)
-        # print("tree a length: ", len(nodes_ab[0]))
-        # print("tree b length: ", len(nodes_ab[1]))
+        print("iteration: ", i)
+        print("tree a length: ", len(nodes_ab[0]))
+        print("tree b length: ", len(nodes_ab[1]))
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
-        elif len(nodes_ab[0]) > len(nodes_ab[1]):
+        elif len(nodes_ab[growing_index]) > len(nodes_ab[1-growing_index]):
             growing_index = 1 - growing_index
 
     return (

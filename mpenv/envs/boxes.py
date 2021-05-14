@@ -223,14 +223,18 @@ def generate_geom_objs(
 def add_handcraft_obs(idx):
 
     # parameter set 1
-    translation_matrix = np.array([[0.3, -0.3, 0], [-0.3, -0.3, 0], [0, 0.3, 0], 
-                                   [0.35, 0.3, 0], [-0.35, 0.3, 0]])
-    obst_size_matrix = np.array([[0.35, 0.5, 0.1], [0.35, 0.5, 0.1], [0.05, 0.5, 0.1], 
-                                 [0.2, 0.5, 0.1], [0.2, 0.5, 0.1]])
+    # translation_matrix = np.array([[0.3, -0.3, 0], [-0.3, -0.3, 0], [0, 0.3, 0], 
+    #                                [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+    # obst_size_matrix = np.array([[0.35, 0.5, 0.1], [0.35, 0.5, 0.1], [0.05, 0.5, 0.1], 
+    #                              [0.2, 0.5, 0.1], [0.2, 0.5, 0.1]])
 
     # parameter set 2
     # translation_matrix = np.array([[0.35, 0, 0], [-0.35, 0, 0]])
     # obst_size_matrix = np.array([[0.45, 1.2, 0.1], [0.45, 1.2, 0.1]])
+
+    #  parameter set 3
+    translation_matrix = np.array([[0, -0.3, 0], [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+    obst_size_matrix = np.array([[0.8, 0.5, 0.1], [0.6, 0.5, 0.1], [0.6, 0.5, 0.1]])
 
     se3 = pin.SE3.Identity()
     se3.rotation = np.eye(3)

@@ -42,6 +42,7 @@ def path_len(path):
     "-e", "--episodes", default=0, type=int, help="number of episodes to evaluate"
 )
 @click.option("-cpu", "--cpu/--no-cpu", default=False, is_flag=True, help="use cpu")
+@click.option("-r", "--render", default=False, is_flag=True, help="render using gepetto-gui")
 @click.option(
     "-stoch",
     "--stochastic/--no-stochastic",
@@ -50,7 +51,7 @@ def path_len(path):
     help="stochastic mode",
 )
 @click.option("-solver_type", "--solver_type", default=None, type=str, help="type of solver")
-def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_type):
+def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, solver_type):
     print("-------- start running --------")
     begin_t = time.time()
     if not cpu:
@@ -74,23 +75,23 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
     else:
         policy = RandomPolicy(env)
 
-    render = episodes == 0
-
     reset_kwargs = {}
 
     o = env.reset(start=None, goal=None)
     if solver_type == "Normal_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(True)
+        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render)
         print("SOLVER: Normal RRT")
         print("success: ", success)
-        print("length: ", path_len(path))
+        if 'points' in path.keys():
+            print("length: ", path_len(path))
         # print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(True, nmp_input=[env, policy, horizon, render], max_iterations=int(2000/horizon))
+        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, nmp_input=[env, policy, horizon], max_iterations=int(2000/horizon))
         print("SOLVER: RL_RRT")
         print("success: ", success)
-        print("length: ", path_len(path))
+        if 'points' in path.keys():
+            print("length: ", path_len(path))
         # print("iterations:", iterations)
 
     elif solver_type == "RL":
@@ -100,7 +101,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, stochastic, solver_ty
                 env,
                 policy,
                 horizon,
-                # render,
+                render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",

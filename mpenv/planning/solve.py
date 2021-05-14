@@ -8,7 +8,7 @@ from rlkit.samplers.rollout_functions import multitask_rollout
 EPSILON = 1e-7
 
 
-def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full"):
+def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None, sampler="Full"):
     """
     env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
@@ -46,15 +46,15 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         # print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=False, nmp_input=nmp_input):
+    def expand_fn(q0, q1, limit_growth=False, render=render, nmp_input=nmp_input):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
         print("start expand")
         start_t = time.time()
-        policy_env, policy, horizon, render = None, None, None, None
+        policy_env, policy, horizon = None, None, None
         if not nmp_input == None:
-            policy_env, policy, horizon, render = nmp_input
+            policy_env, policy, horizon = nmp_input
             # print("Use RL policy to extend")
 
         if limit_growth:
@@ -69,7 +69,7 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                 policy_env,
                 policy,
                 horizon,  # max length in one step
-                # render,
+                render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
@@ -80,23 +80,19 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
         if policy == None:
             # print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
+            # q_stop: ConfigurationWrapper
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
             q_stop_list.append(q_stop)
-            # q_stop: ConfigurationWrapper
 
-            # visualization
-            # print("before viz")
-            # input()
+            if render:
+                previous_oMg = q0.q_oM[2]
+                current_oMg = q_stop.q_oM[2]
+                previous_ee = env.robot.get_ee(previous_oMg).translation
+                current_ee = env.robot.get_ee(current_oMg).translation
+                # path is the node name, which can be modified
+                env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
 
-            # previous_oMg = q0.q_oM[2]
-            # current_oMg = q_stop.q_oM[2]
-            # previous_ee = env.robot.get_ee(previous_oMg).translation
-            # current_ee = env.robot.get_ee(current_oMg).translation
-            # path is the node name, which can be modified
-            # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
-            # print("after viz")
-            # input()
             end_t = time.time()
             print("expanding needs:", end_t-start_t)
             return q_stop_list, not collide.any()
@@ -132,15 +128,17 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
                 return q_stop_list, end
             else:
                 q_stop_list.append(q_stop)
+
                 # visualization
-                # env.render()
-                
-                # previous_oMg = q0.q_oM[2]
-                # current_oMg = q_stop.q_oM[2]
-                # previous_ee = env.robot.get_ee(previous_oMg).translation
-                # current_ee = env.robot.get_ee(current_oMg).translation
-                # path is the node name, which can be modified
-                # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+                if render:
+                    env.render()
+                    previous_oMg = q0.q_oM[2]
+                    current_oMg = q_stop.q_oM[2]
+                    previous_ee = env.robot.get_ee(previous_oMg).translation
+                    current_ee = env.robot.get_ee(current_oMg).translation
+                    # path is the node name, which can be modified
+                    env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+
                 end_t = time.time()
                 print("expanding needs:", end_t-start_t)
                 return q_stop_list, not collide.any()
@@ -169,7 +167,9 @@ def solve(env, delta_growth, iterations, simplify, nmp_input=None, sampler="Full
     elif sampler == "NearSurface":
         sample_fn = sample_near_surface_fn
 
-    # env.render()
+    if render:
+        env.render()
+
     success, path, trees, iterations = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations
     )
