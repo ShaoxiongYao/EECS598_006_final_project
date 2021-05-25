@@ -1,0 +1,1717 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 0
+horizon:  80
+cpu:  True
+start q: [-0.0077   0.56733 -0.24898 -0.47143 -0.8714   0.1096  -0.07998]
+goal q: [-0.11973  0.46984 -0.26002  0.2855  -0.28919  0.51849 -0.75235]
+policy time: 0.01662898063659668
+step time: 0.020256519317626953
+SOLVER: RL
+successes [array([ True])]
+length:  1.2651968285790713
+time spent:  1.1134934425354004
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon:  80
+cpu:  True
+start q: [ 0.5403   0.50415 -0.42281 -0.21802  0.3892  -0.85416 -0.26722]
+goal q: [-0.47619 -0.44871 -0.00547  0.48717 -0.34631  0.80034 -0.04682]
+policy time: 0.09467029571533203
+step time: 0.059035301208496094
+SOLVER: RL
+successes [array([False])]
+length:  1.8880389481291726
+time spent:  1.1752691268920898
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 2
+horizon:  80
+cpu:  True
+start q: [ 0.50995  0.17986  0.18627 -0.03445 -0.71617 -0.27799  0.63924]
+goal q: [-0.16995  0.49459 -0.15371 -0.23126 -0.93932  0.21952  0.12654]
+policy time: 0.015725135803222656
+step time: 0.01985001564025879
+SOLVER: RL
+successes [array([ True])]
+length:  1.1654786924722118
+time spent:  1.1025168895721436
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 3
+horizon:  80
+cpu:  True
+start q: [-0.59532 -0.35774 -0.09885  0.13102  0.30848 -0.88453 -0.32447]
+goal q: [ 0.48601 -0.3837   0.40251  0.85826  0.2613  -0.25479 -0.36081]
+policy time: 0.018613100051879883
+step time: 0.02464604377746582
+SOLVER: RL
+successes [array([ True])]
+length:  1.9236882430686182
+time spent:  1.050370454788208
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon:  80
+cpu:  True
+start q: [-0.29574  0.07059  0.12202  0.02607 -0.19839 -0.86026 -0.46894]
+goal q: [-0.00827 -0.44578 -0.36499 -0.09782 -0.05023 -0.98123  0.15844]
+policy time: 0.07762718200683594
+step time: 0.05673027038574219
+SOLVER: RL
+successes [array([False])]
+length:  0.6907135026427064
+time spent:  1.14320969581604
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 5
+horizon:  80
+cpu:  True
+start q: [ 0.04103  0.54387  0.31659 -0.59427  0.03622 -0.74098  0.31062]
+goal q: [ 0.25706  0.56774  0.00143  0.81343  0.32369 -0.47091  0.10864]
+policy time: 0.01563262939453125
+step time: 0.02217388153076172
+SOLVER: RL
+successes [array([ True])]
+length:  1.4486660478620104
+time spent:  1.0376391410827637
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 6
+horizon:  80
+cpu:  True
+start q: [ 0.52225  0.43609 -0.14211 -0.52649  0.15484  0.54616 -0.63289]
+goal q: [ 0.58314  0.21038 -0.06431  0.42448 -0.2004   0.84294  0.26289]
+policy time: 0.011919498443603516
+step time: 0.019634008407592773
+SOLVER: RL
+successes [array([ True])]
+length:  1.4528011519648283
+time spent:  1.029773235321045
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 7
+horizon:  80
+cpu:  True
+start q: [-0.25324  0.28018  0.57905  0.07992 -0.05525 -0.94206 -0.32107]
+goal q: [ 0.57588  0.06392 -0.21022 -0.07418 -0.23363 -0.90238 -0.35443]
+policy time: 0.012674331665039062
+step time: 0.012131452560424805
+SOLVER: RL
+successes [array([ True])]
+length:  1.1766258539870091
+time spent:  1.0281593799591064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 8
+horizon:  80
+cpu:  True
+start q: [ 0.20804 -0.10064 -0.4578  -0.29063 -0.42317 -0.16972  0.84122]
+goal q: [-0.45147  0.10074  0.55458 -0.44555  0.62261  0.59225 -0.25115]
+policy time: 0.02626824378967285
+step time: 0.032097816467285156
+SOLVER: RL
+successes [array([ True])]
+length:  2.6078712882374075
+time spent:  1.0564587116241455
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon:  80
+cpu:  True
+start q: [ 0.41055 -0.36928 -0.05604 -0.22591 -0.87523  0.39102 -0.17332]
+goal q: [-0.26074  0.23569 -0.58554 -0.07409  0.78877 -0.55026 -0.26377]
+policy time: 0.07842516899108887
+step time: 0.06270694732666016
+SOLVER: RL
+successes [array([False])]
+length:  1.4389802302282109
+time spent:  1.1479852199554443
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 10
+horizon:  80
+cpu:  True
+start q: [ 0.37327  0.02591 -0.49745 -0.32478  0.42174  0.18664 -0.82573]
+goal q: [-0.27601 -0.50065 -0.21436  0.62907  0.66059 -0.25567  0.32019]
+policy time: 0.017916202545166016
+step time: 0.026534080505371094
+SOLVER: RL
+successes [array([ True])]
+length:  1.9061184296233027
+time spent:  1.0501444339752197
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 11
+horizon:  80
+cpu:  True
+start q: [ 0.06653  0.23777  0.40818  0.09014 -0.93344 -0.26599  0.22318]
+goal q: [-0.50106 -0.49723 -0.57606  0.29748 -0.6643  -0.04937 -0.68394]
+policy time: 0.020853757858276367
+step time: 0.02245187759399414
+SOLVER: RL
+successes [array([ True])]
+length:  1.8932036651170707
+time spent:  1.042616844177246
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 12
+horizon:  80
+cpu:  True
+start q: [ 0.1426  -0.41047 -0.34414 -0.62685  0.1604  -0.30468 -0.69892]
+goal q: [-0.29069 -0.31251 -0.10834 -0.42953 -0.00564  0.54026 -0.72359]
+policy time: 0.00949406623840332
+step time: 0.013935565948486328
+SOLVER: RL
+successes [array([ True])]
+length:  0.9532909415226698
+time spent:  1.0314199924468994
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 13
+horizon:  80
+cpu:  True
+start q: [-0.12996  0.18502 -0.53278  0.42209  0.85088 -0.09083  0.29933]
+goal q: [-0.37908  0.18394 -0.50254  0.60287  0.05073  0.32261 -0.72794]
+policy time: 0.013150691986083984
+step time: 0.02270674705505371
+SOLVER: RL
+successes [array([ True])]
+length:  1.4472191767537166
+time spent:  1.042358636856079
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 14
+horizon:  80
+cpu:  True
+start q: [ 0.57937 -0.01925 -0.58079  0.18574  0.17306  0.08219  0.96374]
+goal q: [-0.42773  0.02593 -0.15397 -0.34688  0.90599  0.17913 -0.16359]
+policy time: 0.019559621810913086
+step time: 0.026839494705200195
+SOLVER: RL
+successes [array([ True])]
+length:  2.1959800675765817
+time spent:  1.045952558517456
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 15
+horizon:  80
+cpu:  True
+start q: [ 0.50214  0.35813  0.16485  0.18025 -0.98125 -0.05648  0.03822]
+goal q: [ 0.09667  0.05608 -0.51489  0.44176 -0.63547  0.47235 -0.42179]
+policy time: 0.010131120681762695
+step time: 0.013177871704101562
+SOLVER: RL
+successes [array([ True])]
+length:  1.0804211408662183
+time spent:  1.0338354110717773
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 16
+horizon:  80
+cpu:  True
+start q: [ 0.55486  0.49299  0.22743  0.83407 -0.22064 -0.43048 -0.26521]
+goal q: [-0.41476  0.24304  0.212    0.14631  0.28214 -0.29098 -0.9024 ]
+policy time: 0.014917612075805664
+step time: 0.019978046417236328
+SOLVER: RL
+successes [array([ True])]
+length:  1.6817875428069777
+time spent:  1.0373752117156982
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 17
+horizon:  80
+cpu:  True
+start q: [ 0.32116 -0.07218  0.29248  0.29705  0.56926  0.12531 -0.75631]
+goal q: [ 0.04525 -0.12671  0.56135  0.254    0.02688 -0.27032 -0.92827]
+policy time: 0.007358074188232422
+step time: 0.010356664657592773
+SOLVER: RL
+successes [array([ True])]
+length:  0.7409224907866013
+time spent:  1.0182347297668457
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 18
+horizon:  80
+cpu:  True
+start q: [-0.58373 -0.06662 -0.35662 -0.57994  0.4392  -0.02419  0.68571]
+goal q: [-0.32629  0.39468 -0.30747  0.17049  0.09202 -0.40894  0.89176]
+policy time: 0.01087641716003418
+step time: 0.014553070068359375
+SOLVER: RL
+successes [array([ True])]
+length:  1.0763507349543622
+time spent:  1.0299949645996094
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 19
+horizon:  80
+cpu:  True
+start q: [-0.51244  0.3735   0.58622  0.77169 -0.61411  0.09042  0.13854]
+goal q: [ 0.43437 -0.22161 -0.24178  0.457    0.219   -0.84292 -0.18076]
+policy time: 0.02123713493347168
+step time: 0.028781890869140625
+SOLVER: RL
+successes [array([ True])]
+length:  2.3428175159294646
+time spent:  1.0571365356445312
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 20
+horizon:  80
+cpu:  True
+start q: [-0.08933 -0.39209 -0.59843  0.70953 -0.0704   0.01095 -0.70106]
+goal q: [ 0.58608 -0.30555 -0.41794  0.75818  0.25628 -0.40231  0.44455]
+policy time: 0.014008283615112305
+step time: 0.02166604995727539
+SOLVER: RL
+successes [array([ True])]
+length:  1.561977617506748
+time spent:  1.0415558815002441
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon:  80
+cpu:  True
+start q: [-0.48833  0.5195  -0.03117  0.17009  0.6659   0.60204  0.40644]
+goal q: [ 0.30916  0.33632  0.58009 -0.75126  0.42225  0.23101 -0.45161]
+policy time: 0.07746148109436035
+step time: 0.06729674339294434
+SOLVER: RL
+successes [array([False])]
+length:  1.6931816367138268
+time spent:  1.1465234756469727
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 22
+horizon:  80
+cpu:  True
+start q: [ 0.37958  0.4642  -0.462   -0.55883 -0.0772  -0.47593 -0.67471]
+goal q: [ 0.10458 -0.38011  0.44561  0.43717 -0.84124  0.19413  0.25201]
+policy time: 0.017803192138671875
+step time: 0.022489309310913086
+SOLVER: RL
+successes [array([ True])]
+length:  1.7319846208753447
+time spent:  1.0511975288391113
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 23
+horizon:  80
+cpu:  True
+start q: [-0.49839 -0.11329  0.41098 -0.3004  -0.15503 -0.74959  0.56906]
+goal q: [ 0.33573 -0.56789  0.22839  0.6199  -0.65426  0.35098  0.25394]
+policy time: 0.01579427719116211
+step time: 0.02089095115661621
+SOLVER: RL
+successes [array([ True])]
+length:  1.6790052442489165
+time spent:  1.0383901596069336
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 24
+horizon:  80
+cpu:  True
+start q: [-0.2029  -0.02156  0.46059 -0.83129 -0.07642 -0.02085  0.55017]
+goal q: [-0.24689  0.17097  0.57774  0.2773   0.3473   0.8859  -0.13293]
+policy time: 0.011319637298583984
+step time: 0.019093990325927734
+SOLVER: RL
+successes [array([ True])]
+length:  1.152210846288885
+time spent:  1.0321094989776611
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 25
+horizon:  80
+cpu:  True
+start q: [ 0.05875 -0.37944 -0.11228 -0.63977  0.18004  0.74614 -0.03938]
+goal q: [ 0.54588  0.39356  0.19861  0.00136 -0.28752  0.28927  0.91304]
+policy time: 0.015964984893798828
+step time: 0.02333545684814453
+SOLVER: RL
+successes [array([ True])]
+length:  1.8358929073852042
+time spent:  1.0546495914459229
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 26
+horizon:  80
+cpu:  True
+start q: [ 0.05815  0.17675  0.53252  0.37902 -0.69701 -0.60724 -0.04217]
+goal q: [-0.10327  0.43533 -0.59771  0.26035  0.83974 -0.2359  -0.41401]
+policy time: 0.01676774024963379
+step time: 0.021162748336791992
+SOLVER: RL
+successes [array([ True])]
+length:  1.7451048003227794
+time spent:  1.0465457439422607
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 27
+horizon:  80
+cpu:  True
+start q: [-0.49698  0.54579 -0.0484  -0.17262  0.86654  0.21296  0.41709]
+goal q: [0.06626 0.27    0.31057 0.85095 0.15158 0.17694 0.47074]
+policy time: 0.012155294418334961
+step time: 0.02046966552734375
+SOLVER: RL
+successes [array([ True])]
+length:  1.4690267036139695
+time spent:  1.0387935638427734
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 28
+horizon:  80
+cpu:  True
+start q: [ 0.05623 -0.54554 -0.39421 -0.82735  0.26004  0.44717 -0.21889]
+goal q: [-0.56989  0.4594   0.42847  0.33455 -0.27341 -0.4277   0.79398]
+policy time: 0.020558595657348633
+step time: 0.02289891242980957
+SOLVER: RL
+successes [array([ True])]
+length:  1.7721166981038765
+time spent:  1.0438170433044434
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 29
+horizon:  80
+cpu:  True
+start q: [-0.03488  0.49161  0.36881 -0.15189  0.53645 -0.83015  0.00258]
+goal q: [-0.01604  0.31671  0.46323  0.17019 -0.48178 -0.47555 -0.71608]
+policy time: 0.00986480712890625
+step time: 0.017905235290527344
+SOLVER: RL
+successes [array([ True])]
+length:  1.3217541253441794
+time spent:  1.0454890727996826
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 30
+horizon:  80
+cpu:  True
+start q: [-0.39596 -0.32292  0.34743 -0.49734  0.57834 -0.06025 -0.64385]
+goal q: [-0.35031  0.29988 -0.47981  0.61505  0.43512  0.50369 -0.42271]
+policy time: 0.016025781631469727
+step time: 0.02291083335876465
+SOLVER: RL
+successes [array([ True])]
+length:  1.7468153481256639
+time spent:  1.0376737117767334
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 31
+horizon:  80
+cpu:  True
+start q: [ 0.34953  0.38683  0.52868  0.49283  0.15572 -0.36915 -0.7724 ]
+goal q: [ 0.37334  0.59385  0.52095  0.73126  0.55469 -0.16584  0.36065]
+policy time: 0.015085220336914062
+step time: 0.02145862579345703
+SOLVER: RL
+successes [array([ True])]
+length:  1.3408049239194155
+time spent:  1.039846420288086
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 32
+horizon:  80
+cpu:  True
+start q: [-0.03496 -0.48277 -0.51604 -0.68402  0.21674  0.26381  0.64462]
+goal q: [ 0.2958  -0.00098 -0.03536 -0.56688  0.68733  0.29231  0.34754]
+policy time: 0.011317253112792969
+step time: 0.012431144714355469
+SOLVER: RL
+successes [array([ True])]
+length:  0.9775054760336767
+time spent:  1.038473129272461
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 33
+horizon:  80
+cpu:  True
+start q: [ 0.21451 -0.46009 -0.51837 -0.81747 -0.0972  -0.03371 -0.56671]
+goal q: [ 0.22887  0.12341 -0.07463 -0.96696 -0.10685  0.14772  0.17821]
+policy time: 0.010133743286132812
+step time: 0.01322174072265625
+SOLVER: RL
+successes [array([ True])]
+length:  1.0546702966453811
+time spent:  1.0269415378570557
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 34
+horizon:  80
+cpu:  True
+start q: [ 0.41346  0.28011  0.50272  0.48238 -0.1729   0.0055  -0.85871]
+goal q: [ 0.3257  -0.22511 -0.11402 -0.0792   0.06364 -0.34602  0.93271]
+policy time: 0.07888245582580566
+step time: 0.060773611068725586
+SOLVER: RL
+successes [array([False])]
+length:  1.3836033502339373
+time spent:  1.1432404518127441
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 35
+horizon:  80
+cpu:  True
+start q: [ 0.08148 -0.5325   0.51643 -0.02704 -0.69636  0.66181 -0.27633]
+goal q: [-0.49472 -0.46821  0.02466  0.3571  -0.92805  0.02983 -0.10154]
+policy time: 0.011244535446166992
+step time: 0.014557838439941406
+SOLVER: RL
+successes [array([ True])]
+length:  1.065978332232059
+time spent:  1.0319697856903076
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 36
+horizon:  80
+cpu:  True
+start q: [0.33442 0.08862 0.32505 0.7071  0.49302 0.1993  0.46606]
+goal q: [ 0.56703 -0.36678 -0.30872 -0.21903  0.77145 -0.00988 -0.59732]
+policy time: 0.013120651245117188
+step time: 0.02350163459777832
+SOLVER: RL
+successes [array([ True])]
+length:  1.6549252265709413
+time spent:  1.0397746562957764
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 37
+horizon:  80
+cpu:  True
+start q: [-0.59442  0.10618  0.48261  0.45682 -0.85756  0.16554 -0.1688 ]
+goal q: [ 0.06368  0.52957  0.58442  0.22532 -0.46023  0.12353  0.8498 ]
+policy time: 0.011958122253417969
+step time: 0.018172740936279297
+SOLVER: RL
+successes [array([ True])]
+length:  1.3704173738967937
+time spent:  1.0325524806976318
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 38
+horizon:  80
+cpu:  True
+start q: [ 0.49253  0.59357  0.40175 -0.60086  0.51963  0.53632  0.28514]
+goal q: [-0.23562 -0.49638 -0.59559  0.38554  0.8379   0.00192 -0.38636]
+policy time: 0.026311635971069336
+step time: 0.038079023361206055
+SOLVER: RL
+successes [array([ True])]
+length:  2.7642081333920596
+time spent:  1.0705745220184326
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 39
+horizon:  80
+cpu:  True
+start q: [ 0.34784 -0.02565 -0.48584  0.01115  0.18332 -0.37355  0.90925]
+goal q: [ 0.54036  0.43242 -0.11671  0.03956  0.30781 -0.69581  0.64772]
+policy time: 0.009043455123901367
+step time: 0.009696483612060547
+SOLVER: RL
+successes [array([ True])]
+length:  0.7886010377529993
+time spent:  1.0159616470336914
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 40
+horizon:  80
+cpu:  True
+start q: [ 0.00975 -0.02857 -0.26642  0.02834 -0.82138 -0.56115  0.09816]
+goal q: [-0.36524 -0.04384  0.26083 -0.74861 -0.3374   0.46353 -0.33299]
+policy time: 0.013785839080810547
+step time: 0.02325916290283203
+SOLVER: RL
+successes [array([ True])]
+length:  1.6406368403792322
+time spent:  1.0483331680297852
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 41
+horizon:  80
+cpu:  True
+start q: [-0.4431  -0.43692 -0.56493 -0.5978   0.13015 -0.12306  0.78137]
+goal q: [-0.21468  0.41359 -0.51741 -0.07784 -0.7063  -0.42182 -0.56316]
+policy time: 0.011987686157226562
+step time: 0.01809406280517578
+SOLVER: RL
+successes [array([ True])]
+length:  1.3449472611745334
+time spent:  1.0339922904968262
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 42
+horizon:  80
+cpu:  True
+start q: [-0.45756 -0.31948 -0.32363 -0.45088  0.76488  0.13396 -0.44014]
+goal q: [-0.30983  0.51127  0.48504  0.54753 -0.50388  0.55387  0.37356]
+policy time: 0.015246868133544922
+step time: 0.018886089324951172
+SOLVER: RL
+successes [array([ True])]
+length:  1.5267554238911292
+time spent:  1.038548231124878
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 43
+horizon:  80
+cpu:  True
+start q: [-0.25179 -0.5545  -0.41466 -0.47783 -0.73064 -0.42899 -0.23199]
+goal q: [ 0.40379  0.5862   0.2001   0.74692  0.32789  0.03176 -0.57758]
+policy time: 0.025151729583740234
+step time: 0.03238081932067871
+SOLVER: RL
+successes [array([ True])]
+length:  2.6066450463918263
+time spent:  1.064467191696167
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 44
+horizon:  80
+cpu:  True
+start q: [-0.48295 -0.37141 -0.5707  -0.14252 -0.73953  0.6543  -0.06845]
+goal q: [ 0.2078  -0.35992  0.04975 -0.83212  0.14441 -0.39819  0.35799]
+policy time: 0.013947248458862305
+step time: 0.020392179489135742
+SOLVER: RL
+successes [array([ True])]
+length:  1.5797283641753377
+time spent:  1.0382342338562012
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 45
+horizon:  80
+cpu:  True
+start q: [ 0.22978 -0.49475 -0.36169 -0.15048  0.87742 -0.08767  0.447  ]
+goal q: [ 0.44554 -0.08901 -0.53658  0.05099  0.57313  0.6202  -0.53318]
+policy time: 0.011286258697509766
+step time: 0.018162012100219727
+SOLVER: RL
+successes [array([ True])]
+length:  1.3795768614570867
+time spent:  1.0281550884246826
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 46
+horizon:  80
+cpu:  True
+start q: [-0.39603  0.38068 -0.11575  0.98366 -0.10421  0.00719 -0.14661]
+goal q: [-0.14735  0.40766 -0.29861  0.38224  0.38589  0.56682  0.61943]
+policy time: 0.010058164596557617
+step time: 0.01761460304260254
+SOLVER: RL
+successes [array([ True])]
+length:  1.3177733421705826
+time spent:  1.0378458499908447
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 47
+horizon:  80
+cpu:  True
+start q: [ 0.50224 -0.18094 -0.12438  0.61706  0.03017  0.68516 -0.38586]
+goal q: [-0.18055  0.47509 -0.1348  -0.15903 -0.64628  0.09693  0.74003]
+policy time: 0.014894485473632812
+step time: 0.021938562393188477
+SOLVER: RL
+successes [array([ True])]
+length:  1.8222942625050689
+time spent:  1.0449519157409668
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 48
+horizon:  80
+cpu:  True
+start q: [ 0.55823 -0.48363  0.23688 -0.58865 -0.6243  -0.40834 -0.31144]
+goal q: [ 0.54138  0.00918 -0.29696 -0.10675  0.72928  0.06424  0.67278]
+policy time: 0.011466503143310547
+step time: 0.015213966369628906
+SOLVER: RL
+successes [array([ True])]
+length:  1.1293901034222635
+time spent:  1.0317983627319336
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 49
+horizon:  80
+cpu:  True
+start q: [ 0.22998  0.37031  0.19732 -0.83333 -0.20037 -0.30114  0.418  ]
+goal q: [-0.56607 -0.53654  0.10686  0.63993  0.28258 -0.70341  0.12593]
+policy time: 0.020720958709716797
+step time: 0.023890018463134766
+SOLVER: RL
+successes [array([ True])]
+length:  1.9218233592605678
+time spent:  1.0491187572479248
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 50
+horizon:  80
+cpu:  True
+start q: [-0.1209  -0.18558 -0.57738 -0.46768  0.15461  0.86959 -0.03452]
+goal q: [-0.45107 -0.56075 -0.05856  0.27705  0.59277  0.48842  0.57734]
+policy time: 0.011906862258911133
+step time: 0.020272254943847656
+SOLVER: RL
+successes [array([ True])]
+length:  1.38334038781818
+time spent:  1.0428407192230225
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 51
+horizon:  80
+cpu:  True
+start q: [-0.31485  0.41637  0.33495  0.76682  0.04528 -0.44239  0.46285]
+goal q: [-0.27373 -0.52369 -0.50843  0.6663   0.1571  -0.5849   0.43505]
+policy time: 0.016213178634643555
+step time: 0.01654791831970215
+SOLVER: RL
+successes [array([ True])]
+length:  1.4108523297779498
+time spent:  1.0357601642608643
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 52
+horizon:  80
+cpu:  True
+start q: [-0.37736  0.58657  0.53338 -0.25215 -0.26303 -0.34069  0.8667 ]
+goal q: [ 0.25173 -0.58259 -0.57269 -0.93218 -0.26076  0.09915 -0.23068]
+policy time: 0.07915329933166504
+step time: 0.06735801696777344
+SOLVER: RL
+successes [array([False])]
+length:  2.1499433281190763
+time spent:  1.1551189422607422
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 53
+horizon:  80
+cpu:  True
+start q: [-0.29326 -0.17042 -0.00017 -0.11831  0.17633 -0.94123  0.26268]
+goal q: [ 0.55488 -0.53635 -0.38638  0.50716  0.68824 -0.04583 -0.51674]
+policy time: 0.013931989669799805
+step time: 0.020937681198120117
+SOLVER: RL
+successes [array([ True])]
+length:  1.803952888068405
+time spent:  1.0511054992675781
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 54
+horizon:  80
+cpu:  True
+start q: [-0.40862  0.17587  0.212   -0.46763 -0.07381 -0.1341  -0.87057]
+goal q: [-0.03454  0.14321 -0.01374 -0.07602 -0.64306 -0.63336  0.42375]
+policy time: 0.01412343978881836
+step time: 0.02255415916442871
+SOLVER: RL
+successes [array([ True])]
+length:  1.3607280530888166
+time spent:  1.0519354343414307
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 55
+horizon:  80
+cpu:  True
+start q: [ 0.42113  0.14206 -0.42855  0.17917  0.28635 -0.52941  0.77822]
+goal q: [ 0.56223  0.18622 -0.28325 -0.74967  0.59097 -0.12959 -0.26825]
+policy time: 0.013917207717895508
+step time: 0.021486759185791016
+SOLVER: RL
+successes [array([ True])]
+length:  1.4318392395962882
+time spent:  1.0567147731781006
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 56
+horizon:  80
+cpu:  True
+start q: [-0.45086  0.09818 -0.25064  0.97545 -0.18297  0.08382 -0.08939]
+goal q: [ 0.06233  0.43766  0.30578 -0.26464 -0.15201 -0.82916  0.46835]
+policy time: 0.07871007919311523
+step time: 0.05854296684265137
+SOLVER: RL
+successes [array([False])]
+length:  0.5910406071125827
+time spent:  1.2799935340881348
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 57
+horizon:  80
+cpu:  True
+start q: [ 0.59189  0.5655  -0.05146 -0.10024 -0.05781  0.98937  0.08813]
+goal q: [ 0.19835 -0.49143 -0.54323 -0.16267  0.76339 -0.60905 -0.1408 ]
+policy time: 0.03520035743713379
+step time: 0.05022144317626953
+SOLVER: RL
+successes [array([ True])]
+length:  3.7091123855495236
+time spent:  1.1242058277130127
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 58
+horizon:  80
+cpu:  True
+start q: [-0.12505  0.23197 -0.53827  0.26675  0.69074 -0.53003  0.41327]
+goal q: [ 0.59046 -0.11504 -0.4384   0.63181 -0.44159  0.37334 -0.51617]
+policy time: 0.012877941131591797
+step time: 0.018388748168945312
+SOLVER: RL
+successes [array([ True])]
+length:  1.318526415268657
+time spent:  1.0781939029693604
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 59
+horizon:  80
+cpu:  True
+start q: [-0.492   -0.42836 -0.31011 -0.74377  0.28909 -0.03546 -0.60164]
+goal q: [ 0.12294  0.29916  0.34528  0.43736  0.06446 -0.25009 -0.86141]
+policy time: 0.015775680541992188
+step time: 0.020218610763549805
+SOLVER: RL
+successes [array([ True])]
+length:  1.7107468556245273
+time spent:  1.0920963287353516
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 60
+horizon:  80
+cpu:  True
+start q: [ 0.47856 -0.34137 -0.59397  0.32783  0.91961 -0.16547  0.13954]
+goal q: [ 0.5973   0.38571 -0.59136 -0.32915 -0.65459 -0.23767 -0.63772]
+policy time: 0.00956583023071289
+step time: 0.01346445083618164
+SOLVER: RL
+successes [array([ True])]
+length:  0.9288281287234021
+time spent:  1.1048610210418701
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 61
+horizon:  80
+cpu:  True
+start q: [ 0.06353 -0.5921  -0.48234  0.43255  0.02058  0.88373 -0.17747]
+goal q: [ 0.55523 -0.22006  0.48748 -0.30658  0.11643 -0.31545  0.89047]
+policy time: 0.017855167388916016
+step time: 0.020937442779541016
+SOLVER: RL
+successes [array([ True])]
+length:  1.5781989914980297
+time spent:  1.079883337020874
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 62
+horizon:  80
+cpu:  True
+start q: [ 0.42957  0.07921  0.15596  0.36619 -0.86608  0.24211 -0.23916]
+goal q: [-0.42608 -0.09978  0.37434 -0.45595  0.14355  0.47211  0.74069]
+policy time: 0.018775224685668945
+step time: 0.025792837142944336
+SOLVER: RL
+successes [array([ True])]
+length:  1.7125945652615104
+time spent:  1.095353603363037
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 63
+horizon:  80
+cpu:  True
+start q: [ 0.54833  0.46359 -0.10762 -0.21439  0.02942  0.88539  0.41141]
+goal q: [ 0.51137 -0.30873  0.28754  0.13843 -0.6928  -0.35482  0.61234]
+policy time: 0.015789508819580078
+step time: 0.024756669998168945
+SOLVER: RL
+successes [array([ True])]
+length:  1.8813051876900513
+time spent:  1.0762009620666504
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 64
+horizon:  80
+cpu:  True
+start q: [-0.23675  0.37461  0.03315 -0.12025  0.55071  0.72396 -0.39767]
+goal q: [-0.41134 -0.17517 -0.1421  -0.07438 -0.17591  0.74268 -0.64183]
+policy time: 0.023341894149780273
+step time: 0.014971017837524414
+SOLVER: RL
+successes [array([ True])]
+length:  1.000724746053729
+time spent:  1.0780189037322998
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 65
+horizon:  80
+cpu:  True
+start q: [ 0.3752  -0.20316 -0.43828 -0.68738  0.67821 -0.05318 -0.25437]
+goal q: [ 0.0265  -0.09296  0.4231  -0.88795 -0.27565  0.07131 -0.36121]
+policy time: 0.012081623077392578
+step time: 0.016841411590576172
+SOLVER: RL
+successes [array([ True])]
+length:  1.4466541111016205
+time spent:  1.0700855255126953
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 66
+horizon:  80
+cpu:  True
+start q: [-0.53243 -0.54075 -0.09879 -0.44366 -0.04207 -0.82816 -0.33991]
+goal q: [-0.19657  0.06068  0.46117  0.46416 -0.43914  0.21452 -0.73871]
+policy time: 0.01507115364074707
+step time: 0.021208524703979492
+SOLVER: RL
+successes [array([ True])]
+length:  1.6530727841843036
+time spent:  1.1110055446624756
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 67
+horizon:  80
+cpu:  True
+start q: [ 0.11913 -0.50768 -0.0955  -0.73719  0.23728  0.3768   0.5082 ]
+goal q: [ 0.59414  0.42104  0.33287 -0.29381  0.79937 -0.00265 -0.5241 ]
+policy time: 0.015472650527954102
+step time: 0.024247407913208008
+SOLVER: RL
+successes [array([ True])]
+length:  1.873172117979783
+time spent:  1.0852303504943848
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 68
+horizon:  80
+cpu:  True
+start q: [ 0.10902  0.40558  0.56367  0.67522 -0.68228  0.13729  0.24438]
+goal q: [ 0.49508 -0.41777  0.29187 -0.11898  0.0902  -0.88058  0.44977]
+policy time: 0.017009258270263672
+step time: 0.022349119186401367
+SOLVER: RL
+successes [array([ True])]
+length:  1.6594131189329004
+time spent:  1.1258032321929932
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 69
+horizon:  80
+cpu:  True
+start q: [-0.58036  0.2799   0.24794 -0.59393  0.42616  0.62519 -0.27343]
+goal q: [-0.05192 -0.1261   0.23916 -0.05042  0.51484 -0.82648 -0.2221 ]
+policy time: 0.012052059173583984
+step time: 0.020073652267456055
+SOLVER: RL
+successes [array([ True])]
+length:  1.4494946170179241
+time spent:  1.110243320465088
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 70
+horizon:  80
+cpu:  True
+start q: [-0.59476 -0.52033 -0.27443 -0.25719 -0.60894 -0.35659 -0.66021]
+goal q: [-0.36969 -0.02366 -0.37821 -0.13375 -0.63222  0.40961 -0.64392]
+policy time: 0.009337902069091797
+step time: 0.01380014419555664
+SOLVER: RL
+successes [array([ True])]
+length:  0.9421595789069414
+time spent:  1.1168718338012695
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 71
+horizon:  80
+cpu:  True
+start q: [-0.16165 -0.43557 -0.04578  0.14744 -0.44407  0.16511  0.86822]
+goal q: [ 0.5213  -0.13461  0.28762  0.89019  0.04179  0.0861  -0.44543]
+policy time: 0.014773845672607422
+step time: 0.01960444450378418
+SOLVER: RL
+successes [array([ True])]
+length:  1.560872694823205
+time spent:  1.1005868911743164
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 72
+horizon:  80
+cpu:  True
+start q: [-0.40356  0.49191  0.45695 -0.14635 -0.34857 -0.15147 -0.91331]
+goal q: [-0.41653 -0.58526 -0.18482  0.81141 -0.41286  0.29552 -0.28953]
+policy time: 0.017672300338745117
+step time: 0.02710437774658203
+SOLVER: RL
+successes [array([ True])]
+length:  2.2341607508874715
+time spent:  1.062258005142212
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 73
+horizon:  80
+cpu:  True
+start q: [ 0.19974 -0.47865  0.45025  0.52763  0.47817 -0.69761  0.07933]
+goal q: [ 0.57557  0.26096  0.01463  0.11482 -0.76733 -0.28036 -0.56517]
+policy time: 0.015849590301513672
+step time: 0.024887561798095703
+SOLVER: RL
+successes [array([ True])]
+length:  1.8367865322730916
+time spent:  1.0951416492462158
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 74
+horizon:  80
+cpu:  True
+start q: [-0.41665  0.10711 -0.55298 -0.21818 -0.8103  -0.25828  0.47865]
+goal q: [-0.40639 -0.03466  0.5835   0.09089  0.7194  -0.68738 -0.0413 ]
+policy time: 0.01407480239868164
+step time: 0.01934671401977539
+SOLVER: RL
+successes [array([ True])]
+length:  1.747443495601511
+time spent:  1.0754954814910889
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 75
+horizon:  80
+cpu:  True
+start q: [ 0.53966  0.5768   0.22462  0.59593 -0.36642 -0.68507  0.20318]
+goal q: [-0.48404 -0.5499  -0.53685 -0.38576  0.86798 -0.18018  0.25561]
+policy time: 0.02921271324157715
+step time: 0.038948774337768555
+SOLVER: RL
+successes [array([ True])]
+length:  3.016358650935536
+time spent:  1.085158348083496
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 76
+horizon:  80
+cpu:  True
+start q: [ 0.54956 -0.13725  0.58166 -0.22725  0.33558  0.17842  0.89661]
+goal q: [-0.28141 -0.26957 -0.50842 -0.29121 -0.35472  0.76127  0.45808]
+policy time: 0.019492387771606445
+step time: 0.024831533432006836
+SOLVER: RL
+successes [array([ True])]
+length:  2.2060743386209984
+time spent:  1.0762853622436523
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 77
+horizon:  80
+cpu:  True
+start q: [-0.00814  0.51248  0.32231  0.46755 -0.05669  0.46679 -0.74852]
+goal q: [-0.06095  0.47447 -0.31799  0.94111  0.16713 -0.11706  0.26958]
+policy time: 0.013470649719238281
+step time: 0.021053314208984375
+SOLVER: RL
+successes [array([ True])]
+length:  1.5712464191459885
+time spent:  1.0566177368164062
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 78
+horizon:  80
+cpu:  True
+start q: [-0.0934   0.06006  0.58256 -0.44477 -0.74833 -0.46724 -0.15452]
+goal q: [-0.37406  0.41188 -0.35332 -0.74326 -0.36097 -0.55114  0.11628]
+policy time: 0.015933752059936523
+step time: 0.017780780792236328
+SOLVER: RL
+successes [array([ True])]
+length:  1.4497928020325281
+time spent:  1.1689479351043701
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 79
+horizon:  80
+cpu:  True
+start q: [-0.37716 -0.1967   0.53704 -0.32238 -0.66712  0.66075 -0.12012]
+goal q: [-0.58783 -0.1834  -0.54089  0.0439   0.48354 -0.06072 -0.87211]
+policy time: 0.013861417770385742
+step time: 0.022669315338134766
+SOLVER: RL
+successes [array([ True])]
+length:  1.7086855916865902
+time spent:  1.1914539337158203
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 80
+horizon:  80
+cpu:  True
+start q: [ 0.28518 -0.42738  0.18561 -0.85504  0.48088  0.17317 -0.08756]
+goal q: [-0.02273 -0.56668  0.10594 -0.80637 -0.51288 -0.09322  0.27936]
+policy time: 0.013918876647949219
+step time: 0.018470287322998047
+SOLVER: RL
+successes [array([ True])]
+length:  1.283348975962554
+time spent:  1.134108543395996
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 81
+horizon:  80
+cpu:  True
+start q: [ 0.1124  -0.43834  0.44295  0.12587  0.62699  0.05807  0.7666 ]
+goal q: [ 0.46501 -0.2887  -0.01584  0.83196  0.32978 -0.43178  0.1125 ]
+policy time: 0.013765096664428711
+step time: 0.018735885620117188
+SOLVER: RL
+successes [array([ True])]
+length:  1.351397339400638
+time spent:  1.0622098445892334
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 82
+horizon:  80
+cpu:  True
+start q: [-0.47453 -0.56867  0.25077 -0.91404 -0.08023  0.38901 -0.0822 ]
+goal q: [ 0.19954  0.39873 -0.57021 -0.24046 -0.38299 -0.86398 -0.22142]
+policy time: 0.02651500701904297
+step time: 0.04127097129821777
+SOLVER: RL
+successes [array([ True])]
+length:  3.1452444770303516
+time spent:  1.0997726917266846
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 83
+horizon:  80
+cpu:  True
+start q: [-0.11705 -0.56844  0.10974  0.38557 -0.28329 -0.34542 -0.80732]
+goal q: [-0.05763 -0.3575  -0.21898 -0.89196  0.226   -0.3701   0.12788]
+policy time: 0.009199142456054688
+step time: 0.017728090286254883
+SOLVER: RL
+successes [array([ True])]
+length:  1.1547578043689701
+time spent:  1.0439202785491943
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 84
+horizon:  80
+cpu:  True
+start q: [-0.43324 -0.36964 -0.50368 -0.02551  0.75145  0.14345  0.6435 ]
+goal q: [-0.04014  0.41563  0.19169 -0.85766  0.29022  0.13298 -0.40312]
+policy time: 0.025916576385498047
+step time: 0.035729169845581055
+SOLVER: RL
+successes [array([ True])]
+length:  2.811631262340399
+time spent:  1.0759057998657227
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 85
+horizon:  80
+cpu:  True
+start q: [-0.00721  0.52302  0.05784 -0.85416  0.337   -0.27845 -0.28162]
+goal q: [-0.27129 -0.50843  0.05225 -0.35398  0.04086  0.22869 -0.90594]
+policy time: 0.014003753662109375
+step time: 0.01945352554321289
+SOLVER: RL
+successes [array([ True])]
+length:  1.4650954308253714
+time spent:  1.0557787418365479
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon:  80
+cpu:  True
+start q: [ 0.54048 -0.35106 -0.17702  0.22576  0.80932 -0.4903  -0.23159]
+goal q: [-0.48704  0.42458  0.29509  0.58624 -0.23997 -0.21615 -0.74298]
+policy time: 0.08088278770446777
+step time: 0.05342745780944824
+SOLVER: RL
+successes [array([False])]
+length:  0.05325106413600286
+time spent:  1.2085411548614502
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 87
+horizon:  80
+cpu:  True
+start q: [-0.32328  0.17449  0.56417 -0.3461  -0.30524  0.88655  0.03278]
+goal q: [-0.43777  0.29505  0.12759  0.52291  0.53347  0.39324  0.53603]
+policy time: 0.012953519821166992
+step time: 0.02143383026123047
+SOLVER: RL
+successes [array([ True])]
+length:  1.580222160600071
+time spent:  1.064450979232788
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 88
+horizon:  80
+cpu:  True
+start q: [-0.48781 -0.59599  0.4576  -0.07065 -0.81773 -0.47772 -0.31323]
+goal q: [ 0.57518 -0.18256  0.32474  0.38101 -0.82077  0.41801 -0.08022]
+policy time: 0.017840862274169922
+step time: 0.02059340476989746
+SOLVER: RL
+successes [array([ True])]
+length:  1.7096699097656822
+time spent:  1.1444447040557861
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 89
+horizon:  80
+cpu:  True
+start q: [ 0.37058  0.38615  0.10153  0.32099 -0.53205 -0.7829  -0.03079]
+goal q: [-0.49141  0.33341 -0.34446 -0.07749 -0.60938  0.38147 -0.69075]
+policy time: 0.017278671264648438
+step time: 0.023900508880615234
+SOLVER: RL
+successes [array([ True])]
+length:  1.8220299616460367
+time spent:  1.1038548946380615
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 90
+horizon:  80
+cpu:  True
+start q: [-0.25162 -0.12145  0.217   -0.21914 -0.04032 -0.41268  0.8832 ]
+goal q: [ 0.45084 -0.34075 -0.08054  0.31625  0.74968  0.37671 -0.44279]
+policy time: 0.010849952697753906
+step time: 0.01476597785949707
+SOLVER: RL
+successes [array([ True])]
+length:  1.1542934379259542
+time spent:  1.084972858428955
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 91
+horizon:  80
+cpu:  True
+start q: [-0.57137 -0.06786 -0.55721 -0.80384 -0.15723  0.57     0.06492]
+goal q: [ 0.05296 -0.21463 -0.3527  -0.75448  0.64081 -0.07268  0.12179]
+policy time: 0.009549617767333984
+step time: 0.01728343963623047
+SOLVER: RL
+successes [array([ True])]
+length:  1.1826771284454163
+time spent:  1.0673458576202393
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 92
+horizon:  80
+cpu:  True
+start q: [-0.43631 -0.42191  0.4832  -0.72811 -0.0326  -0.49658 -0.47138]
+goal q: [-0.19666 -0.40621  0.05573 -0.82851  0.02083 -0.26262 -0.49414]
+policy time: 0.00732874870300293
+step time: 0.0066680908203125
+SOLVER: RL
+successes [array([ True])]
+length:  0.49996239629677197
+time spent:  1.0510029792785645
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 93
+horizon:  80
+cpu:  True
+start q: [ 0.56034  0.468   -0.34035 -0.62371  0.04462  0.37545 -0.68413]
+goal q: [-0.48813 -0.08873 -0.57022  0.66925 -0.21347 -0.69238  0.16475]
+policy time: 0.01938319206237793
+step time: 0.021276473999023438
+SOLVER: RL
+successes [array([ True])]
+length:  1.8555729136457544
+time spent:  1.0806682109832764
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 94
+horizon:  80
+cpu:  True
+start q: [-0.56112 -0.06977 -0.5011  -0.22182 -0.14025  0.50062 -0.82493]
+goal q: [ 0.34611 -0.34638  0.29306 -0.57893  0.15894 -0.70107  0.38482]
+policy time: 0.023545026779174805
+step time: 0.028402090072631836
+SOLVER: RL
+successes [array([ True])]
+length:  2.336850235026435
+time spent:  1.0715241432189941
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 95
+horizon:  80
+cpu:  True
+start q: [-0.48299  0.44571 -0.44668  0.69615 -0.01813  0.2925  -0.65536]
+goal q: [-0.08766  0.55475  0.43798 -0.56917  0.31052  0.69773 -0.30463]
+policy time: 0.014680862426757812
+step time: 0.02234172821044922
+SOLVER: RL
+successes [array([ True])]
+length:  1.8608021840673767
+time spent:  1.0663282871246338
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 96
+horizon:  80
+cpu:  True
+start q: [ 0.12771 -0.47845 -0.43929  0.30068 -0.09715 -0.51808  0.79482]
+goal q: [ 0.11171  0.55105 -0.53084 -0.88117 -0.41289 -0.18105 -0.14243]
+policy time: 0.013298749923706055
+step time: 0.02040553092956543
+SOLVER: RL
+successes [array([ True])]
+length:  1.5710098852291188
+time spent:  1.0688562393188477
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon:  80
+cpu:  True
+start q: [-0.52993 -0.29008 -0.01359 -0.48841  0.5489  -0.3839  -0.55927]
+goal q: [ 0.28562 -0.54757  0.39865 -0.25463  0.66462 -0.01015 -0.70238]
+policy time: 0.01485896110534668
+step time: 0.018514156341552734
+SOLVER: RL
+successes [array([ True])]
+length:  1.361752838362647
+time spent:  1.093634843826294
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 98
+horizon:  80
+cpu:  True
+start q: [-0.5824  -0.28476 -0.02024  0.75323 -0.46757  0.44703  0.11911]
+goal q: [ 0.29251 -0.22644  0.47854  0.27343 -0.47576 -0.38283 -0.74319]
+policy time: 0.07803988456726074
+step time: 0.052253007888793945
+SOLVER: RL
+successes [array([False])]
+length:  0.04502763417819474
+time spent:  1.1486148834228516
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 99
+horizon:  80
+cpu:  True
+start q: [-0.38943 -0.10453  0.56627 -0.06244 -0.44108  0.44212  0.77851]
+goal q: [-0.13955 -0.05526  0.55275 -0.59607  0.44655 -0.55945  0.36374]
+policy time: 0.013072490692138672
+step time: 0.019339323043823242
+SOLVER: RL
+successes [array([ True])]
+length:  1.4346207577379506
+time spent:  1.0487987995147705
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+horizon:  80
+cpu:  True
+start q: [ 0.3631  -0.10471  0.40929  0.22057  0.89626 -0.23803  0.30234]
+goal q: [ 0.00053  0.25726  0.55044 -0.26583  0.14879  0.80613  0.5073 ]
+policy time: 0.01717829704284668
+step time: 0.024013042449951172
+SOLVER: RL
+successes [array([ True])]
+length:  1.6337179847476149
+time spent:  1.0756487846374512
+-------- stop running --------

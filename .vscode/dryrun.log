@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yixuan/EECS598_006_final_project'
+make: Leaving directory '/home/yixuan/EECS598_006_final_project'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 

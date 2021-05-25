@@ -1,0 +1,833 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon:  5
+cpu:  True
+start q: [ 0.5403   0.50415 -0.42281 -0.21802  0.3892  -0.85416 -0.26722]
+goal q: [-0.47619 -0.44871 -0.00547  0.48717 -0.34631  0.80034 -0.04682]
+start expand
+policy time: 0.006418943405151367
+step time: 0.007910728454589844
+expanding needs: 0.017920970916748047
+start expand
+policy time: 0.005018472671508789
+step time: 0.008222103118896484
+expanding needs: 0.015127897262573242
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.008934736251831055
+start expand
+expanding needs: 0.009475946426391602
+SOLVER: RL_RRT
+success:  True
+length:  4.689922800518024
+time spent:  1.1712124347686768
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon:  5
+cpu:  True
+start q: [-0.29574  0.07059  0.12202  0.02607 -0.19839 -0.86026 -0.46894]
+goal q: [-0.00827 -0.44578 -0.36499 -0.09782 -0.05023 -0.98123  0.15844]
+start expand
+policy time: 0.00720524787902832
+step time: 0.011789083480834961
+expanding needs: 0.021409988403320312
+start expand
+policy time: 0.005035400390625
+step time: 0.004459381103515625
+expanding needs: 0.011166095733642578
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.01667499542236328
+start expand
+policy time: 0.0050427913665771484
+step time: 0.010938882827758789
+expanding needs: 0.017383337020874023
+iteration:  1
+tree a length:  7
+tree b length:  11
+start expand
+policy time: 0.00573420524597168
+step time: 0.009062528610229492
+expanding needs: 0.019259214401245117
+start expand
+expanding needs: 0.010902643203735352
+SOLVER: RL_RRT
+success:  True
+length:  1.5980924518125803
+time spent:  1.177614450454712
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon:  5
+cpu:  True
+start q: [ 0.41055 -0.36928 -0.05604 -0.22591 -0.87523  0.39102 -0.17332]
+goal q: [-0.26074  0.23569 -0.58554 -0.07409  0.78877 -0.55026 -0.26377]
+start expand
+policy time: 0.006304025650024414
+step time: 0.008793354034423828
+expanding needs: 0.01645040512084961
+start expand
+policy time: 0.004778623580932617
+step time: 0.006547689437866211
+expanding needs: 0.014183998107910156
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.006782054901123047
+start expand
+policy time: 0.00481414794921875
+step time: 0.0048694610595703125
+expanding needs: 0.011751413345336914
+iteration:  1
+tree a length:  11
+tree b length:  7
+start expand
+policy time: 0.004832267761230469
+step time: 0.008404970169067383
+expanding needs: 0.02309417724609375
+start expand
+policy time: 0.004808902740478516
+step time: 0.006633281707763672
+expanding needs: 0.014016866683959961
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+policy time: 0.005276918411254883
+step time: 0.008247852325439453
+expanding needs: 0.022978544235229492
+start expand
+policy time: 0.005025386810302734
+step time: 0.003847360610961914
+expanding needs: 0.010379314422607422
+iteration:  3
+tree a length:  21
+tree b length:  17
+start expand
+policy time: 0.0050201416015625
+step time: 0.009173154830932617
+expanding needs: 0.01927495002746582
+start expand
+policy time: 0.005044221878051758
+step time: 0.006695985794067383
+expanding needs: 0.013200759887695312
+iteration:  4
+tree a length:  26
+tree b length:  22
+start expand
+policy time: 0.005068063735961914
+step time: 0.005556583404541016
+expanding needs: 0.012935876846313477
+start expand
+policy time: 0.00493311882019043
+step time: 0.008041620254516602
+expanding needs: 0.014755487442016602
+iteration:  5
+tree a length:  31
+tree b length:  27
+start expand
+policy time: 0.005018711090087891
+step time: 0.0059664249420166016
+expanding needs: 0.01345682144165039
+start expand
+policy time: 0.005071878433227539
+step time: 0.008131265640258789
+expanding needs: 0.01405644416809082
+iteration:  6
+tree a length:  36
+tree b length:  32
+start expand
+policy time: 0.005129337310791016
+step time: 0.00845646858215332
+expanding needs: 0.01566767692565918
+start expand
+policy time: 0.0049707889556884766
+step time: 0.00668644905090332
+expanding needs: 0.012352466583251953
+iteration:  7
+tree a length:  41
+tree b length:  37
+start expand
+policy time: 0.005116939544677734
+step time: 0.0070226192474365234
+expanding needs: 0.014977455139160156
+start expand
+policy time: 0.0050923824310302734
+step time: 0.008334636688232422
+expanding needs: 0.015319347381591797
+iteration:  8
+tree a length:  46
+tree b length:  42
+start expand
+policy time: 0.005124092102050781
+step time: 0.009726285934448242
+expanding needs: 0.01767897605895996
+start expand
+policy time: 0.004961490631103516
+step time: 0.007448673248291016
+expanding needs: 0.015174150466918945
+iteration:  9
+tree a length:  51
+tree b length:  47
+start expand
+policy time: 0.005087137222290039
+step time: 0.0062367916107177734
+expanding needs: 0.013634681701660156
+start expand
+expanding needs: 0.001397848129272461
+SOLVER: RL_RRT
+success:  True
+length:  3.797076362741738
+time spent:  1.4694726467132568
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon:  5
+cpu:  True
+start q: [-0.48833  0.5195  -0.03117  0.17009  0.6659   0.60204  0.40644]
+goal q: [ 0.30916  0.33632  0.58009 -0.75126  0.42225  0.23101 -0.45161]
+start expand
+policy time: 0.0064127445220947266
+step time: 0.008535623550415039
+expanding needs: 0.020815610885620117
+start expand
+policy time: 0.0053632259368896484
+step time: 0.006079435348510742
+expanding needs: 0.013021230697631836
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+policy time: 0.005015850067138672
+step time: 0.006977081298828125
+expanding needs: 0.0156552791595459
+start expand
+policy time: 0.00510716438293457
+step time: 0.0048980712890625
+expanding needs: 0.011413812637329102
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+policy time: 0.0053234100341796875
+step time: 0.0032596588134765625
+expanding needs: 0.009741067886352539
+iteration:  2
+tree a length:  11
+tree b length:  11
+start expand
+policy time: 0.0052394866943359375
+step time: 0.0033800601959228516
+expanding needs: 0.009656667709350586
+iteration:  3
+tree a length:  11
+tree b length:  11
+start expand
+policy time: 0.005106449127197266
+step time: 0.003264188766479492
+expanding needs: 0.009492635726928711
+iteration:  4
+tree a length:  11
+tree b length:  11
+start expand
+policy time: 0.0052111148834228516
+step time: 0.008052825927734375
+expanding needs: 0.014467716217041016
+start expand
+policy time: 0.005217075347900391
+step time: 0.003470182418823242
+expanding needs: 0.009667396545410156
+iteration:  5
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.0051462650299072266
+step time: 0.003459930419921875
+expanding needs: 0.009549617767333984
+iteration:  6
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.005308866500854492
+step time: 0.0032036304473876953
+expanding needs: 0.009685993194580078
+iteration:  7
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.005080461502075195
+step time: 0.003209352493286133
+expanding needs: 0.009256124496459961
+iteration:  8
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.0048062801361083984
+step time: 0.0032722949981689453
+expanding needs: 0.008988618850708008
+iteration:  9
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.004837751388549805
+step time: 0.007322788238525391
+expanding needs: 0.013119935989379883
+start expand
+policy time: 0.004698991775512695
+step time: 0.009533405303955078
+expanding needs: 0.01641249656677246
+iteration:  10
+tree a length:  21
+tree b length:  16
+start expand
+policy time: 0.004734039306640625
+step time: 0.005300045013427734
+expanding needs: 0.011765718460083008
+start expand
+policy time: 0.004719734191894531
+step time: 0.006422996520996094
+expanding needs: 0.013889789581298828
+iteration:  11
+tree a length:  26
+tree b length:  21
+start expand
+policy time: 0.0047686100006103516
+step time: 0.009091615676879883
+expanding needs: 0.014965295791625977
+start expand
+policy time: 0.0047147274017333984
+step time: 0.006776094436645508
+expanding needs: 0.013455867767333984
+iteration:  12
+tree a length:  31
+tree b length:  26
+start expand
+policy time: 0.004842042922973633
+step time: 0.0032820701599121094
+expanding needs: 0.009104251861572266
+iteration:  13
+tree a length:  31
+tree b length:  26
+start expand
+policy time: 0.004996776580810547
+step time: 0.003289461135864258
+expanding needs: 0.009412050247192383
+iteration:  14
+tree a length:  31
+tree b length:  26
+start expand
+policy time: 0.00508570671081543
+step time: 0.003264188766479492
+expanding needs: 0.009366512298583984
+iteration:  15
+tree a length:  31
+tree b length:  26
+start expand
+policy time: 0.005529165267944336
+step time: 0.007880449295043945
+expanding needs: 0.015029191970825195
+start expand
+policy time: 0.0054209232330322266
+step time: 0.006989479064941406
+expanding needs: 0.013666629791259766
+iteration:  16
+tree a length:  36
+tree b length:  31
+start expand
+policy time: 0.005608797073364258
+step time: 0.00800013542175293
+expanding needs: 0.016461610794067383
+start expand
+policy time: 0.007081508636474609
+step time: 0.00977635383605957
+expanding needs: 0.01835036277770996
+iteration:  17
+tree a length:  41
+tree b length:  36
+start expand
+policy time: 0.0064504146575927734
+step time: 0.009624242782592773
+expanding needs: 0.01835012435913086
+start expand
+expanding needs: 0.00681757926940918
+SOLVER: RL_RRT
+success:  True
+length:  4.595883461665637
+time spent:  1.7746038436889648
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 34
+horizon:  5
+cpu:  True
+start q: [ 0.41346  0.28011  0.50272  0.48238 -0.1729   0.0055  -0.85871]
+goal q: [ 0.3257  -0.22511 -0.11402 -0.0792   0.06364 -0.34602  0.93271]
+start expand
+policy time: 0.006656646728515625
+step time: 0.009324073791503906
+expanding needs: 0.01732921600341797
+start expand
+policy time: 0.004856586456298828
+step time: 0.008518457412719727
+expanding needs: 0.014832496643066406
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+policy time: 0.004893779754638672
+step time: 0.007855415344238281
+expanding needs: 0.013990163803100586
+start expand
+policy time: 0.004778385162353516
+step time: 0.008495092391967773
+expanding needs: 0.014021158218383789
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+policy time: 0.004728794097900391
+step time: 0.008935213088989258
+expanding needs: 0.01626420021057129
+start expand
+policy time: 0.004793405532836914
+step time: 0.007204771041870117
+expanding needs: 0.013752460479736328
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+policy time: 0.004708766937255859
+step time: 0.006326436996459961
+expanding needs: 0.012242555618286133
+start expand
+policy time: 0.0047245025634765625
+step time: 0.008569717407226562
+expanding needs: 0.014996528625488281
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.0045261383056640625
+start expand
+policy time: 0.0048656463623046875
+step time: 0.006042003631591797
+expanding needs: 0.012258768081665039
+iteration:  4
+tree a length:  26
+tree b length:  22
+start expand
+policy time: 0.004743099212646484
+step time: 0.007210493087768555
+expanding needs: 0.01571488380432129
+start expand
+policy time: 0.0046977996826171875
+step time: 0.007903099060058594
+expanding needs: 0.013935089111328125
+iteration:  5
+tree a length:  31
+tree b length:  27
+start expand
+expanding needs: 0.0050508975982666016
+start expand
+policy time: 0.004682302474975586
+step time: 0.006067752838134766
+expanding needs: 0.015283584594726562
+iteration:  6
+tree a length:  36
+tree b length:  28
+start expand
+policy time: 0.004640817642211914
+step time: 0.008473873138427734
+expanding needs: 0.014525890350341797
+start expand
+policy time: 0.004662513732910156
+step time: 0.0031511783599853516
+expanding needs: 0.00855112075805664
+iteration:  7
+tree a length:  36
+tree b length:  33
+start expand
+policy time: 0.004708528518676758
+step time: 0.011374235153198242
+expanding needs: 0.02653050422668457
+start expand
+policy time: 0.0046689510345458984
+step time: 0.0031785964965820312
+expanding needs: 0.008740663528442383
+iteration:  8
+tree a length:  36
+tree b length:  38
+start expand
+expanding needs: 0.010509014129638672
+start expand
+policy time: 0.004643917083740234
+step time: 0.007999181747436523
+expanding needs: 0.015030622482299805
+iteration:  9
+tree a length:  37
+tree b length:  43
+start expand
+policy time: 0.004690647125244141
+step time: 0.00816655158996582
+expanding needs: 0.014397859573364258
+start expand
+policy time: 0.00469517707824707
+step time: 0.00582575798034668
+expanding needs: 0.012381553649902344
+iteration:  10
+tree a length:  42
+tree b length:  48
+start expand
+policy time: 0.004716634750366211
+step time: 0.008892536163330078
+expanding needs: 0.014963626861572266
+start expand
+policy time: 0.004704475402832031
+step time: 0.008332014083862305
+expanding needs: 0.014888763427734375
+iteration:  11
+tree a length:  47
+tree b length:  53
+start expand
+policy time: 0.004727840423583984
+step time: 0.0031290054321289062
+expanding needs: 0.008727073669433594
+iteration:  12
+tree a length:  47
+tree b length:  53
+start expand
+policy time: 0.004662275314331055
+step time: 0.008018016815185547
+expanding needs: 0.0157470703125
+start expand
+expanding needs: 0.00913548469543457
+SOLVER: RL_RRT
+success:  True
+length:  4.472919720667003
+time spent:  1.4574904441833496
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 52
+horizon:  5
+cpu:  True
+start q: [-0.37736  0.58657  0.53338 -0.25215 -0.26303 -0.34069  0.8667 ]
+goal q: [ 0.25173 -0.58259 -0.57269 -0.93218 -0.26076  0.09915 -0.23068]
+start expand
+policy time: 0.0063893795013427734
+step time: 0.010834455490112305
+expanding needs: 0.03397488594055176
+start expand
+policy time: 0.004819393157958984
+step time: 0.008527278900146484
+expanding needs: 0.03005051612854004
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.012491941452026367
+start expand
+policy time: 0.005061149597167969
+step time: 0.005179882049560547
+expanding needs: 0.012084007263183594
+iteration:  1
+tree a length:  11
+tree b length:  7
+start expand
+policy time: 0.0047550201416015625
+step time: 0.010194778442382812
+expanding needs: 0.023133277893066406
+start expand
+policy time: 0.004760026931762695
+step time: 0.005868196487426758
+expanding needs: 0.013876676559448242
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+policy time: 0.004700899124145508
+step time: 0.007290840148925781
+expanding needs: 0.013454437255859375
+start expand
+policy time: 0.00470423698425293
+step time: 0.00848531723022461
+expanding needs: 0.015020370483398438
+iteration:  3
+tree a length:  21
+tree b length:  17
+start expand
+policy time: 0.005056142807006836
+step time: 0.009601831436157227
+expanding needs: 0.018514633178710938
+start expand
+policy time: 0.0049512386322021484
+step time: 0.006688356399536133
+expanding needs: 0.01544642448425293
+iteration:  4
+tree a length:  26
+tree b length:  22
+start expand
+policy time: 0.004884243011474609
+step time: 0.008512496948242188
+expanding needs: 0.016645193099975586
+start expand
+policy time: 0.00487065315246582
+step time: 0.006500720977783203
+expanding needs: 0.014433145523071289
+iteration:  5
+tree a length:  31
+tree b length:  27
+start expand
+policy time: 0.0048868656158447266
+step time: 0.008272647857666016
+expanding needs: 0.016600847244262695
+start expand
+policy time: 0.004895687103271484
+step time: 0.008178472518920898
+expanding needs: 0.015088081359863281
+iteration:  6
+tree a length:  36
+tree b length:  32
+start expand
+expanding needs: 0.007838010787963867
+start expand
+policy time: 0.004915952682495117
+step time: 0.006438255310058594
+expanding needs: 0.0164031982421875
+iteration:  7
+tree a length:  41
+tree b length:  33
+start expand
+policy time: 0.004853963851928711
+step time: 0.008091211318969727
+expanding needs: 0.018470287322998047
+start expand
+policy time: 0.004915475845336914
+step time: 0.0067141056060791016
+expanding needs: 0.014330148696899414
+iteration:  8
+tree a length:  46
+tree b length:  38
+start expand
+policy time: 0.004937648773193359
+step time: 0.005006551742553711
+expanding needs: 0.011917352676391602
+start expand
+policy time: 0.005173921585083008
+step time: 0.0055806636810302734
+expanding needs: 0.013025522232055664
+iteration:  9
+tree a length:  51
+tree b length:  43
+start expand
+policy time: 0.004755496978759766
+step time: 0.008389711380004883
+expanding needs: 0.01672840118408203
+start expand
+policy time: 0.0047304630279541016
+step time: 0.007002592086791992
+expanding needs: 0.01433420181274414
+iteration:  10
+tree a length:  56
+tree b length:  48
+start expand
+policy time: 0.0047223567962646484
+step time: 0.006432056427001953
+expanding needs: 0.013295888900756836
+start expand
+policy time: 0.0047359466552734375
+step time: 0.008533239364624023
+expanding needs: 0.014764070510864258
+iteration:  11
+tree a length:  61
+tree b length:  53
+start expand
+policy time: 0.004740715026855469
+step time: 0.004733085632324219
+expanding needs: 0.010896921157836914
+start expand
+policy time: 0.0047817230224609375
+step time: 0.006913900375366211
+expanding needs: 0.015561342239379883
+iteration:  12
+tree a length:  66
+tree b length:  58
+start expand
+policy time: 0.004805326461791992
+step time: 0.00833892822265625
+expanding needs: 0.014835357666015625
+start expand
+policy time: 0.0047228336334228516
+step time: 0.007868289947509766
+expanding needs: 0.01417398452758789
+iteration:  13
+tree a length:  71
+tree b length:  63
+start expand
+policy time: 0.004729032516479492
+step time: 0.009280681610107422
+expanding needs: 0.015952587127685547
+start expand
+policy time: 0.00474858283996582
+step time: 0.0042994022369384766
+expanding needs: 0.010981559753417969
+iteration:  14
+tree a length:  76
+tree b length:  68
+start expand
+policy time: 0.004689693450927734
+step time: 0.005747795104980469
+expanding needs: 0.014208078384399414
+start expand
+policy time: 0.0047681331634521484
+step time: 0.008319616317749023
+expanding needs: 0.015485048294067383
+iteration:  15
+tree a length:  81
+tree b length:  73
+start expand
+policy time: 0.004720449447631836
+step time: 0.006981372833251953
+expanding needs: 0.01403951644897461
+start expand
+expanding needs: 0.004110097885131836
+SOLVER: RL_RRT
+success:  True
+length:  2.949958933560235
+time spent:  1.638507604598999
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 56
+horizon:  5
+cpu:  True
+start q: [-0.45086  0.09818 -0.25064  0.97545 -0.18297  0.08382 -0.08939]
+goal q: [ 0.06233  0.43766  0.30578 -0.26464 -0.15201 -0.82916  0.46835]
+start expand
+policy time: 0.006472587585449219
+step time: 0.006289958953857422
+expanding needs: 0.016925334930419922
+start expand
+policy time: 0.0052204132080078125
+step time: 0.004268169403076172
+expanding needs: 0.010976552963256836
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+policy time: 0.005018472671508789
+step time: 0.009937763214111328
+expanding needs: 0.019415616989135742
+start expand
+policy time: 0.0050792694091796875
+step time: 0.003438711166381836
+expanding needs: 0.009638309478759766
+iteration:  1
+tree a length:  11
+tree b length:  6
+start expand
+policy time: 0.0052356719970703125
+step time: 0.008217573165893555
+expanding needs: 0.01490330696105957
+start expand
+policy time: 0.005166530609130859
+step time: 0.009354591369628906
+expanding needs: 0.019384145736694336
+iteration:  2
+tree a length:  16
+tree b length:  11
+start expand
+policy time: 0.0053369998931884766
+step time: 0.009459495544433594
+expanding needs: 0.01585698127746582
+start expand
+expanding needs: 0.00994563102722168
+SOLVER: RL_RRT
+success:  True
+length:  4.045864166138108
+time spent:  1.3535561561584473
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon:  5
+cpu:  True
+start q: [ 0.54048 -0.35106 -0.17702  0.22576  0.80932 -0.4903  -0.23159]
+goal q: [-0.48704  0.42458  0.29509  0.58624 -0.23997 -0.21615 -0.74298]
+start expand
+policy time: 0.006222724914550781
+step time: 0.006781816482543945
+expanding needs: 0.01409006118774414
+start expand
+expanding needs: 0.021086454391479492
+SOLVER: RL_RRT
+success:  True
+length:  2.8915507833802407
+time spent:  1.1390750408172607
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 98
+horizon:  5
+cpu:  True
+start q: [-0.5824  -0.28476 -0.02024  0.75323 -0.46757  0.44703  0.11911]
+goal q: [ 0.29251 -0.22644  0.47854  0.27343 -0.47576 -0.38283 -0.74319]
+start expand
+policy time: 0.006905555725097656
+step time: 0.006763935089111328
+expanding needs: 0.015655994415283203
+start expand
+policy time: 0.005104541778564453
+step time: 0.008147001266479492
+expanding needs: 0.0191650390625
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+policy time: 0.005126953125
+step time: 0.008981943130493164
+expanding needs: 0.01670980453491211
+start expand
+expanding needs: 0.006634712219238281
+SOLVER: RL_RRT
+success:  True
+length:  2.229385093782166
+time spent:  1.1823055744171143
+-------- stop running --------

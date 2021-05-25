@@ -1,0 +1,4586 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon:  5
+cpu:  True
+start q: [ 0.5403   0.50415 -0.42281 -0.21802  0.3892  -0.85416 -0.26722]
+goal q: [-0.47619 -0.44871 -0.00547  0.48717 -0.34631  0.80034 -0.04682]
+start expand
+expanding needs: 0.0034923553466796875
+start expand
+expanding needs: 0.0019881725311279297
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.010462284088134766
+start expand
+expanding needs: 0.0005309581756591797
+iteration:  1
+tree a length:  2
+tree b length:  3
+start expand
+expanding needs: 0.0013823509216308594
+start expand
+expanding needs: 0.0005304813385009766
+iteration:  2
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.0006341934204101562
+start expand
+expanding needs: 0.00043082237243652344
+iteration:  3
+tree a length:  3
+tree b length:  4
+start expand
+expanding needs: 0.01632976531982422
+start expand
+expanding needs: 0.012183427810668945
+SOLVER: Normal RRT
+success:  True
+length:  6.20839885188395
+time spent:  1.1839747428894043
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon:  5
+cpu:  True
+start q: [-0.29574  0.07059  0.12202  0.02607 -0.19839 -0.86026 -0.46894]
+goal q: [-0.00827 -0.44578 -0.36499 -0.09782 -0.05023 -0.98123  0.15844]
+start expand
+expanding needs: 0.0021305084228515625
+start expand
+expanding needs: 0.0007367134094238281
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.0013577938079833984
+start expand
+expanding needs: 0.00044417381286621094
+iteration:  1
+tree a length:  3
+tree b length:  2
+start expand
+expanding needs: 0.009243965148925781
+start expand
+expanding needs: 0.0010874271392822266
+iteration:  2
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0006546974182128906
+iteration:  3
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0007071495056152344
+iteration:  4
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0012271404266357422
+start expand
+expanding needs: 0.0004265308380126953
+iteration:  5
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0007851123809814453
+start expand
+expanding needs: 0.0004138946533203125
+iteration:  6
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.0031800270080566406
+start expand
+expanding needs: 0.00045013427734375
+iteration:  7
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0005593299865722656
+iteration:  8
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0004744529724121094
+iteration:  9
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.007860183715820312
+start expand
+expanding needs: 0.013977766036987305
+SOLVER: Normal RRT
+success:  True
+length:  2.7611316078725983
+time spent:  1.094137191772461
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon:  5
+cpu:  True
+start q: [ 0.41055 -0.36928 -0.05604 -0.22591 -0.87523  0.39102 -0.17332]
+goal q: [-0.26074  0.23569 -0.58554 -0.07409  0.78877 -0.55026 -0.26377]
+start expand
+expanding needs: 0.0014367103576660156
+start expand
+expanding needs: 0.002939462661743164
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.0069122314453125
+start expand
+expanding needs: 0.0005605220794677734
+iteration:  1
+tree a length:  2
+tree b length:  3
+start expand
+expanding needs: 0.0008664131164550781
+iteration:  2
+tree a length:  2
+tree b length:  3
+start expand
+expanding needs: 0.007541179656982422
+start expand
+expanding needs: 0.0005571842193603516
+iteration:  3
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.010537147521972656
+start expand
+expanding needs: 0.0006558895111083984
+iteration:  4
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0008172988891601562
+iteration:  5
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0007441043853759766
+start expand
+expanding needs: 0.00040459632873535156
+iteration:  6
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.0009169578552246094
+start expand
+expanding needs: 0.00040531158447265625
+iteration:  7
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0004436969757080078
+iteration:  8
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0006399154663085938
+iteration:  9
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0028884410858154297
+start expand
+expanding needs: 0.0005469322204589844
+iteration:  10
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0007336139678955078
+iteration:  11
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.011193037033081055
+start expand
+expanding needs: 0.0005671977996826172
+iteration:  12
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0005550384521484375
+iteration:  13
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.00055694580078125
+iteration:  14
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0005536079406738281
+iteration:  15
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.009766578674316406
+start expand
+expanding needs: 0.0005445480346679688
+iteration:  16
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0006339550018310547
+iteration:  17
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0006411075592041016
+iteration:  18
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0006701946258544922
+iteration:  19
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0006835460662841797
+start expand
+expanding needs: 0.0005428791046142578
+iteration:  20
+tree a length:  7
+tree b length:  7
+start expand
+expanding needs: 0.006888628005981445
+start expand
+expanding needs: 0.0025420188903808594
+iteration:  21
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.004059553146362305
+start expand
+expanding needs: 0.00048065185546875
+iteration:  22
+tree a length:  9
+tree b length:  8
+start expand
+expanding needs: 0.0005240440368652344
+start expand
+expanding needs: 0.0005702972412109375
+iteration:  23
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0006060600280761719
+iteration:  24
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0007162094116210938
+iteration:  25
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0005910396575927734
+iteration:  26
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.001627206802368164
+start expand
+expanding needs: 0.0005481243133544922
+iteration:  27
+tree a length:  10
+tree b length:  9
+start expand
+expanding needs: 0.004711151123046875
+start expand
+expanding needs: 0.0005848407745361328
+iteration:  28
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.0014967918395996094
+start expand
+expanding needs: 0.0005657672882080078
+iteration:  29
+tree a length:  10
+tree b length:  11
+start expand
+expanding needs: 0.0005295276641845703
+start expand
+expanding needs: 0.00048041343688964844
+iteration:  30
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0003921985626220703
+iteration:  31
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0028705596923828125
+start expand
+expanding needs: 0.0005743503570556641
+iteration:  32
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0006072521209716797
+iteration:  33
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0004329681396484375
+iteration:  34
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0007352828979492188
+start expand
+expanding needs: 0.0004706382751464844
+iteration:  35
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0006706714630126953
+iteration:  36
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0017857551574707031
+start expand
+expanding needs: 0.0004868507385253906
+iteration:  37
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.00032210350036621094
+iteration:  38
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0005733966827392578
+iteration:  39
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0004229545593261719
+iteration:  40
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0003848075866699219
+iteration:  41
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0005044937133789062
+iteration:  42
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0005490779876708984
+iteration:  43
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0010838508605957031
+start expand
+expanding needs: 0.0003349781036376953
+iteration:  44
+tree a length:  13
+tree b length:  13
+start expand
+expanding needs: 0.0009198188781738281
+start expand
+expanding needs: 0.0005326271057128906
+iteration:  45
+tree a length:  14
+tree b length:  13
+start expand
+expanding needs: 0.00041484832763671875
+iteration:  46
+tree a length:  14
+tree b length:  13
+start expand
+expanding needs: 0.00046944618225097656
+iteration:  47
+tree a length:  14
+tree b length:  13
+start expand
+expanding needs: 0.008829593658447266
+start expand
+expanding needs: 0.0006363391876220703
+iteration:  48
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.004847526550292969
+start expand
+expanding needs: 0.0003762245178222656
+iteration:  49
+tree a length:  14
+tree b length:  15
+start expand
+expanding needs: 0.0005552768707275391
+iteration:  50
+tree a length:  14
+tree b length:  15
+start expand
+expanding needs: 0.0004775524139404297
+iteration:  51
+tree a length:  14
+tree b length:  15
+start expand
+expanding needs: 0.010156631469726562
+start expand
+expanding needs: 0.0023467540740966797
+iteration:  52
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.0004119873046875
+iteration:  53
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.0006144046783447266
+iteration:  54
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.007442951202392578
+start expand
+expanding needs: 0.003888368606567383
+iteration:  55
+tree a length:  16
+tree b length:  17
+start expand
+expanding needs: 0.0003571510314941406
+iteration:  56
+tree a length:  16
+tree b length:  17
+start expand
+expanding needs: 0.004475116729736328
+start expand
+expanding needs: 0.0004775524139404297
+iteration:  57
+tree a length:  17
+tree b length:  17
+start expand
+expanding needs: 0.001068115234375
+start expand
+expanding needs: 0.0005609989166259766
+iteration:  58
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0004134178161621094
+iteration:  59
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0004296302795410156
+iteration:  60
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.00044798851013183594
+iteration:  61
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0005581378936767578
+iteration:  62
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.000453948974609375
+iteration:  63
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0003604888916015625
+iteration:  64
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0005788803100585938
+iteration:  65
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.00027751922607421875
+iteration:  66
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.002864360809326172
+start expand
+expanding needs: 0.0003330707550048828
+iteration:  67
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.0004649162292480469
+iteration:  68
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.0017271041870117188
+start expand
+expanding needs: 0.0010373592376708984
+iteration:  69
+tree a length:  19
+tree b length:  19
+start expand
+expanding needs: 0.0005457401275634766
+start expand
+expanding needs: 0.00043892860412597656
+iteration:  70
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.0014104843139648438
+start expand
+expanding needs: 0.00027751922607421875
+iteration:  71
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0004057884216308594
+iteration:  72
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.00045371055603027344
+iteration:  73
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0003752708435058594
+iteration:  74
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0005095005035400391
+iteration:  75
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0005259513854980469
+iteration:  76
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0005478858947753906
+iteration:  77
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0009665489196777344
+start expand
+expanding needs: 0.0005431175231933594
+iteration:  78
+tree a length:  20
+tree b length:  21
+start expand
+expanding needs: 0.0010542869567871094
+start expand
+expanding needs: 0.0002956390380859375
+iteration:  79
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.0005927085876464844
+start expand
+expanding needs: 0.0005598068237304688
+iteration:  80
+tree a length:  21
+tree b length:  22
+start expand
+expanding needs: 0.0012514591217041016
+start expand
+expanding needs: 0.00046539306640625
+iteration:  81
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0005095005035400391
+iteration:  82
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0004506111145019531
+iteration:  83
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0004668235778808594
+iteration:  84
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0005543231964111328
+start expand
+expanding needs: 0.0002613067626953125
+iteration:  85
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0004742145538330078
+iteration:  86
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0004394054412841797
+start expand
+expanding needs: 0.000274658203125
+iteration:  87
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.00039315223693847656
+iteration:  88
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.00029921531677246094
+iteration:  89
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.0003695487976074219
+start expand
+expanding needs: 0.00047326087951660156
+iteration:  90
+tree a length:  24
+tree b length:  23
+start expand
+expanding needs: 0.007390022277832031
+start expand
+expanding needs: 0.0003981590270996094
+iteration:  91
+tree a length:  24
+tree b length:  24
+start expand
+expanding needs: 0.003371715545654297
+start expand
+expanding needs: 0.0004885196685791016
+iteration:  92
+tree a length:  24
+tree b length:  25
+start expand
+expanding needs: 0.0005013942718505859
+start expand
+expanding needs: 0.00042176246643066406
+iteration:  93
+tree a length:  25
+tree b length:  25
+start expand
+expanding needs: 0.0005123615264892578
+iteration:  94
+tree a length:  25
+tree b length:  25
+start expand
+expanding needs: 0.0003445148468017578
+iteration:  95
+tree a length:  25
+tree b length:  25
+start expand
+expanding needs: 0.0006785392761230469
+start expand
+expanding needs: 0.00038170814514160156
+iteration:  96
+tree a length:  26
+tree b length:  25
+start expand
+expanding needs: 0.00032448768615722656
+iteration:  97
+tree a length:  26
+tree b length:  25
+start expand
+expanding needs: 0.004619121551513672
+start expand
+expanding needs: 0.0004475116729736328
+iteration:  98
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.0010361671447753906
+start expand
+expanding needs: 0.00025391578674316406
+iteration:  99
+tree a length:  27
+tree b length:  26
+start expand
+expanding needs: 0.0003299713134765625
+iteration:  100
+tree a length:  27
+tree b length:  26
+start expand
+expanding needs: 0.0004630088806152344
+iteration:  101
+tree a length:  27
+tree b length:  26
+start expand
+expanding needs: 0.0039825439453125
+start expand
+expanding needs: 0.0003464221954345703
+iteration:  102
+tree a length:  27
+tree b length:  27
+start expand
+expanding needs: 0.0004906654357910156
+iteration:  103
+tree a length:  27
+tree b length:  27
+start expand
+expanding needs: 0.00432896614074707
+start expand
+expanding needs: 0.0007615089416503906
+iteration:  104
+tree a length:  28
+tree b length:  28
+start expand
+expanding needs: 0.0003781318664550781
+iteration:  105
+tree a length:  28
+tree b length:  28
+start expand
+expanding needs: 0.0003674030303955078
+iteration:  106
+tree a length:  28
+tree b length:  28
+start expand
+expanding needs: 0.00032448768615722656
+iteration:  107
+tree a length:  28
+tree b length:  28
+start expand
+expanding needs: 0.0004153251647949219
+iteration:  108
+tree a length:  28
+tree b length:  28
+start expand
+expanding needs: 0.005599260330200195
+start expand
+expanding needs: 0.0003750324249267578
+iteration:  109
+tree a length:  28
+tree b length:  29
+start expand
+expanding needs: 0.0010247230529785156
+start expand
+expanding needs: 0.00024390220642089844
+iteration:  110
+tree a length:  29
+tree b length:  29
+start expand
+expanding needs: 0.0006000995635986328
+iteration:  111
+tree a length:  29
+tree b length:  29
+start expand
+expanding needs: 0.0006070137023925781
+start expand
+expanding needs: 0.00023651123046875
+iteration:  112
+tree a length:  30
+tree b length:  29
+start expand
+expanding needs: 0.0016813278198242188
+start expand
+expanding needs: 0.0005774497985839844
+iteration:  113
+tree a length:  31
+tree b length:  30
+start expand
+expanding needs: 0.0004563331604003906
+iteration:  114
+tree a length:  31
+tree b length:  30
+start expand
+expanding needs: 0.0004036426544189453
+iteration:  115
+tree a length:  31
+tree b length:  30
+start expand
+expanding needs: 0.0003628730773925781
+iteration:  116
+tree a length:  31
+tree b length:  30
+start expand
+expanding needs: 0.001018524169921875
+start expand
+expanding needs: 0.0003669261932373047
+iteration:  117
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.0016756057739257812
+start expand
+expanding needs: 0.00023174285888671875
+iteration:  118
+tree a length:  32
+tree b length:  31
+start expand
+expanding needs: 0.0003910064697265625
+start expand
+expanding needs: 0.00025773048400878906
+iteration:  119
+tree a length:  32
+tree b length:  32
+start expand
+expanding needs: 0.0005695819854736328
+start expand
+expanding needs: 0.00026726722717285156
+iteration:  120
+tree a length:  32
+tree b length:  33
+start expand
+expanding needs: 0.0004971027374267578
+iteration:  121
+tree a length:  32
+tree b length:  33
+start expand
+expanding needs: 0.00036835670471191406
+iteration:  122
+tree a length:  32
+tree b length:  33
+start expand
+expanding needs: 0.006999969482421875
+start expand
+expanding needs: 0.0005338191986083984
+iteration:  123
+tree a length:  33
+tree b length:  33
+start expand
+expanding needs: 0.0037078857421875
+start expand
+expanding needs: 0.0017657279968261719
+iteration:  124
+tree a length:  34
+tree b length:  34
+start expand
+expanding needs: 0.0008046627044677734
+iteration:  125
+tree a length:  34
+tree b length:  34
+start expand
+expanding needs: 0.0008294582366943359
+start expand
+expanding needs: 0.0005822181701660156
+iteration:  126
+tree a length:  34
+tree b length:  35
+start expand
+expanding needs: 0.0072290897369384766
+start expand
+expanding needs: 0.0006144046783447266
+iteration:  127
+tree a length:  35
+tree b length:  35
+start expand
+expanding needs: 0.0009348392486572266
+iteration:  128
+tree a length:  35
+tree b length:  35
+start expand
+expanding needs: 0.000530242919921875
+iteration:  129
+tree a length:  35
+tree b length:  35
+start expand
+expanding needs: 0.0004253387451171875
+iteration:  130
+tree a length:  35
+tree b length:  35
+start expand
+expanding needs: 0.002904176712036133
+start expand
+expanding needs: 0.003426790237426758
+iteration:  131
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.008188724517822266
+start expand
+expanding needs: 0.0006678104400634766
+iteration:  132
+tree a length:  36
+tree b length:  37
+start expand
+expanding needs: 0.0004131793975830078
+iteration:  133
+tree a length:  36
+tree b length:  37
+start expand
+expanding needs: 0.0004725456237792969
+iteration:  134
+tree a length:  36
+tree b length:  37
+start expand
+expanding needs: 0.0008490085601806641
+start expand
+expanding needs: 0.0005180835723876953
+iteration:  135
+tree a length:  37
+tree b length:  37
+start expand
+expanding needs: 0.002237081527709961
+start expand
+expanding needs: 0.0005719661712646484
+iteration:  136
+tree a length:  38
+tree b length:  37
+start expand
+expanding needs: 0.004587888717651367
+start expand
+expanding needs: 0.0005626678466796875
+iteration:  137
+tree a length:  38
+tree b length:  38
+start expand
+expanding needs: 0.0004379749298095703
+iteration:  138
+tree a length:  38
+tree b length:  38
+start expand
+expanding needs: 0.0004918575286865234
+start expand
+expanding needs: 0.0005805492401123047
+iteration:  139
+tree a length:  39
+tree b length:  39
+start expand
+expanding needs: 0.0005300045013427734
+iteration:  140
+tree a length:  39
+tree b length:  39
+start expand
+expanding needs: 0.0006241798400878906
+iteration:  141
+tree a length:  39
+tree b length:  39
+start expand
+expanding needs: 0.0005521774291992188
+iteration:  142
+tree a length:  39
+tree b length:  39
+start expand
+expanding needs: 0.0003025531768798828
+start expand
+expanding needs: 0.00033926963806152344
+iteration:  143
+tree a length:  40
+tree b length:  39
+start expand
+expanding needs: 0.006116151809692383
+start expand
+expanding needs: 0.00042057037353515625
+iteration:  144
+tree a length:  40
+tree b length:  40
+start expand
+expanding needs: 0.0005238056182861328
+iteration:  145
+tree a length:  40
+tree b length:  40
+start expand
+expanding needs: 0.0004096031188964844
+iteration:  146
+tree a length:  40
+tree b length:  40
+start expand
+expanding needs: 0.0005326271057128906
+start expand
+expanding needs: 0.00091552734375
+iteration:  147
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.0004994869232177734
+iteration:  148
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.0019001960754394531
+start expand
+expanding needs: 0.0004763603210449219
+iteration:  149
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.0005176067352294922
+iteration:  150
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.0005078315734863281
+iteration:  151
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.0004870891571044922
+iteration:  152
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.00043320655822753906
+iteration:  153
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.00047087669372558594
+start expand
+expanding needs: 0.0003325939178466797
+iteration:  154
+tree a length:  42
+tree b length:  42
+start expand
+expanding needs: 0.004509925842285156
+start expand
+expanding needs: 0.0003955364227294922
+iteration:  155
+tree a length:  42
+tree b length:  43
+start expand
+expanding needs: 0.0007042884826660156
+start expand
+expanding needs: 0.00021791458129882812
+iteration:  156
+tree a length:  43
+tree b length:  43
+start expand
+expanding needs: 0.0004088878631591797
+iteration:  157
+tree a length:  43
+tree b length:  43
+start expand
+expanding needs: 0.0004146099090576172
+iteration:  158
+tree a length:  43
+tree b length:  43
+start expand
+expanding needs: 0.0004923343658447266
+start expand
+expanding needs: 0.0004706382751464844
+iteration:  159
+tree a length:  43
+tree b length:  44
+start expand
+expanding needs: 0.0005655288696289062
+start expand
+expanding needs: 0.0003428459167480469
+iteration:  160
+tree a length:  44
+tree b length:  44
+start expand
+expanding needs: 0.00032591819763183594
+iteration:  161
+tree a length:  44
+tree b length:  44
+start expand
+expanding needs: 0.00034117698669433594
+iteration:  162
+tree a length:  44
+tree b length:  44
+start expand
+expanding needs: 0.0002703666687011719
+iteration:  163
+tree a length:  44
+tree b length:  44
+start expand
+expanding needs: 0.00474095344543457
+start expand
+expanding needs: 0.0003814697265625
+iteration:  164
+tree a length:  44
+tree b length:  45
+start expand
+expanding needs: 0.006262063980102539
+start expand
+expanding needs: 0.0002524852752685547
+iteration:  165
+tree a length:  45
+tree b length:  45
+start expand
+expanding needs: 0.0010335445404052734
+start expand
+expanding needs: 0.0003848075866699219
+iteration:  166
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0003743171691894531
+iteration:  167
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.00054168701171875
+iteration:  168
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.00039267539978027344
+iteration:  169
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0005221366882324219
+iteration:  170
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.00041604042053222656
+iteration:  171
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0003514289855957031
+iteration:  172
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0003571510314941406
+iteration:  173
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0004742145538330078
+iteration:  174
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.00027823448181152344
+iteration:  175
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.00043392181396484375
+iteration:  176
+tree a length:  45
+tree b length:  46
+start expand
+expanding needs: 0.0006325244903564453
+start expand
+expanding needs: 0.0003333091735839844
+iteration:  177
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.0003151893615722656
+iteration:  178
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.0006201267242431641
+iteration:  179
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.0003299713134765625
+start expand
+expanding needs: 0.00021386146545410156
+iteration:  180
+tree a length:  47
+tree b length:  46
+start expand
+expanding needs: 0.00503849983215332
+start expand
+expanding needs: 0.0003705024719238281
+iteration:  181
+tree a length:  47
+tree b length:  47
+start expand
+expanding needs: 0.0013332366943359375
+start expand
+expanding needs: 0.0003426074981689453
+iteration:  182
+tree a length:  47
+tree b length:  48
+start expand
+expanding needs: 0.0004153251647949219
+start expand
+expanding needs: 0.00032448768615722656
+iteration:  183
+tree a length:  48
+tree b length:  48
+start expand
+expanding needs: 0.0037996768951416016
+start expand
+expanding needs: 0.0003235340118408203
+iteration:  184
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00047707557678222656
+iteration:  185
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0004730224609375
+iteration:  186
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0005185604095458984
+iteration:  187
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0005407333374023438
+iteration:  188
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0003898143768310547
+iteration:  189
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0004971027374267578
+iteration:  190
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0003256797790527344
+iteration:  191
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0003638267517089844
+iteration:  192
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0005266666412353516
+iteration:  193
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0003864765167236328
+iteration:  194
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0005295276641845703
+iteration:  195
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0003132820129394531
+iteration:  196
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00043082237243652344
+iteration:  197
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00045108795166015625
+iteration:  198
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00040411949157714844
+iteration:  199
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00040078163146972656
+iteration:  200
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.0004076957702636719
+iteration:  201
+tree a length:  48
+tree b length:  49
+start expand
+expanding needs: 0.00045990943908691406
+start expand
+expanding needs: 0.00023984909057617188
+iteration:  202
+tree a length:  49
+tree b length:  49
+start expand
+expanding needs: 0.00039005279541015625
+iteration:  203
+tree a length:  49
+tree b length:  49
+start expand
+expanding needs: 0.00043463706970214844
+iteration:  204
+tree a length:  49
+tree b length:  49
+start expand
+expanding needs: 0.00032973289489746094
+start expand
+expanding needs: 0.0003790855407714844
+iteration:  205
+tree a length:  49
+tree b length:  50
+start expand
+expanding needs: 0.0002300739288330078
+iteration:  206
+tree a length:  49
+tree b length:  50
+start expand
+expanding needs: 0.0003833770751953125
+iteration:  207
+tree a length:  49
+tree b length:  50
+start expand
+expanding needs: 0.0008797645568847656
+start expand
+expanding needs: 0.0003459453582763672
+iteration:  208
+tree a length:  50
+tree b length:  50
+start expand
+expanding needs: 0.0004572868347167969
+iteration:  209
+tree a length:  50
+tree b length:  50
+start expand
+expanding needs: 0.00041866302490234375
+iteration:  210
+tree a length:  50
+tree b length:  50
+start expand
+expanding needs: 0.0003750324249267578
+iteration:  211
+tree a length:  50
+tree b length:  50
+start expand
+expanding needs: 0.0005071163177490234
+iteration:  212
+tree a length:  50
+tree b length:  50
+start expand
+expanding needs: 0.005673885345458984
+start expand
+expanding needs: 0.0014274120330810547
+iteration:  213
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.0006449222564697266
+start expand
+expanding needs: 0.004272937774658203
+iteration:  214
+tree a length:  52
+tree b length:  52
+start expand
+expanding needs: 0.0004885196685791016
+start expand
+expanding needs: 0.00035762786865234375
+iteration:  215
+tree a length:  52
+tree b length:  53
+start expand
+expanding needs: 0.0005357265472412109
+start expand
+expanding needs: 0.00033283233642578125
+iteration:  216
+tree a length:  53
+tree b length:  53
+start expand
+expanding needs: 0.00032210350036621094
+iteration:  217
+tree a length:  53
+tree b length:  53
+start expand
+expanding needs: 0.00046515464782714844
+start expand
+expanding needs: 0.00032901763916015625
+iteration:  218
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.00027370452880859375
+iteration:  219
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.0003790855407714844
+iteration:  220
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.000514984130859375
+iteration:  221
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.0003409385681152344
+iteration:  222
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.0006124973297119141
+iteration:  223
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.0004115104675292969
+iteration:  224
+tree a length:  53
+tree b length:  54
+start expand
+expanding needs: 0.0005373954772949219
+start expand
+expanding needs: 0.0003540515899658203
+iteration:  225
+tree a length:  54
+tree b length:  54
+start expand
+expanding needs: 0.00036644935607910156
+iteration:  226
+tree a length:  54
+tree b length:  54
+start expand
+expanding needs: 0.0003349781036376953
+iteration:  227
+tree a length:  54
+tree b length:  54
+start expand
+expanding needs: 0.0023992061614990234
+start expand
+expanding needs: 0.00036835670471191406
+iteration:  228
+tree a length:  54
+tree b length:  55
+start expand
+expanding needs: 0.0005245208740234375
+iteration:  229
+tree a length:  54
+tree b length:  55
+start expand
+expanding needs: 0.0007750988006591797
+start expand
+expanding needs: 0.0003211498260498047
+iteration:  230
+tree a length:  55
+tree b length:  55
+start expand
+expanding needs: 0.0004968643188476562
+start expand
+expanding needs: 0.0005209445953369141
+iteration:  231
+tree a length:  56
+tree b length:  56
+start expand
+expanding needs: 0.0020813941955566406
+start expand
+expanding needs: 0.0005671977996826172
+iteration:  232
+tree a length:  56
+tree b length:  57
+start expand
+expanding needs: 0.00044846534729003906
+iteration:  233
+tree a length:  56
+tree b length:  57
+start expand
+expanding needs: 0.005659580230712891
+start expand
+expanding needs: 0.000347137451171875
+iteration:  234
+tree a length:  57
+tree b length:  57
+start expand
+expanding needs: 0.0008118152618408203
+start expand
+expanding needs: 0.0003407001495361328
+iteration:  235
+tree a length:  58
+tree b length:  57
+start expand
+expanding needs: 0.0003597736358642578
+iteration:  236
+tree a length:  58
+tree b length:  57
+start expand
+expanding needs: 0.0019478797912597656
+start expand
+expanding needs: 0.0005190372467041016
+iteration:  237
+tree a length:  58
+tree b length:  58
+start expand
+expanding needs: 0.0007493495941162109
+iteration:  238
+tree a length:  58
+tree b length:  58
+start expand
+expanding needs: 0.0004711151123046875
+iteration:  239
+tree a length:  58
+tree b length:  58
+start expand
+expanding needs: 0.0003342628479003906
+iteration:  240
+tree a length:  58
+tree b length:  58
+start expand
+expanding needs: 0.00054168701171875
+iteration:  241
+tree a length:  58
+tree b length:  58
+start expand
+expanding needs: 0.0010595321655273438
+start expand
+expanding needs: 0.00030493736267089844
+iteration:  242
+tree a length:  58
+tree b length:  59
+start expand
+expanding needs: 0.0004684925079345703
+iteration:  243
+tree a length:  58
+tree b length:  59
+start expand
+expanding needs: 0.0004279613494873047
+iteration:  244
+tree a length:  58
+tree b length:  59
+start expand
+expanding needs: 0.00043392181396484375
+iteration:  245
+tree a length:  58
+tree b length:  59
+start expand
+expanding needs: 0.0023267269134521484
+start expand
+expanding needs: 0.0003921985626220703
+iteration:  246
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0003676414489746094
+iteration:  247
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0003871917724609375
+iteration:  248
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0005178451538085938
+iteration:  249
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0006330013275146484
+iteration:  250
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0004057884216308594
+iteration:  251
+tree a length:  59
+tree b length:  59
+start expand
+expanding needs: 0.0013875961303710938
+start expand
+expanding needs: 0.0002980232238769531
+iteration:  252
+tree a length:  59
+tree b length:  60
+start expand
+expanding needs: 0.0004673004150390625
+iteration:  253
+tree a length:  59
+tree b length:  60
+start expand
+expanding needs: 0.0005016326904296875
+iteration:  254
+tree a length:  59
+tree b length:  60
+start expand
+expanding needs: 0.0010390281677246094
+start expand
+expanding needs: 0.0002384185791015625
+iteration:  255
+tree a length:  60
+tree b length:  60
+start expand
+expanding needs: 0.0004336833953857422
+start expand
+expanding needs: 0.00024700164794921875
+iteration:  256
+tree a length:  61
+tree b length:  60
+start expand
+expanding needs: 0.00037288665771484375
+iteration:  257
+tree a length:  61
+tree b length:  60
+start expand
+expanding needs: 0.0003859996795654297
+iteration:  258
+tree a length:  61
+tree b length:  60
+start expand
+expanding needs: 0.0004398822784423828
+start expand
+expanding needs: 0.00033736228942871094
+iteration:  259
+tree a length:  61
+tree b length:  61
+start expand
+expanding needs: 0.0004825592041015625
+iteration:  260
+tree a length:  61
+tree b length:  61
+start expand
+expanding needs: 0.0008418560028076172
+start expand
+expanding needs: 0.00023412704467773438
+iteration:  261
+tree a length:  62
+tree b length:  61
+start expand
+expanding needs: 0.006833553314208984
+start expand
+expanding needs: 0.0005192756652832031
+iteration:  262
+tree a length:  62
+tree b length:  62
+start expand
+expanding needs: 0.0004982948303222656
+start expand
+expanding needs: 0.00023412704467773438
+iteration:  263
+tree a length:  63
+tree b length:  62
+start expand
+expanding needs: 0.0019767284393310547
+start expand
+expanding needs: 0.0004162788391113281
+iteration:  264
+tree a length:  63
+tree b length:  63
+start expand
+expanding needs: 0.0003349781036376953
+iteration:  265
+tree a length:  63
+tree b length:  63
+start expand
+expanding needs: 0.0026416778564453125
+start expand
+expanding needs: 0.0003299713134765625
+iteration:  266
+tree a length:  63
+tree b length:  64
+start expand
+expanding needs: 0.0004582405090332031
+iteration:  267
+tree a length:  63
+tree b length:  64
+start expand
+expanding needs: 0.0005238056182861328
+iteration:  268
+tree a length:  63
+tree b length:  64
+start expand
+expanding needs: 0.0004222393035888672
+start expand
+expanding needs: 0.00042748451232910156
+iteration:  269
+tree a length:  64
+tree b length:  64
+start expand
+expanding needs: 0.00041103363037109375
+iteration:  270
+tree a length:  64
+tree b length:  64
+start expand
+expanding needs: 0.00040602684020996094
+iteration:  271
+tree a length:  64
+tree b length:  64
+start expand
+expanding needs: 0.007586002349853516
+start expand
+expanding needs: 0.0004241466522216797
+iteration:  272
+tree a length:  64
+tree b length:  65
+start expand
+expanding needs: 0.0004839897155761719
+iteration:  273
+tree a length:  64
+tree b length:  65
+start expand
+expanding needs: 0.0004267692565917969
+start expand
+expanding needs: 0.00040459632873535156
+iteration:  274
+tree a length:  65
+tree b length:  65
+start expand
+expanding needs: 0.0003540515899658203
+iteration:  275
+tree a length:  65
+tree b length:  65
+start expand
+expanding needs: 0.0003674030303955078
+iteration:  276
+tree a length:  65
+tree b length:  65
+start expand
+expanding needs: 0.0055484771728515625
+start expand
+expanding needs: 0.00034356117248535156
+iteration:  277
+tree a length:  65
+tree b length:  66
+start expand
+expanding needs: 0.0006315708160400391
+iteration:  278
+tree a length:  65
+tree b length:  66
+start expand
+expanding needs: 0.001603841781616211
+start expand
+expanding needs: 0.0003676414489746094
+iteration:  279
+tree a length:  66
+tree b length:  67
+start expand
+expanding needs: 0.003431081771850586
+start expand
+expanding needs: 0.00042700767517089844
+iteration:  280
+tree a length:  67
+tree b length:  67
+start expand
+expanding needs: 0.0005674362182617188
+start expand
+expanding needs: 0.001954317092895508
+iteration:  281
+tree a length:  68
+tree b length:  68
+start expand
+expanding needs: 0.00029730796813964844
+iteration:  282
+tree a length:  68
+tree b length:  68
+start expand
+expanding needs: 0.00039505958557128906
+iteration:  283
+tree a length:  68
+tree b length:  68
+start expand
+expanding needs: 0.00039124488830566406
+iteration:  284
+tree a length:  68
+tree b length:  68
+start expand
+expanding needs: 0.007412910461425781
+start expand
+expanding needs: 0.00041222572326660156
+iteration:  285
+tree a length:  69
+tree b length:  68
+start expand
+expanding needs: 0.0002830028533935547
+iteration:  286
+tree a length:  69
+tree b length:  68
+start expand
+expanding needs: 0.0004622936248779297
+iteration:  287
+tree a length:  69
+tree b length:  68
+start expand
+expanding needs: 0.0004868507385253906
+iteration:  288
+tree a length:  69
+tree b length:  68
+start expand
+expanding needs: 0.0004706382751464844
+start expand
+expanding needs: 0.0003814697265625
+iteration:  289
+tree a length:  69
+tree b length:  69
+start expand
+expanding needs: 0.0005168914794921875
+start expand
+expanding needs: 0.00027561187744140625
+iteration:  290
+tree a length:  69
+tree b length:  70
+start expand
+expanding needs: 0.0004153251647949219
+iteration:  291
+tree a length:  69
+tree b length:  70
+start expand
+expanding needs: 0.0003924369812011719
+iteration:  292
+tree a length:  69
+tree b length:  70
+start expand
+expanding needs: 0.0003819465637207031
+iteration:  293
+tree a length:  69
+tree b length:  70
+start expand
+expanding needs: 0.003783702850341797
+start expand
+expanding needs: 0.00027489662170410156
+iteration:  294
+tree a length:  70
+tree b length:  70
+start expand
+expanding needs: 0.000446319580078125
+iteration:  295
+tree a length:  70
+tree b length:  70
+start expand
+expanding needs: 0.0003504753112792969
+iteration:  296
+tree a length:  70
+tree b length:  70
+start expand
+expanding needs: 0.0026938915252685547
+start expand
+expanding needs: 0.00041174888610839844
+iteration:  297
+tree a length:  70
+tree b length:  71
+start expand
+expanding needs: 0.00038170814514160156
+iteration:  298
+tree a length:  70
+tree b length:  71
+start expand
+expanding needs: 0.0005495548248291016
+start expand
+expanding needs: 0.0002751350402832031
+iteration:  299
+tree a length:  71
+tree b length:  71
+start expand
+expanding needs: 0.0003535747528076172
+iteration:  300
+tree a length:  71
+tree b length:  71
+start expand
+expanding needs: 0.0006291866302490234
+start expand
+expanding needs: 0.0005888938903808594
+iteration:  301
+tree a length:  72
+tree b length:  72
+start expand
+expanding needs: 0.0031859874725341797
+start expand
+expanding needs: 0.0004975795745849609
+iteration:  302
+tree a length:  73
+tree b length:  72
+start expand
+expanding needs: 0.00027441978454589844
+iteration:  303
+tree a length:  73
+tree b length:  72
+start expand
+expanding needs: 0.0026645660400390625
+start expand
+expanding needs: 0.00030159950256347656
+iteration:  304
+tree a length:  73
+tree b length:  73
+start expand
+expanding needs: 0.006635904312133789
+start expand
+expanding needs: 0.00042700767517089844
+iteration:  305
+tree a length:  73
+tree b length:  74
+start expand
+expanding needs: 0.0015997886657714844
+start expand
+expanding needs: 0.0004475116729736328
+iteration:  306
+tree a length:  74
+tree b length:  75
+start expand
+expanding needs: 0.0004546642303466797
+iteration:  307
+tree a length:  74
+tree b length:  75
+start expand
+expanding needs: 0.0004115104675292969
+iteration:  308
+tree a length:  74
+tree b length:  75
+start expand
+expanding needs: 0.0002646446228027344
+iteration:  309
+tree a length:  74
+tree b length:  75
+start expand
+expanding needs: 0.001470327377319336
+start expand
+expanding needs: 0.0002579689025878906
+iteration:  310
+tree a length:  75
+tree b length:  75
+start expand
+expanding needs: 0.0005118846893310547
+iteration:  311
+tree a length:  75
+tree b length:  75
+start expand
+expanding needs: 0.0004553794860839844
+iteration:  312
+tree a length:  75
+tree b length:  75
+start expand
+expanding needs: 0.007293224334716797
+start expand
+expanding needs: 0.00045561790466308594
+iteration:  313
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0004353523254394531
+iteration:  314
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0003826618194580078
+iteration:  315
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.000263214111328125
+iteration:  316
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0006539821624755859
+iteration:  317
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0005528926849365234
+iteration:  318
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0004088878631591797
+iteration:  319
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.000370025634765625
+iteration:  320
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0006511211395263672
+iteration:  321
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.00042057037353515625
+iteration:  322
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.00045609474182128906
+iteration:  323
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.00046443939208984375
+iteration:  324
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0004937648773193359
+iteration:  325
+tree a length:  75
+tree b length:  76
+start expand
+expanding needs: 0.0015399456024169922
+start expand
+expanding needs: 0.0003063678741455078
+iteration:  326
+tree a length:  76
+tree b length:  76
+start expand
+expanding needs: 0.0003108978271484375
+iteration:  327
+tree a length:  76
+tree b length:  76
+start expand
+expanding needs: 0.00197601318359375
+start expand
+expanding needs: 0.0003330707550048828
+iteration:  328
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.0003809928894042969
+iteration:  329
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.0005359649658203125
+iteration:  330
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.0003783702850341797
+iteration:  331
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.0005109310150146484
+iteration:  332
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.006970882415771484
+start expand
+expanding needs: 0.0004363059997558594
+iteration:  333
+tree a length:  77
+tree b length:  77
+start expand
+expanding needs: 0.0003952980041503906
+iteration:  334
+tree a length:  77
+tree b length:  77
+start expand
+expanding needs: 0.0004754066467285156
+iteration:  335
+tree a length:  77
+tree b length:  77
+start expand
+expanding needs: 0.0003337860107421875
+iteration:  336
+tree a length:  77
+tree b length:  77
+start expand
+expanding needs: 0.0005424022674560547
+iteration:  337
+tree a length:  77
+tree b length:  77
+start expand
+expanding needs: 0.0066852569580078125
+start expand
+expanding needs: 0.0005059242248535156
+iteration:  338
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.0004534721374511719
+iteration:  339
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.0005080699920654297
+iteration:  340
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.0004363059997558594
+iteration:  341
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.0003619194030761719
+iteration:  342
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.0003249645233154297
+iteration:  343
+tree a length:  78
+tree b length:  78
+start expand
+expanding needs: 0.006119489669799805
+start expand
+expanding needs: 0.0004534721374511719
+iteration:  344
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.0004322528839111328
+iteration:  345
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.0003237724304199219
+iteration:  346
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.00042748451232910156
+iteration:  347
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.0003840923309326172
+iteration:  348
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.0002894401550292969
+iteration:  349
+tree a length:  78
+tree b length:  79
+start expand
+expanding needs: 0.0005297660827636719
+start expand
+expanding needs: 0.000385284423828125
+iteration:  350
+tree a length:  79
+tree b length:  79
+start expand
+expanding needs: 0.001501321792602539
+start expand
+expanding needs: 0.0002770423889160156
+iteration:  351
+tree a length:  80
+tree b length:  79
+start expand
+expanding needs: 0.00037288665771484375
+iteration:  352
+tree a length:  80
+tree b length:  79
+start expand
+expanding needs: 0.0013256072998046875
+start expand
+expanding needs: 0.0003476142883300781
+iteration:  353
+tree a length:  80
+tree b length:  80
+start expand
+expanding needs: 0.0012860298156738281
+start expand
+expanding needs: 0.0004973411560058594
+iteration:  354
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.0003952980041503906
+iteration:  355
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.00038170814514160156
+iteration:  356
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.0004885196685791016
+iteration:  357
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.00039839744567871094
+iteration:  358
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.00043320655822753906
+iteration:  359
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.0003275871276855469
+iteration:  360
+tree a length:  80
+tree b length:  81
+start expand
+expanding needs: 0.001026153564453125
+start expand
+expanding needs: 0.00029468536376953125
+iteration:  361
+tree a length:  81
+tree b length:  81
+start expand
+expanding needs: 0.0003764629364013672
+iteration:  362
+tree a length:  81
+tree b length:  81
+start expand
+expanding needs: 0.0018877983093261719
+start expand
+expanding needs: 0.00030040740966796875
+iteration:  363
+tree a length:  82
+tree b length:  81
+start expand
+expanding needs: 0.0003540515899658203
+iteration:  364
+tree a length:  82
+tree b length:  81
+start expand
+expanding needs: 0.0031740665435791016
+start expand
+expanding needs: 0.0004355907440185547
+iteration:  365
+tree a length:  82
+tree b length:  82
+start expand
+expanding needs: 0.0002486705780029297
+iteration:  366
+tree a length:  82
+tree b length:  82
+start expand
+expanding needs: 0.0003993511199951172
+iteration:  367
+tree a length:  82
+tree b length:  82
+start expand
+expanding needs: 0.005348920822143555
+start expand
+expanding needs: 0.0004725456237792969
+iteration:  368
+tree a length:  82
+tree b length:  83
+start expand
+expanding needs: 0.00035762786865234375
+iteration:  369
+tree a length:  82
+tree b length:  83
+start expand
+expanding needs: 0.0004734992980957031
+iteration:  370
+tree a length:  82
+tree b length:  83
+start expand
+expanding needs: 0.00042891502380371094
+iteration:  371
+tree a length:  82
+tree b length:  83
+start expand
+expanding needs: 0.00043654441833496094
+iteration:  372
+tree a length:  82
+tree b length:  83
+start expand
+expanding needs: 0.005695343017578125
+start expand
+expanding needs: 0.0004467964172363281
+iteration:  373
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0004851818084716797
+iteration:  374
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0003936290740966797
+iteration:  375
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0002605915069580078
+iteration:  376
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.00026988983154296875
+iteration:  377
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0003414154052734375
+iteration:  378
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0004131793975830078
+iteration:  379
+tree a length:  83
+tree b length:  84
+start expand
+expanding needs: 0.0013103485107421875
+start expand
+expanding needs: 0.00030922889709472656
+iteration:  380
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0003566741943359375
+iteration:  381
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0003178119659423828
+iteration:  382
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.00038242340087890625
+iteration:  383
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0003173351287841797
+iteration:  384
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0004444122314453125
+iteration:  385
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0003809928894042969
+iteration:  386
+tree a length:  84
+tree b length:  84
+start expand
+expanding needs: 0.0007767677307128906
+start expand
+expanding needs: 0.0002949237823486328
+iteration:  387
+tree a length:  84
+tree b length:  85
+start expand
+expanding needs: 0.00037598609924316406
+iteration:  388
+tree a length:  84
+tree b length:  85
+start expand
+expanding needs: 0.004615306854248047
+start expand
+expanding needs: 0.0005283355712890625
+iteration:  389
+tree a length:  85
+tree b length:  86
+start expand
+expanding needs: 0.0016245841979980469
+start expand
+expanding needs: 0.0003733634948730469
+iteration:  390
+tree a length:  86
+tree b length:  86
+start expand
+expanding needs: 0.00031685829162597656
+iteration:  391
+tree a length:  86
+tree b length:  86
+start expand
+expanding needs: 0.0011906623840332031
+start expand
+expanding needs: 0.0003330707550048828
+iteration:  392
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.0003783702850341797
+iteration:  393
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.0003936290740966797
+iteration:  394
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.0002918243408203125
+iteration:  395
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.0004279613494873047
+iteration:  396
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.0005488395690917969
+start expand
+expanding needs: 0.00029540061950683594
+iteration:  397
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.00040650367736816406
+iteration:  398
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.00031185150146484375
+iteration:  399
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.0004055500030517578
+iteration:  400
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.00036716461181640625
+iteration:  401
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.0002968311309814453
+iteration:  402
+tree a length:  87
+tree b length:  87
+start expand
+expanding needs: 0.0006239414215087891
+start expand
+expanding needs: 0.0003342628479003906
+iteration:  403
+tree a length:  88
+tree b length:  87
+start expand
+expanding needs: 0.004675626754760742
+start expand
+expanding needs: 0.00045609474182128906
+iteration:  404
+tree a length:  88
+tree b length:  88
+start expand
+expanding needs: 0.00038123130798339844
+iteration:  405
+tree a length:  88
+tree b length:  88
+start expand
+expanding needs: 0.003601551055908203
+start expand
+expanding needs: 0.0004909038543701172
+iteration:  406
+tree a length:  89
+tree b length:  89
+start expand
+expanding needs: 0.0022356510162353516
+start expand
+expanding needs: 0.0004107952117919922
+iteration:  407
+tree a length:  89
+tree b length:  90
+start expand
+expanding needs: 0.00032401084899902344
+iteration:  408
+tree a length:  89
+tree b length:  90
+start expand
+expanding needs: 0.0004665851593017578
+iteration:  409
+tree a length:  89
+tree b length:  90
+start expand
+expanding needs: 0.0004813671112060547
+iteration:  410
+tree a length:  89
+tree b length:  90
+start expand
+expanding needs: 0.0032155513763427734
+start expand
+expanding needs: 0.00028896331787109375
+iteration:  411
+tree a length:  90
+tree b length:  90
+start expand
+expanding needs: 0.0003535747528076172
+iteration:  412
+tree a length:  90
+tree b length:  90
+start expand
+expanding needs: 0.0004489421844482422
+start expand
+expanding needs: 0.00023412704467773438
+iteration:  413
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.00023698806762695312
+iteration:  414
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.0003783702850341797
+iteration:  415
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.00031757354736328125
+iteration:  416
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.0003714561462402344
+iteration:  417
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.0003638267517089844
+iteration:  418
+tree a length:  90
+tree b length:  91
+start expand
+expanding needs: 0.0008320808410644531
+start expand
+expanding needs: 0.0003521442413330078
+iteration:  419
+tree a length:  91
+tree b length:  91
+start expand
+expanding needs: 0.004789113998413086
+start expand
+expanding needs: 0.003228902816772461
+SOLVER: Normal RRT
+success:  True
+length:  4.101061892851098
+time spent:  1.7701902389526367
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon:  5
+cpu:  True
+start q: [-0.48833  0.5195  -0.03117  0.17009  0.6659   0.60204  0.40644]
+goal q: [ 0.30916  0.33632  0.58009 -0.75126  0.42225  0.23101 -0.45161]
+start expand
+expanding needs: 0.006424427032470703
+start expand
+expanding needs: 0.0011169910430908203
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.003296375274658203
+start expand
+expanding needs: 0.0012698173522949219
+iteration:  1
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.007694721221923828
+start expand
+expanding needs: 0.0007436275482177734
+iteration:  2
+tree a length:  3
+tree b length:  4
+start expand
+expanding needs: 0.005580902099609375
+start expand
+expanding needs: 0.0007042884826660156
+iteration:  3
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0009975433349609375
+iteration:  4
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.00075531005859375
+iteration:  5
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.012588977813720703
+start expand
+expanding needs: 0.0007922649383544922
+iteration:  6
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.0006513595581054688
+iteration:  7
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.0006763935089111328
+iteration:  8
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.00054931640625
+iteration:  9
+tree a length:  5
+tree b length:  4
+start expand
+expanding needs: 0.0011644363403320312
+start expand
+expanding needs: 0.0012440681457519531
+iteration:  10
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0004863739013671875
+iteration:  11
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0007314682006835938
+iteration:  12
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0008585453033447266
+iteration:  13
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0006856918334960938
+iteration:  14
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0007066726684570312
+iteration:  15
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0005979537963867188
+iteration:  16
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0006875991821289062
+iteration:  17
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0007176399230957031
+iteration:  18
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0006837844848632812
+iteration:  19
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.000698089599609375
+iteration:  20
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0011293888092041016
+start expand
+expanding needs: 0.0009708404541015625
+iteration:  21
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0005509853363037109
+iteration:  22
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.00044345855712890625
+iteration:  23
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.000362396240234375
+iteration:  24
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.00047898292541503906
+iteration:  25
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.011746883392333984
+start expand
+expanding needs: 0.0006582736968994141
+iteration:  26
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.00039649009704589844
+iteration:  27
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0007588863372802734
+iteration:  28
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.01614069938659668
+start expand
+expanding needs: 0.0012230873107910156
+iteration:  29
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.005647897720336914
+start expand
+expanding needs: 0.003622293472290039
+iteration:  30
+tree a length:  9
+tree b length:  8
+start expand
+expanding needs: 0.0006327629089355469
+start expand
+expanding needs: 0.0004296302795410156
+iteration:  31
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0005316734313964844
+iteration:  32
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0018486976623535156
+start expand
+expanding needs: 0.000278472900390625
+iteration:  33
+tree a length:  9
+tree b length:  10
+start expand
+expanding needs: 0.0007655620574951172
+iteration:  34
+tree a length:  9
+tree b length:  10
+start expand
+expanding needs: 0.004258871078491211
+start expand
+expanding needs: 0.0013082027435302734
+iteration:  35
+tree a length:  10
+tree b length:  11
+start expand
+expanding needs: 0.0038917064666748047
+start expand
+expanding needs: 0.0003597736358642578
+iteration:  36
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.00048542022705078125
+start expand
+expanding needs: 0.000263214111328125
+iteration:  37
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0005092620849609375
+iteration:  38
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0004558563232421875
+iteration:  39
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0005381107330322266
+iteration:  40
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0004749298095703125
+start expand
+expanding needs: 0.0006196498870849609
+iteration:  41
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0014040470123291016
+start expand
+expanding needs: 0.005622386932373047
+iteration:  42
+tree a length:  13
+tree b length:  13
+start expand
+expanding needs: 0.0005941390991210938
+iteration:  43
+tree a length:  13
+tree b length:  13
+start expand
+expanding needs: 0.0005121231079101562
+start expand
+expanding needs: 0.00042700767517089844
+iteration:  44
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.0007379055023193359
+iteration:  45
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.0038275718688964844
+start expand
+expanding needs: 0.0004611015319824219
+iteration:  46
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0003497600555419922
+iteration:  47
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0003459453582763672
+start expand
+expanding needs: 0.00036644935607910156
+iteration:  48
+tree a length:  15
+tree b length:  14
+start expand
+expanding needs: 0.002683877944946289
+start expand
+expanding needs: 0.00033211708068847656
+iteration:  49
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.002012491226196289
+start expand
+expanding needs: 0.00042748451232910156
+iteration:  50
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0004925727844238281
+iteration:  51
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0005574226379394531
+iteration:  52
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0004932880401611328
+iteration:  53
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0004353523254394531
+iteration:  54
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0007233619689941406
+iteration:  55
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0005717277526855469
+iteration:  56
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0006020069122314453
+iteration:  57
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.00044345855712890625
+iteration:  58
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0004608631134033203
+iteration:  59
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.0007183551788330078
+start expand
+expanding needs: 0.005259037017822266
+iteration:  60
+tree a length:  17
+tree b length:  16
+start expand
+expanding needs: 0.0007004737854003906
+iteration:  61
+tree a length:  17
+tree b length:  16
+start expand
+expanding needs: 0.0007405281066894531
+iteration:  62
+tree a length:  17
+tree b length:  16
+start expand
+expanding needs: 0.0006108283996582031
+iteration:  63
+tree a length:  17
+tree b length:  16
+start expand
+expanding needs: 0.007099628448486328
+start expand
+expanding needs: 0.0015630722045898438
+iteration:  64
+tree a length:  18
+tree b length:  17
+start expand
+expanding needs: 0.0007255077362060547
+iteration:  65
+tree a length:  18
+tree b length:  17
+start expand
+expanding needs: 0.0004942417144775391
+start expand
+expanding needs: 0.0003948211669921875
+iteration:  66
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.0006892681121826172
+iteration:  67
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.0008893013000488281
+iteration:  68
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.0007398128509521484
+iteration:  69
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.00040340423583984375
+iteration:  70
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.00028824806213378906
+iteration:  71
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.010133743286132812
+start expand
+expanding needs: 0.0005636215209960938
+iteration:  72
+tree a length:  19
+tree b length:  18
+start expand
+expanding needs: 0.00039315223693847656
+iteration:  73
+tree a length:  19
+tree b length:  18
+start expand
+expanding needs: 0.0008089542388916016
+iteration:  74
+tree a length:  19
+tree b length:  18
+start expand
+expanding needs: 0.0006253719329833984
+iteration:  75
+tree a length:  19
+tree b length:  18
+start expand
+expanding needs: 0.0004911422729492188
+iteration:  76
+tree a length:  19
+tree b length:  18
+start expand
+expanding needs: 0.0006728172302246094
+start expand
+expanding needs: 0.0005769729614257812
+iteration:  77
+tree a length:  19
+tree b length:  19
+start expand
+expanding needs: 0.0005304813385009766
+iteration:  78
+tree a length:  19
+tree b length:  19
+start expand
+expanding needs: 0.00697636604309082
+start expand
+expanding needs: 0.0005390644073486328
+iteration:  79
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.0005865097045898438
+iteration:  80
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.0007479190826416016
+iteration:  81
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.00042247772216796875
+iteration:  82
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.0004544258117675781
+iteration:  83
+tree a length:  20
+tree b length:  19
+start expand
+expanding needs: 0.008499622344970703
+start expand
+expanding needs: 0.000774383544921875
+iteration:  84
+tree a length:  21
+tree b length:  20
+start expand
+expanding needs: 0.003185272216796875
+start expand
+expanding needs: 0.0009608268737792969
+iteration:  85
+tree a length:  22
+tree b length:  21
+start expand
+expanding needs: 0.002259492874145508
+start expand
+expanding needs: 0.0006468296051025391
+iteration:  86
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0004892349243164062
+iteration:  87
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0005834102630615234
+iteration:  88
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.00045752525329589844
+start expand
+expanding needs: 0.0005853176116943359
+iteration:  89
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0004475116729736328
+iteration:  90
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0005776882171630859
+iteration:  91
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0003998279571533203
+iteration:  92
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0005090236663818359
+iteration:  93
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0006663799285888672
+iteration:  94
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0003921985626220703
+iteration:  95
+tree a length:  23
+tree b length:  22
+start expand
+expanding needs: 0.0064127445220947266
+start expand
+expanding needs: 0.0003933906555175781
+iteration:  96
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.0005879402160644531
+iteration:  97
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.0005679130554199219
+iteration:  98
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.0010051727294921875
+start expand
+expanding needs: 0.00024175643920898438
+iteration:  99
+tree a length:  24
+tree b length:  23
+start expand
+expanding needs: 0.00047016143798828125
+start expand
+expanding needs: 0.00026297569274902344
+iteration:  100
+tree a length:  24
+tree b length:  24
+start expand
+expanding needs: 0.00046825408935546875
+iteration:  101
+tree a length:  24
+tree b length:  24
+start expand
+expanding needs: 0.0010333061218261719
+start expand
+expanding needs: 0.0005993843078613281
+iteration:  102
+tree a length:  25
+tree b length:  24
+start expand
+expanding needs: 0.0077860355377197266
+start expand
+expanding needs: 0.006848812103271484
+SOLVER: Normal RRT
+success:  True
+length:  8.056692343834259
+time spent:  1.4805030822753906
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 34
+horizon:  5
+cpu:  True
+start q: [ 0.41346  0.28011  0.50272  0.48238 -0.1729   0.0055  -0.85871]
+goal q: [ 0.3257  -0.22511 -0.11402 -0.0792   0.06364 -0.34602  0.93271]
+start expand
+expanding needs: 0.0012013912200927734
+start expand
+expanding needs: 0.0009887218475341797
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.0008244514465332031
+start expand
+expanding needs: 0.0006721019744873047
+iteration:  1
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.00189971923828125
+start expand
+expanding needs: 0.0005016326904296875
+iteration:  2
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0006453990936279297
+start expand
+expanding needs: 0.0004773139953613281
+iteration:  3
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0004642009735107422
+iteration:  4
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0005578994750976562
+iteration:  5
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0004894733428955078
+iteration:  6
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.004041910171508789
+start expand
+expanding needs: 0.0005142688751220703
+iteration:  7
+tree a length:  4
+tree b length:  5
+start expand
+expanding needs: 0.00107574462890625
+start expand
+expanding needs: 0.0004115104675292969
+iteration:  8
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.001253366470336914
+start expand
+expanding needs: 0.0004892349243164062
+iteration:  9
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0006306171417236328
+iteration:  10
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0008330345153808594
+iteration:  11
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0007679462432861328
+iteration:  12
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0008077621459960938
+iteration:  13
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0006787776947021484
+iteration:  14
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0006153583526611328
+iteration:  15
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.02037978172302246
+start expand
+expanding needs: 0.0009770393371582031
+iteration:  16
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0005042552947998047
+iteration:  17
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0005652904510498047
+iteration:  18
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.004673004150390625
+start expand
+expanding needs: 0.0004639625549316406
+iteration:  19
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.00034236907958984375
+iteration:  20
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0008220672607421875
+iteration:  21
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0005199909210205078
+iteration:  22
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0005939006805419922
+iteration:  23
+tree a length:  6
+tree b length:  7
+start expand
+expanding needs: 0.0011801719665527344
+start expand
+expanding needs: 0.0005035400390625
+iteration:  24
+tree a length:  7
+tree b length:  7
+start expand
+expanding needs: 0.0008094310760498047
+start expand
+expanding needs: 0.000408172607421875
+iteration:  25
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0007250308990478516
+iteration:  26
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0110626220703125
+start expand
+expanding needs: 0.008451700210571289
+iteration:  27
+tree a length:  9
+tree b length:  8
+start expand
+expanding needs: 0.0006787776947021484
+start expand
+expanding needs: 0.0005102157592773438
+iteration:  28
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.006865739822387695
+start expand
+expanding needs: 0.0010533332824707031
+iteration:  29
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.0007383823394775391
+iteration:  30
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.008086204528808594
+start expand
+expanding needs: 0.01150655746459961
+iteration:  31
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.005408048629760742
+start expand
+expanding needs: 0.005118846893310547
+SOLVER: Normal RRT
+success:  True
+length:  4.889870653059592
+time spent:  1.2509825229644775
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 52
+horizon:  5
+cpu:  True
+start q: [-0.37736  0.58657  0.53338 -0.25215 -0.26303 -0.34069  0.8667 ]
+goal q: [ 0.25173 -0.58259 -0.57269 -0.93218 -0.26076  0.09915 -0.23068]
+start expand
+expanding needs: 0.016014575958251953
+start expand
+expanding needs: 0.005907535552978516
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.011062383651733398
+start expand
+expanding needs: 0.00055694580078125
+iteration:  1
+tree a length:  2
+tree b length:  3
+start expand
+expanding needs: 0.010470151901245117
+start expand
+expanding needs: 0.014182806015014648
+iteration:  2
+tree a length:  3
+tree b length:  4
+start expand
+expanding needs: 0.010448455810546875
+start expand
+expanding needs: 0.0008122920989990234
+iteration:  3
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.002032756805419922
+start expand
+expanding needs: 0.0022144317626953125
+iteration:  4
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.007760047912597656
+start expand
+expanding needs: 0.007027149200439453
+SOLVER: Normal RRT
+success:  True
+length:  2.949958933560235
+time spent:  1.2384843826293945
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 56
+horizon:  5
+cpu:  True
+start q: [-0.45086  0.09818 -0.25064  0.97545 -0.18297  0.08382 -0.08939]
+goal q: [ 0.06233  0.43766  0.30578 -0.26464 -0.15201 -0.82916  0.46835]
+start expand
+expanding needs: 0.0031294822692871094
+start expand
+expanding needs: 0.0010454654693603516
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.003611326217651367
+start expand
+expanding needs: 0.0007183551788330078
+iteration:  1
+tree a length:  3
+tree b length:  2
+start expand
+expanding needs: 0.0011413097381591797
+start expand
+expanding needs: 0.002477407455444336
+iteration:  2
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0006265640258789062
+iteration:  3
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.0005328655242919922
+iteration:  4
+tree a length:  4
+tree b length:  3
+start expand
+expanding needs: 0.001375436782836914
+start expand
+expanding needs: 0.0006620883941650391
+iteration:  5
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0004532337188720703
+iteration:  6
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0010695457458496094
+start expand
+expanding needs: 0.0006256103515625
+iteration:  7
+tree a length:  4
+tree b length:  5
+start expand
+expanding needs: 0.005057096481323242
+start expand
+expanding needs: 0.0005283355712890625
+iteration:  8
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0005764961242675781
+iteration:  9
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.00023221969604492188
+iteration:  10
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0010693073272705078
+start expand
+expanding needs: 0.0007953643798828125
+iteration:  11
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.00037980079650878906
+iteration:  12
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0004889965057373047
+iteration:  13
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0006456375122070312
+start expand
+expanding needs: 0.0019152164459228516
+iteration:  14
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0006084442138671875
+iteration:  15
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.00040531158447265625
+iteration:  16
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0006575584411621094
+iteration:  17
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0008285045623779297
+iteration:  18
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0009582042694091797
+start expand
+expanding needs: 0.00048041343688964844
+iteration:  19
+tree a length:  7
+tree b length:  7
+start expand
+expanding needs: 0.003183603286743164
+start expand
+expanding needs: 0.0008206367492675781
+iteration:  20
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0005671977996826172
+iteration:  21
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0007283687591552734
+iteration:  22
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0008561611175537109
+iteration:  23
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0006246566772460938
+iteration:  24
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0006768703460693359
+iteration:  25
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.012331962585449219
+start expand
+expanding needs: 0.0005853176116943359
+iteration:  26
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.0005748271942138672
+iteration:  27
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.002502918243408203
+start expand
+expanding needs: 0.0005741119384765625
+iteration:  28
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0006136894226074219
+iteration:  29
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0005884170532226562
+iteration:  30
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0007627010345458984
+iteration:  31
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0006186962127685547
+iteration:  32
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0007581710815429688
+start expand
+expanding needs: 0.0013532638549804688
+iteration:  33
+tree a length:  9
+tree b length:  10
+start expand
+expanding needs: 0.006099700927734375
+start expand
+expanding needs: 0.00031685829162597656
+iteration:  34
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.001973867416381836
+start expand
+expanding needs: 0.00061798095703125
+iteration:  35
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0004086494445800781
+iteration:  36
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0006628036499023438
+iteration:  37
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0006399154663085938
+iteration:  38
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.000682830810546875
+iteration:  39
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0005311965942382812
+iteration:  40
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0007128715515136719
+iteration:  41
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.006557941436767578
+start expand
+expanding needs: 0.0011658668518066406
+iteration:  42
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.007028102874755859
+start expand
+expanding needs: 0.0005123615264892578
+iteration:  43
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0032515525817871094
+start expand
+expanding needs: 0.002778291702270508
+iteration:  44
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.009209632873535156
+start expand
+expanding needs: 0.0005280971527099609
+iteration:  45
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0006868839263916016
+start expand
+expanding needs: 0.0031893253326416016
+iteration:  46
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.0003514289855957031
+iteration:  47
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.003409862518310547
+start expand
+expanding needs: 0.0005176067352294922
+iteration:  48
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.00048041343688964844
+iteration:  49
+tree a length:  16
+tree b length:  15
+start expand
+expanding needs: 0.004709482192993164
+start expand
+expanding needs: 0.0005097389221191406
+iteration:  50
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.0004076957702636719
+iteration:  51
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.0006053447723388672
+iteration:  52
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.00034236907958984375
+iteration:  53
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.0004763603210449219
+iteration:  54
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.0026760101318359375
+start expand
+expanding needs: 0.0002560615539550781
+iteration:  55
+tree a length:  17
+tree b length:  17
+start expand
+expanding needs: 0.0030393600463867188
+start expand
+expanding needs: 0.002604961395263672
+SOLVER: Normal RRT
+success:  True
+length:  4.508392963718065
+time spent:  1.3026401996612549
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon:  5
+cpu:  True
+start q: [ 0.54048 -0.35106 -0.17702  0.22576  0.80932 -0.4903  -0.23159]
+goal q: [-0.48704  0.42458  0.29509  0.58624 -0.23997 -0.21615 -0.74298]
+start expand
+expanding needs: 0.0008370876312255859
+start expand
+expanding needs: 0.0078089237213134766
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.0008122920989990234
+iteration:  1
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.014679908752441406
+start expand
+expanding needs: 0.0008759498596191406
+iteration:  2
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.009456396102905273
+start expand
+expanding needs: 0.0010769367218017578
+iteration:  3
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.0004169940948486328
+iteration:  4
+tree a length:  4
+tree b length:  4
+start expand
+expanding needs: 0.004379749298095703
+start expand
+expanding needs: 0.0010848045349121094
+iteration:  5
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.00052642822265625
+iteration:  6
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0014836788177490234
+start expand
+expanding needs: 0.0007376670837402344
+iteration:  7
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0006465911865234375
+iteration:  8
+tree a length:  5
+tree b length:  6
+start expand
+expanding needs: 0.0006575584411621094
+start expand
+expanding needs: 0.0006887912750244141
+iteration:  9
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0007405281066894531
+iteration:  10
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.015585660934448242
+start expand
+expanding needs: 0.0005686283111572266
+iteration:  11
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0006186962127685547
+iteration:  12
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0006041526794433594
+iteration:  13
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.0005116462707519531
+iteration:  14
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.005866050720214844
+start expand
+expanding needs: 0.0011665821075439453
+iteration:  15
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0007183551788330078
+iteration:  16
+tree a length:  8
+tree b length:  7
+start expand
+expanding needs: 0.0015642642974853516
+start expand
+expanding needs: 0.0004742145538330078
+iteration:  17
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.0004930496215820312
+iteration:  18
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.009223699569702148
+start expand
+expanding needs: 0.005932331085205078
+iteration:  19
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.0003769397735595703
+iteration:  20
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.011183023452758789
+start expand
+expanding needs: 0.0005877017974853516
+iteration:  21
+tree a length:  10
+tree b length:  9
+start expand
+expanding needs: 0.010767459869384766
+start expand
+expanding needs: 0.0019664764404296875
+iteration:  22
+tree a length:  11
+tree b length:  10
+start expand
+expanding needs: 0.0005674362182617188
+iteration:  23
+tree a length:  11
+tree b length:  10
+start expand
+expanding needs: 0.00920867919921875
+start expand
+expanding needs: 0.0007226467132568359
+iteration:  24
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.00828695297241211
+start expand
+expanding needs: 0.0007238388061523438
+iteration:  25
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0005009174346923828
+iteration:  26
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0006189346313476562
+iteration:  27
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0006835460662841797
+iteration:  28
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0017762184143066406
+start expand
+expanding needs: 0.0005309581756591797
+iteration:  29
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0006260871887207031
+iteration:  30
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.000904083251953125
+start expand
+expanding needs: 0.0005116462707519531
+iteration:  31
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0005021095275878906
+iteration:  32
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.002685546875
+start expand
+expanding needs: 0.0018544197082519531
+iteration:  33
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.0007987022399902344
+iteration:  34
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.005261898040771484
+start expand
+expanding needs: 0.0004184246063232422
+iteration:  35
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0029664039611816406
+start expand
+expanding needs: 0.0008885860443115234
+iteration:  36
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.0005967617034912109
+iteration:  37
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.00046539306640625
+iteration:  38
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.0007116794586181641
+iteration:  39
+tree a length:  15
+tree b length:  15
+start expand
+expanding needs: 0.002851724624633789
+start expand
+expanding needs: 0.0005517005920410156
+iteration:  40
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.000598907470703125
+iteration:  41
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.0006139278411865234
+iteration:  42
+tree a length:  15
+tree b length:  16
+start expand
+expanding needs: 0.002063274383544922
+start expand
+expanding needs: 0.0008294582366943359
+iteration:  43
+tree a length:  16
+tree b length:  17
+start expand
+expanding needs: 0.0006210803985595703
+iteration:  44
+tree a length:  16
+tree b length:  17
+start expand
+expanding needs: 0.000476837158203125
+start expand
+expanding needs: 0.002074718475341797
+iteration:  45
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0006108283996582031
+iteration:  46
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0005269050598144531
+iteration:  47
+tree a length:  17
+tree b length:  18
+start expand
+expanding needs: 0.0006959438323974609
+start expand
+expanding needs: 0.0003116130828857422
+iteration:  48
+tree a length:  18
+tree b length:  18
+start expand
+expanding needs: 0.008502006530761719
+start expand
+expanding needs: 0.0009095668792724609
+iteration:  49
+tree a length:  18
+tree b length:  19
+start expand
+expanding needs: 0.0018792152404785156
+start expand
+expanding needs: 0.0005488395690917969
+iteration:  50
+tree a length:  19
+tree b length:  20
+start expand
+expanding needs: 0.0007884502410888672
+iteration:  51
+tree a length:  19
+tree b length:  20
+start expand
+expanding needs: 0.0005128383636474609
+iteration:  52
+tree a length:  19
+tree b length:  20
+start expand
+expanding needs: 0.0007033348083496094
+iteration:  53
+tree a length:  19
+tree b length:  20
+start expand
+expanding needs: 0.001312255859375
+start expand
+expanding needs: 0.0003018379211425781
+iteration:  54
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0005495548248291016
+iteration:  55
+tree a length:  20
+tree b length:  20
+start expand
+expanding needs: 0.0016121864318847656
+start expand
+expanding needs: 0.0006420612335205078
+iteration:  56
+tree a length:  20
+tree b length:  21
+start expand
+expanding needs: 0.0005071163177490234
+iteration:  57
+tree a length:  20
+tree b length:  21
+start expand
+expanding needs: 0.008070707321166992
+start expand
+expanding needs: 0.0005812644958496094
+iteration:  58
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.0006396770477294922
+iteration:  59
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.0005927085876464844
+iteration:  60
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.001750946044921875
+start expand
+expanding needs: 0.0009677410125732422
+iteration:  61
+tree a length:  21
+tree b length:  22
+start expand
+expanding needs: 0.0010538101196289062
+iteration:  62
+tree a length:  21
+tree b length:  22
+start expand
+expanding needs: 0.0007090568542480469
+start expand
+expanding needs: 0.0004801750183105469
+iteration:  63
+tree a length:  22
+tree b length:  22
+start expand
+expanding needs: 0.0008237361907958984
+start expand
+expanding needs: 0.0008082389831542969
+iteration:  64
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0005602836608886719
+iteration:  65
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0004971027374267578
+iteration:  66
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0006005764007568359
+iteration:  67
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.00045871734619140625
+iteration:  68
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0007126331329345703
+iteration:  69
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0006189346313476562
+iteration:  70
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0004229545593261719
+iteration:  71
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.0005390644073486328
+iteration:  72
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.000812530517578125
+iteration:  73
+tree a length:  22
+tree b length:  23
+start expand
+expanding needs: 0.000820159912109375
+start expand
+expanding needs: 0.0004687309265136719
+iteration:  74
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.0003597736358642578
+iteration:  75
+tree a length:  23
+tree b length:  23
+start expand
+expanding needs: 0.002299785614013672
+start expand
+expanding needs: 0.0006501674652099609
+iteration:  76
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005605220794677734
+iteration:  77
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0006260871887207031
+iteration:  78
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0004627704620361328
+iteration:  79
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005714893341064453
+iteration:  80
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.00037980079650878906
+iteration:  81
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.00036406517028808594
+iteration:  82
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0003681182861328125
+iteration:  83
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0006282329559326172
+iteration:  84
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005693435668945312
+iteration:  85
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005652904510498047
+iteration:  86
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005376338958740234
+iteration:  87
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0008399486541748047
+iteration:  88
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0007154941558837891
+iteration:  89
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005075931549072266
+iteration:  90
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0004096031188964844
+iteration:  91
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0005984306335449219
+iteration:  92
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0007171630859375
+iteration:  93
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.0004756450653076172
+iteration:  94
+tree a length:  23
+tree b length:  24
+start expand
+expanding needs: 0.008995532989501953
+start expand
+expanding needs: 0.005927562713623047
+SOLVER: Normal RRT
+success:  True
+length:  5.005539649066803
+time spent:  1.4376211166381836
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 98
+horizon:  5
+cpu:  True
+start q: [-0.5824  -0.28476 -0.02024  0.75323 -0.46757  0.44703  0.11911]
+goal q: [ 0.29251 -0.22644  0.47854  0.27343 -0.47576 -0.38283 -0.74319]
+start expand
+expanding needs: 0.001383066177368164
+start expand
+expanding needs: 0.005554676055908203
+iteration:  0
+tree a length:  2
+tree b length:  2
+start expand
+expanding needs: 0.0010576248168945312
+start expand
+expanding needs: 0.0004878044128417969
+iteration:  1
+tree a length:  3
+tree b length:  2
+start expand
+expanding needs: 0.009768962860107422
+start expand
+expanding needs: 0.0007839202880859375
+iteration:  2
+tree a length:  3
+tree b length:  3
+start expand
+expanding needs: 0.0024001598358154297
+start expand
+expanding needs: 0.0008265972137451172
+iteration:  3
+tree a length:  3
+tree b length:  4
+start expand
+expanding needs: 0.0012671947479248047
+start expand
+expanding needs: 0.0005707740783691406
+iteration:  4
+tree a length:  4
+tree b length:  5
+start expand
+expanding needs: 0.0009334087371826172
+start expand
+expanding needs: 0.0005295276641845703
+iteration:  5
+tree a length:  5
+tree b length:  5
+start expand
+expanding needs: 0.0010974407196044922
+start expand
+expanding needs: 0.0005390644073486328
+iteration:  6
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.0007138252258300781
+iteration:  7
+tree a length:  6
+tree b length:  5
+start expand
+expanding needs: 0.01102757453918457
+start expand
+expanding needs: 0.0005176067352294922
+iteration:  8
+tree a length:  7
+tree b length:  6
+start expand
+expanding needs: 0.00627899169921875
+start expand
+expanding needs: 0.00063323974609375
+iteration:  9
+tree a length:  7
+tree b length:  7
+start expand
+expanding needs: 0.0006301403045654297
+iteration:  10
+tree a length:  7
+tree b length:  7
+start expand
+expanding needs: 0.0014538764953613281
+start expand
+expanding needs: 0.003713846206665039
+iteration:  11
+tree a length:  8
+tree b length:  8
+start expand
+expanding needs: 0.0007081031799316406
+start expand
+expanding needs: 0.000286102294921875
+iteration:  12
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0005562305450439453
+iteration:  13
+tree a length:  8
+tree b length:  9
+start expand
+expanding needs: 0.0007684230804443359
+start expand
+expanding needs: 0.0004405975341796875
+iteration:  14
+tree a length:  9
+tree b length:  9
+start expand
+expanding needs: 0.008159399032592773
+start expand
+expanding needs: 0.0009100437164306641
+iteration:  15
+tree a length:  9
+tree b length:  10
+start expand
+expanding needs: 0.0014181137084960938
+start expand
+expanding needs: 0.0002956390380859375
+iteration:  16
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.0005424022674560547
+iteration:  17
+tree a length:  10
+tree b length:  10
+start expand
+expanding needs: 0.0009379386901855469
+start expand
+expanding needs: 0.0002951622009277344
+iteration:  18
+tree a length:  11
+tree b length:  10
+start expand
+expanding needs: 0.002072572708129883
+start expand
+expanding needs: 0.0006299018859863281
+iteration:  19
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0006692409515380859
+iteration:  20
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.002286195755004883
+start expand
+expanding needs: 0.0004696846008300781
+iteration:  21
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0006318092346191406
+iteration:  22
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0005664825439453125
+iteration:  23
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0007293224334716797
+iteration:  24
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0007696151733398438
+iteration:  25
+tree a length:  11
+tree b length:  12
+start expand
+expanding needs: 0.0012621879577636719
+start expand
+expanding needs: 0.00027298927307128906
+iteration:  26
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0005915164947509766
+iteration:  27
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0006067752838134766
+iteration:  28
+tree a length:  12
+tree b length:  12
+start expand
+expanding needs: 0.0010976791381835938
+start expand
+expanding needs: 0.0005648136138916016
+iteration:  29
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0007750988006591797
+iteration:  30
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0005784034729003906
+iteration:  31
+tree a length:  12
+tree b length:  13
+start expand
+expanding needs: 0.0013432502746582031
+start expand
+expanding needs: 0.0005064010620117188
+iteration:  32
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.0007238388061523438
+iteration:  33
+tree a length:  13
+tree b length:  14
+start expand
+expanding needs: 0.0009036064147949219
+start expand
+expanding needs: 0.0003025531768798828
+iteration:  34
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.00032019615173339844
+iteration:  35
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0012960433959960938
+iteration:  36
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.0010421276092529297
+iteration:  37
+tree a length:  14
+tree b length:  14
+start expand
+expanding needs: 0.009592771530151367
+start expand
+expanding needs: 0.010013341903686523
+SOLVER: Normal RRT
+success:  True
+length:  5.722113751048989
+time spent:  1.1827728748321533
+-------- stop running --------

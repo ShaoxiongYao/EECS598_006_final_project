@@ -15,7 +15,7 @@ from nmp import settings
 @click.option("-resume", "--resume/--no-resume", is_flag=True, default=False)
 @click.option("-mode", "--mode", default="her")
 @click.option("-archi", "--archi", default="pointnet")
-@click.option("-epochs", "--epochs", default=3000, type=int)
+@click.option("-epochs", "--epochs", default=1000, type=int)
 @click.option("-rscale", "--reward-scale", default=1, type=float)
 @click.option("-h-dim", "--hidden-dim", default=256, type=int)
 @click.option("-bs", "--batch-size", default=256, type=int)
