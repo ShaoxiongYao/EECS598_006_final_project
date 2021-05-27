@@ -261,7 +261,7 @@ def boxes_noobst(robot_name):
 
 
 def boxes_pointcloud(robot_name, n_samples, on_surface, add_normals):
-    env = Boxes(robot_name, has_boxes=True, cube_bounds=False, dynamic_obstacles=False)
+    env = Boxes(robot_name, has_boxes=True, cube_bounds=True, dynamic_obstacles=False)
     coordinate_frame = "local"
     env = PointCloudObserver(env, n_samples, coordinate_frame, on_surface, add_normals)
     env = RobotLinksObserver(env, coordinate_frame)
