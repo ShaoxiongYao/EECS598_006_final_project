@@ -6,6 +6,8 @@ from gym.spaces import Dict
 from mpenv.observers.base import BaseObserver
 from mpenv.core import utils
 
+import sys
+# np.set_printoptions(threshold=sys.maxsize)
 
 class PointCloudObserver(BaseObserver):
     def __init__(self, env, n_samples, coordinate_frame, on_surface, add_normals):

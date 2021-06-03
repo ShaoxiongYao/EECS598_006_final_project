@@ -164,8 +164,8 @@ def multitask_rollout(
         if d:
             break
         o = next_o
-    print("policy time:", policy_time)
-    print("step time:", step_time)
+    # print("policy time:", policy_time)
+    # print("step time:", step_time)
     actions = np.array(actions)
     if len(actions.shape) == 1:
         actions = np.expand_dims(actions, 1)
