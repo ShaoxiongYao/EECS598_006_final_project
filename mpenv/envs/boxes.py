@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import sys
 from gym import spaces
 import pinocchio as pin
 import hppfcl
@@ -16,6 +17,9 @@ from mpenv.observers.robot_links import RobotLinksObserver
 from mpenv.observers.point_cloud import PointCloudObserver
 from mpenv.observers.ray_tracing import RayTracingObserver
 
+import open3d as o3d
+
+np.set_printoptions(threshold=sys.maxsize)
 
 class Boxes(Base):
     def __init__(
@@ -113,6 +117,7 @@ class Boxes(Base):
             self.dynamic_obstacles,
             self.obstacles_color,
             self.obstacles_alpha,
+            o3d_viz=self.o3d_viz
         )
         self.se3_obst_tuple = placement_tuple
         geoms = Geometries(geom_objs)
@@ -178,7 +183,8 @@ def generate_geom_objs(
     dynamic_obstacles,
     obstacles_color,
     obstacles_alpha,
-    handcraft=False
+    handcraft=True,
+    o3d_viz=None
 ):
     colors = np_random.uniform(0, 1, (n_obstacles, 4))
     colors[:, 3] = obstacles_alpha
@@ -215,6 +221,20 @@ def generate_geom_objs(
         )
         geom_obj_obstacle = mesh.geom_obj()
         geom_objs.append(geom_obj_obstacle)
+        # uncomment below for visualization
+        # if o3d_viz is not None:
+        #     geom_mesh = o3d.geometry.TriangleMesh.create_box(width=0.95*obst_size[0], height=0.95*obst_size[1], depth=0.95*obst_size[2])
+        #     lb_to_center = np.eye(4)
+        #     lb_to_center[0, 3]-=0.5*obst_size[0]
+        #     lb_to_center[1, 3]-=0.5*obst_size[1]
+        #     lb_to_center[2, 3]-=0.5*obst_size[2]
+        #     geom_mesh.transform(lb_to_center)
+        #     geom_mesh.transform(rand_se3_init)
+        #     if o3d_viz.viz is not None:
+        #         o3d_viz.viz.add_geometry(geom_mesh)
+        #     else:
+        #         o3d_viz._create_viz()
+        #         o3d_viz.viz.add_geometry(geom_mesh)
     if cube_bounds:
         geom_objs_bounds = envs_utils.get_bounds_geom_objs(freeflyer_bounds[:, :3])
         geom_objs += geom_objs_bounds
@@ -248,8 +268,26 @@ def add_handcraft_obs(idx):
     return se3, obst_size
 
 def obstacles_to_surface_pcd(geoms, n_pts, bounds):
-    points, normals = geoms.compute_surface_pcd(n_pts)
-    return points, normals
+    n_valid=0
+    valid_points=np.zeros([n_pts, 3])
+    valid_normals=np.zeros([n_pts, 3]) 
+    while n_valid < n_pts:
+        points, normals = geoms.compute_surface_pcd(n_pts)
+        for i in range(n_pts):
+            if ((normals[i] == np.array([1, 0, 0])).all() and points[i, 0] > bounds[1, 0]) or \
+                ((normals[i] == np.array([-1, 0, 0])).all() and points[i, 0] < bounds[0, 0]) or \
+                ((normals[i] == np.array([0, 1, 0])).all() and points[i, 1] > bounds[1, 1]) or \
+                ((normals[i] == np.array([0, -1, 0])).all() and points[i, 1] < bounds[0, 1]) or \
+                ((normals[i] == np.array([0, 0, 1])).all() and points[i, 2] > bounds[1, 2]) or \
+                ((normals[i] == np.array([0, 0, -1])).all() and points[i, 2] < bounds[0, 2]):
+                continue
+            else:
+                valid_points[n_valid] = points[i]
+                valid_normals[n_valid] = normals[i]
+                n_valid+=1
+                if n_valid >= n_pts:
+                    break
+    return valid_points, valid_normals
 
 
 def boxes_noobst(robot_name):
