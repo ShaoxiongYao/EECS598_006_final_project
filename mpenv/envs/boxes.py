@@ -183,7 +183,7 @@ def generate_geom_objs(
     dynamic_obstacles,
     obstacles_color,
     obstacles_alpha,
-    handcraft=True,
+    handcraft=False,
     o3d_viz=None
 ):
     colors = np_random.uniform(0, 1, (n_obstacles, 4))
