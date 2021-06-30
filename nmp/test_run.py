@@ -63,8 +63,9 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
     log_dir = settings.log_dir()
 
     print("seed:", seed)
-    print("horizon: ", horizon)
-    print("cpu: ", cpu)
+    print("horizon:", horizon)
+    print("cpu:", cpu)
+    print("render:", render)
     if exp_name:
         policy = utils.load(log_dir, exp_name, cpu, stochastic)
         if stochastic:
@@ -87,7 +88,9 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
         # print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, nmp_input=[env, policy, horizon], max_iterations=int(2000/horizon))
+        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, 
+                                                                 nmp_input=[env, policy, horizon], 
+                                                                 max_iterations=5000) #int(2000/horizon))
         print("SOLVER: RL_RRT")
         print("success: ", success)
         if 'points' in path.keys():

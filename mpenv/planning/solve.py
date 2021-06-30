@@ -23,10 +23,20 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         return not model_wrapper.collision(q)
 
     def sample_full_fn():
-        return model_wrapper.random_configuration()
+        x_rand = model_wrapper.random_configuration()
+        
+        if render:
+            env.viz.display(x_rand)
+
+        return x_rand
 
     def sample_free_fn():
-        return model_wrapper.random_free_configuration()
+        x_rand = model_wrapper.random_free_configuration()
+
+        if render:
+            env.viz.display(x_rand)
+
+        return x_rand
 
     def sample_bridge_fn():
         return model_wrapper.random_bridge_configuration()
@@ -98,6 +108,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
             return q_stop_list, not collide.any()
         else:
             path = arange_fn(q0, q1, delta_collision_check)
+            # collide means whether individual mesh on robot collides
             q_stop, collide = env.stopping_configuration(path)
             q_stop_list = []
             if collide.any():
@@ -116,7 +127,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 policy_path = rollout_fn()
                 end = policy_path["terminals"][-1][0]
                 # print("end or nor: ", end)
-                # input()
+
                 obs = policy_path["observations"]
                 n = obs.shape[0]
                 for i in range(n):
@@ -137,7 +148,11 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                     previous_ee = env.robot.get_ee(previous_oMg).translation
                     current_ee = env.robot.get_ee(current_oMg).translation
                     # path is the node name, which can be modified
-                    env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+                    # normal RRT extend rendered in yellow
+
+                    color_RRT = (0, 1, 1, 1)
+                    env.viz.create_roadmap("path_RRT", color=color_RRT)
+                    env.viz.add_edge_to_roadmap("path_RRT", previous_ee, current_ee)
 
                 end_t = time.time()
                 print("expanding needs:", end_t-start_t)

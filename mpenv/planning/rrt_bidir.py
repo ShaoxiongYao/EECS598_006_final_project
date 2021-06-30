@@ -49,17 +49,23 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         # print("x_a", x_a)
         # path_a = interpolate_fn(x_a, x_a_new)
         x_a_new_list, col_free_a = expand_fn(x_a, x_rand)
+
         # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
         # TODO: col_free_a should be added to if condition
         if not close_fn(x_a, x_a_new_list[-1]):
+
+            # expand tree_a
             for i_a, x_a_new in enumerate(x_a_new_list):
                 if i_a == 0:
                     node_a_new = Node(x_a_new, parent=node_a)
                 else:
                     node_a_new = Node(x_a_new, parent=nodes_ab[growing_index][-1])
                 nodes_ab[growing_index].append(node_a_new)
+            
+            # save tree_a last expand node
             node_a_new = nodes_ab[growing_index][-1]
             x_a_new = x_a_new_list[-1]
+
             # grows tree_b toward x_a_new
             node_b = nearest_neighbor(x_a_new, nodes_b, distance_fn)
             solution["n_samples"] += 1
@@ -89,10 +95,15 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         print("iteration: ", i)
         print("tree a length: ", len(nodes_ab[0]))
         print("tree b length: ", len(nodes_ab[1]))
+
+        # change extend tree
         if len(nodes_ab[0]) == len(nodes_ab[1]):
             growing_index = np.random.binomial(1, 0.5)
         elif len(nodes_ab[growing_index]) > len(nodes_ab[1-growing_index]):
             growing_index = 1 - growing_index
+
+        # switch trees in each iteration
+        # growing_index = 1 - growing_index
 
     return (
         False,

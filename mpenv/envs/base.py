@@ -287,7 +287,7 @@ class Base(gym.Env):
         )
         return reward, done, success
 
-    def solve_rrt(self, simplify, max_iterations=2000, max_growth=None, render=False, nmp_input=None):
+    def solve_rrt(self, simplify, max_iterations=10000, max_growth=None, render=False, nmp_input=None):
         assert hasattr(self, "robot_props")
         if max_growth is None:
             max_growth = self.robot_props["action_range"]
@@ -316,7 +316,7 @@ class Base(gym.Env):
                 self.goal_color,
             )
             self.viz.display(self.goal_state)
-            color = (1, 0.65, 0, 1)
+            color = (1, 0, 0, 1)
             self.viz.create_roadmap("path", color=color)
             time.sleep(1)
             self.showed_goal = True
