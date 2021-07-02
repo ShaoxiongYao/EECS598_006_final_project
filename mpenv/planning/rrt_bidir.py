@@ -30,8 +30,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
               switch_tree_policy='compare_size'):
     # print("RRT start:", start)
     # print("RRT goal:", goal)
-    print("switch_tree_policy:", switch_tree_policy)
-    input()
+    # print("switch_tree_policy:", switch_tree_policy)
 
     nodes_ab = [[], []]
     for i, x in enumerate((start, goal)):
