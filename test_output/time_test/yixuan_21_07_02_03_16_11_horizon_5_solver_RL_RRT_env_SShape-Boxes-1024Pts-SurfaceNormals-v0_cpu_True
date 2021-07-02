@@ -1,0 +1,6793 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 0
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0747842788696289
+start expand
+expanding needs: 0.014525413513183594
+SOLVER: RL_RRT
+success:  True
+length:  1.100043776416801
+time spent:  2.177328586578369
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02217841148376465
+start expand
+expanding needs: 0.018876075744628906
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.03243064880371094
+start expand
+expanding needs: 0.02870464324951172
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02180314064025879
+start expand
+expanding needs: 0.024880170822143555
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.023456811904907227
+start expand
+expanding needs: 0.013484954833984375
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.02294301986694336
+start expand
+expanding needs: 0.01047968864440918
+SOLVER: RL_RRT
+success:  True
+length:  2.386342163227521
+time spent:  1.429652452468872
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 2
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.023841142654418945
+start expand
+expanding needs: 0.025146007537841797
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.027964353561401367
+start expand
+expanding needs: 0.019508838653564453
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02182483673095703
+start expand
+expanding needs: 0.011632680892944336
+SOLVER: RL_RRT
+success:  True
+length:  4.142384393887652
+time spent:  1.3227169513702393
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 3
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03216671943664551
+start expand
+expanding needs: 0.012891530990600586
+SOLVER: RL_RRT
+success:  True
+length:  2.697324153635527
+time spent:  1.1764824390411377
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.030720233917236328
+start expand
+expanding needs: 0.0163726806640625
+SOLVER: RL_RRT
+success:  True
+length:  3.7199507602818147
+time spent:  1.1116530895233154
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 5
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02137470245361328
+start expand
+expanding needs: 0.022725820541381836
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.017942190170288086
+start expand
+expanding needs: 0.013998746871948242
+SOLVER: RL_RRT
+success:  True
+length:  5.276820085274265
+time spent:  1.2559139728546143
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 6
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024207353591918945
+start expand
+expanding needs: 0.018697023391723633
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02627706527709961
+start expand
+expanding needs: 0.018395423889160156
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.022601604461669922
+start expand
+expanding needs: 0.00601649284362793
+SOLVER: RL_RRT
+success:  True
+length:  1.5289452073541547
+time spent:  1.2472660541534424
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 7
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0222170352935791
+start expand
+expanding needs: 0.02062678337097168
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.028547048568725586
+start expand
+expanding needs: 0.015383481979370117
+SOLVER: RL_RRT
+success:  True
+length:  3.5763345455084705
+time spent:  1.2017662525177002
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 8
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.006394624710083008
+start expand
+expanding needs: 0.023046255111694336
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.02468276023864746
+start expand
+expanding needs: 0.00936126708984375
+SOLVER: RL_RRT
+success:  True
+length:  0.9498904936887553
+time spent:  1.1805195808410645
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02446889877319336
+start expand
+expanding needs: 0.0355372428894043
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02529144287109375
+start expand
+expanding needs: 0.021279573440551758
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019357681274414062
+start expand
+expanding needs: 0.015474319458007812
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.019409894943237305
+start expand
+expanding needs: 0.02026963233947754
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.02069711685180664
+start expand
+expanding needs: 0.020262718200683594
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.016750574111938477
+start expand
+expanding needs: 0.020525455474853516
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.014482975006103516
+start expand
+expanding needs: 0.021451234817504883
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.01938033103942871
+start expand
+expanding needs: 0.017344236373901367
+iteration:  7
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.019466161727905273
+start expand
+expanding needs: 0.01770472526550293
+iteration:  8
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.021892786026000977
+start expand
+expanding needs: 0.020083904266357422
+iteration:  9
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.02027297019958496
+start expand
+expanding needs: 0.0238492488861084
+iteration:  10
+tree a length:  56
+tree b length:  56
+start expand
+expanding needs: 0.014706611633300781
+start expand
+expanding needs: 0.01986098289489746
+iteration:  11
+tree a length:  61
+tree b length:  61
+start expand
+expanding needs: 0.020697832107543945
+start expand
+expanding needs: 0.015244483947753906
+iteration:  12
+tree a length:  66
+tree b length:  66
+start expand
+expanding needs: 0.014938831329345703
+start expand
+expanding needs: 0.020717382431030273
+iteration:  13
+tree a length:  71
+tree b length:  71
+start expand
+expanding needs: 0.013717889785766602
+start expand
+expanding needs: 0.018520116806030273
+iteration:  14
+tree a length:  76
+tree b length:  76
+start expand
+expanding needs: 0.02290487289428711
+start expand
+expanding needs: 0.028515100479125977
+iteration:  15
+tree a length:  81
+tree b length:  81
+start expand
+expanding needs: 0.01706099510192871
+start expand
+expanding needs: 0.019391775131225586
+iteration:  16
+tree a length:  86
+tree b length:  86
+start expand
+expanding needs: 0.021654605865478516
+start expand
+expanding needs: 0.007582664489746094
+SOLVER: RL_RRT
+success:  True
+length:  2.098262494539879
+time spent:  2.005704402923584
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 10
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.030109882354736328
+start expand
+expanding needs: 0.01605677604675293
+SOLVER: RL_RRT
+success:  True
+length:  2.952905031586482
+time spent:  1.1354186534881592
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 11
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02449512481689453
+start expand
+expanding needs: 0.02271556854248047
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.027238845825195312
+start expand
+expanding needs: 0.00174713134765625
+SOLVER: RL_RRT
+success:  True
+length:  2.6793720734261175
+time spent:  1.174523115158081
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 12
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024358510971069336
+start expand
+expanding needs: 0.015362739562988281
+SOLVER: RL_RRT
+success:  True
+length:  1.4538488723403526
+time spent:  1.1040775775909424
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 13
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.020907163619995117
+start expand
+expanding needs: 0.022134065628051758
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.022188425064086914
+start expand
+expanding needs: 0.023002147674560547
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.009357213973999023
+start expand
+expanding needs: 0.018762588500976562
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+expanding needs: 0.028599023818969727
+start expand
+expanding needs: 0.01971435546875
+iteration:  3
+tree a length:  21
+tree b length:  17
+start expand
+expanding needs: 0.023943662643432617
+start expand
+expanding needs: 0.013590812683105469
+iteration:  4
+tree a length:  26
+tree b length:  22
+start expand
+expanding needs: 0.025365829467773438
+start expand
+expanding needs: 0.012720584869384766
+iteration:  5
+tree a length:  26
+tree b length:  27
+start expand
+expanding needs: 0.024245023727416992
+start expand
+expanding needs: 0.020770788192749023
+iteration:  6
+tree a length:  31
+tree b length:  32
+start expand
+expanding needs: 0.021820068359375
+start expand
+expanding needs: 0.021739721298217773
+iteration:  7
+tree a length:  36
+tree b length:  37
+start expand
+expanding needs: 0.015284299850463867
+start expand
+expanding needs: 0.0206754207611084
+iteration:  8
+tree a length:  41
+tree b length:  42
+start expand
+expanding needs: 0.02424001693725586
+start expand
+expanding needs: 0.022969484329223633
+iteration:  9
+tree a length:  46
+tree b length:  47
+start expand
+expanding needs: 0.01652359962463379
+iteration:  10
+tree a length:  46
+tree b length:  47
+start expand
+expanding needs: 0.019156694412231445
+start expand
+expanding needs: 0.01995062828063965
+iteration:  11
+tree a length:  51
+tree b length:  52
+start expand
+expanding needs: 0.022212743759155273
+start expand
+expanding needs: 0.02017664909362793
+iteration:  12
+tree a length:  56
+tree b length:  57
+start expand
+expanding needs: 0.014906644821166992
+start expand
+expanding needs: 0.02053070068359375
+iteration:  13
+tree a length:  61
+tree b length:  62
+start expand
+expanding needs: 0.026268720626831055
+start expand
+expanding needs: 0.025781631469726562
+iteration:  14
+tree a length:  66
+tree b length:  67
+start expand
+expanding needs: 0.022458314895629883
+start expand
+expanding needs: 0.023565053939819336
+iteration:  15
+tree a length:  71
+tree b length:  72
+start expand
+expanding needs: 0.0185391902923584
+start expand
+expanding needs: 0.02037358283996582
+iteration:  16
+tree a length:  76
+tree b length:  77
+start expand
+expanding needs: 0.02020573616027832
+start expand
+expanding needs: 0.018175601959228516
+iteration:  17
+tree a length:  81
+tree b length:  82
+start expand
+expanding needs: 0.01826190948486328
+start expand
+expanding needs: 0.01812911033630371
+iteration:  18
+tree a length:  86
+tree b length:  87
+start expand
+expanding needs: 0.020090103149414062
+start expand
+expanding needs: 0.02195119857788086
+iteration:  19
+tree a length:  91
+tree b length:  92
+start expand
+expanding needs: 0.02202320098876953
+start expand
+expanding needs: 0.012560129165649414
+iteration:  20
+tree a length:  96
+tree b length:  92
+start expand
+expanding needs: 0.021120309829711914
+start expand
+expanding needs: 0.01753711700439453
+iteration:  21
+tree a length:  101
+tree b length:  97
+start expand
+expanding needs: 0.020845890045166016
+start expand
+expanding needs: 0.020743131637573242
+iteration:  22
+tree a length:  106
+tree b length:  102
+start expand
+expanding needs: 0.021035432815551758
+start expand
+expanding needs: 0.0175783634185791
+iteration:  23
+tree a length:  111
+tree b length:  107
+start expand
+expanding needs: 0.020470857620239258
+start expand
+expanding needs: 0.014967918395996094
+iteration:  24
+tree a length:  116
+tree b length:  112
+start expand
+expanding needs: 0.0257265567779541
+start expand
+expanding needs: 0.013057708740234375
+iteration:  25
+tree a length:  121
+tree b length:  117
+start expand
+expanding needs: 0.011506795883178711
+start expand
+expanding needs: 0.012571573257446289
+iteration:  26
+tree a length:  126
+tree b length:  118
+start expand
+expanding needs: 0.020923137664794922
+start expand
+expanding needs: 0.012903928756713867
+iteration:  27
+tree a length:  131
+tree b length:  123
+start expand
+expanding needs: 0.019103527069091797
+start expand
+expanding needs: 0.02102804183959961
+iteration:  28
+tree a length:  136
+tree b length:  128
+start expand
+expanding needs: 0.020361661911010742
+start expand
+expanding needs: 0.01548457145690918
+iteration:  29
+tree a length:  141
+tree b length:  133
+start expand
+expanding needs: 0.017887353897094727
+start expand
+expanding needs: 0.02227044105529785
+iteration:  30
+tree a length:  146
+tree b length:  138
+start expand
+expanding needs: 0.025534868240356445
+start expand
+expanding needs: 0.021659374237060547
+iteration:  31
+tree a length:  151
+tree b length:  143
+start expand
+expanding needs: 0.019815683364868164
+start expand
+expanding needs: 0.018126487731933594
+iteration:  32
+tree a length:  156
+tree b length:  148
+start expand
+expanding needs: 0.02280879020690918
+start expand
+expanding needs: 0.012337207794189453
+iteration:  33
+tree a length:  156
+tree b length:  153
+start expand
+expanding needs: 0.018146276473999023
+start expand
+expanding needs: 0.012125492095947266
+iteration:  34
+tree a length:  156
+tree b length:  158
+start expand
+expanding needs: 0.021114587783813477
+start expand
+expanding needs: 0.02004551887512207
+iteration:  35
+tree a length:  161
+tree b length:  163
+start expand
+expanding needs: 0.012912511825561523
+iteration:  36
+tree a length:  161
+tree b length:  163
+start expand
+expanding needs: 0.015256881713867188
+start expand
+expanding needs: 0.020459651947021484
+iteration:  37
+tree a length:  166
+tree b length:  168
+start expand
+expanding needs: 0.013259172439575195
+iteration:  38
+tree a length:  166
+tree b length:  168
+start expand
+expanding needs: 0.009198427200317383
+start expand
+expanding needs: 0.021612882614135742
+iteration:  39
+tree a length:  167
+tree b length:  173
+start expand
+expanding needs: 0.019866466522216797
+start expand
+expanding needs: 0.02186727523803711
+iteration:  40
+tree a length:  172
+tree b length:  178
+start expand
+expanding needs: 0.022078514099121094
+start expand
+expanding needs: 0.0193936824798584
+iteration:  41
+tree a length:  177
+tree b length:  183
+start expand
+expanding needs: 0.020658016204833984
+start expand
+expanding needs: 0.021297216415405273
+iteration:  42
+tree a length:  182
+tree b length:  188
+start expand
+expanding needs: 0.01622152328491211
+start expand
+expanding needs: 0.021328210830688477
+iteration:  43
+tree a length:  187
+tree b length:  193
+start expand
+expanding needs: 0.02201557159423828
+start expand
+expanding needs: 0.01988363265991211
+iteration:  44
+tree a length:  192
+tree b length:  198
+start expand
+expanding needs: 0.016815900802612305
+start expand
+expanding needs: 0.018465757369995117
+iteration:  45
+tree a length:  197
+tree b length:  203
+start expand
+expanding needs: 0.018267154693603516
+start expand
+expanding needs: 0.021146535873413086
+iteration:  46
+tree a length:  202
+tree b length:  208
+start expand
+expanding needs: 0.018891334533691406
+start expand
+expanding needs: 0.018932580947875977
+iteration:  47
+tree a length:  207
+tree b length:  213
+start expand
+expanding needs: 0.018082618713378906
+start expand
+expanding needs: 0.02069401741027832
+iteration:  48
+tree a length:  212
+tree b length:  218
+start expand
+expanding needs: 0.023514747619628906
+start expand
+expanding needs: 0.022277116775512695
+iteration:  49
+tree a length:  217
+tree b length:  223
+start expand
+expanding needs: 0.02265620231628418
+start expand
+expanding needs: 0.02475738525390625
+iteration:  50
+tree a length:  222
+tree b length:  228
+start expand
+expanding needs: 0.015840530395507812
+start expand
+expanding needs: 0.020461082458496094
+iteration:  51
+tree a length:  227
+tree b length:  233
+start expand
+expanding needs: 0.012406110763549805
+start expand
+expanding needs: 0.019952058792114258
+iteration:  52
+tree a length:  232
+tree b length:  238
+start expand
+expanding needs: 0.013803243637084961
+start expand
+expanding needs: 0.022713184356689453
+iteration:  53
+tree a length:  237
+tree b length:  243
+start expand
+expanding needs: 0.021366119384765625
+start expand
+expanding needs: 0.014298677444458008
+iteration:  54
+tree a length:  242
+tree b length:  243
+start expand
+expanding needs: 0.01398015022277832
+start expand
+expanding needs: 0.02062702178955078
+iteration:  55
+tree a length:  247
+tree b length:  248
+start expand
+expanding needs: 0.024466514587402344
+start expand
+expanding needs: 0.018728971481323242
+iteration:  56
+tree a length:  252
+tree b length:  253
+start expand
+expanding needs: 0.018830537796020508
+start expand
+expanding needs: 0.019970178604125977
+iteration:  57
+tree a length:  257
+tree b length:  258
+start expand
+expanding needs: 0.019028425216674805
+start expand
+expanding needs: 0.019677400588989258
+iteration:  58
+tree a length:  262
+tree b length:  263
+start expand
+expanding needs: 0.023712635040283203
+start expand
+expanding needs: 0.06489133834838867
+iteration:  59
+tree a length:  267
+tree b length:  268
+start expand
+expanding needs: 0.019047260284423828
+start expand
+expanding needs: 0.018883466720581055
+iteration:  60
+tree a length:  272
+tree b length:  273
+start expand
+expanding needs: 0.007311344146728516
+start expand
+expanding needs: 0.022393226623535156
+iteration:  61
+tree a length:  273
+tree b length:  278
+start expand
+expanding needs: 0.017249584197998047
+start expand
+expanding needs: 0.01844191551208496
+iteration:  62
+tree a length:  278
+tree b length:  283
+start expand
+expanding needs: 0.016045093536376953
+start expand
+expanding needs: 0.02003931999206543
+iteration:  63
+tree a length:  283
+tree b length:  288
+start expand
+expanding needs: 0.01615166664123535
+start expand
+expanding needs: 0.02065753936767578
+iteration:  64
+tree a length:  288
+tree b length:  293
+start expand
+expanding needs: 0.012230157852172852
+iteration:  65
+tree a length:  288
+tree b length:  293
+start expand
+expanding needs: 0.02452540397644043
+start expand
+expanding needs: 0.019585847854614258
+iteration:  66
+tree a length:  293
+tree b length:  298
+start expand
+expanding needs: 0.012830972671508789
+start expand
+expanding needs: 0.018493175506591797
+iteration:  67
+tree a length:  298
+tree b length:  303
+start expand
+expanding needs: 0.016584157943725586
+start expand
+expanding needs: 0.019864320755004883
+iteration:  68
+tree a length:  303
+tree b length:  308
+start expand
+expanding needs: 0.01802802085876465
+start expand
+expanding needs: 0.018743276596069336
+iteration:  69
+tree a length:  308
+tree b length:  313
+start expand
+expanding needs: 0.012451410293579102
+iteration:  70
+tree a length:  308
+tree b length:  313
+start expand
+expanding needs: 0.012434005737304688
+iteration:  71
+tree a length:  308
+tree b length:  313
+start expand
+expanding needs: 0.02004408836364746
+start expand
+expanding needs: 0.022668838500976562
+iteration:  72
+tree a length:  313
+tree b length:  318
+start expand
+expanding needs: 0.021192312240600586
+start expand
+expanding needs: 0.02273106575012207
+iteration:  73
+tree a length:  318
+tree b length:  323
+start expand
+expanding needs: 0.018055438995361328
+start expand
+expanding needs: 0.027043819427490234
+iteration:  74
+tree a length:  323
+tree b length:  328
+start expand
+expanding needs: 0.030059099197387695
+start expand
+expanding needs: 0.027819156646728516
+iteration:  75
+tree a length:  328
+tree b length:  333
+start expand
+expanding needs: 0.022228240966796875
+start expand
+expanding needs: 0.0209653377532959
+iteration:  76
+tree a length:  333
+tree b length:  338
+start expand
+expanding needs: 0.018850088119506836
+start expand
+expanding needs: 0.018321990966796875
+iteration:  77
+tree a length:  338
+tree b length:  343
+start expand
+expanding needs: 0.019120454788208008
+start expand
+expanding needs: 0.020760536193847656
+iteration:  78
+tree a length:  343
+tree b length:  348
+start expand
+expanding needs: 0.017186641693115234
+start expand
+expanding needs: 0.020074844360351562
+iteration:  79
+tree a length:  348
+tree b length:  353
+start expand
+expanding needs: 0.017365217208862305
+start expand
+expanding needs: 0.020696640014648438
+iteration:  80
+tree a length:  353
+tree b length:  358
+start expand
+expanding needs: 0.024472951889038086
+start expand
+expanding needs: 0.030179738998413086
+iteration:  81
+tree a length:  358
+tree b length:  363
+start expand
+expanding needs: 0.019825220108032227
+iteration:  82
+tree a length:  358
+tree b length:  363
+start expand
+expanding needs: 0.0159761905670166
+start expand
+expanding needs: 0.02013874053955078
+iteration:  83
+tree a length:  363
+tree b length:  368
+start expand
+expanding needs: 0.020092487335205078
+start expand
+expanding needs: 0.017745018005371094
+iteration:  84
+tree a length:  368
+tree b length:  373
+start expand
+expanding needs: 0.01896977424621582
+start expand
+expanding needs: 0.01849651336669922
+iteration:  85
+tree a length:  373
+tree b length:  378
+start expand
+expanding needs: 0.018486738204956055
+start expand
+expanding needs: 0.020928382873535156
+iteration:  86
+tree a length:  378
+tree b length:  383
+start expand
+expanding needs: 0.02004551887512207
+start expand
+expanding needs: 0.0247344970703125
+iteration:  87
+tree a length:  383
+tree b length:  388
+start expand
+expanding needs: 0.02761054039001465
+start expand
+expanding needs: 0.027442455291748047
+iteration:  88
+tree a length:  388
+tree b length:  393
+start expand
+expanding needs: 0.01704716682434082
+start expand
+expanding needs: 0.018239259719848633
+iteration:  89
+tree a length:  393
+tree b length:  398
+start expand
+expanding needs: 0.018647432327270508
+start expand
+expanding needs: 0.018847942352294922
+iteration:  90
+tree a length:  398
+tree b length:  403
+start expand
+expanding needs: 0.011995077133178711
+iteration:  91
+tree a length:  398
+tree b length:  403
+start expand
+expanding needs: 0.02087879180908203
+start expand
+expanding needs: 0.020045995712280273
+iteration:  92
+tree a length:  403
+tree b length:  408
+start expand
+expanding needs: 0.020196914672851562
+start expand
+expanding needs: 0.016684293746948242
+iteration:  93
+tree a length:  408
+tree b length:  413
+start expand
+expanding needs: 0.029466629028320312
+start expand
+expanding needs: 0.022049665451049805
+iteration:  94
+tree a length:  413
+tree b length:  418
+start expand
+expanding needs: 0.027960538864135742
+start expand
+expanding needs: 0.022756099700927734
+iteration:  95
+tree a length:  418
+tree b length:  423
+start expand
+expanding needs: 0.021472930908203125
+start expand
+expanding needs: 0.020502805709838867
+iteration:  96
+tree a length:  423
+tree b length:  428
+start expand
+expanding needs: 0.012865304946899414
+iteration:  97
+tree a length:  423
+tree b length:  428
+start expand
+expanding needs: 0.014327287673950195
+start expand
+expanding needs: 0.019442081451416016
+iteration:  98
+tree a length:  428
+tree b length:  433
+start expand
+expanding needs: 0.01364898681640625
+start expand
+expanding needs: 0.019367218017578125
+iteration:  99
+tree a length:  433
+tree b length:  438
+start expand
+expanding needs: 0.020471572875976562
+start expand
+expanding needs: 0.022042036056518555
+iteration:  100
+tree a length:  438
+tree b length:  443
+start expand
+expanding needs: 0.017269134521484375
+start expand
+expanding needs: 0.020318269729614258
+iteration:  101
+tree a length:  443
+tree b length:  448
+start expand
+expanding needs: 0.0250394344329834
+start expand
+expanding needs: 0.023454904556274414
+iteration:  102
+tree a length:  448
+tree b length:  453
+start expand
+expanding needs: 0.014777421951293945
+start expand
+expanding needs: 0.02160191535949707
+iteration:  103
+tree a length:  453
+tree b length:  458
+start expand
+expanding needs: 0.018579721450805664
+start expand
+expanding needs: 0.01682591438293457
+iteration:  104
+tree a length:  458
+tree b length:  463
+start expand
+expanding needs: 0.012389183044433594
+iteration:  105
+tree a length:  458
+tree b length:  463
+start expand
+expanding needs: 0.01711416244506836
+start expand
+expanding needs: 0.019328832626342773
+iteration:  106
+tree a length:  463
+tree b length:  468
+start expand
+expanding needs: 0.017473936080932617
+start expand
+expanding needs: 0.020720481872558594
+iteration:  107
+tree a length:  468
+tree b length:  473
+start expand
+expanding needs: 0.020972728729248047
+start expand
+expanding needs: 0.025710582733154297
+iteration:  108
+tree a length:  473
+tree b length:  478
+start expand
+expanding needs: 0.014600992202758789
+start expand
+expanding needs: 0.02033209800720215
+iteration:  109
+tree a length:  478
+tree b length:  483
+start expand
+expanding needs: 0.012903213500976562
+iteration:  110
+tree a length:  478
+tree b length:  483
+start expand
+expanding needs: 0.018450260162353516
+start expand
+expanding needs: 0.020145177841186523
+iteration:  111
+tree a length:  483
+tree b length:  488
+start expand
+expanding needs: 0.01939702033996582
+start expand
+expanding needs: 0.016073226928710938
+iteration:  112
+tree a length:  488
+tree b length:  493
+start expand
+expanding needs: 0.02518463134765625
+start expand
+expanding needs: 0.01942300796508789
+iteration:  113
+tree a length:  493
+tree b length:  498
+start expand
+expanding needs: 0.019687652587890625
+start expand
+expanding needs: 0.023638010025024414
+iteration:  114
+tree a length:  498
+tree b length:  503
+start expand
+expanding needs: 0.016342878341674805
+start expand
+expanding needs: 0.012012720108032227
+iteration:  115
+tree a length:  503
+tree b length:  503
+start expand
+expanding needs: 0.015921831130981445
+start expand
+expanding needs: 0.01997208595275879
+iteration:  116
+tree a length:  508
+tree b length:  508
+start expand
+expanding needs: 0.016478776931762695
+start expand
+expanding needs: 0.015741825103759766
+iteration:  117
+tree a length:  513
+tree b length:  513
+start expand
+expanding needs: 0.015855073928833008
+start expand
+expanding needs: 0.02010512351989746
+iteration:  118
+tree a length:  518
+tree b length:  518
+start expand
+expanding needs: 0.019386768341064453
+start expand
+expanding needs: 0.01882457733154297
+iteration:  119
+tree a length:  523
+tree b length:  523
+start expand
+expanding needs: 0.01767420768737793
+start expand
+expanding needs: 0.01222848892211914
+iteration:  120
+tree a length:  528
+tree b length:  523
+start expand
+expanding needs: 0.004130125045776367
+start expand
+expanding needs: 0.013114690780639648
+iteration:  121
+tree a length:  533
+tree b length:  524
+start expand
+expanding needs: 0.012344837188720703
+iteration:  122
+tree a length:  533
+tree b length:  524
+start expand
+expanding needs: 0.019232988357543945
+start expand
+expanding needs: 0.019200563430786133
+iteration:  123
+tree a length:  538
+tree b length:  529
+start expand
+expanding needs: 0.020580530166625977
+start expand
+expanding needs: 0.019799232482910156
+iteration:  124
+tree a length:  543
+tree b length:  534
+start expand
+expanding needs: 0.017587900161743164
+start expand
+expanding needs: 0.018272876739501953
+iteration:  125
+tree a length:  548
+tree b length:  539
+start expand
+expanding needs: 0.02072906494140625
+start expand
+expanding needs: 0.018053293228149414
+iteration:  126
+tree a length:  553
+tree b length:  544
+start expand
+expanding needs: 0.019896984100341797
+start expand
+expanding needs: 0.015731334686279297
+iteration:  127
+tree a length:  558
+tree b length:  549
+start expand
+expanding needs: 0.018138885498046875
+start expand
+expanding needs: 0.019559860229492188
+iteration:  128
+tree a length:  563
+tree b length:  554
+start expand
+expanding needs: 0.017675399780273438
+start expand
+expanding needs: 0.012161493301391602
+iteration:  129
+tree a length:  563
+tree b length:  559
+start expand
+expanding needs: 0.019240617752075195
+start expand
+expanding needs: 0.013425111770629883
+iteration:  130
+tree a length:  568
+tree b length:  564
+start expand
+expanding needs: 0.020387887954711914
+start expand
+expanding needs: 0.012337446212768555
+iteration:  131
+tree a length:  568
+tree b length:  569
+start expand
+expanding needs: 0.016728878021240234
+start expand
+expanding needs: 0.01630377769470215
+iteration:  132
+tree a length:  573
+tree b length:  574
+start expand
+expanding needs: 0.017435789108276367
+start expand
+expanding needs: 0.004665374755859375
+SOLVER: RL_RRT
+success:  True
+length:  3.736433702124165
+time spent:  6.420104026794434
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 14
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.023902416229248047
+start expand
+expanding needs: 0.021474599838256836
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.01959061622619629
+start expand
+expanding needs: 0.019639015197753906
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019855260848999023
+start expand
+expanding needs: 0.006895303726196289
+SOLVER: RL_RRT
+success:  True
+length:  1.9762011763464928
+time spent:  1.2157106399536133
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 15
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03116750717163086
+start expand
+expanding needs: 0.015636682510375977
+SOLVER: RL_RRT
+success:  True
+length:  1.09363898308936
+time spent:  1.071202039718628
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 16
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022064924240112305
+start expand
+expanding needs: 0.02202010154724121
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.01900625228881836
+start expand
+expanding needs: 0.010164737701416016
+SOLVER: RL_RRT
+success:  True
+length:  3.5477369421337457
+time spent:  1.150970220565796
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 17
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03198647499084473
+start expand
+expanding needs: 0.008404970169067383
+SOLVER: RL_RRT
+success:  True
+length:  0.8802536802693223
+time spent:  1.142679214477539
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 18
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.025454044342041016
+start expand
+expanding needs: 0.02347278594970703
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.029212474822998047
+start expand
+expanding needs: 0.008151054382324219
+SOLVER: RL_RRT
+success:  True
+length:  3.4260496819832365
+time spent:  1.2231528759002686
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 19
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.033310651779174805
+start expand
+expanding needs: 0.024512290954589844
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02125382423400879
+start expand
+expanding needs: 0.02014780044555664
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.025002241134643555
+start expand
+expanding needs: 0.02470707893371582
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.0186307430267334
+start expand
+expanding needs: 0.008488893508911133
+SOLVER: RL_RRT
+success:  True
+length:  2.453026038724738
+time spent:  1.3003365993499756
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 20
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022483348846435547
+start expand
+expanding needs: 0.01808953285217285
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.021482467651367188
+start expand
+expanding needs: 0.019492626190185547
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019001007080078125
+start expand
+expanding needs: 0.002590656280517578
+SOLVER: RL_RRT
+success:  True
+length:  3.289004262734556
+time spent:  1.2027733325958252
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02331995964050293
+start expand
+expanding needs: 0.0228879451751709
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.023688793182373047
+start expand
+expanding needs: 0.024373769760131836
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02965068817138672
+start expand
+expanding needs: 0.00153350830078125
+SOLVER: RL_RRT
+success:  True
+length:  3.2542920233577184
+time spent:  1.209657907485962
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 22
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02396416664123535
+start expand
+expanding needs: 0.026204586029052734
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.030117273330688477
+start expand
+expanding needs: 0.025926828384399414
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.005947589874267578
+start expand
+expanding needs: 0.020233631134033203
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+expanding needs: 0.02529430389404297
+start expand
+expanding needs: 0.007619380950927734
+SOLVER: RL_RRT
+success:  True
+length:  2.4820913747597397
+time spent:  1.2908825874328613
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 23
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.01044607162475586
+start expand
+expanding needs: 0.02039647102355957
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.0271146297454834
+start expand
+expanding needs: 0.019243240356445312
+iteration:  1
+tree a length:  7
+tree b length:  11
+start expand
+expanding needs: 0.01940751075744629
+start expand
+expanding needs: 0.006742000579833984
+SOLVER: RL_RRT
+success:  True
+length:  3.1146827266391592
+time spent:  1.1940267086029053
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 24
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.036615610122680664
+start expand
+expanding needs: 0.021723031997680664
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.029192686080932617
+start expand
+expanding needs: 0.004641056060791016
+SOLVER: RL_RRT
+success:  True
+length:  1.0409954014964213
+time spent:  1.1867461204528809
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 25
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.021401643753051758
+start expand
+expanding needs: 0.018610715866088867
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.023786306381225586
+start expand
+expanding needs: 0.014686822891235352
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.020437240600585938
+start expand
+expanding needs: 0.012570619583129883
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.017638206481933594
+start expand
+expanding needs: 0.018348217010498047
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.021170854568481445
+start expand
+expanding needs: 0.017940759658813477
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.02174234390258789
+start expand
+expanding needs: 0.01932072639465332
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.024920940399169922
+start expand
+expanding needs: 0.019934654235839844
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.007254123687744141
+start expand
+expanding needs: 0.008690357208251953
+SOLVER: RL_RRT
+success:  True
+length:  4.435256197828747
+time spent:  1.4076027870178223
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 26
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.035204172134399414
+start expand
+expanding needs: 0.018483638763427734
+SOLVER: RL_RRT
+success:  True
+length:  1.6440873103012748
+time spent:  1.1938605308532715
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 27
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.026029586791992188
+start expand
+expanding needs: 0.021999359130859375
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.021622657775878906
+start expand
+expanding needs: 0.02561783790588379
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019540786743164062
+start expand
+expanding needs: 0.025844335556030273
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.017407894134521484
+start expand
+expanding needs: 0.018883228302001953
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.018514633178710938
+start expand
+expanding needs: 0.019269466400146484
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.016968250274658203
+start expand
+expanding needs: 0.018510103225708008
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.02287149429321289
+start expand
+expanding needs: 0.020183324813842773
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.018100738525390625
+start expand
+expanding needs: 0.015678882598876953
+iteration:  7
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.022638320922851562
+start expand
+expanding needs: 0.025761842727661133
+iteration:  8
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.027698993682861328
+start expand
+expanding needs: 0.02404475212097168
+iteration:  9
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.021872520446777344
+start expand
+expanding needs: 0.007899761199951172
+SOLVER: RL_RRT
+success:  True
+length:  4.517309112894378
+time spent:  1.7270548343658447
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 28
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.034703731536865234
+start expand
+expanding needs: 0.026981353759765625
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.020714521408081055
+start expand
+expanding needs: 0.02760791778564453
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02236771583557129
+start expand
+expanding needs: 0.021550416946411133
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.031503915786743164
+start expand
+expanding needs: 0.013582229614257812
+SOLVER: RL_RRT
+success:  True
+length:  3.798664120984137
+time spent:  1.2996253967285156
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 29
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02895355224609375
+start expand
+expanding needs: 0.0060613155364990234
+SOLVER: RL_RRT
+success:  True
+length:  2.9344539960945735
+time spent:  1.2087364196777344
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 30
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024865150451660156
+start expand
+expanding needs: 0.01088261604309082
+SOLVER: RL_RRT
+success:  True
+length:  1.1473656789466087
+time spent:  1.1338467597961426
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 31
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.023948192596435547
+start expand
+expanding needs: 0.01520991325378418
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.021338939666748047
+start expand
+expanding needs: 0.013210535049438477
+iteration:  1
+tree a length:  11
+tree b length:  6
+start expand
+expanding needs: 0.01600790023803711
+start expand
+expanding needs: 0.019203662872314453
+iteration:  2
+tree a length:  16
+tree b length:  11
+start expand
+expanding needs: 0.014306306838989258
+iteration:  3
+tree a length:  16
+tree b length:  11
+start expand
+expanding needs: 0.014107227325439453
+start expand
+expanding needs: 0.01788163185119629
+iteration:  4
+tree a length:  21
+tree b length:  16
+start expand
+expanding needs: 0.012261390686035156
+iteration:  5
+tree a length:  21
+tree b length:  16
+start expand
+expanding needs: 0.012259483337402344
+iteration:  6
+tree a length:  21
+tree b length:  16
+start expand
+expanding needs: 0.01804041862487793
+start expand
+expanding needs: 0.019286155700683594
+iteration:  7
+tree a length:  26
+tree b length:  21
+start expand
+expanding needs: 0.020135164260864258
+start expand
+expanding needs: 0.009164094924926758
+SOLVER: RL_RRT
+success:  True
+length:  3.9895118960433904
+time spent:  1.407627820968628
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 32
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02707672119140625
+start expand
+expanding needs: 0.027620792388916016
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.022711753845214844
+start expand
+expanding needs: 0.017003536224365234
+SOLVER: RL_RRT
+success:  True
+length:  3.582983858873437
+time spent:  1.1760494709014893
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 33
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.029036521911621094
+start expand
+expanding needs: 0.008468389511108398
+SOLVER: RL_RRT
+success:  True
+length:  0.7906184073973511
+time spent:  1.0963988304138184
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 34
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024769067764282227
+start expand
+expanding needs: 0.020061254501342773
+SOLVER: RL_RRT
+success:  True
+length:  2.0348955485010203
+time spent:  1.1793076992034912
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 35
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0237882137298584
+start expand
+expanding needs: 0.0170290470123291
+SOLVER: RL_RRT
+success:  True
+length:  3.4512608594503233
+time spent:  1.1146485805511475
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 36
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.028818368911743164
+start expand
+expanding needs: 0.014840126037597656
+SOLVER: RL_RRT
+success:  True
+length:  1.008934940018206
+time spent:  1.0941872596740723
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 37
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.025234460830688477
+start expand
+expanding needs: 0.023769378662109375
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.024898290634155273
+start expand
+expanding needs: 0.023979902267456055
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019901752471923828
+start expand
+expanding needs: 0.0054018497467041016
+SOLVER: RL_RRT
+success:  True
+length:  3.439495143634187
+time spent:  1.199195384979248
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 38
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.023454904556274414
+start expand
+expanding needs: 0.00783538818359375
+SOLVER: RL_RRT
+success:  True
+length:  0.9103755427993172
+time spent:  1.1291818618774414
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 39
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022946834564208984
+start expand
+expanding needs: 0.03119349479675293
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.01855635643005371
+start expand
+expanding needs: 0.00669097900390625
+SOLVER: RL_RRT
+success:  True
+length:  3.6182375758891867
+time spent:  1.1618270874023438
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 40
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022886037826538086
+start expand
+expanding needs: 0.022635459899902344
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.020928144454956055
+start expand
+expanding needs: 0.026236534118652344
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02843928337097168
+start expand
+expanding needs: 0.006723165512084961
+SOLVER: RL_RRT
+success:  True
+length:  2.0890211218770376
+time spent:  1.20835542678833
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 41
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03189730644226074
+start expand
+expanding needs: 0.02324986457824707
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.029398202896118164
+start expand
+expanding needs: 0.012998104095458984
+SOLVER: RL_RRT
+success:  True
+length:  3.2890694081711125
+time spent:  1.1998260021209717
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 42
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0273287296295166
+start expand
+expanding needs: 0.02348041534423828
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.025205135345458984
+start expand
+expanding needs: 0.02043890953063965
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.021277904510498047
+start expand
+expanding needs: 0.02111959457397461
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.019780874252319336
+start expand
+expanding needs: 0.020966291427612305
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.03250908851623535
+start expand
+expanding needs: 0.011746406555175781
+SOLVER: RL_RRT
+success:  True
+length:  3.535231017903919
+time spent:  1.3832879066467285
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 43
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02936077117919922
+start expand
+expanding needs: 0.03077983856201172
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02691197395324707
+start expand
+expanding needs: 0.02262711524963379
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.026747941970825195
+start expand
+expanding needs: 0.006087541580200195
+SOLVER: RL_RRT
+success:  True
+length:  3.449518194463171
+time spent:  1.2175543308258057
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 44
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02920699119567871
+start expand
+expanding needs: 0.016993284225463867
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.026398897171020508
+start expand
+expanding needs: 0.019076108932495117
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.020380735397338867
+start expand
+expanding needs: 0.020540952682495117
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.018406152725219727
+start expand
+expanding needs: 0.01883554458618164
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.01766228675842285
+start expand
+expanding needs: 0.01880812644958496
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.017758607864379883
+start expand
+expanding needs: 0.02008199691772461
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.019522428512573242
+start expand
+expanding needs: 0.02041459083557129
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.020840167999267578
+start expand
+expanding needs: 0.01983046531677246
+iteration:  7
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.023349761962890625
+start expand
+expanding needs: 0.023525476455688477
+iteration:  8
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.019891977310180664
+start expand
+expanding needs: 0.008331537246704102
+SOLVER: RL_RRT
+success:  True
+length:  4.974456848174629
+time spent:  1.725616455078125
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 45
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.030448436737060547
+start expand
+expanding needs: 0.01747751235961914
+SOLVER: RL_RRT
+success:  True
+length:  4.0350785002293055
+time spent:  1.2046303749084473
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 46
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02161097526550293
+start expand
+expanding needs: 0.009008646011352539
+SOLVER: RL_RRT
+success:  True
+length:  0.9592924256875981
+time spent:  1.2216405868530273
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 47
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02809453010559082
+start expand
+expanding needs: 0.02092885971069336
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.03185844421386719
+start expand
+expanding needs: 0.02155590057373047
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02568364143371582
+start expand
+expanding needs: 0.026975631713867188
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.024373769760131836
+start expand
+expanding needs: 0.02544116973876953
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.028728485107421875
+start expand
+expanding needs: 0.029339075088500977
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.027675151824951172
+start expand
+expanding needs: 0.008006095886230469
+SOLVER: RL_RRT
+success:  True
+length:  2.1245911575170497
+time spent:  1.5156259536743164
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 48
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024184465408325195
+start expand
+expanding needs: 0.021255970001220703
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.018233537673950195
+start expand
+expanding needs: 0.00683283805847168
+SOLVER: RL_RRT
+success:  True
+length:  1.3469541614237661
+time spent:  1.2269542217254639
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 49
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0256502628326416
+start expand
+expanding needs: 0.002083301544189453
+SOLVER: RL_RRT
+success:  True
+length:  0.47883810761793416
+time spent:  1.082113265991211
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 50
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02106785774230957
+start expand
+expanding needs: 0.013636350631713867
+SOLVER: RL_RRT
+success:  True
+length:  1.0696712358912872
+time spent:  1.0963144302368164
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 51
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.021344900131225586
+start expand
+expanding needs: 0.027617216110229492
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.018235206604003906
+start expand
+expanding needs: 0.014559745788574219
+SOLVER: RL_RRT
+success:  True
+length:  3.823191789450238
+time spent:  1.151090145111084
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 52
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03669285774230957
+start expand
+expanding needs: 0.023311376571655273
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02828073501586914
+start expand
+expanding needs: 0.013579607009887695
+SOLVER: RL_RRT
+success:  True
+length:  1.814771799441114
+time spent:  1.2597088813781738
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 53
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.013650655746459961
+start expand
+expanding needs: 0.02988290786743164
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.02412724494934082
+start expand
+expanding needs: 0.014443635940551758
+SOLVER: RL_RRT
+success:  True
+length:  3.7609317341609767
+time spent:  1.1662251949310303
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 54
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.028436660766601562
+start expand
+expanding needs: 0.0320124626159668
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02168869972229004
+start expand
+expanding needs: 0.009667634963989258
+SOLVER: RL_RRT
+success:  True
+length:  3.455844757786446
+time spent:  1.1881473064422607
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 55
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.032431602478027344
+start expand
+expanding needs: 0.02084040641784668
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.01515054702758789
+start expand
+expanding needs: 0.018217086791992188
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.022099018096923828
+start expand
+expanding needs: 0.019307851791381836
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.020498037338256836
+start expand
+expanding needs: 0.018075227737426758
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.011996030807495117
+start expand
+expanding needs: 0.020853519439697266
+iteration:  4
+tree a length:  26
+tree b length:  22
+start expand
+expanding needs: 0.02305316925048828
+start expand
+expanding needs: 0.015993356704711914
+iteration:  5
+tree a length:  31
+tree b length:  27
+start expand
+expanding needs: 0.018937349319458008
+start expand
+expanding needs: 0.014378786087036133
+iteration:  6
+tree a length:  36
+tree b length:  32
+start expand
+expanding needs: 0.017525434494018555
+start expand
+expanding needs: 0.012784242630004883
+iteration:  7
+tree a length:  36
+tree b length:  37
+start expand
+expanding needs: 0.015094518661499023
+start expand
+expanding needs: 0.01291513442993164
+iteration:  8
+tree a length:  41
+tree b length:  37
+start expand
+expanding needs: 0.017580509185791016
+start expand
+expanding needs: 0.014362335205078125
+iteration:  9
+tree a length:  46
+tree b length:  42
+start expand
+expanding needs: 0.020137548446655273
+start expand
+expanding needs: 0.01378178596496582
+iteration:  10
+tree a length:  51
+tree b length:  47
+start expand
+expanding needs: 0.015261173248291016
+start expand
+expanding needs: 0.013554811477661133
+iteration:  11
+tree a length:  51
+tree b length:  52
+start expand
+expanding needs: 0.013413429260253906
+iteration:  12
+tree a length:  51
+tree b length:  52
+start expand
+expanding needs: 0.02088189125061035
+start expand
+expanding needs: 0.014862060546875
+iteration:  13
+tree a length:  56
+tree b length:  57
+start expand
+expanding needs: 0.02192854881286621
+start expand
+expanding needs: 0.018790006637573242
+iteration:  14
+tree a length:  61
+tree b length:  62
+start expand
+expanding needs: 0.005072832107543945
+start expand
+expanding needs: 0.022136688232421875
+iteration:  15
+tree a length:  62
+tree b length:  67
+start expand
+expanding needs: 0.01998448371887207
+start expand
+expanding needs: 0.02028656005859375
+iteration:  16
+tree a length:  67
+tree b length:  72
+start expand
+expanding needs: 0.019545555114746094
+start expand
+expanding needs: 0.017688512802124023
+iteration:  17
+tree a length:  72
+tree b length:  77
+start expand
+expanding needs: 0.021405935287475586
+start expand
+expanding needs: 0.01995563507080078
+iteration:  18
+tree a length:  77
+tree b length:  82
+start expand
+expanding needs: 0.028652191162109375
+start expand
+expanding needs: 0.020804643630981445
+iteration:  19
+tree a length:  82
+tree b length:  87
+start expand
+expanding needs: 0.020728349685668945
+start expand
+expanding needs: 0.01886272430419922
+iteration:  20
+tree a length:  87
+tree b length:  92
+start expand
+expanding needs: 0.01767754554748535
+start expand
+expanding needs: 0.01993107795715332
+iteration:  21
+tree a length:  92
+tree b length:  97
+start expand
+expanding needs: 0.02067255973815918
+start expand
+expanding needs: 0.018029212951660156
+iteration:  22
+tree a length:  97
+tree b length:  102
+start expand
+expanding needs: 0.02193617820739746
+start expand
+expanding needs: 0.02306652069091797
+iteration:  23
+tree a length:  102
+tree b length:  107
+start expand
+expanding needs: 0.020177841186523438
+start expand
+expanding needs: 0.016995906829833984
+iteration:  24
+tree a length:  107
+tree b length:  112
+start expand
+expanding needs: 0.02199101448059082
+start expand
+expanding needs: 0.019737720489501953
+iteration:  25
+tree a length:  112
+tree b length:  117
+start expand
+expanding needs: 0.024372100830078125
+start expand
+expanding needs: 0.014559745788574219
+iteration:  26
+tree a length:  117
+tree b length:  122
+start expand
+expanding needs: 0.022753477096557617
+start expand
+expanding needs: 0.01772284507751465
+iteration:  27
+tree a length:  122
+tree b length:  127
+start expand
+expanding needs: 0.019368886947631836
+start expand
+expanding needs: 0.01924872398376465
+iteration:  28
+tree a length:  127
+tree b length:  132
+start expand
+expanding needs: 0.02038431167602539
+start expand
+expanding needs: 0.01704692840576172
+iteration:  29
+tree a length:  132
+tree b length:  137
+start expand
+expanding needs: 0.01571178436279297
+start expand
+expanding needs: 0.01277017593383789
+iteration:  30
+tree a length:  137
+tree b length:  137
+start expand
+expanding needs: 0.018807411193847656
+start expand
+expanding needs: 0.007143735885620117
+SOLVER: RL_RRT
+success:  True
+length:  6.690986524595199
+time spent:  2.7584292888641357
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 56
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02680826187133789
+start expand
+expanding needs: 0.01591348648071289
+SOLVER: RL_RRT
+success:  True
+length:  2.0180377259370146
+time spent:  1.1468799114227295
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 57
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.026846647262573242
+start expand
+expanding needs: 0.014690399169921875
+SOLVER: RL_RRT
+success:  True
+length:  0.9928091197648925
+time spent:  1.0903370380401611
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 58
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.028491973876953125
+start expand
+expanding needs: 0.01528167724609375
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0221860408782959
+start expand
+expanding needs: 0.01851677894592285
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.019997835159301758
+start expand
+expanding needs: 0.014296770095825195
+SOLVER: RL_RRT
+success:  True
+length:  3.618834315514689
+time spent:  1.1851749420166016
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 59
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024204015731811523
+start expand
+expanding needs: 0.010923624038696289
+SOLVER: RL_RRT
+success:  True
+length:  1.1413313072803042
+time spent:  1.0835697650909424
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 60
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.029231548309326172
+start expand
+expanding needs: 0.021350383758544922
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.026488304138183594
+start expand
+expanding needs: 0.011427640914916992
+SOLVER: RL_RRT
+success:  True
+length:  3.5923967044121206
+time spent:  1.1556174755096436
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 61
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02467489242553711
+start expand
+expanding needs: 0.0184328556060791
+SOLVER: RL_RRT
+success:  True
+length:  1.2374811485763775
+time spent:  1.0921728610992432
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 62
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024894237518310547
+start expand
+expanding needs: 0.0262606143951416
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0226285457611084
+start expand
+expanding needs: 0.022181987762451172
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.017235755920410156
+start expand
+expanding needs: 0.02425384521484375
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+expanding needs: 0.02428460121154785
+start expand
+expanding needs: 0.023988962173461914
+iteration:  3
+tree a length:  21
+tree b length:  17
+start expand
+expanding needs: 0.023609161376953125
+start expand
+expanding needs: 0.012317895889282227
+SOLVER: RL_RRT
+success:  True
+length:  1.1361906350399265
+time spent:  1.2767870426177979
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 63
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024871826171875
+start expand
+expanding needs: 0.012208938598632812
+SOLVER: RL_RRT
+success:  True
+length:  1.125964808991344
+time spent:  1.0898244380950928
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 64
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.027364253997802734
+start expand
+expanding needs: 0.02222585678100586
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02356886863708496
+start expand
+expanding needs: 0.008184194564819336
+SOLVER: RL_RRT
+success:  True
+length:  1.175747681057284
+time spent:  1.1611254215240479
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 65
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022861003875732422
+start expand
+expanding needs: 0.026309967041015625
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02922511100769043
+start expand
+expanding needs: 0.01271677017211914
+SOLVER: RL_RRT
+success:  True
+length:  2.4775904692691464
+time spent:  1.192399024963379
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 66
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022140026092529297
+start expand
+expanding needs: 0.01624608039855957
+SOLVER: RL_RRT
+success:  True
+length:  2.1495140541341766
+time spent:  1.123647928237915
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 67
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03261518478393555
+start expand
+expanding needs: 0.025179147720336914
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.027716398239135742
+start expand
+expanding needs: 0.015004396438598633
+SOLVER: RL_RRT
+success:  True
+length:  1.5708568075604494
+time spent:  1.2098755836486816
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 68
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02753305435180664
+start expand
+expanding needs: 0.02301788330078125
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.013852834701538086
+start expand
+expanding needs: 0.016016721725463867
+SOLVER: RL_RRT
+success:  True
+length:  4.986726916972618
+time spent:  1.1390762329101562
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 69
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.020508527755737305
+start expand
+expanding needs: 0.0205075740814209
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.017305850982666016
+start expand
+expanding needs: 0.014134645462036133
+iteration:  1
+tree a length:  11
+tree b length:  6
+start expand
+expanding needs: 0.02985358238220215
+start expand
+expanding needs: 0.02240610122680664
+iteration:  2
+tree a length:  16
+tree b length:  11
+start expand
+expanding needs: 0.021979331970214844
+start expand
+expanding needs: 0.02211308479309082
+iteration:  3
+tree a length:  21
+tree b length:  16
+start expand
+expanding needs: 0.024120092391967773
+start expand
+expanding needs: 0.022562026977539062
+iteration:  4
+tree a length:  26
+tree b length:  21
+start expand
+expanding needs: 0.019418954849243164
+start expand
+expanding needs: 0.02000141143798828
+iteration:  5
+tree a length:  31
+tree b length:  26
+start expand
+expanding needs: 0.024374723434448242
+start expand
+expanding needs: 0.0214691162109375
+iteration:  6
+tree a length:  36
+tree b length:  31
+start expand
+expanding needs: 0.02419257164001465
+start expand
+expanding needs: 0.019173383712768555
+iteration:  7
+tree a length:  41
+tree b length:  36
+start expand
+expanding needs: 0.019091367721557617
+start expand
+expanding needs: 0.01604175567626953
+iteration:  8
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.01937699317932129
+start expand
+expanding needs: 0.015892505645751953
+iteration:  9
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.01645350456237793
+start expand
+expanding needs: 0.020593881607055664
+iteration:  10
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.018440961837768555
+start expand
+expanding needs: 0.003704071044921875
+SOLVER: RL_RRT
+success:  True
+length:  2.0991711162123043
+time spent:  1.6883292198181152
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 70
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02682971954345703
+start expand
+expanding needs: 0.026211261749267578
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.025136709213256836
+start expand
+expanding needs: 0.013706445693969727
+SOLVER: RL_RRT
+success:  True
+length:  3.5604839020402412
+time spent:  1.1755459308624268
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 71
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.026670455932617188
+start expand
+expanding needs: 0.02556300163269043
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.019747257232666016
+start expand
+expanding needs: 0.01922774314880371
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.020097970962524414
+start expand
+expanding needs: 0.0198671817779541
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.02152228355407715
+start expand
+expanding needs: 0.005886077880859375
+SOLVER: RL_RRT
+success:  True
+length:  2.501776026726055
+time spent:  1.2880580425262451
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 72
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.025343894958496094
+start expand
+expanding needs: 0.01675891876220703
+SOLVER: RL_RRT
+success:  True
+length:  3.3064980372734873
+time spent:  1.107311487197876
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 73
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024074554443359375
+start expand
+expanding needs: 0.03592395782470703
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02030181884765625
+start expand
+expanding needs: 0.011650323867797852
+SOLVER: RL_RRT
+success:  True
+length:  1.4768222683415415
+time spent:  1.1572835445404053
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 74
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03024125099182129
+start expand
+expanding needs: 0.00812220573425293
+SOLVER: RL_RRT
+success:  True
+length:  1.1853951471629574
+time spent:  1.0884487628936768
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 75
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02668619155883789
+start expand
+expanding needs: 0.023235082626342773
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.026183366775512695
+start expand
+expanding needs: 0.020704030990600586
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02343606948852539
+start expand
+expanding needs: 0.022547006607055664
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.02658247947692871
+start expand
+expanding needs: 0.025549650192260742
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.022397994995117188
+start expand
+expanding needs: 0.0015270709991455078
+SOLVER: RL_RRT
+success:  True
+length:  1.79576369625608
+time spent:  1.3144385814666748
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 76
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02309703826904297
+start expand
+expanding needs: 0.013816356658935547
+SOLVER: RL_RRT
+success:  True
+length:  1.3031088207673094
+time spent:  1.1073040962219238
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 77
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024492979049682617
+start expand
+expanding needs: 0.020516157150268555
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.016453266143798828
+start expand
+expanding needs: 0.021663427352905273
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.017612934112548828
+start expand
+expanding needs: 0.01983189582824707
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.021244525909423828
+start expand
+expanding needs: 0.012583255767822266
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.01316690444946289
+start expand
+expanding needs: 0.01285552978515625
+iteration:  4
+tree a length:  21
+tree b length:  26
+start expand
+expanding needs: 0.012682914733886719
+iteration:  5
+tree a length:  21
+tree b length:  26
+start expand
+expanding needs: 0.01588749885559082
+start expand
+expanding needs: 0.00774693489074707
+SOLVER: RL_RRT
+success:  True
+length:  3.791029380153979
+time spent:  1.4821398258209229
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 78
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.01886463165283203
+start expand
+expanding needs: 0.025412559509277344
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0209047794342041
+start expand
+expanding needs: 0.022506237030029297
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.028353452682495117
+start expand
+expanding needs: 0.006126880645751953
+SOLVER: RL_RRT
+success:  True
+length:  4.06593710034315
+time spent:  1.2218272686004639
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 79
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02638554573059082
+start expand
+expanding needs: 0.023057222366333008
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.025431156158447266
+start expand
+expanding needs: 0.021337509155273438
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02118659019470215
+start expand
+expanding needs: 0.010752201080322266
+SOLVER: RL_RRT
+success:  True
+length:  1.3585522223566249
+time spent:  1.2227413654327393
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 80
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.0274965763092041
+start expand
+expanding needs: 0.01645660400390625
+SOLVER: RL_RRT
+success:  True
+length:  3.4373807936764096
+time spent:  1.1147394180297852
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 81
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.012409448623657227
+start expand
+expanding needs: 0.013983726501464844
+SOLVER: RL_RRT
+success:  True
+length:  4.668338651279072
+time spent:  1.1992771625518799
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 82
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.033353328704833984
+start expand
+expanding needs: 0.019840478897094727
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.017681598663330078
+start expand
+expanding needs: 0.021541595458984375
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.022178173065185547
+start expand
+expanding needs: 0.020999908447265625
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.021815061569213867
+start expand
+expanding needs: 0.020995616912841797
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.02516484260559082
+start expand
+expanding needs: 0.021360158920288086
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.02418208122253418
+start expand
+expanding needs: 0.024794340133666992
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.028514623641967773
+start expand
+expanding needs: 0.0236661434173584
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.022846221923828125
+start expand
+expanding needs: 0.008492708206176758
+SOLVER: RL_RRT
+success:  True
+length:  2.4053664702922126
+time spent:  1.6685805320739746
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 83
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.03310799598693848
+start expand
+expanding needs: 0.009673833847045898
+SOLVER: RL_RRT
+success:  True
+length:  2.980741384143087
+time spent:  1.1957712173461914
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 84
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.012245655059814453
+start expand
+expanding needs: 0.01219487190246582
+SOLVER: RL_RRT
+success:  True
+length:  2.9343230379437624
+time spent:  1.0817809104919434
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 85
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.023233890533447266
+start expand
+expanding needs: 0.01654529571533203
+SOLVER: RL_RRT
+success:  True
+length:  1.7056046030543923
+time spent:  1.1207334995269775
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022965192794799805
+start expand
+expanding needs: 0.01547384262084961
+SOLVER: RL_RRT
+success:  True
+length:  1.7548170482801622
+time spent:  1.1521258354187012
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 87
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02183699607849121
+start expand
+expanding needs: 0.020035982131958008
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.019395112991333008
+start expand
+expanding needs: 0.015674591064453125
+SOLVER: RL_RRT
+success:  True
+length:  1.9843505183365227
+time spent:  1.1915273666381836
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 88
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022821664810180664
+start expand
+expanding needs: 0.022372007369995117
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02166581153869629
+start expand
+expanding needs: 0.015438079833984375
+SOLVER: RL_RRT
+success:  True
+length:  1.6544568884917443
+time spent:  1.1970908641815186
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 89
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.027089595794677734
+start expand
+expanding needs: 0.025007009506225586
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.023186445236206055
+start expand
+expanding needs: 0.007884740829467773
+SOLVER: RL_RRT
+success:  True
+length:  4.032077752746394
+time spent:  1.1703424453735352
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 90
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.015448331832885742
+start expand
+expanding needs: 0.024990081787109375
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.0348210334777832
+start expand
+expanding needs: 0.0065152645111083984
+SOLVER: RL_RRT
+success:  True
+length:  3.198197537787752
+time spent:  1.1402885913848877
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 91
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.01761603355407715
+start expand
+expanding needs: 0.023165464401245117
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02350473403930664
+start expand
+expanding needs: 0.00484013557434082
+SOLVER: RL_RRT
+success:  True
+length:  2.9131621963533054
+time spent:  1.1398062705993652
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 92
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.007114887237548828
+start expand
+expanding needs: 0.020598411560058594
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.022024154663085938
+start expand
+expanding needs: 0.024384498596191406
+iteration:  1
+tree a length:  7
+tree b length:  11
+start expand
+expanding needs: 0.01859879493713379
+start expand
+expanding needs: 0.022788047790527344
+iteration:  2
+tree a length:  12
+tree b length:  16
+start expand
+expanding needs: 0.023023128509521484
+start expand
+expanding needs: 0.007249355316162109
+SOLVER: RL_RRT
+success:  True
+length:  4.108732377016198
+time spent:  1.266493558883667
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 93
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022490262985229492
+start expand
+expanding needs: 0.027729034423828125
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.012393951416015625
+start expand
+expanding needs: 0.020261049270629883
+iteration:  1
+tree a length:  11
+tree b length:  7
+start expand
+expanding needs: 0.02373051643371582
+start expand
+expanding needs: 0.023114919662475586
+iteration:  2
+tree a length:  16
+tree b length:  12
+start expand
+expanding needs: 0.008367300033569336
+start expand
+expanding needs: 0.022191762924194336
+iteration:  3
+tree a length:  21
+tree b length:  13
+start expand
+expanding needs: 0.018502235412597656
+start expand
+expanding needs: 0.006009817123413086
+SOLVER: RL_RRT
+success:  True
+length:  3.4448598951313207
+time spent:  1.2467541694641113
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 94
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02223825454711914
+start expand
+expanding needs: 0.02184295654296875
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.019775390625
+start expand
+expanding needs: 0.02335047721862793
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.01860189437866211
+start expand
+expanding needs: 0.01914834976196289
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.011855602264404297
+start expand
+expanding needs: 0.0068094730377197266
+SOLVER: RL_RRT
+success:  True
+length:  6.340771149922645
+time spent:  1.2956209182739258
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 95
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.022351503372192383
+start expand
+expanding needs: 0.012138128280639648
+SOLVER: RL_RRT
+success:  True
+length:  3.4683498610448704
+time spent:  1.0994410514831543
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 96
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024601459503173828
+start expand
+expanding needs: 0.02084517478942871
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.022484779357910156
+start expand
+expanding needs: 0.008457660675048828
+SOLVER: RL_RRT
+success:  True
+length:  3.335578986504718
+time spent:  1.1914830207824707
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.01674652099609375
+start expand
+expanding needs: 0.024744272232055664
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.023015260696411133
+start expand
+expanding needs: 0.016555070877075195
+iteration:  1
+tree a length:  6
+tree b length:  11
+start expand
+expanding needs: 0.013261795043945312
+start expand
+expanding needs: 0.022522926330566406
+iteration:  2
+tree a length:  11
+tree b length:  16
+start expand
+expanding needs: 0.013049602508544922
+iteration:  3
+tree a length:  11
+tree b length:  16
+start expand
+expanding needs: 0.01402902603149414
+start expand
+expanding needs: 0.022541284561157227
+iteration:  4
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.012611627578735352
+iteration:  5
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.016733407974243164
+iteration:  6
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.012839078903198242
+iteration:  7
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.012636184692382812
+iteration:  8
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.013062715530395508
+iteration:  9
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.014025688171386719
+iteration:  10
+tree a length:  16
+tree b length:  21
+start expand
+expanding needs: 0.0142822265625
+start expand
+expanding needs: 0.026421070098876953
+iteration:  11
+tree a length:  21
+tree b length:  26
+start expand
+expanding needs: 0.01343393325805664
+start expand
+expanding needs: 0.022112607955932617
+iteration:  12
+tree a length:  26
+tree b length:  31
+start expand
+expanding needs: 0.01312255859375
+iteration:  13
+tree a length:  26
+tree b length:  31
+start expand
+expanding needs: 0.018742084503173828
+start expand
+expanding needs: 0.0188291072845459
+iteration:  14
+tree a length:  31
+tree b length:  36
+start expand
+expanding needs: 0.022634267807006836
+start expand
+expanding needs: 0.018013954162597656
+iteration:  15
+tree a length:  36
+tree b length:  41
+start expand
+expanding needs: 0.020467758178710938
+start expand
+expanding needs: 0.01481771469116211
+iteration:  16
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.02361583709716797
+start expand
+expanding needs: 0.017852306365966797
+iteration:  17
+tree a length:  46
+tree b length:  41
+start expand
+expanding needs: 0.032720088958740234
+start expand
+expanding needs: 0.01993274688720703
+iteration:  18
+tree a length:  51
+tree b length:  46
+start expand
+expanding needs: 0.021600008010864258
+start expand
+expanding needs: 0.021550893783569336
+iteration:  19
+tree a length:  56
+tree b length:  51
+start expand
+expanding needs: 0.025672435760498047
+start expand
+expanding needs: 0.017607450485229492
+iteration:  20
+tree a length:  61
+tree b length:  56
+start expand
+expanding needs: 0.013153076171875
+start expand
+expanding needs: 0.01692795753479004
+iteration:  21
+tree a length:  66
+tree b length:  61
+start expand
+expanding needs: 0.020486831665039062
+start expand
+expanding needs: 0.022574424743652344
+iteration:  22
+tree a length:  71
+tree b length:  66
+start expand
+expanding needs: 0.026468753814697266
+start expand
+expanding needs: 0.01954936981201172
+iteration:  23
+tree a length:  76
+tree b length:  71
+start expand
+expanding needs: 0.02097916603088379
+start expand
+expanding needs: 0.022241592407226562
+iteration:  24
+tree a length:  81
+tree b length:  76
+start expand
+expanding needs: 0.025341033935546875
+start expand
+expanding needs: 0.013439178466796875
+iteration:  25
+tree a length:  86
+tree b length:  81
+start expand
+expanding needs: 0.018141508102416992
+start expand
+expanding needs: 0.012931585311889648
+iteration:  26
+tree a length:  86
+tree b length:  86
+start expand
+expanding needs: 0.017873764038085938
+start expand
+expanding needs: 0.01583266258239746
+iteration:  27
+tree a length:  91
+tree b length:  91
+start expand
+expanding needs: 0.022875070571899414
+start expand
+expanding needs: 0.013123512268066406
+iteration:  28
+tree a length:  96
+tree b length:  96
+start expand
+expanding needs: 0.022409677505493164
+start expand
+expanding needs: 0.012952804565429688
+iteration:  29
+tree a length:  96
+tree b length:  101
+start expand
+expanding needs: 0.01321554183959961
+iteration:  30
+tree a length:  96
+tree b length:  101
+start expand
+expanding needs: 0.023910999298095703
+start expand
+expanding needs: 0.020060300827026367
+iteration:  31
+tree a length:  101
+tree b length:  106
+start expand
+expanding needs: 0.013345003128051758
+start expand
+expanding needs: 0.01956963539123535
+iteration:  32
+tree a length:  106
+tree b length:  111
+start expand
+expanding needs: 0.013750076293945312
+iteration:  33
+tree a length:  106
+tree b length:  111
+start expand
+expanding needs: 0.01363062858581543
+start expand
+expanding needs: 0.017559289932250977
+iteration:  34
+tree a length:  111
+tree b length:  116
+start expand
+expanding needs: 0.023506641387939453
+start expand
+expanding needs: 0.023383378982543945
+iteration:  35
+tree a length:  116
+tree b length:  121
+start expand
+expanding needs: 0.020542621612548828
+start expand
+expanding needs: 0.020357847213745117
+iteration:  36
+tree a length:  121
+tree b length:  126
+start expand
+expanding needs: 0.015208721160888672
+start expand
+expanding needs: 0.021436214447021484
+iteration:  37
+tree a length:  122
+tree b length:  131
+start expand
+expanding needs: 0.01827263832092285
+start expand
+expanding needs: 0.02164483070373535
+iteration:  38
+tree a length:  127
+tree b length:  136
+start expand
+expanding needs: 0.012382030487060547
+start expand
+expanding needs: 0.022257328033447266
+iteration:  39
+tree a length:  128
+tree b length:  141
+start expand
+expanding needs: 0.020136117935180664
+start expand
+expanding needs: 0.016680002212524414
+iteration:  40
+tree a length:  133
+tree b length:  146
+start expand
+expanding needs: 0.02266097068786621
+start expand
+expanding needs: 0.020882844924926758
+iteration:  41
+tree a length:  138
+tree b length:  151
+start expand
+expanding needs: 0.018486499786376953
+start expand
+expanding needs: 0.019049644470214844
+iteration:  42
+tree a length:  143
+tree b length:  156
+start expand
+expanding needs: 0.019365549087524414
+start expand
+expanding needs: 0.021129369735717773
+iteration:  43
+tree a length:  148
+tree b length:  161
+start expand
+expanding needs: 0.011679649353027344
+start expand
+expanding needs: 0.021530866622924805
+iteration:  44
+tree a length:  149
+tree b length:  166
+start expand
+expanding needs: 0.018520116806030273
+start expand
+expanding needs: 0.0633091926574707
+iteration:  45
+tree a length:  154
+tree b length:  171
+start expand
+expanding needs: 0.02228069305419922
+start expand
+expanding needs: 0.01942610740661621
+iteration:  46
+tree a length:  159
+tree b length:  176
+start expand
+expanding needs: 0.016318798065185547
+start expand
+expanding needs: 0.021596908569335938
+iteration:  47
+tree a length:  164
+tree b length:  181
+start expand
+expanding needs: 0.0234224796295166
+start expand
+expanding needs: 0.023249149322509766
+iteration:  48
+tree a length:  169
+tree b length:  186
+start expand
+expanding needs: 0.018925189971923828
+start expand
+expanding needs: 0.022327661514282227
+iteration:  49
+tree a length:  174
+tree b length:  191
+start expand
+expanding needs: 0.02172255516052246
+start expand
+expanding needs: 0.021831989288330078
+iteration:  50
+tree a length:  179
+tree b length:  196
+start expand
+expanding needs: 0.02079486846923828
+start expand
+expanding needs: 0.021442174911499023
+iteration:  51
+tree a length:  184
+tree b length:  201
+start expand
+expanding needs: 0.022447586059570312
+start expand
+expanding needs: 0.021522998809814453
+iteration:  52
+tree a length:  189
+tree b length:  206
+start expand
+expanding needs: 0.019725322723388672
+start expand
+expanding needs: 0.019742727279663086
+iteration:  53
+tree a length:  194
+tree b length:  211
+start expand
+expanding needs: 0.020769119262695312
+start expand
+expanding needs: 0.019803762435913086
+iteration:  54
+tree a length:  199
+tree b length:  216
+start expand
+expanding needs: 0.021552085876464844
+start expand
+expanding needs: 0.022623538970947266
+iteration:  55
+tree a length:  204
+tree b length:  221
+start expand
+expanding needs: 0.01705002784729004
+start expand
+expanding needs: 0.013848066329956055
+iteration:  56
+tree a length:  209
+tree b length:  226
+start expand
+expanding needs: 0.021379709243774414
+start expand
+expanding needs: 0.021619796752929688
+iteration:  57
+tree a length:  214
+tree b length:  231
+start expand
+expanding needs: 0.01692342758178711
+start expand
+expanding needs: 0.02260613441467285
+iteration:  58
+tree a length:  219
+tree b length:  236
+start expand
+expanding needs: 0.015290260314941406
+iteration:  59
+tree a length:  219
+tree b length:  236
+start expand
+expanding needs: 0.016592979431152344
+start expand
+expanding needs: 0.022652864456176758
+iteration:  60
+tree a length:  224
+tree b length:  241
+start expand
+expanding needs: 0.021573305130004883
+start expand
+expanding needs: 0.021648883819580078
+iteration:  61
+tree a length:  229
+tree b length:  246
+start expand
+expanding needs: 0.02388143539428711
+start expand
+expanding needs: 0.022796154022216797
+iteration:  62
+tree a length:  234
+tree b length:  251
+start expand
+expanding needs: 0.018662452697753906
+start expand
+expanding needs: 0.020401954650878906
+iteration:  63
+tree a length:  239
+tree b length:  256
+start expand
+expanding needs: 0.02122783660888672
+start expand
+expanding needs: 0.022307634353637695
+iteration:  64
+tree a length:  244
+tree b length:  261
+start expand
+expanding needs: 0.020551443099975586
+start expand
+expanding needs: 0.02057361602783203
+iteration:  65
+tree a length:  249
+tree b length:  266
+start expand
+expanding needs: 0.018874406814575195
+start expand
+expanding needs: 0.021149635314941406
+iteration:  66
+tree a length:  254
+tree b length:  271
+start expand
+expanding needs: 0.021886110305786133
+start expand
+expanding needs: 0.021915197372436523
+iteration:  67
+tree a length:  259
+tree b length:  276
+start expand
+expanding needs: 0.019632577896118164
+start expand
+expanding needs: 0.021395206451416016
+iteration:  68
+tree a length:  264
+tree b length:  281
+start expand
+expanding needs: 0.02123236656188965
+start expand
+expanding needs: 0.022486209869384766
+iteration:  69
+tree a length:  269
+tree b length:  286
+start expand
+expanding needs: 0.020451784133911133
+start expand
+expanding needs: 0.019766807556152344
+iteration:  70
+tree a length:  274
+tree b length:  291
+start expand
+expanding needs: 0.021234989166259766
+start expand
+expanding needs: 0.0196533203125
+iteration:  71
+tree a length:  279
+tree b length:  296
+start expand
+expanding needs: 0.020276784896850586
+start expand
+expanding needs: 0.021092891693115234
+iteration:  72
+tree a length:  284
+tree b length:  301
+start expand
+expanding needs: 0.020418882369995117
+start expand
+expanding needs: 0.01943206787109375
+iteration:  73
+tree a length:  289
+tree b length:  306
+start expand
+expanding needs: 0.01952815055847168
+start expand
+expanding needs: 0.021323442459106445
+iteration:  74
+tree a length:  294
+tree b length:  311
+start expand
+expanding needs: 0.015360116958618164
+start expand
+expanding needs: 0.021157026290893555
+iteration:  75
+tree a length:  299
+tree b length:  316
+start expand
+expanding needs: 0.01935434341430664
+start expand
+expanding needs: 0.022460222244262695
+iteration:  76
+tree a length:  304
+tree b length:  321
+start expand
+expanding needs: 0.013678312301635742
+start expand
+expanding needs: 0.020710229873657227
+iteration:  77
+tree a length:  309
+tree b length:  326
+start expand
+expanding needs: 0.016738414764404297
+start expand
+expanding needs: 0.014973878860473633
+iteration:  78
+tree a length:  314
+tree b length:  331
+start expand
+expanding needs: 0.013101577758789062
+start expand
+expanding needs: 0.019263029098510742
+iteration:  79
+tree a length:  319
+tree b length:  336
+start expand
+expanding needs: 0.02121591567993164
+start expand
+expanding needs: 0.021573781967163086
+iteration:  80
+tree a length:  324
+tree b length:  341
+start expand
+expanding needs: 0.020885467529296875
+start expand
+expanding needs: 0.019346952438354492
+iteration:  81
+tree a length:  329
+tree b length:  346
+start expand
+expanding needs: 0.019526004791259766
+start expand
+expanding needs: 0.019793987274169922
+iteration:  82
+tree a length:  334
+tree b length:  351
+start expand
+expanding needs: 0.012758731842041016
+start expand
+expanding needs: 0.022513389587402344
+iteration:  83
+tree a length:  339
+tree b length:  356
+start expand
+expanding needs: 0.019682884216308594
+start expand
+expanding needs: 0.020394086837768555
+iteration:  84
+tree a length:  344
+tree b length:  361
+start expand
+expanding needs: 0.021092891693115234
+start expand
+expanding needs: 0.019838809967041016
+iteration:  85
+tree a length:  349
+tree b length:  366
+start expand
+expanding needs: 0.0226285457611084
+start expand
+expanding needs: 0.022268056869506836
+iteration:  86
+tree a length:  354
+tree b length:  371
+start expand
+expanding needs: 0.020339250564575195
+start expand
+expanding needs: 0.02088475227355957
+iteration:  87
+tree a length:  359
+tree b length:  376
+start expand
+expanding needs: 0.016062498092651367
+start expand
+expanding needs: 0.017578125
+iteration:  88
+tree a length:  364
+tree b length:  381
+start expand
+expanding needs: 0.016122817993164062
+start expand
+expanding needs: 0.02041482925415039
+iteration:  89
+tree a length:  369
+tree b length:  386
+start expand
+expanding needs: 0.018819808959960938
+start expand
+expanding needs: 0.019454240798950195
+iteration:  90
+tree a length:  374
+tree b length:  391
+start expand
+expanding needs: 0.020083189010620117
+start expand
+expanding needs: 0.01988840103149414
+iteration:  91
+tree a length:  379
+tree b length:  396
+start expand
+expanding needs: 0.01960897445678711
+start expand
+expanding needs: 0.019895315170288086
+iteration:  92
+tree a length:  384
+tree b length:  401
+start expand
+expanding needs: 0.02044844627380371
+start expand
+expanding needs: 0.021914958953857422
+iteration:  93
+tree a length:  389
+tree b length:  406
+start expand
+expanding needs: 0.025887489318847656
+start expand
+expanding needs: 0.02048802375793457
+iteration:  94
+tree a length:  394
+tree b length:  411
+start expand
+expanding needs: 0.016343116760253906
+start expand
+expanding needs: 0.021726369857788086
+iteration:  95
+tree a length:  399
+tree b length:  416
+start expand
+expanding needs: 0.021622419357299805
+start expand
+expanding needs: 0.014158487319946289
+iteration:  96
+tree a length:  404
+tree b length:  421
+start expand
+expanding needs: 0.019741535186767578
+start expand
+expanding needs: 0.016709089279174805
+iteration:  97
+tree a length:  409
+tree b length:  426
+start expand
+expanding needs: 0.014692544937133789
+start expand
+expanding needs: 0.020386219024658203
+iteration:  98
+tree a length:  414
+tree b length:  431
+start expand
+expanding needs: 0.017844200134277344
+start expand
+expanding needs: 0.02144026756286621
+iteration:  99
+tree a length:  419
+tree b length:  436
+start expand
+expanding needs: 0.02181863784790039
+start expand
+expanding needs: 0.02013683319091797
+iteration:  100
+tree a length:  424
+tree b length:  441
+start expand
+expanding needs: 0.017866134643554688
+start expand
+expanding needs: 0.016846895217895508
+iteration:  101
+tree a length:  429
+tree b length:  446
+start expand
+expanding needs: 0.015305042266845703
+start expand
+expanding needs: 0.02028369903564453
+iteration:  102
+tree a length:  434
+tree b length:  451
+start expand
+expanding needs: 0.016963958740234375
+start expand
+expanding needs: 0.01944446563720703
+iteration:  103
+tree a length:  439
+tree b length:  456
+start expand
+expanding needs: 0.01304173469543457
+iteration:  104
+tree a length:  439
+tree b length:  456
+start expand
+expanding needs: 0.015109777450561523
+start expand
+expanding needs: 0.022426366806030273
+iteration:  105
+tree a length:  444
+tree b length:  461
+start expand
+expanding needs: 0.01932978630065918
+start expand
+expanding needs: 0.021625757217407227
+iteration:  106
+tree a length:  449
+tree b length:  466
+start expand
+expanding needs: 0.017451047897338867
+start expand
+expanding needs: 0.02201104164123535
+iteration:  107
+tree a length:  454
+tree b length:  471
+start expand
+expanding needs: 0.01289987564086914
+iteration:  108
+tree a length:  454
+tree b length:  471
+start expand
+expanding needs: 0.021965742111206055
+start expand
+expanding needs: 0.012554407119750977
+iteration:  109
+tree a length:  459
+tree b length:  471
+start expand
+expanding needs: 0.022412776947021484
+start expand
+expanding needs: 0.020932435989379883
+iteration:  110
+tree a length:  464
+tree b length:  476
+start expand
+expanding needs: 0.013455629348754883
+start expand
+expanding needs: 0.016916990280151367
+iteration:  111
+tree a length:  469
+tree b length:  481
+start expand
+expanding needs: 0.020883798599243164
+start expand
+expanding needs: 0.01682591438293457
+iteration:  112
+tree a length:  474
+tree b length:  486
+start expand
+expanding needs: 0.02184581756591797
+start expand
+expanding needs: 0.01950812339782715
+iteration:  113
+tree a length:  479
+tree b length:  491
+start expand
+expanding needs: 0.01834392547607422
+start expand
+expanding needs: 0.023140668869018555
+iteration:  114
+tree a length:  484
+tree b length:  496
+start expand
+expanding needs: 0.0224606990814209
+start expand
+expanding needs: 0.02114248275756836
+iteration:  115
+tree a length:  489
+tree b length:  501
+start expand
+expanding needs: 0.019609451293945312
+start expand
+expanding needs: 0.021123647689819336
+iteration:  116
+tree a length:  494
+tree b length:  506
+start expand
+expanding needs: 0.018739700317382812
+start expand
+expanding needs: 0.02063441276550293
+iteration:  117
+tree a length:  499
+tree b length:  511
+start expand
+expanding needs: 0.022040128707885742
+start expand
+expanding needs: 0.022656679153442383
+iteration:  118
+tree a length:  504
+tree b length:  516
+start expand
+expanding needs: 0.017946720123291016
+start expand
+expanding needs: 0.020454883575439453
+iteration:  119
+tree a length:  509
+tree b length:  521
+start expand
+expanding needs: 0.021364927291870117
+start expand
+expanding needs: 0.021739482879638672
+iteration:  120
+tree a length:  514
+tree b length:  526
+start expand
+expanding needs: 0.02168726921081543
+start expand
+expanding needs: 0.019222259521484375
+iteration:  121
+tree a length:  519
+tree b length:  531
+start expand
+expanding needs: 0.018116474151611328
+start expand
+expanding needs: 0.015257120132446289
+iteration:  122
+tree a length:  524
+tree b length:  536
+start expand
+expanding needs: 0.01823139190673828
+start expand
+expanding needs: 0.022108078002929688
+iteration:  123
+tree a length:  529
+tree b length:  541
+start expand
+expanding needs: 0.021654367446899414
+start expand
+expanding needs: 0.021071195602416992
+iteration:  124
+tree a length:  534
+tree b length:  546
+start expand
+expanding needs: 0.021480560302734375
+start expand
+expanding needs: 0.019086837768554688
+iteration:  125
+tree a length:  539
+tree b length:  551
+start expand
+expanding needs: 0.014903068542480469
+start expand
+expanding needs: 0.023830413818359375
+iteration:  126
+tree a length:  544
+tree b length:  556
+start expand
+expanding needs: 0.021636486053466797
+start expand
+expanding needs: 0.02120065689086914
+iteration:  127
+tree a length:  549
+tree b length:  561
+start expand
+expanding needs: 0.023401737213134766
+start expand
+expanding needs: 0.02245330810546875
+iteration:  128
+tree a length:  554
+tree b length:  566
+start expand
+expanding needs: 0.022143840789794922
+start expand
+expanding needs: 0.020748615264892578
+iteration:  129
+tree a length:  559
+tree b length:  571
+start expand
+expanding needs: 0.018192768096923828
+start expand
+expanding needs: 0.01992058753967285
+iteration:  130
+tree a length:  564
+tree b length:  576
+start expand
+expanding needs: 0.02162003517150879
+start expand
+expanding needs: 0.020116090774536133
+iteration:  131
+tree a length:  569
+tree b length:  581
+start expand
+expanding needs: 0.016952037811279297
+start expand
+expanding needs: 0.02062201499938965
+iteration:  132
+tree a length:  574
+tree b length:  586
+start expand
+expanding needs: 0.019405364990234375
+start expand
+expanding needs: 0.019526004791259766
+iteration:  133
+tree a length:  579
+tree b length:  591
+start expand
+expanding needs: 0.015840530395507812
+start expand
+expanding needs: 0.0213320255279541
+iteration:  134
+tree a length:  584
+tree b length:  596
+start expand
+expanding needs: 0.01417231559753418
+start expand
+expanding needs: 0.02172255516052246
+iteration:  135
+tree a length:  589
+tree b length:  601
+start expand
+expanding needs: 0.016883373260498047
+start expand
+expanding needs: 0.02011728286743164
+iteration:  136
+tree a length:  594
+tree b length:  606
+start expand
+expanding needs: 0.023245573043823242
+start expand
+expanding needs: 0.022838115692138672
+iteration:  137
+tree a length:  599
+tree b length:  611
+start expand
+expanding needs: 0.015615463256835938
+start expand
+expanding needs: 0.018652915954589844
+iteration:  138
+tree a length:  604
+tree b length:  616
+start expand
+expanding needs: 0.017609357833862305
+start expand
+expanding needs: 0.020943880081176758
+iteration:  139
+tree a length:  609
+tree b length:  621
+start expand
+expanding needs: 0.017093658447265625
+start expand
+expanding needs: 0.015434741973876953
+iteration:  140
+tree a length:  614
+tree b length:  626
+start expand
+expanding needs: 0.014458894729614258
+start expand
+expanding needs: 0.01938033103942871
+iteration:  141
+tree a length:  619
+tree b length:  631
+start expand
+expanding needs: 0.02296614646911621
+start expand
+expanding needs: 0.022191524505615234
+iteration:  142
+tree a length:  624
+tree b length:  636
+start expand
+expanding needs: 0.021822452545166016
+start expand
+expanding needs: 0.01746511459350586
+iteration:  143
+tree a length:  629
+tree b length:  641
+start expand
+expanding needs: 0.027169227600097656
+start expand
+expanding needs: 0.013635635375976562
+iteration:  144
+tree a length:  634
+tree b length:  641
+start expand
+expanding needs: 0.01854991912841797
+start expand
+expanding needs: 0.019078969955444336
+iteration:  145
+tree a length:  639
+tree b length:  646
+start expand
+expanding needs: 0.02133917808532715
+start expand
+expanding needs: 0.019524335861206055
+iteration:  146
+tree a length:  644
+tree b length:  651
+start expand
+expanding needs: 0.020834684371948242
+start expand
+expanding needs: 0.021318674087524414
+iteration:  147
+tree a length:  649
+tree b length:  656
+start expand
+expanding needs: 0.013570308685302734
+iteration:  148
+tree a length:  649
+tree b length:  656
+start expand
+expanding needs: 0.019596576690673828
+start expand
+expanding needs: 0.022355318069458008
+iteration:  149
+tree a length:  654
+tree b length:  661
+start expand
+expanding needs: 0.020457029342651367
+start expand
+expanding needs: 0.018703699111938477
+iteration:  150
+tree a length:  659
+tree b length:  666
+start expand
+expanding needs: 0.01934671401977539
+start expand
+expanding needs: 0.019945144653320312
+iteration:  151
+tree a length:  664
+tree b length:  671
+start expand
+expanding needs: 0.01691126823425293
+start expand
+expanding needs: 0.02140021324157715
+iteration:  152
+tree a length:  669
+tree b length:  676
+start expand
+expanding needs: 0.017987489700317383
+start expand
+expanding needs: 0.021960735321044922
+iteration:  153
+tree a length:  674
+tree b length:  681
+start expand
+expanding needs: 0.01508641242980957
+start expand
+expanding needs: 0.02202296257019043
+iteration:  154
+tree a length:  679
+tree b length:  686
+start expand
+expanding needs: 0.019244909286499023
+start expand
+expanding needs: 0.021193265914916992
+iteration:  155
+tree a length:  684
+tree b length:  691
+start expand
+expanding needs: 0.01685953140258789
+start expand
+expanding needs: 0.018719196319580078
+iteration:  156
+tree a length:  689
+tree b length:  696
+start expand
+expanding needs: 0.021704912185668945
+start expand
+expanding needs: 0.020732641220092773
+iteration:  157
+tree a length:  694
+tree b length:  701
+start expand
+expanding needs: 0.019984960556030273
+start expand
+expanding needs: 0.02217698097229004
+iteration:  158
+tree a length:  699
+tree b length:  706
+start expand
+expanding needs: 0.01858377456665039
+start expand
+expanding needs: 0.02102041244506836
+iteration:  159
+tree a length:  704
+tree b length:  711
+start expand
+expanding needs: 0.017091035842895508
+start expand
+expanding needs: 0.020608186721801758
+iteration:  160
+tree a length:  709
+tree b length:  716
+start expand
+expanding needs: 0.015231847763061523
+start expand
+expanding needs: 0.022691011428833008
+iteration:  161
+tree a length:  714
+tree b length:  721
+start expand
+expanding needs: 0.02320384979248047
+start expand
+expanding needs: 0.019091367721557617
+iteration:  162
+tree a length:  719
+tree b length:  726
+start expand
+expanding needs: 0.013560295104980469
+start expand
+expanding needs: 0.02129364013671875
+iteration:  163
+tree a length:  724
+tree b length:  731
+start expand
+expanding needs: 0.012814044952392578
+start expand
+expanding needs: 0.022163867950439453
+iteration:  164
+tree a length:  729
+tree b length:  736
+start expand
+expanding needs: 0.013778209686279297
+start expand
+expanding needs: 0.01602458953857422
+iteration:  165
+tree a length:  734
+tree b length:  741
+start expand
+expanding needs: 0.01962590217590332
+start expand
+expanding needs: 0.021239519119262695
+iteration:  166
+tree a length:  739
+tree b length:  746
+start expand
+expanding needs: 0.020618438720703125
+start expand
+expanding needs: 0.01922464370727539
+iteration:  167
+tree a length:  744
+tree b length:  751
+start expand
+expanding needs: 0.014382362365722656
+start expand
+expanding needs: 0.0213315486907959
+iteration:  168
+tree a length:  749
+tree b length:  756
+start expand
+expanding needs: 0.01645493507385254
+start expand
+expanding needs: 0.012624025344848633
+iteration:  169
+tree a length:  754
+tree b length:  756
+start expand
+expanding needs: 0.018694400787353516
+start expand
+expanding needs: 0.021491050720214844
+iteration:  170
+tree a length:  759
+tree b length:  761
+start expand
+expanding needs: 0.020163536071777344
+start expand
+expanding needs: 0.02227926254272461
+iteration:  171
+tree a length:  764
+tree b length:  766
+start expand
+expanding needs: 0.017110824584960938
+start expand
+expanding needs: 0.022274494171142578
+iteration:  172
+tree a length:  769
+tree b length:  771
+start expand
+expanding needs: 0.021962404251098633
+start expand
+expanding needs: 0.020832061767578125
+iteration:  173
+tree a length:  774
+tree b length:  776
+start expand
+expanding needs: 0.014766216278076172
+start expand
+expanding needs: 0.02034449577331543
+iteration:  174
+tree a length:  779
+tree b length:  781
+start expand
+expanding needs: 0.021455049514770508
+start expand
+expanding needs: 0.020507335662841797
+iteration:  175
+tree a length:  784
+tree b length:  786
+start expand
+expanding needs: 0.022728919982910156
+start expand
+expanding needs: 0.021976232528686523
+iteration:  176
+tree a length:  789
+tree b length:  791
+start expand
+expanding needs: 0.015690088272094727
+start expand
+expanding needs: 0.021717548370361328
+iteration:  177
+tree a length:  794
+tree b length:  796
+start expand
+expanding needs: 0.019482851028442383
+start expand
+expanding needs: 0.02188253402709961
+iteration:  178
+tree a length:  799
+tree b length:  801
+start expand
+expanding needs: 0.018160581588745117
+start expand
+expanding needs: 0.022207260131835938
+iteration:  179
+tree a length:  804
+tree b length:  806
+start expand
+expanding needs: 0.014033794403076172
+iteration:  180
+tree a length:  804
+tree b length:  806
+start expand
+expanding needs: 0.014929771423339844
+iteration:  181
+tree a length:  804
+tree b length:  806
+start expand
+expanding needs: 0.02119755744934082
+start expand
+expanding needs: 0.025099992752075195
+iteration:  182
+tree a length:  809
+tree b length:  811
+start expand
+expanding needs: 0.01972174644470215
+start expand
+expanding needs: 0.01881861686706543
+iteration:  183
+tree a length:  814
+tree b length:  816
+start expand
+expanding needs: 0.02431344985961914
+start expand
+expanding needs: 0.024915218353271484
+iteration:  184
+tree a length:  819
+tree b length:  821
+start expand
+expanding needs: 0.018815994262695312
+start expand
+expanding needs: 0.022741079330444336
+iteration:  185
+tree a length:  824
+tree b length:  826
+start expand
+expanding needs: 0.016623258590698242
+start expand
+expanding needs: 0.02013707160949707
+iteration:  186
+tree a length:  829
+tree b length:  831
+start expand
+expanding needs: 0.014669418334960938
+start expand
+expanding needs: 0.019241809844970703
+iteration:  187
+tree a length:  834
+tree b length:  836
+start expand
+expanding needs: 0.02419447898864746
+start expand
+expanding needs: 0.02291107177734375
+iteration:  188
+tree a length:  839
+tree b length:  841
+start expand
+expanding needs: 0.014238119125366211
+iteration:  189
+tree a length:  839
+tree b length:  841
+start expand
+expanding needs: 0.01971125602722168
+start expand
+expanding needs: 0.02558755874633789
+iteration:  190
+tree a length:  844
+tree b length:  846
+start expand
+expanding needs: 0.021821260452270508
+start expand
+expanding needs: 0.017105579376220703
+iteration:  191
+tree a length:  849
+tree b length:  851
+start expand
+expanding needs: 0.018346786499023438
+start expand
+expanding needs: 0.0245513916015625
+iteration:  192
+tree a length:  854
+tree b length:  856
+start expand
+expanding needs: 0.02075958251953125
+start expand
+expanding needs: 0.0247802734375
+iteration:  193
+tree a length:  859
+tree b length:  861
+start expand
+expanding needs: 0.022887229919433594
+start expand
+expanding needs: 0.02227950096130371
+iteration:  194
+tree a length:  864
+tree b length:  866
+start expand
+expanding needs: 0.014985799789428711
+start expand
+expanding needs: 0.02482151985168457
+iteration:  195
+tree a length:  869
+tree b length:  871
+start expand
+expanding needs: 0.022265195846557617
+start expand
+expanding needs: 0.02424478530883789
+iteration:  196
+tree a length:  874
+tree b length:  876
+start expand
+expanding needs: 0.024056673049926758
+start expand
+expanding needs: 0.026464462280273438
+iteration:  197
+tree a length:  879
+tree b length:  881
+start expand
+expanding needs: 0.01973700523376465
+start expand
+expanding needs: 0.023755311965942383
+iteration:  198
+tree a length:  884
+tree b length:  886
+start expand
+expanding needs: 0.0237734317779541
+start expand
+expanding needs: 0.021198272705078125
+iteration:  199
+tree a length:  889
+tree b length:  891
+start expand
+expanding needs: 0.017933368682861328
+start expand
+expanding needs: 0.022478818893432617
+iteration:  200
+tree a length:  894
+tree b length:  896
+start expand
+expanding needs: 0.0137939453125
+start expand
+expanding needs: 0.01431727409362793
+iteration:  201
+tree a length:  899
+tree b length:  896
+start expand
+expanding needs: 0.020657777786254883
+start expand
+expanding needs: 0.023000478744506836
+iteration:  202
+tree a length:  904
+tree b length:  901
+start expand
+expanding needs: 0.019397735595703125
+start expand
+expanding needs: 0.01441049575805664
+iteration:  203
+tree a length:  909
+tree b length:  905
+start expand
+expanding needs: 0.020307302474975586
+start expand
+expanding needs: 0.02416229248046875
+iteration:  204
+tree a length:  914
+tree b length:  910
+start expand
+expanding needs: 0.020656585693359375
+start expand
+expanding needs: 0.017191410064697266
+iteration:  205
+tree a length:  919
+tree b length:  915
+start expand
+expanding needs: 0.014218807220458984
+iteration:  206
+tree a length:  919
+tree b length:  915
+start expand
+expanding needs: 0.006215810775756836
+start expand
+expanding needs: 0.021657943725585938
+iteration:  207
+tree a length:  924
+tree b length:  916
+start expand
+expanding needs: 0.023430347442626953
+start expand
+expanding needs: 0.02371525764465332
+iteration:  208
+tree a length:  929
+tree b length:  921
+start expand
+expanding needs: 0.023912906646728516
+start expand
+expanding needs: 0.021437883377075195
+iteration:  209
+tree a length:  934
+tree b length:  926
+start expand
+expanding needs: 0.018518447875976562
+start expand
+expanding needs: 0.01678943634033203
+iteration:  210
+tree a length:  939
+tree b length:  931
+start expand
+expanding needs: 0.019504070281982422
+start expand
+expanding needs: 0.014625072479248047
+iteration:  211
+tree a length:  944
+tree b length:  936
+start expand
+expanding needs: 0.020905256271362305
+start expand
+expanding needs: 0.02336406707763672
+iteration:  212
+tree a length:  949
+tree b length:  941
+start expand
+expanding needs: 0.015597820281982422
+start expand
+expanding needs: 0.017293214797973633
+iteration:  213
+tree a length:  954
+tree b length:  946
+start expand
+expanding needs: 0.023251056671142578
+start expand
+expanding needs: 0.023845672607421875
+iteration:  214
+tree a length:  959
+tree b length:  951
+start expand
+expanding needs: 0.028571128845214844
+start expand
+expanding needs: 0.015677213668823242
+iteration:  215
+tree a length:  964
+tree b length:  956
+start expand
+expanding needs: 0.025694608688354492
+start expand
+expanding needs: 0.01620197296142578
+iteration:  216
+tree a length:  969
+tree b length:  961
+start expand
+expanding needs: 0.019031286239624023
+start expand
+expanding needs: 0.015185832977294922
+iteration:  217
+tree a length:  974
+tree b length:  966
+start expand
+expanding needs: 0.02255868911743164
+start expand
+expanding needs: 0.02003765106201172
+iteration:  218
+tree a length:  979
+tree b length:  971
+start expand
+expanding needs: 0.019755125045776367
+start expand
+expanding needs: 0.018721580505371094
+iteration:  219
+tree a length:  984
+tree b length:  976
+start expand
+expanding needs: 0.018472671508789062
+start expand
+expanding needs: 0.023240327835083008
+iteration:  220
+tree a length:  989
+tree b length:  981
+start expand
+expanding needs: 0.0026481151580810547
+start expand
+expanding needs: 0.022783994674682617
+iteration:  221
+tree a length:  994
+tree b length:  982
+start expand
+expanding needs: 0.02165961265563965
+start expand
+expanding needs: 0.014724969863891602
+iteration:  222
+tree a length:  999
+tree b length:  987
+start expand
+expanding needs: 0.016033172607421875
+start expand
+expanding needs: 0.022773265838623047
+iteration:  223
+tree a length:  1004
+tree b length:  992
+start expand
+expanding needs: 0.0035905838012695312
+start expand
+expanding needs: 0.014500617980957031
+iteration:  224
+tree a length:  1009
+tree b length:  993
+start expand
+expanding needs: 0.00458526611328125
+start expand
+expanding needs: 0.022679567337036133
+iteration:  225
+tree a length:  1014
+tree b length:  994
+start expand
+expanding needs: 0.021469831466674805
+start expand
+expanding needs: 0.01925349235534668
+iteration:  226
+tree a length:  1019
+tree b length:  999
+start expand
+expanding needs: 0.023479223251342773
+start expand
+expanding needs: 0.014112234115600586
+iteration:  227
+tree a length:  1024
+tree b length:  1004
+start expand
+expanding needs: 0.0237271785736084
+start expand
+expanding needs: 0.02203059196472168
+iteration:  228
+tree a length:  1029
+tree b length:  1009
+start expand
+expanding needs: 0.023902416229248047
+start expand
+expanding needs: 0.02286505699157715
+iteration:  229
+tree a length:  1034
+tree b length:  1014
+start expand
+expanding needs: 0.023468971252441406
+start expand
+expanding needs: 0.02403545379638672
+iteration:  230
+tree a length:  1039
+tree b length:  1019
+start expand
+expanding needs: 0.003612041473388672
+start expand
+expanding needs: 0.02395915985107422
+iteration:  231
+tree a length:  1044
+tree b length:  1020
+start expand
+expanding needs: 0.023772478103637695
+start expand
+expanding needs: 0.01610589027404785
+iteration:  232
+tree a length:  1049
+tree b length:  1025
+start expand
+expanding needs: 0.018722057342529297
+start expand
+expanding needs: 0.016581296920776367
+iteration:  233
+tree a length:  1054
+tree b length:  1030
+start expand
+expanding needs: 0.02389049530029297
+start expand
+expanding needs: 0.014204978942871094
+iteration:  234
+tree a length:  1059
+tree b length:  1035
+start expand
+expanding needs: 0.024044036865234375
+start expand
+expanding needs: 0.02427363395690918
+iteration:  235
+tree a length:  1064
+tree b length:  1040
+start expand
+expanding needs: 0.01485300064086914
+start expand
+expanding needs: 0.022349119186401367
+iteration:  236
+tree a length:  1069
+tree b length:  1045
+start expand
+expanding needs: 0.019723892211914062
+start expand
+expanding needs: 0.0235593318939209
+iteration:  237
+tree a length:  1074
+tree b length:  1050
+start expand
+expanding needs: 0.026033401489257812
+start expand
+expanding needs: 0.019019603729248047
+iteration:  238
+tree a length:  1079
+tree b length:  1055
+start expand
+expanding needs: 0.02135920524597168
+start expand
+expanding needs: 0.022243261337280273
+iteration:  239
+tree a length:  1084
+tree b length:  1060
+start expand
+expanding needs: 0.02671051025390625
+start expand
+expanding needs: 0.01651453971862793
+iteration:  240
+tree a length:  1089
+tree b length:  1065
+start expand
+expanding needs: 0.025594472885131836
+start expand
+expanding needs: 0.020999908447265625
+iteration:  241
+tree a length:  1094
+tree b length:  1070
+start expand
+expanding needs: 0.020972728729248047
+start expand
+expanding needs: 0.023276567459106445
+iteration:  242
+tree a length:  1099
+tree b length:  1075
+start expand
+expanding needs: 0.020676612854003906
+start expand
+expanding needs: 0.01837921142578125
+iteration:  243
+tree a length:  1104
+tree b length:  1080
+start expand
+expanding needs: 0.02215433120727539
+start expand
+expanding needs: 0.014003992080688477
+iteration:  244
+tree a length:  1104
+tree b length:  1085
+start expand
+expanding needs: 0.022897958755493164
+start expand
+expanding needs: 0.01664257049560547
+iteration:  245
+tree a length:  1109
+tree b length:  1090
+start expand
+expanding needs: 0.015757083892822266
+start expand
+expanding needs: 0.016303539276123047
+iteration:  246
+tree a length:  1114
+tree b length:  1095
+start expand
+expanding needs: 0.024516820907592773
+start expand
+expanding needs: 0.013898372650146484
+iteration:  247
+tree a length:  1114
+tree b length:  1100
+start expand
+expanding needs: 0.06682348251342773
+start expand
+expanding needs: 0.023860692977905273
+iteration:  248
+tree a length:  1119
+tree b length:  1105
+start expand
+expanding needs: 0.024730920791625977
+start expand
+expanding needs: 0.01443028450012207
+iteration:  249
+tree a length:  1124
+tree b length:  1110
+start expand
+expanding needs: 0.02202749252319336
+start expand
+expanding needs: 0.013947725296020508
+iteration:  250
+tree a length:  1124
+tree b length:  1115
+start expand
+expanding needs: 0.01453399658203125
+start expand
+expanding needs: 0.02402019500732422
+iteration:  251
+tree a length:  1129
+tree b length:  1120
+start expand
+expanding needs: 0.01683330535888672
+start expand
+expanding needs: 0.01949143409729004
+iteration:  252
+tree a length:  1134
+tree b length:  1125
+start expand
+expanding needs: 0.015990734100341797
+start expand
+expanding needs: 0.01729106903076172
+iteration:  253
+tree a length:  1139
+tree b length:  1130
+start expand
+expanding needs: 0.02382349967956543
+start expand
+expanding needs: 0.01769256591796875
+iteration:  254
+tree a length:  1144
+tree b length:  1135
+start expand
+expanding needs: 0.024106740951538086
+start expand
+expanding needs: 0.017068147659301758
+iteration:  255
+tree a length:  1149
+tree b length:  1140
+start expand
+expanding needs: 0.023571491241455078
+start expand
+expanding needs: 0.013889074325561523
+iteration:  256
+tree a length:  1149
+tree b length:  1145
+start expand
+expanding needs: 0.0244143009185791
+start expand
+expanding needs: 0.014385461807250977
+iteration:  257
+tree a length:  1149
+tree b length:  1150
+start expand
+expanding needs: 0.024149656295776367
+start expand
+expanding needs: 0.02091073989868164
+iteration:  258
+tree a length:  1154
+tree b length:  1155
+start expand
+expanding needs: 0.02258753776550293
+start expand
+expanding needs: 0.025915145874023438
+iteration:  259
+tree a length:  1159
+tree b length:  1160
+start expand
+expanding needs: 0.021287202835083008
+start expand
+expanding needs: 0.01417684555053711
+iteration:  260
+tree a length:  1164
+tree b length:  1160
+start expand
+expanding needs: 0.02396988868713379
+start expand
+expanding needs: 0.014276981353759766
+iteration:  261
+tree a length:  1169
+tree b length:  1165
+start expand
+expanding needs: 0.026936054229736328
+start expand
+expanding needs: 0.02600550651550293
+iteration:  262
+tree a length:  1174
+tree b length:  1170
+start expand
+expanding needs: 0.024806499481201172
+start expand
+expanding needs: 0.020723342895507812
+iteration:  263
+tree a length:  1179
+tree b length:  1175
+start expand
+expanding needs: 0.022855281829833984
+start expand
+expanding needs: 0.023501157760620117
+iteration:  264
+tree a length:  1184
+tree b length:  1180
+start expand
+expanding needs: 0.020914077758789062
+start expand
+expanding needs: 0.023880481719970703
+iteration:  265
+tree a length:  1189
+tree b length:  1185
+start expand
+expanding needs: 0.026168346405029297
+start expand
+expanding needs: 0.018480539321899414
+iteration:  266
+tree a length:  1194
+tree b length:  1190
+start expand
+expanding needs: 0.03133559226989746
+start expand
+expanding needs: 0.022582292556762695
+iteration:  267
+tree a length:  1199
+tree b length:  1195
+start expand
+expanding needs: 0.019721031188964844
+start expand
+expanding needs: 0.014182567596435547
+iteration:  268
+tree a length:  1199
+tree b length:  1200
+start expand
+expanding needs: 0.017335891723632812
+start expand
+expanding needs: 0.021625995635986328
+iteration:  269
+tree a length:  1204
+tree b length:  1205
+start expand
+expanding needs: 0.021093130111694336
+start expand
+expanding needs: 0.024923086166381836
+iteration:  270
+tree a length:  1209
+tree b length:  1210
+start expand
+expanding needs: 0.020280122756958008
+start expand
+expanding needs: 0.021189451217651367
+iteration:  271
+tree a length:  1214
+tree b length:  1215
+start expand
+expanding needs: 0.018593549728393555
+start expand
+expanding needs: 0.022746562957763672
+iteration:  272
+tree a length:  1219
+tree b length:  1220
+start expand
+expanding needs: 0.017475128173828125
+start expand
+expanding needs: 0.015341520309448242
+iteration:  273
+tree a length:  1224
+tree b length:  1225
+start expand
+expanding needs: 0.016291379928588867
+start expand
+expanding needs: 0.023197412490844727
+iteration:  274
+tree a length:  1229
+tree b length:  1230
+start expand
+expanding needs: 0.018435955047607422
+start expand
+expanding needs: 0.026309490203857422
+iteration:  275
+tree a length:  1234
+tree b length:  1235
+start expand
+expanding needs: 0.01700425148010254
+start expand
+expanding needs: 0.023213624954223633
+iteration:  276
+tree a length:  1239
+tree b length:  1240
+start expand
+expanding needs: 0.015799283981323242
+start expand
+expanding needs: 0.02089691162109375
+iteration:  277
+tree a length:  1244
+tree b length:  1245
+start expand
+expanding needs: 0.01816868782043457
+start expand
+expanding needs: 0.025998353958129883
+iteration:  278
+tree a length:  1249
+tree b length:  1250
+start expand
+expanding needs: 0.018733978271484375
+start expand
+expanding needs: 0.022586822509765625
+iteration:  279
+tree a length:  1254
+tree b length:  1255
+start expand
+expanding needs: 0.021401166915893555
+start expand
+expanding needs: 0.01853322982788086
+iteration:  280
+tree a length:  1259
+tree b length:  1260
+start expand
+expanding needs: 0.02250838279724121
+start expand
+expanding needs: 0.015452861785888672
+iteration:  281
+tree a length:  1264
+tree b length:  1265
+start expand
+expanding needs: 0.018609046936035156
+start expand
+expanding needs: 0.02247929573059082
+iteration:  282
+tree a length:  1269
+tree b length:  1270
+start expand
+expanding needs: 0.013791561126708984
+iteration:  283
+tree a length:  1269
+tree b length:  1270
+start expand
+expanding needs: 0.019252538681030273
+start expand
+expanding needs: 0.025992155075073242
+iteration:  284
+tree a length:  1274
+tree b length:  1275
+start expand
+expanding needs: 0.016414403915405273
+start expand
+expanding needs: 0.023595571517944336
+iteration:  285
+tree a length:  1279
+tree b length:  1280
+start expand
+expanding needs: 0.019443511962890625
+start expand
+expanding needs: 0.022125244140625
+iteration:  286
+tree a length:  1284
+tree b length:  1285
+start expand
+expanding needs: 0.023078441619873047
+start expand
+expanding needs: 0.02222132682800293
+iteration:  287
+tree a length:  1289
+tree b length:  1290
+start expand
+expanding needs: 0.015622854232788086
+start expand
+expanding needs: 0.02497124671936035
+iteration:  288
+tree a length:  1294
+tree b length:  1295
+start expand
+expanding needs: 0.01571512222290039
+start expand
+expanding needs: 0.016901493072509766
+iteration:  289
+tree a length:  1299
+tree b length:  1300
+start expand
+expanding needs: 0.023219823837280273
+start expand
+expanding needs: 0.021475791931152344
+iteration:  290
+tree a length:  1304
+tree b length:  1305
+start expand
+expanding needs: 0.013956546783447266
+iteration:  291
+tree a length:  1304
+tree b length:  1305
+start expand
+expanding needs: 0.023852109909057617
+start expand
+expanding needs: 0.02315545082092285
+iteration:  292
+tree a length:  1309
+tree b length:  1310
+start expand
+expanding needs: 0.01635122299194336
+start expand
+expanding needs: 0.013777732849121094
+iteration:  293
+tree a length:  1314
+tree b length:  1310
+start expand
+expanding needs: 0.013945817947387695
+iteration:  294
+tree a length:  1314
+tree b length:  1310
+start expand
+expanding needs: 0.021340608596801758
+start expand
+expanding needs: 0.018030166625976562
+iteration:  295
+tree a length:  1319
+tree b length:  1315
+start expand
+expanding needs: 0.017971277236938477
+start expand
+expanding needs: 0.01604628562927246
+iteration:  296
+tree a length:  1324
+tree b length:  1320
+start expand
+expanding needs: 0.022043466567993164
+start expand
+expanding needs: 0.01537942886352539
+iteration:  297
+tree a length:  1329
+tree b length:  1325
+start expand
+expanding needs: 0.024193525314331055
+start expand
+expanding needs: 0.01938009262084961
+iteration:  298
+tree a length:  1334
+tree b length:  1330
+start expand
+expanding needs: 0.01664113998413086
+start expand
+expanding needs: 0.023410797119140625
+iteration:  299
+tree a length:  1339
+tree b length:  1335
+start expand
+expanding needs: 0.024220943450927734
+start expand
+expanding needs: 0.015903711318969727
+iteration:  300
+tree a length:  1344
+tree b length:  1340
+start expand
+expanding needs: 0.021526098251342773
+start expand
+expanding needs: 0.014178276062011719
+iteration:  301
+tree a length:  1344
+tree b length:  1345
+start expand
+expanding needs: 0.017224550247192383
+start expand
+expanding needs: 0.021369218826293945
+iteration:  302
+tree a length:  1349
+tree b length:  1350
+start expand
+expanding needs: 0.020380020141601562
+start expand
+expanding needs: 0.02359151840209961
+iteration:  303
+tree a length:  1354
+tree b length:  1355
+start expand
+expanding needs: 0.021553754806518555
+start expand
+expanding needs: 0.019434690475463867
+iteration:  304
+tree a length:  1359
+tree b length:  1360
+start expand
+expanding needs: 0.01711559295654297
+start expand
+expanding needs: 0.01577448844909668
+iteration:  305
+tree a length:  1364
+tree b length:  1365
+start expand
+expanding needs: 0.023374080657958984
+start expand
+expanding needs: 0.021097421646118164
+iteration:  306
+tree a length:  1369
+tree b length:  1370
+start expand
+expanding needs: 0.020488977432250977
+start expand
+expanding needs: 0.014520406723022461
+iteration:  307
+tree a length:  1374
+tree b length:  1375
+start expand
+expanding needs: 0.019452333450317383
+start expand
+expanding needs: 0.01725482940673828
+iteration:  308
+tree a length:  1379
+tree b length:  1380
+start expand
+expanding needs: 0.021456003189086914
+start expand
+expanding needs: 0.018383264541625977
+iteration:  309
+tree a length:  1384
+tree b length:  1385
+start expand
+expanding needs: 0.01440572738647461
+start expand
+expanding needs: 0.021815061569213867
+iteration:  310
+tree a length:  1389
+tree b length:  1390
+start expand
+expanding needs: 0.022705554962158203
+start expand
+expanding needs: 0.014466047286987305
+iteration:  311
+tree a length:  1394
+tree b length:  1395
+start expand
+expanding needs: 0.02382493019104004
+start expand
+expanding needs: 0.023385286331176758
+iteration:  312
+tree a length:  1399
+tree b length:  1400
+start expand
+expanding needs: 0.013670921325683594
+iteration:  313
+tree a length:  1399
+tree b length:  1400
+start expand
+expanding needs: 0.017580032348632812
+start expand
+expanding needs: 0.017887115478515625
+iteration:  314
+tree a length:  1404
+tree b length:  1405
+start expand
+expanding needs: 0.014335393905639648
+iteration:  315
+tree a length:  1404
+tree b length:  1405
+start expand
+expanding needs: 0.01445150375366211
+start expand
+expanding needs: 0.020267724990844727
+iteration:  316
+tree a length:  1409
+tree b length:  1410
+start expand
+expanding needs: 0.01544332504272461
+start expand
+expanding needs: 0.021672964096069336
+iteration:  317
+tree a length:  1414
+tree b length:  1415
+start expand
+expanding needs: 0.023417234420776367
+start expand
+expanding needs: 0.02086472511291504
+iteration:  318
+tree a length:  1419
+tree b length:  1420
+start expand
+expanding needs: 0.017481088638305664
+start expand
+expanding needs: 0.024437904357910156
+iteration:  319
+tree a length:  1424
+tree b length:  1425
+start expand
+expanding needs: 0.021777868270874023
+start expand
+expanding needs: 0.025970458984375
+iteration:  320
+tree a length:  1429
+tree b length:  1430
+start expand
+expanding needs: 0.023261547088623047
+start expand
+expanding needs: 0.02417922019958496
+iteration:  321
+tree a length:  1434
+tree b length:  1435
+start expand
+expanding needs: 0.01634049415588379
+start expand
+expanding needs: 0.024672985076904297
+iteration:  322
+tree a length:  1439
+tree b length:  1440
+start expand
+expanding needs: 0.020957469940185547
+start expand
+expanding needs: 0.020605087280273438
+iteration:  323
+tree a length:  1444
+tree b length:  1445
+start expand
+expanding needs: 0.01858210563659668
+start expand
+expanding needs: 0.022217750549316406
+iteration:  324
+tree a length:  1449
+tree b length:  1450
+start expand
+expanding needs: 0.021589040756225586
+start expand
+expanding needs: 0.019588470458984375
+iteration:  325
+tree a length:  1454
+tree b length:  1455
+start expand
+expanding needs: 0.020964384078979492
+start expand
+expanding needs: 0.013817787170410156
+iteration:  326
+tree a length:  1459
+tree b length:  1455
+start expand
+expanding needs: 0.018718719482421875
+start expand
+expanding needs: 0.0255584716796875
+iteration:  327
+tree a length:  1464
+tree b length:  1460
+start expand
+expanding needs: 0.019660472869873047
+start expand
+expanding needs: 0.02038407325744629
+iteration:  328
+tree a length:  1469
+tree b length:  1465
+start expand
+expanding needs: 0.020501375198364258
+start expand
+expanding needs: 0.02367258071899414
+iteration:  329
+tree a length:  1474
+tree b length:  1470
+start expand
+expanding needs: 0.021030902862548828
+start expand
+expanding needs: 0.01860189437866211
+iteration:  330
+tree a length:  1479
+tree b length:  1475
+start expand
+expanding needs: 0.023505210876464844
+start expand
+expanding needs: 0.023669004440307617
+iteration:  331
+tree a length:  1484
+tree b length:  1480
+start expand
+expanding needs: 0.026414871215820312
+start expand
+expanding needs: 0.016196727752685547
+iteration:  332
+tree a length:  1489
+tree b length:  1485
+start expand
+expanding needs: 0.024669647216796875
+start expand
+expanding needs: 0.021111249923706055
+iteration:  333
+tree a length:  1494
+tree b length:  1490
+start expand
+expanding needs: 0.02288031578063965
+start expand
+expanding needs: 0.017334938049316406
+iteration:  334
+tree a length:  1499
+tree b length:  1495
+start expand
+expanding needs: 0.017940759658813477
+start expand
+expanding needs: 0.019512653350830078
+iteration:  335
+tree a length:  1504
+tree b length:  1500
+start expand
+expanding needs: 0.021979570388793945
+start expand
+expanding needs: 0.014101505279541016
+iteration:  336
+tree a length:  1504
+tree b length:  1505
+start expand
+expanding needs: 0.021216869354248047
+start expand
+expanding needs: 0.022751569747924805
+iteration:  337
+tree a length:  1509
+tree b length:  1510
+start expand
+expanding needs: 0.014028787612915039
+iteration:  338
+tree a length:  1509
+tree b length:  1510
+start expand
+expanding needs: 0.022968292236328125
+start expand
+expanding needs: 0.027399301528930664
+iteration:  339
+tree a length:  1514
+tree b length:  1515
+start expand
+expanding needs: 0.013821601867675781
+start expand
+expanding needs: 0.02224135398864746
+iteration:  340
+tree a length:  1519
+tree b length:  1520
+start expand
+expanding needs: 0.02115321159362793
+start expand
+expanding needs: 0.023148298263549805
+iteration:  341
+tree a length:  1524
+tree b length:  1525
+start expand
+expanding needs: 0.016503334045410156
+start expand
+expanding needs: 0.017504215240478516
+iteration:  342
+tree a length:  1529
+tree b length:  1530
+start expand
+expanding needs: 0.019931316375732422
+start expand
+expanding needs: 0.024084091186523438
+iteration:  343
+tree a length:  1534
+tree b length:  1535
+start expand
+expanding needs: 0.01423335075378418
+start expand
+expanding needs: 0.013951778411865234
+iteration:  344
+tree a length:  1539
+tree b length:  1535
+start expand
+expanding needs: 0.01938652992248535
+start expand
+expanding needs: 0.023593664169311523
+iteration:  345
+tree a length:  1544
+tree b length:  1540
+start expand
+expanding needs: 0.022877216339111328
+start expand
+expanding needs: 0.013935565948486328
+iteration:  346
+tree a length:  1544
+tree b length:  1545
+start expand
+expanding needs: 0.01646566390991211
+start expand
+expanding needs: 0.023417949676513672
+iteration:  347
+tree a length:  1549
+tree b length:  1550
+start expand
+expanding needs: 0.024166584014892578
+start expand
+expanding needs: 0.023769140243530273
+iteration:  348
+tree a length:  1554
+tree b length:  1555
+start expand
+expanding needs: 0.019852876663208008
+start expand
+expanding needs: 0.02446603775024414
+iteration:  349
+tree a length:  1559
+tree b length:  1560
+start expand
+expanding needs: 0.02288508415222168
+start expand
+expanding needs: 0.023491621017456055
+iteration:  350
+tree a length:  1564
+tree b length:  1565
+start expand
+expanding needs: 0.017533540725708008
+start expand
+expanding needs: 0.019439220428466797
+iteration:  351
+tree a length:  1569
+tree b length:  1570
+start expand
+expanding needs: 0.018656253814697266
+start expand
+expanding needs: 0.024457216262817383
+iteration:  352
+tree a length:  1574
+tree b length:  1575
+start expand
+expanding needs: 0.015240669250488281
+start expand
+expanding needs: 0.0226900577545166
+iteration:  353
+tree a length:  1579
+tree b length:  1580
+start expand
+expanding needs: 0.01394510269165039
+iteration:  354
+tree a length:  1579
+tree b length:  1580
+start expand
+expanding needs: 0.019993066787719727
+start expand
+expanding needs: 0.01484823226928711
+iteration:  355
+tree a length:  1584
+tree b length:  1585
+start expand
+expanding needs: 0.014438629150390625
+start expand
+expanding needs: 0.02546834945678711
+iteration:  356
+tree a length:  1589
+tree b length:  1590
+start expand
+expanding needs: 0.02534937858581543
+start expand
+expanding needs: 0.024666309356689453
+iteration:  357
+tree a length:  1594
+tree b length:  1595
+start expand
+expanding needs: 0.015156030654907227
+start expand
+expanding needs: 0.021989822387695312
+iteration:  358
+tree a length:  1599
+tree b length:  1600
+start expand
+expanding needs: 0.020345687866210938
+start expand
+expanding needs: 0.024084806442260742
+iteration:  359
+tree a length:  1604
+tree b length:  1605
+start expand
+expanding needs: 0.014244794845581055
+start expand
+expanding needs: 0.01430654525756836
+iteration:  360
+tree a length:  1609
+tree b length:  1610
+start expand
+expanding needs: 0.024526119232177734
+start expand
+expanding needs: 0.020310640335083008
+iteration:  361
+tree a length:  1614
+tree b length:  1615
+start expand
+expanding needs: 0.022464275360107422
+start expand
+expanding needs: 0.023211240768432617
+iteration:  362
+tree a length:  1619
+tree b length:  1620
+start expand
+expanding needs: 0.013839483261108398
+iteration:  363
+tree a length:  1619
+tree b length:  1620
+start expand
+expanding needs: 0.018990039825439453
+start expand
+expanding needs: 0.025801897048950195
+iteration:  364
+tree a length:  1624
+tree b length:  1625
+start expand
+expanding needs: 0.02427530288696289
+start expand
+expanding needs: 0.017070293426513672
+iteration:  365
+tree a length:  1629
+tree b length:  1630
+start expand
+expanding needs: 0.014554977416992188
+iteration:  366
+tree a length:  1629
+tree b length:  1630
+start expand
+expanding needs: 0.02404475212097168
+start expand
+expanding needs: 0.017239809036254883
+iteration:  367
+tree a length:  1634
+tree b length:  1635
+start expand
+expanding needs: 0.021544456481933594
+start expand
+expanding needs: 0.0256197452545166
+iteration:  368
+tree a length:  1639
+tree b length:  1640
+start expand
+expanding needs: 0.023374319076538086
+start expand
+expanding needs: 0.024155616760253906
+iteration:  369
+tree a length:  1644
+tree b length:  1645
+start expand
+expanding needs: 0.013927698135375977
+iteration:  370
+tree a length:  1644
+tree b length:  1645
+start expand
+expanding needs: 0.014246225357055664
+start expand
+expanding needs: 0.021617412567138672
+iteration:  371
+tree a length:  1649
+tree b length:  1650
+start expand
+expanding needs: 0.01932072639465332
+start expand
+expanding needs: 0.021396398544311523
+iteration:  372
+tree a length:  1654
+tree b length:  1655
+start expand
+expanding needs: 0.020539045333862305
+start expand
+expanding needs: 0.015285968780517578
+iteration:  373
+tree a length:  1659
+tree b length:  1660
+start expand
+expanding needs: 0.014439582824707031
+iteration:  374
+tree a length:  1659
+tree b length:  1660
+start expand
+expanding needs: 0.026470661163330078
+start expand
+expanding needs: 0.023244857788085938
+iteration:  375
+tree a length:  1664
+tree b length:  1665
+start expand
+expanding needs: 0.01876974105834961
+start expand
+expanding needs: 0.02149653434753418
+iteration:  376
+tree a length:  1669
+tree b length:  1670
+start expand
+expanding needs: 0.01635122299194336
+start expand
+expanding needs: 0.023349523544311523
+iteration:  377
+tree a length:  1674
+tree b length:  1675
+start expand
+expanding needs: 0.02346348762512207
+start expand
+expanding needs: 0.017102479934692383
+iteration:  378
+tree a length:  1679
+tree b length:  1680
+start expand
+expanding needs: 0.01630258560180664
+start expand
+expanding needs: 0.023937463760375977
+iteration:  379
+tree a length:  1684
+tree b length:  1685
+start expand
+expanding needs: 0.020082473754882812
+start expand
+expanding needs: 0.024975299835205078
+iteration:  380
+tree a length:  1689
+tree b length:  1690
+start expand
+expanding needs: 0.023223400115966797
+start expand
+expanding needs: 0.01559758186340332
+iteration:  381
+tree a length:  1694
+tree b length:  1695
+start expand
+expanding needs: 0.014408349990844727
+start expand
+expanding needs: 0.02203512191772461
+iteration:  382
+tree a length:  1699
+tree b length:  1700
+start expand
+expanding needs: 0.021984338760375977
+start expand
+expanding needs: 0.013999700546264648
+iteration:  383
+tree a length:  1704
+tree b length:  1700
+start expand
+expanding needs: 0.014604806900024414
+start expand
+expanding needs: 0.015186071395874023
+iteration:  384
+tree a length:  1704
+tree b length:  1705
+start expand
+expanding needs: 0.02000260353088379
+start expand
+expanding needs: 0.02179694175720215
+iteration:  385
+tree a length:  1709
+tree b length:  1710
+start expand
+expanding needs: 0.016308069229125977
+start expand
+expanding needs: 0.014564990997314453
+iteration:  386
+tree a length:  1714
+tree b length:  1715
+start expand
+expanding needs: 0.016529560089111328
+start expand
+expanding needs: 0.025983810424804688
+iteration:  387
+tree a length:  1719
+tree b length:  1720
+start expand
+expanding needs: 0.020719051361083984
+start expand
+expanding needs: 0.013979911804199219
+iteration:  388
+tree a length:  1724
+tree b length:  1720
+start expand
+expanding needs: 0.01754617691040039
+start expand
+expanding needs: 0.018384218215942383
+iteration:  389
+tree a length:  1729
+tree b length:  1725
+start expand
+expanding needs: 0.0197603702545166
+start expand
+expanding needs: 0.020263195037841797
+iteration:  390
+tree a length:  1734
+tree b length:  1730
+start expand
+expanding needs: 0.016258955001831055
+start expand
+expanding needs: 0.0173492431640625
+iteration:  391
+tree a length:  1739
+tree b length:  1735
+start expand
+expanding needs: 0.02452683448791504
+start expand
+expanding needs: 0.023122787475585938
+iteration:  392
+tree a length:  1744
+tree b length:  1740
+start expand
+expanding needs: 0.020778894424438477
+start expand
+expanding needs: 0.016341686248779297
+iteration:  393
+tree a length:  1749
+tree b length:  1745
+start expand
+expanding needs: 0.024200916290283203
+start expand
+expanding needs: 0.017050504684448242
+iteration:  394
+tree a length:  1754
+tree b length:  1750
+start expand
+expanding needs: 0.002223968505859375
+start expand
+expanding needs: 0.01397562026977539
+iteration:  395
+tree a length:  1754
+tree b length:  1751
+start expand
+expanding needs: 0.015087366104125977
+start expand
+expanding needs: 0.01795673370361328
+iteration:  396
+tree a length:  1759
+tree b length:  1756
+start expand
+expanding needs: 0.02139568328857422
+start expand
+expanding needs: 0.016987323760986328
+iteration:  397
+tree a length:  1764
+tree b length:  1761
+start expand
+expanding needs: 0.016814470291137695
+start expand
+expanding needs: 0.021898746490478516
+iteration:  398
+tree a length:  1769
+tree b length:  1766
+start expand
+expanding needs: 0.021588563919067383
+start expand
+expanding needs: 0.01562190055847168
+iteration:  399
+tree a length:  1774
+tree b length:  1771
+SOLVER: RL_RRT
+success:  False
+1time spent:  17.749624490737915
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 98
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.025109291076660156
+start expand
+expanding needs: 0.00788736343383789
+SOLVER: RL_RRT
+success:  True
+length:  3.538380678675308
+time spent:  1.1340553760528564
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 99
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.024449586868286133
+start expand
+expanding needs: 0.021080732345581055
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.02093052864074707
+start expand
+expanding needs: 0.008293628692626953
+SOLVER: RL_RRT
+success:  True
+length:  1.4735274386233497
+time spent:  1.2064306735992432
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+horizon:  5
+cpu:  True
+start expand
+expanding needs: 0.02455282211303711
+start expand
+expanding needs: 0.015737533569335938
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.019701242446899414
+start expand
+expanding needs: 0.014178752899169922
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.014853477478027344
+start expand
+expanding needs: 0.019872665405273438
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.020378589630126953
+start expand
+expanding needs: 0.012946128845214844
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.0202634334564209
+start expand
+expanding needs: 0.007100105285644531
+SOLVER: RL_RRT
+success:  True
+length:  2.115286338122248
+time spent:  1.2908401489257812
+-------- stop running --------
