@@ -26,9 +26,12 @@ def nearest_neighbor(x, nodes, distance_fn):
     return nodes[idx]
 
 
-def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations):
+def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations, 
+              switch_tree_policy='compare_size'):
     # print("RRT start:", start)
     # print("RRT goal:", goal)
+    print("switch_tree_policy:", switch_tree_policy)
+    input()
 
     nodes_ab = [[], []]
     for i, x in enumerate((start, goal)):
@@ -96,14 +99,17 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         print("tree a length: ", len(nodes_ab[0]))
         print("tree b length: ", len(nodes_ab[1]))
 
-        # change extend tree
-        if len(nodes_ab[0]) == len(nodes_ab[1]):
-            growing_index = np.random.binomial(1, 0.5)
-        elif len(nodes_ab[growing_index]) > len(nodes_ab[1-growing_index]):
+        if switch_tree_policy == 'compare_size':
+            # change extend tree
+            if len(nodes_ab[0]) == len(nodes_ab[1]):
+                growing_index = np.random.binomial(1, 0.5)
+            elif len(nodes_ab[growing_index]) > len(nodes_ab[1-growing_index]):
+                growing_index = 1 - growing_index
+        elif switch_tree_policy == 'per_iteration':
+            # switch trees in each iteration
             growing_index = 1 - growing_index
-
-        # switch trees in each iteration
-        # growing_index = 1 - growing_index
+        else:
+            raise ValueError(f"Unknow type of switch tree policy: {switch_tree_policy}")
 
     return (
         False,
