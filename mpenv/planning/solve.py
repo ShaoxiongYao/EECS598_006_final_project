@@ -138,6 +138,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 print("expanding needs:", end_t-start_t)
                 return q_stop_list, end
             else:
+                # TODO: this state is in collision with obstacles
                 q_stop_list.append(q_stop)
 
                 # visualization
