@@ -1,0 +1,492 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 0
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.03484320640563965
+start expand
+expanding needs: 0.014554023742675781
+SOLVER: RL_RRT
+success:  True
+length:  1.100043776416801
+time spent:  1.5821747779846191
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.03143191337585449
+start expand
+expanding needs: 0.0275115966796875
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.04143571853637695
+start expand
+expanding needs: 0.036841630935668945
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.030931949615478516
+start expand
+expanding needs: 0.033941030502319336
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.03157806396484375
+start expand
+expanding needs: 0.030547142028808594
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.03884482383728027
+start expand
+expanding needs: 0.02805328369140625
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.0331423282623291
+start expand
+expanding needs: 0.030913352966308594
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.025975704193115234
+start expand
+expanding needs: 0.002694845199584961
+SOLVER: RL_RRT
+success:  True
+length:  2.18948591131541
+time spent:  1.8320438861846924
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 2
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.030183792114257812
+start expand
+expanding needs: 0.03481745719909668
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.0376279354095459
+start expand
+expanding needs: 0.027412891387939453
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.026790380477905273
+start expand
+expanding needs: 0.03079986572265625
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.029585838317871094
+start expand
+expanding needs: 0.022722244262695312
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.026232004165649414
+start expand
+expanding needs: 0.0262603759765625
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.0372462272644043
+start expand
+expanding needs: 0.027337074279785156
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.03585052490234375
+start expand
+expanding needs: 0.028470516204833984
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.03136801719665527
+start expand
+expanding needs: 0.03362321853637695
+iteration:  7
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.026841402053833008
+start expand
+expanding needs: 0.0279386043548584
+iteration:  8
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.024434566497802734
+start expand
+expanding needs: 0.035997867584228516
+iteration:  9
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.02731943130493164
+start expand
+expanding needs: 0.02242565155029297
+iteration:  10
+tree a length:  56
+tree b length:  55
+start expand
+expanding needs: 0.025015592575073242
+start expand
+expanding needs: 0.02969670295715332
+iteration:  11
+tree a length:  61
+tree b length:  60
+start expand
+expanding needs: 0.029291391372680664
+start expand
+expanding needs: 0.0064144134521484375
+SOLVER: RL_RRT
+success:  True
+length:  4.16199616969563
+time spent:  2.1695926189422607
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 3
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.03920412063598633
+start expand
+expanding needs: 0.014202594757080078
+SOLVER: RL_RRT
+success:  True
+length:  2.697324153635527
+time spent:  1.303086519241333
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.03769493103027344
+start expand
+expanding needs: 0.017240524291992188
+SOLVER: RL_RRT
+success:  True
+length:  3.719950790716541
+time spent:  1.3273615837097168
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 5
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.029795408248901367
+start expand
+expanding needs: 0.031893014907836914
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.019642114639282227
+start expand
+expanding needs: 0.014945268630981445
+SOLVER: RL_RRT
+success:  True
+length:  5.276820083235869
+time spent:  1.3868279457092285
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 6
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.031099557876586914
+start expand
+expanding needs: 0.025652170181274414
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.03407692909240723
+start expand
+expanding needs: 0.030448198318481445
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.0310211181640625
+start expand
+expanding needs: 0.027382373809814453
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.018103837966918945
+start expand
+expanding needs: 0.016901731491088867
+SOLVER: RL_RRT
+success:  True
+length:  5.168765722917354
+time spent:  1.5089943408966064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 7
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.029453754425048828
+start expand
+expanding needs: 0.028267860412597656
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.03702807426452637
+start expand
+expanding needs: 0.016516923904418945
+SOLVER: RL_RRT
+success:  True
+length:  3.5763345455084705
+time spent:  1.3435533046722412
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 8
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.006603240966796875
+start expand
+expanding needs: 0.02998661994934082
+iteration:  0
+tree a length:  2
+tree b length:  6
+start expand
+expanding needs: 0.03756356239318848
+start expand
+expanding needs: 0.002472400665283203
+SOLVER: RL_RRT
+success:  True
+length:  0.9498904936887553
+time spent:  1.3221170902252197
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.026236295700073242
+start expand
+expanding needs: 0.0327908992767334
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.037947654724121094
+start expand
+expanding needs: 0.022478342056274414
+iteration:  1
+tree a length:  11
+tree b length:  11
+start expand
+expanding needs: 0.02921581268310547
+start expand
+expanding needs: 0.035375356674194336
+iteration:  2
+tree a length:  16
+tree b length:  16
+start expand
+expanding needs: 0.03316450119018555
+start expand
+expanding needs: 0.03233671188354492
+iteration:  3
+tree a length:  21
+tree b length:  21
+start expand
+expanding needs: 0.030009984970092773
+start expand
+expanding needs: 0.026918411254882812
+iteration:  4
+tree a length:  26
+tree b length:  26
+start expand
+expanding needs: 0.037767887115478516
+start expand
+expanding needs: 0.02043747901916504
+iteration:  5
+tree a length:  31
+tree b length:  31
+start expand
+expanding needs: 0.0259401798248291
+start expand
+expanding needs: 0.03169417381286621
+iteration:  6
+tree a length:  36
+tree b length:  36
+start expand
+expanding needs: 0.03325223922729492
+start expand
+expanding needs: 0.029486894607543945
+iteration:  7
+tree a length:  41
+tree b length:  41
+start expand
+expanding needs: 0.035868167877197266
+start expand
+expanding needs: 0.029216289520263672
+iteration:  8
+tree a length:  46
+tree b length:  46
+start expand
+expanding needs: 0.029001712799072266
+start expand
+expanding needs: 0.030290603637695312
+iteration:  9
+tree a length:  51
+tree b length:  51
+start expand
+expanding needs: 0.03647470474243164
+start expand
+expanding needs: 0.02533698081970215
+iteration:  10
+tree a length:  56
+tree b length:  56
+start expand
+expanding needs: 0.028201580047607422
+start expand
+expanding needs: 0.026845932006835938
+iteration:  11
+tree a length:  61
+tree b length:  61
+start expand
+expanding needs: 0.024317264556884766
+start expand
+expanding needs: 0.039983272552490234
+iteration:  12
+tree a length:  66
+tree b length:  66
+start expand
+expanding needs: 0.03709220886230469
+start expand
+expanding needs: 0.027517318725585938
+iteration:  13
+tree a length:  71
+tree b length:  71
+start expand
+expanding needs: 0.026128292083740234
+start expand
+expanding needs: 0.027289867401123047
+iteration:  14
+tree a length:  76
+tree b length:  76
+start expand
+expanding needs: 0.023050785064697266
+start expand
+expanding needs: 0.027054548263549805
+iteration:  15
+tree a length:  81
+tree b length:  81
+start expand
+expanding needs: 0.028833866119384766
+start expand
+expanding needs: 0.032953739166259766
+iteration:  16
+tree a length:  86
+tree b length:  86
+start expand
+expanding needs: 0.0292208194732666
+start expand
+expanding needs: 0.027825355529785156
+iteration:  17
+tree a length:  91
+tree b length:  91
+start expand
+expanding needs: 0.03907132148742676
+start expand
+expanding needs: 0.006167173385620117
+SOLVER: RL_RRT
+success:  True
+length:  2.5218652124097436
+time spent:  2.5223679542541504
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 10
+horizon: 5
+cpu: True
+render: False
+start expand
+expanding needs: 0.03542733192443848
+start expand
+expanding needs: 0.016789674758911133
+SOLVER: RL_RRT
+success:  True
+length:  2.952905031586482
+time spent:  1.3202760219573975
+-------- stop running --------
