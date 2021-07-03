@@ -57,7 +57,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         return model_wrapper.arange(q0, q1, resolution)
 
     def expand_fn(q0, q1, limit_growth=False, render=render, nmp_input=nmp_input, 
-                  rl_start = 'q0'):
+                  rl_start = 'q_stop'):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
