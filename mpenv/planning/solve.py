@@ -105,7 +105,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
 
             end_t = time.time()
             print("expanding needs:", end_t-start_t)
-            return q_stop_list, not collide.any()
+            return q_stop_list, not collide.any(), "straight_line"
         else:
             path = arange_fn(q0, q1, delta_collision_check)
             # collide means whether individual mesh on robot collides
@@ -136,7 +136,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                     q_stop_list.append(config)
                 end_t = time.time()
                 print("expanding needs:", end_t-start_t)
-                return q_stop_list, end
+                return q_stop_list, end, "rl_controller"
             else:
                 # TODO: this state is in collision with obstacles
                 q_stop_list.append(q_stop)
@@ -157,7 +157,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
 
                 end_t = time.time()
                 print("expanding needs:", end_t-start_t)
-                return q_stop_list, not collide.any()
+                return q_stop_list, not collide.any(), "straight_line"
 
     def expand_fn_short(q0, q1, limit_growth=False):
         if limit_growth:
@@ -196,6 +196,12 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         switch_tree_policy=switch_tree_policy # argument to decide when to switch tree
     )
     iterations_simplify = 0
+
+    input("About to visualize the path")
+    for idx, x in enumerate(path["points"]):
+        env.viz.display(x)
+        input(f"idx: {idx}")
+
     if success:
         if simplify:
             path["points"], iterations_simplify = utils.shorten(
