@@ -56,7 +56,8 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         # print("resolution:", resolution)
         return model_wrapper.arange(q0, q1, resolution)
 
-    def expand_fn(q0, q1, limit_growth=False, render=render, nmp_input=nmp_input):
+    def expand_fn(q0, q1, limit_growth=False, render=render, nmp_input=nmp_input, 
+                  rl_start = 'q0'):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
@@ -91,7 +92,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
             # print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
             # q_stop: ConfigurationWrapper
-            q_stop, collide = env.stopping_configuration(path)
+            q_stop, collide, stop_idx = env.stopping_configuration(path)
             q_stop_list = []
             q_stop_list.append(q_stop)
 
@@ -104,19 +105,49 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
 
             end_t = time.time()
-            print("expanding needs:", end_t-start_t)
+            print("expanding needs time:", end_t-start_t)
             return q_stop_list, not collide.any(), "straight_line"
         else:
             path = arange_fn(q0, q1, delta_collision_check)
+            assert(not policy_env.env.env.model_wrapper.collision(path[0]))
             # collide means whether individual mesh on robot collides
-            q_stop, collide = env.stopping_configuration(path)
+            q_stop, collide, stop_idx = env.stopping_configuration(path)
+            
+            # debug straight line
+            for idx in range(stop_idx+1):
+                assert(not policy_env.env.env.model_wrapper.collision(path[idx]))
+                # env.viz.display(path[idx])
+                # time.sleep(0.1)
+            assert(not policy_env.env.env.model_wrapper.collision(q_stop))
+            
             q_stop_list = []
             if collide.any():
 
                 # q0 = np.array([-0.3957, 0.21246, -0.39556, 0.55368, -0.40724, 0.52797, 0.49884])
                 # q1 = np.array([-0.24471, 0.10095, -0.29217, -0.50942, -0.26528, -0.81633, 0.06103])
 
-                start, goal = q0, q1
+                if rl_start == 'q_stop':
+                    q_stop_list.append(q_stop)
+
+                    # visualization
+                    if render:
+                        env.render()
+                        previous_oMg = q0.q_oM[2]
+                        current_oMg = q_stop.q_oM[2]
+                        previous_ee = env.robot.get_ee(previous_oMg).translation
+                        current_ee = env.robot.get_ee(current_oMg).translation
+                        # path is the node name, which can be modified
+                        # normal RRT extend rendered in yellow
+
+                        color_RRT = (0, 1, 1, 1)
+                        env.viz.create_roadmap("path_RRT", color=color_RRT)
+                        env.viz.add_edge_to_roadmap("path_RRT", previous_ee, current_ee)
+
+                    start, goal = q_stop, q1
+                elif rl_start == 'q0':
+                    start, goal = q0, q1
+
+                # set start and goal in the environment
                 if not isinstance(start, ConfigurationWrapper):
                     start = ConfigurationWrapper(policy_env.env.env.model_wrapper, start)
                 policy_env.env.env.state = start
@@ -135,10 +166,9 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                     config = ConfigurationWrapper(model_wrapper, q)
                     q_stop_list.append(config)
                 end_t = time.time()
-                print("expanding needs:", end_t-start_t)
+                print("expanding needs time:", end_t-start_t)
                 return q_stop_list, end, "rl_controller"
             else:
-                # TODO: this state is in collision with obstacles
                 q_stop_list.append(q_stop)
 
                 # visualization
@@ -165,7 +195,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
             t1 = min(dist, delta_growth) / (dist + EPSILON)
             q1 = interpolate_fn(q0, q1, t1)
         path = arange_fn(q0, q1, delta_collision_check)
-        q_stop, collide = env.stopping_configuration(path)
+        q_stop, collide, stop_idx = env.stopping_configuration(path)
         return q_stop, not collide.any()
 
     def close_fn(qw0, qw1):
@@ -197,10 +227,10 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
     )
     iterations_simplify = 0
 
-    input("About to visualize the path")
-    for idx, x in enumerate(path["points"]):
-        env.viz.display(x)
-        input(f"idx: {idx}")
+    if render:
+        print("About to visualize the original path\n")
+        for idx, x in enumerate(path["points"]):
+            env.viz.display(x)
 
     if success:
         if simplify:

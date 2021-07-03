@@ -28,7 +28,7 @@ def nearest_neighbor(x, nodes, distance_fn):
 
 
 def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations, 
-              switch_tree_policy='compare_size', expand_mode='active_only'):
+              switch_tree_policy='compare_size', expand_mode='all'):
     # print("RRT start:", start)
     # print("RRT goal:", goal)
     # print("switch_tree_policy:", switch_tree_policy)
@@ -87,9 +87,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             solution["n_samples"] += 1
             x_b = node_b.point
             # path_b = interpolate_fn(x_b, x_b_new)
-            input("connect tree b towards tree a")
             x_b_new_list, col_free_b, expand_type_b = expand_fn(x_b, x_a_new)
-            input()
+
             # if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
             if not close_fn(x_b, x_b_new_list[-1]):
                 for i_b, x_b_new in enumerate(x_b_new_list):
