@@ -90,7 +90,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
     elif solver_type == "RL_RRT":
         success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, 
                                                                  nmp_input=[env, policy, horizon], 
-                                                                 max_iterations=5000) #int(2000/horizon))
+                                                                 max_iterations=10000) #int(2000/horizon))
         print("SOLVER: RL_RRT")
         print("success: ", success)
         if 'points' in path.keys():
