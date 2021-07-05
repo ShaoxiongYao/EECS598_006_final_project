@@ -97,12 +97,14 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
             q_stop_list.append(q_stop)
 
             if render:
-                previous_oMg = q0.q_oM[2]
-                current_oMg = q_stop.q_oM[2]
-                previous_ee = env.robot.get_ee(previous_oMg).translation
-                current_ee = env.robot.get_ee(current_oMg).translation
-                # path is the node name, which can be modified
-                env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+                # previous_oMg = q0.q_oM[2]
+                # current_oMg = q_stop.q_oM[2]
+                # previous_ee = env.robot.get_ee(previous_oMg).translation
+                # current_ee = env.robot.get_ee(current_oMg).translation
+                # # path is the node name, which can be modified
+                # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+
+                pass
 
             end_t = time.time()
             print("expanding needs time:", end_t-start_t)
@@ -227,11 +229,6 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
     )
     iterations_simplify = 0
 
-    if render:
-        print("About to visualize the original path\n")
-        for idx, x in enumerate(path["points"]):
-            env.viz.display(x)
-
     if success:
         if simplify:
             path["points"], iterations_simplify = utils.shorten(
@@ -241,6 +238,11 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 # path["points"], arange_fn, action_range
                 path["points"], arange_fn, delta_growth
             )
+            if render:
+                print("About to visualize the smoothed path\n")
+                for idx, x in enumerate(path["points"]):
+                    env.viz.display(x)
+                    time.sleep(0.1)
         else:
             path["points"] = np.array(path["points"])
         path["collisions"] = np.array(path["collisions"])
