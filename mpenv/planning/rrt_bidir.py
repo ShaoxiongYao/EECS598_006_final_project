@@ -28,10 +28,10 @@ def nearest_neighbor(x, nodes, distance_fn):
 
 
 def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations, 
-              switch_tree_policy='compare_size', expand_mode='all'):
-    # print("RRT start:", start)
-    # print("RRT goal:", goal)
-    # print("switch_tree_policy:", switch_tree_policy)
+              verbose=False, switch_tree_policy='compare_size', expand_mode='all'):
+    if verbose:
+        print("RRT start:", start)
+        print("RRT goal:", goal)
 
     nodes_ab = [[], []]
     active_nodes_ab = [[], []]
@@ -116,11 +116,12 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 solution["points"] = seq
                 return True, solution, nodes_ab, 2 * i
 
-        print("iteration: ", i)
-        print("tree a length: ", len(nodes_ab[0]))
-        print("tree b length: ", len(nodes_ab[1]))
-        print("active tree_a length: ", len(active_nodes_ab[0]))
-        print("active tree_b length: ", len(active_nodes_ab[1]))
+        if verbose:
+            print("iteration: ", i)
+            print("tree a length: ", len(nodes_ab[0]))
+            print("tree b length: ", len(nodes_ab[1]))
+            print("active tree_a length: ", len(active_nodes_ab[0]))
+            print("active tree_b length: ", len(active_nodes_ab[1]))
 
         if switch_tree_policy == 'compare_size':
             # change extend tree

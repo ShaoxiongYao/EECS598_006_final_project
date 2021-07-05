@@ -85,7 +85,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
-        # print("iterations:", iterations)
+        print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
         success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, 
@@ -95,7 +95,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
-        # print("iterations:", iterations)
+        print("iterations:", iterations)
 
     elif solver_type == "RL":
 

@@ -8,7 +8,7 @@ from rlkit.samplers.rollout_functions import multitask_rollout
 EPSILON = 1e-7
 
 
-def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None, sampler="Full"):
+def solve(env, delta_growth, iterations, simplify, render=False, verbose=False, nmp_input=None, sampler="Full"):
     """
     env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
@@ -61,7 +61,6 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
-        print("start expand")
         start_t = time.time()
         policy_env, policy, horizon = None, None, None
         if not nmp_input == None:
@@ -97,17 +96,16 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
             q_stop_list.append(q_stop)
 
             if render:
-                # previous_oMg = q0.q_oM[2]
-                # current_oMg = q_stop.q_oM[2]
-                # previous_ee = env.robot.get_ee(previous_oMg).translation
-                # current_ee = env.robot.get_ee(current_oMg).translation
-                # # path is the node name, which can be modified
-                # env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
-
-                pass
+                previous_oMg = q0.q_oM[2]
+                current_oMg = q_stop.q_oM[2]
+                previous_ee = env.robot.get_ee(previous_oMg).translation
+                current_ee = env.robot.get_ee(current_oMg).translation
+                # path is the node name, which can be modified
+                env.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
 
             end_t = time.time()
-            print("expanding needs time:", end_t-start_t)
+            if verbose:
+                print("expanding needs time:", end_t-start_t)
             return q_stop_list, not collide.any(), "straight_line"
         else:
             path = arange_fn(q0, q1, delta_collision_check)
@@ -168,7 +166,8 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                     config = ConfigurationWrapper(model_wrapper, q)
                     q_stop_list.append(config)
                 end_t = time.time()
-                print("expanding needs time:", end_t-start_t)
+                if verbose:
+                    print("expanding needs time:", end_t-start_t)
                 return q_stop_list, end, "rl_controller"
             else:
                 q_stop_list.append(q_stop)
@@ -188,7 +187,8 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                     env.viz.add_edge_to_roadmap("path_RRT", previous_ee, current_ee)
 
                 end_t = time.time()
-                print("expanding needs:", end_t-start_t)
+                if verbose:
+                    print("expanding needs:", end_t-start_t)
                 return q_stop_list, not collide.any(), "straight_line"
 
     def expand_fn_short(q0, q1, limit_growth=False):
@@ -225,7 +225,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
 
     success, path, trees, iterations = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations, 
-        switch_tree_policy=switch_tree_policy # argument to decide when to switch tree
+        verbose=verbose, switch_tree_policy=switch_tree_policy # argument to decide when to switch tree
     )
     iterations_simplify = 0
 
