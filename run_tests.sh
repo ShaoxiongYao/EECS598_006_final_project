@@ -8,9 +8,9 @@
 # 20    205
 
 # Yixuan log_dir
-# LOG_DIR=/home/yixuan/sshape_boxes_global_1024/seed0
+LOG_DIR=/home/yixuan/sshape_boxes_global_1024/seed0
 # Shaoxiong log_dir
-LOG_DIR=/home/yaosx/Desktop/EECS598_006_final_project/sshape_boxes_global_1024/seed0
+# LOG_DIR=/home/yaosx/Desktop/EECS598_006_final_project/sshape_boxes_global_1024/seed0
 
 # LOG_DIR=log_dir
 SOLVER_TYPE=RL_RRT
