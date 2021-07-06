@@ -1,0 +1,199 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon: 5
+cpu: True
+render: True
+sample a point
+
+start expand
+expanding needs: 0.3218684196472168
+grow tree a
+
+start expand
+expanding needs: 0.3419840335845947
+grow tree b
+
+iteration:  0
+tree a length:  6
+tree b length:  6
+sample a point
+
+start expand
+expanding needs: 0.34442853927612305
+grow tree a
+
+start expand
+expanding needs: 0.31532979011535645
+grow tree b
+
+iteration:  1
+tree a length:  6
+tree b length:  11
+sample a point
+
+start expand
+expanding needs: 0.3189396858215332
+grow tree a
+
+iteration:  2
+tree a length:  6
+tree b length:  11
+sample a point
+
+start expand
+expanding needs: 0.32633185386657715
+grow tree a
+
+start expand
+expanding needs: 0.3212289810180664
+grow tree b
+
+iteration:  3
+tree a length:  11
+tree b length:  16
+sample a point
+
+start expand
+expanding needs: 0.317594051361084
+grow tree a
+
+iteration:  4
+tree a length:  11
+tree b length:  16
+sample a point
+
+start expand
+expanding needs: 0.3237032890319824
+grow tree a
+
+start expand
+expanding needs: 0.316910982131958
+grow tree b
+
+iteration:  5
+tree a length:  11
+tree b length:  21
+sample a point
+
+start expand
+expanding needs: 0.3190422058105469
+grow tree a
+
+iteration:  6
+tree a length:  11
+tree b length:  21
+sample a point
+
+start expand
+expanding needs: 0.32154083251953125
+grow tree a
+
+start expand
+expanding needs: 0.31531739234924316
+grow tree b
+
+iteration:  7
+tree a length:  11
+tree b length:  26
+sample a point
+
+start expand
+expanding needs: 0.3161807060241699
+grow tree a
+
+iteration:  8
+tree a length:  11
+tree b length:  26
+sample a point
+
+start expand
+expanding needs: 0.06573605537414551
+grow tree a
+
+start expand
+expanding needs: 0.3162500858306885
+grow tree b
+
+iteration:  9
+tree a length:  16
+tree b length:  27
+sample a point
+
+start expand
+expanding needs: 0.3153858184814453
+grow tree a
+
+iteration:  10
+tree a length:  16
+tree b length:  27
+sample a point
+
+start expand
+expanding needs: 0.32582664489746094
+grow tree a
+
+start expand
+expanding needs: 0.3156774044036865
+grow tree b
+
+iteration:  11
+tree a length:  16
+tree b length:  32
+sample a point
+
+start expand
+expanding needs: 0.3161306381225586
+grow tree a
+
+start expand
+expanding needs: 0.33052778244018555
+grow tree b
+
+iteration:  12
+tree a length:  21
+tree b length:  37
+sample a point
+
+start expand
+expanding needs: 0.33195018768310547
+grow tree a
+
+start expand
+expanding needs: 0.31548070907592773
+grow tree b
+
+iteration:  13
+tree a length:  21
+tree b length:  42
+sample a point
+
+start expand
+expanding needs: 0.3193342685699463
+grow tree a
+
+iteration:  14
+tree a length:  21
+tree b length:  42
+sample a point
+
+start expand
+expanding needs: 0.33586716651916504
+grow tree a
+
+start expand
+expanding needs: 0.31821656227111816
+grow tree b
+
+iteration:  15
+tree a length:  21
+tree b length:  47
+sample a point
+
+start expand
+expanding needs: 0.31734395027160645
+grow tree a
+

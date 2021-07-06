@@ -1,0 +1,154 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon: 5
+cpu: True
+render: True
+sample a point
+start expand
+expanding needs: 0.3215939998626709
+grow tree a
+
+start expand
+expanding needs: 0.3450331687927246
+grow tree b
+
+iteration:  0
+tree a length:  6
+tree b length:  6
+sample a point
+start expand
+expanding needs: 0.34611964225769043
+grow tree a
+
+start expand
+expanding needs: 0.3215651512145996
+grow tree b
+
+iteration:  1
+tree a length:  6
+tree b length:  11
+sample a point
+start expand
+expanding needs: 0.3195488452911377
+grow tree a
+
+iteration:  2
+tree a length:  6
+tree b length:  11
+sample a point
+start expand
+expanding needs: 0.33301639556884766
+grow tree a
+
+start expand
+expanding needs: 0.3252873420715332
+grow tree b
+
+iteration:  3
+tree a length:  11
+tree b length:  16
+sample a point
+start expand
+expanding needs: 0.31923794746398926
+grow tree a
+
+iteration:  4
+tree a length:  11
+tree b length:  16
+sample a point
+start expand
+expanding needs: 0.33188533782958984
+grow tree a
+
+start expand
+expanding needs: 0.3249475955963135
+grow tree b
+
+iteration:  5
+tree a length:  11
+tree b length:  21
+sample a point
+start expand
+expanding needs: 0.3232579231262207
+grow tree a
+
+iteration:  6
+tree a length:  11
+tree b length:  21
+sample a point
+start expand
+expanding needs: 0.33292341232299805
+grow tree a
+
+start expand
+expanding needs: 0.34216976165771484
+grow tree b
+
+iteration:  7
+tree a length:  11
+tree b length:  26
+sample a point
+start expand
+expanding needs: 0.33817505836486816
+grow tree a
+
+iteration:  8
+tree a length:  11
+tree b length:  26
+sample a point
+start expand
+expanding needs: 0.1037454605102539
+grow tree a
+
+start expand
+expanding needs: 0.3235619068145752
+grow tree b
+
+iteration:  9
+tree a length:  16
+tree b length:  27
+sample a point
+start expand
+expanding needs: 0.3420743942260742
+grow tree a
+
+iteration:  10
+tree a length:  16
+tree b length:  27
+sample a point
+start expand
+expanding needs: 0.37471938133239746
+grow tree a
+
+start expand
+expanding needs: 0.31491756439208984
+grow tree b
+
+iteration:  11
+tree a length:  16
+tree b length:  32
+sample a point
+start expand
+expanding needs: 0.3360769748687744
+grow tree a
+
+start expand
+expanding needs: 0.3668787479400635
+grow tree b
+
+iteration:  12
+tree a length:  21
+tree b length:  37
+sample a point
+start expand
+expanding needs: 0.3543400764465332
+grow tree a
+
+start expand
+expanding needs: 0.33847546577453613
+grow tree b
+

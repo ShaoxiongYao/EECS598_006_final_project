@@ -9,7 +9,7 @@
 
 LOG_DIR=/home/yixuan/sshape_boxes_global_1024/seed0
 # LOG_DIR=log_dir
-SOLVER_TYPE=Normal_RRT
+SOLVER_TYPE=RL_RRT
 # ENV_NAME=SShape-Boxes-64Pts-Rays-v0
 ENV_NAME=SShape-Boxes-1024Pts-SurfaceNormals-v0
 # python -m nmp.train SShape-Boxes-256Pts-SurfaceNormals-v0 sshape_boxes --horizon 80 --seed 0

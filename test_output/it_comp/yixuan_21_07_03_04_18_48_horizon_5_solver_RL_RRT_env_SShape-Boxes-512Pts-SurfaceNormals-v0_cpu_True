@@ -1,0 +1,25 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon: 5
+cpu: True
+render: True
+start expand
+expanding needs: 0.3231031894683838
+start expand
+expanding needs: 0.3481760025024414
+iteration:  0
+tree a length:  6
+tree b length:  6
+start expand
+expanding needs: 0.3455517292022705
+start expand
+expanding needs: 0.32551050186157227
+iteration:  1
+tree a length:  6
+tree b length:  11
+start expand
+expanding needs: 0.32348179817199707
