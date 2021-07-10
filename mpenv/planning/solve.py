@@ -8,7 +8,7 @@ from rlkit.samplers.rollout_functions import multitask_rollout
 EPSILON = 1e-7
 
 
-def solve(env, delta_growth, iterations, simplify, render=False, verbose=False, nmp_input=None, sampler="Full"):
+def solve(env, delta_growth, nmp_input=None, solver_config=None):
     """
     env: mpenv.envs.boxes.Boxes
     collision_fn : maps x to True (free) / False (collision)
@@ -18,6 +18,10 @@ def solve(env, delta_growth, iterations, simplify, render=False, verbose=False, 
     model_wrapper = env.model_wrapper
     delta_collision_check = env.delta_collision_check
     action_range = env.robot_props["action_range"]
+
+    iterations = solver_config["max_iterations"]
+    simplify = solver_config["simplify"]
+    render, verbose = solver_config["render"], solver_config["verbose"]
 
     def collision_fn(q):
         return not model_wrapper.collision(q)
@@ -206,6 +210,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, verbose=False, 
     start = env.state
     goal = env.goal_state
 
+    sampler = solver_config["sampler"]
     if sampler == "Full":
         sample_fn = sample_full_fn
     elif sampler == "Free":
@@ -225,7 +230,9 @@ def solve(env, delta_growth, iterations, simplify, render=False, verbose=False, 
 
     success, path, trees, iterations = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations, 
-        verbose=verbose, switch_tree_policy=switch_tree_policy # argument to decide when to switch tree
+        verbose=verbose, 
+        expand_mode=solver_config["expand_mode"], 
+        switch_tree_policy=switch_tree_policy # argument to decide when to switch tree
     )
     iterations_simplify = 0
 

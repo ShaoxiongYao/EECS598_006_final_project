@@ -287,14 +287,16 @@ class Base(gym.Env):
         )
         return reward, done, success
 
-    def solve_rrt(self, simplify, max_iterations=10000, max_growth=None, render=False, nmp_input=None):
+    def solve_rrt(self, nmp_input=None, solver_config=None):
+
         assert hasattr(self, "robot_props")
+        max_growth=None
         if max_growth is None:
             max_growth = self.robot_props["action_range"]
             if isinstance(max_growth, np.ndarray) and max_growth.shape[0] > 1:
                 max_growth = max_growth[0]
         success, path, trees, iterations = solve.solve(
-            self, max_growth, max_iterations, simplify, render=render, nmp_input=nmp_input
+            self, max_growth, nmp_input=nmp_input, solver_config=solver_config
         )
         return success, path, trees, iterations
 
