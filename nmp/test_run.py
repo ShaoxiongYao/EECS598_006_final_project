@@ -38,11 +38,9 @@ def path_len(path):
 @click.option("-exp", "--exp-name", default="", type=str)
 @click.option("-s", "--seed", default=None, type=int)
 @click.option("-h", "--horizon", default=50, type=int, help="max steps allowed")
-@click.option(
-    "-e", "--episodes", default=0, type=int, help="number of episodes to evaluate"
-)
 @click.option("-cpu", "--cpu/--no-cpu", default=False, is_flag=True, help="use cpu")
 @click.option("-r", "--render", default=False, is_flag=True, help="render using gepetto-gui")
+@click.option("-v", "--verbose", default=False, is_flag=True, help="verbose output")
 @click.option(
     "-stoch",
     "--stochastic/--no-stochastic",
@@ -51,7 +49,13 @@ def path_len(path):
     help="stochastic mode",
 )
 @click.option("-solver_type", "--solver_type", default=None, type=str, help="type of solver")
-def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, solver_type):
+@click.option(
+    "-obstacles_type", "--obstacles_type", default="boxes", type=str, 
+    help="type of obstacles, boxes, ycb or handcraft")
+@click.option("-max_iters", "--max_iterations", default=50000, type=int, 
+    help="maximum number of iterations in Normal_RRT or RL_RRT")
+def main(env_name, exp_name, seed, horizon, cpu, 
+         render, verbose, stochastic, solver_type, obstacles_type, max_iterations):
     print("-------- start running --------")
     begin_t = time.time()
     if not cpu:
@@ -72,32 +76,52 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
             num_params = policy.num_params()
         else:
             num_params = policy.stochastic_policy.num_params()
-        # print(f"num params: {num_params}")
+        print(f"num params: {num_params}")
     else:
         policy = RandomPolicy(env)
 
-    reset_kwargs = {}
+    # sampling obstacles parameters
+    geoms_args = {
+        "num_obstacles_range": [3, 10],
+        "obstacles_type": obstacles_type 
+    }
 
-    o = env.reset(start=None, goal=None)
+    # for fairness, max_iterations for RL_RRT is divided by horizon
+    if solver_type == "RL_RRT":
+        max_iterations //= horizon
+
+    # RRT configurations
+    solver_config = {
+        "simplify": True,
+        "max_iterations": max_iterations, 
+        "render": render, 
+        "verbose": verbose, 
+        "sampler": "Full", 
+        "expand_mode": "all"
+    }
+
+    # setup environment, do not use the first observation
+    env.reset(start=None, goal=None, geoms_args=geoms_args)
     if solver_type == "Normal_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render)
+        success, path, trees, iterations = env.env.env.solve_rrt(solver_config=solver_config)
         print("SOLVER: Normal RRT")
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
-        # print("iterations:", iterations)
+        print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, 
-                                                                 nmp_input=[env, policy, horizon], 
-                                                                 max_iterations=5000) #int(2000/horizon))
+        success, path, trees, iterations = env.env.env.solve_rrt(nmp_input=[env, policy, horizon], 
+                                                                 solver_config=solver_config)
         print("SOLVER: RL_RRT")
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
-        # print("iterations:", iterations)
+        print("iterations:", iterations)
 
     elif solver_type == "RL":
+        
+        reset_kwargs = {}
 
         def rollout_fn():
             return multitask_rollout(

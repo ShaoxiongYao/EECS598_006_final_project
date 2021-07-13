@@ -226,3 +226,8 @@ Use `--render` or not in the command:
 
         python -m nmp.test_run --cpu SShape-Boxes-64Pts-Rays-v0 --exp-name log_dir/params.pkl --seed 100 --horizon 5 --render --solver_type Normal_RRT
 
+## Debug straight line connection case
+
+    LOG_DIR=/home/yaosx/Desktop/EECS598_006_final_project/sshape_boxes_global_1024/seed0
+    ENV_NAME=SShape-Boxes-1024Pts-SurfaceNormals-v0
+    python -m nmp.test_run --cpu $ENV_NAME --exp-name $LOG_DIR/params.pkl --seed 200 --render --horizon 5 --episodes 0 --solver_type RL_RRT^C

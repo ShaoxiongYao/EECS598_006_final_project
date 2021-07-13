@@ -169,14 +169,14 @@ class Base(gym.Env):
         model_wrapper = self.model_wrapper
         new_state = path[0]
         collision_labels = np.zeros_like(model_wrapper.collision_labels())
-        for state in path[1:]:
+        for idx, state in enumerate(path[1:]):
             collide = model_wrapper.collision(state)
             collision_labels = model_wrapper.collision_labels()
             if not collide:
                 new_state = state
             else:
-                return new_state, collision_labels
-        return new_state, collision_labels
+                return new_state, collision_labels, idx
+        return new_state, collision_labels, len(path)-1
 
     def move(self, state, velocity):
         model_wrapper = self.model_wrapper
@@ -185,7 +185,7 @@ class Base(gym.Env):
             state, velocity, self.cartesian_integration
         )
         path = model_wrapper.arange(state, next_state, self.delta_collision_check)
-        next_state_free, collision_labels = self.stopping_configuration(path)
+        next_state_free, collision_labels, _ = self.stopping_configuration(path)
         return next_state_free, collision_labels
 
     def format_action(self, action):
@@ -287,14 +287,16 @@ class Base(gym.Env):
         )
         return reward, done, success
 
-    def solve_rrt(self, simplify, max_iterations=10000, max_growth=None, render=False, nmp_input=None):
+    def solve_rrt(self, nmp_input=None, solver_config=None):
+
         assert hasattr(self, "robot_props")
+        max_growth=None
         if max_growth is None:
             max_growth = self.robot_props["action_range"]
             if isinstance(max_growth, np.ndarray) and max_growth.shape[0] > 1:
                 max_growth = max_growth[0]
         success, path, trees, iterations = solve.solve(
-            self, max_growth, max_iterations, simplify, render=render, nmp_input=nmp_input
+            self, max_growth, nmp_input=nmp_input, solver_config=solver_config
         )
         return success, path, trees, iterations
 
