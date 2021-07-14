@@ -21,6 +21,12 @@ import open3d as o3d
 
 np.set_printoptions(threshold=sys.maxsize)
 
+# sampling obstacles parameters
+default_geoms_args = {
+    "num_obstacles_range": [3, 10],
+    "obstacles_type": "boxes" 
+}
+
 class Boxes(Base):
     def __init__(
         self,
@@ -65,7 +71,7 @@ class Boxes(Base):
         self.center_bounds
         self.size_bounds = [0.15, 0.5]
 
-    def _reset(self, start=None, goal=None, geoms_args=None):
+    def _reset(self, start=None, goal=None, geoms_args=default_geoms_args):
         self.geoms = self.get_obstacles_geoms(geoms_args=geoms_args)
         self.robot = self.add_robot(self.robot_name, self.freeflyer_bounds)
 
