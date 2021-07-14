@@ -28,6 +28,7 @@ from nmp import settings
 @click.option("-horizon", "--horizon", default=80, type=int)
 @click.option("-rbs", "--replay-buffer-size", default=int(1e6), type=int)
 @click.option("-cpu", "--cpu/--no-cpu", is_flag=True, default=False)
+@click.option("-gpu_id", "--gpu_id", type=int, default=0)
 @click.option(
     "-snap-mode",
     "--snapshot-mode",
@@ -58,6 +59,7 @@ def main(
     snapshot_mode,
     snapshot_gap,
     cpu,
+    gpu_id
 ):
     valid_modes = ["vanilla", "her"]
     valid_archi = [
@@ -131,7 +133,7 @@ def main(
         "snapshot_gap": snapshot_gap,
     }
     setup_logger(**setup_logger_kwargs)
-    ptu.set_gpu_mode(not cpu, distributed_mode=False)
+    ptu.set_gpu_mode(not cpu, gpu_id=gpu_id, distributed_mode=False)
     print(f"Start training...")
     sac(variant)
 
