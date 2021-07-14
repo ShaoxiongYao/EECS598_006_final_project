@@ -27,6 +27,8 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         
         if render:
             env.viz.display(x_rand)
+            # print("sample a point", flush=True)
+            # input()
 
         return x_rand
 
@@ -188,7 +190,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
     if nmp_input is None:
         switch_tree_policy = 'compare_size'
     else:
-        switch_tree_policy = 'per_iteration'
+        switch_tree_policy = 'compare_size'
 
     success, path, trees, iterations = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations, 
