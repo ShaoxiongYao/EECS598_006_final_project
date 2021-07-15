@@ -1,0 +1,150 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  2.708262938472401
+time spent:  1.5652408599853516
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 2
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  2.458145782777327
+time spent:  1.2951529026031494
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 3
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  0.6989100906028273
+time spent:  1.2528014183044434
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  1.6351728658514453
+time spent:  1.2312195301055908
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 5
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  1.2194756474801225
+time spent:  1.276862382888794
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 6
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  1.4261548699820028
+time spent:  1.3002004623413086
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 7
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  1.5768085569201118
+time spent:  1.2682464122772217
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 8
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  0.8752444704576516
+time spent:  1.279139518737793
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([False])]
+length:  0.193494226191105
+time spent:  1.5477418899536133
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 10
+horizon: 80
+cpu: True
+render: False
+num params: 335372
+SOLVER: RL
+successes [array([ True])]
+length:  1.0365510208581588
+time spent:  1.2941713333129883
+-------- stop running --------
