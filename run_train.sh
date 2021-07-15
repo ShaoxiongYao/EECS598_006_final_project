@@ -10,5 +10,5 @@ EPOCHS=5
 
 for SEED in 1
 do
-python -m nmp.train $ENV_NAME $LOG_DIR --epochs $EPOCHS --gpu_id $GPU_ID --horizon 80 --seed $SEED
+python -m nmp.train --snapshot-mode gap --snapshot-gap 1 $ENV_NAME $LOG_DIR --epochs $EPOCHS --gpu_id $GPU_ID --horizon 80 --seed $SEED
 done
