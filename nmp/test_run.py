@@ -70,6 +70,7 @@ def main(env_name, exp_name, seed, horizon, cpu,
     print("horizon:", horizon)
     print("cpu:", cpu)
     print("render:", render)
+    print("obstacle_type:", obstacles_type)
     if exp_name:
         policy = utils.load(log_dir, exp_name, cpu, stochastic)
         if stochastic:
