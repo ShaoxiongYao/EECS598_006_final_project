@@ -35,7 +35,7 @@ def path_len(path):
 
 @click.command()
 @click.argument("env_name", type=str)
-@click.option("-exp", "--exp-name", default="", type=str)
+@click.option("-exp", "--exp-names", default="", multiple=True, type=str)
 @click.option("-s", "--seed", default=None, type=int)
 @click.option("-h", "--horizon", default=50, type=int, help="max steps allowed")
 @click.option(
@@ -51,7 +51,7 @@ def path_len(path):
     help="stochastic mode",
 )
 @click.option("-solver_type", "--solver_type", default=None, type=str, help="type of solver")
-def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, solver_type):
+def main(env_name, exp_names, seed, horizon, episodes, cpu, render, stochastic, solver_type):
     print("-------- start running --------")
     begin_t = time.time()
     if not cpu:
@@ -66,15 +66,17 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
     print("horizon:", horizon)
     print("cpu:", cpu)
     print("render:", render)
-    if exp_name:
-        policy = utils.load(log_dir, exp_name, cpu, stochastic)
-        if stochastic:
-            num_params = policy.num_params()
-        else:
-            num_params = policy.stochastic_policy.num_params()
+    policies = []
+    if exp_names:
+        for exp_name in exp_names:
+            policies.append(utils.load(log_dir, exp_name, cpu, stochastic))
+        # if stochastic:
+        #     num_params = policy.num_params()
+        # else:
+        #     num_params = policy.stochastic_policy.num_params()
         # print(f"num params: {num_params}")
     else:
-        policy = RandomPolicy(env)
+        policies.append(RandomPolicy(env))
 
     reset_kwargs = {}
 
@@ -89,7 +91,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
 
     elif solver_type == "RL_RRT":
         success, path, trees, iterations = env.env.env.solve_rrt(True, render=render, 
-                                                                 nmp_input=[env, policy, horizon], 
+                                                                 nmp_input=[env, policies, horizon], 
                                                                  max_iterations=5000) #int(2000/horizon))
         print("SOLVER: RL_RRT")
         print("success: ", success)
@@ -102,7 +104,7 @@ def main(env_name, exp_name, seed, horizon, episodes, cpu, render, stochastic, s
         def rollout_fn():
             return multitask_rollout(
                 env,
-                policy,
+                policies[0],
                 horizon,
                 render,
                 observation_key="observation",

@@ -190,6 +190,134 @@ def multitask_rollout(
         full_observations=dict_obs,
     )
 
+def calculate_diversity(multi_a):
+    n = multi_a.shape[0]
+    multi_a_tiled = np.tile(multi_a, (n, 1, 1))
+    diff = multi_a_tiled - multi_a_tiled.swapaxes(0, 1)
+    return np.linalg.norm(diff, axis=2).sum()/(n*(n-1))
+
+def our_multiagent_rollout(
+    env,
+    agents,
+    max_path_length=np.inf,
+    render=False,
+    render_kwargs=None,
+    observation_key=None,
+    desired_goal_key=None,
+    representation_goal_key=None,
+    get_action_kwargs=None,
+    return_dict_obs=False,
+    reset_kwargs=None,
+    is_reset=True
+):
+    if render_kwargs is None:
+        render_kwargs = {}
+    if get_action_kwargs is None:
+        get_action_kwargs = {}
+    dict_obs = []
+    dict_next_obs = []
+    observations = []
+    actions = []
+    rewards = []
+    terminals = []
+    agent_infos = []
+    env_infos = {}
+    next_observations = []
+    path_length = 0
+    if is_reset:
+        if reset_kwargs:
+            o = env.reset(**reset_kwargs)
+        else:
+            o = env.reset()
+    else:
+        # check no reset
+        # print("No reset")
+        # input()
+        o = env.env.env.observation()
+        o = env.env.observation(o)
+        o = env.observation(o)
+
+    for agent in agents:
+        agent.reset()
+    if render:
+        env.render(**render_kwargs)
+    desired_goal = o[desired_goal_key]
+    step_time, policy_time = 0, 0
+    while path_length < max_path_length:
+        # print("before step")
+        # input()
+        dict_obs.append(o)
+        if observation_key:
+            s = o[observation_key]
+        g = o[representation_goal_key]
+        new_obs = np.hstack((s, g))
+
+        # policy time
+        start_time = time.time()
+        a, agent_info = agents[0].get_action(new_obs, **get_action_kwargs)
+        multi_a = np.zeros((len(agents), a.shape[0]))
+        multi_a[0] = a
+        for i, agent in enumerate(agents[1:]):
+            a, agent_info = agent.get_action(new_obs, **get_action_kwargs)
+            multi_a[i] = a
+        policy_time += time.time()-start_time
+
+        # step time
+        # TODO: adjust step according to diversity calculation result
+        start_time = time.time()
+        next_o, r, d, env_info = env.step(a)
+        step_time += time.time()-start_time
+
+        # print("environment step")
+        # input()
+        if render:
+            env.render(**render_kwargs)
+        # print("after render")
+        # input()
+
+        observations.append(o)
+        rewards.append(r)
+        terminals.append(d)
+        actions.append(a)
+        next_observations.append(next_o)
+        dict_next_obs.append(next_o)
+        agent_infos.append(agent_info)
+
+        if not env_infos:
+            for k, v in env_info.items():
+                env_infos[k] = [v]
+        else:
+            for k, v in env_info.items():
+                env_infos[k].append(v)
+        path_length += 1
+        if d:
+            break
+        o = next_o
+    # print("policy time:", policy_time)
+    # print("step time:", step_time)
+    actions = np.array(actions)
+    if len(actions.shape) == 1:
+        actions = np.expand_dims(actions, 1)
+    observations = np.array(observations)
+    next_observations = np.array(next_observations)
+    if return_dict_obs:
+        observations = dict_obs
+        next_observations = dict_next_obs
+    for k, v in env_infos.items():
+        env_infos[k] = np.array(v)
+    # print("stop policy run")
+    return dict(
+        observations=observations,
+        actions=actions,
+        # rewards=np.array(rewards).reshape(-1, 1),
+        rewards=np.array(rewards),
+        next_observations=next_observations,
+        terminals=np.array(terminals).reshape(-1, 1),
+        agent_infos=agent_infos,
+        env_infos=env_infos,
+        desired_goals=np.repeat(desired_goal[None], path_length, 0),
+        full_observations=dict_obs,
+    )
 
 def multiagent_multitask_rollout(
     env,

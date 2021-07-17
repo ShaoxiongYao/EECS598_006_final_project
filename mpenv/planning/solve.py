@@ -64,9 +64,9 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         """
         print("start expand")
         start_t = time.time()
-        policy_env, policy, horizon = None, None, None
+        policy_env, policies, horizon = None, None, None
         if not nmp_input == None:
-            policy_env, policy, horizon = nmp_input
+            policy_env, policies, horizon = nmp_input
             # print("Use RL policy to extend")
 
         if limit_growth:
@@ -79,7 +79,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         def rollout_fn():
             return multitask_rollout(
                 policy_env,
-                policy,
+                policies[0],
                 horizon,  # max length in one step
                 render,
                 observation_key="observation",
@@ -89,7 +89,7 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 **reset_kwargs,
             )
 
-        if policy == None:
+        if policies == None:
             # print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
             # q_stop: ConfigurationWrapper
