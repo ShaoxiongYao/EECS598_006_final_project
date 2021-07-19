@@ -3,7 +3,7 @@ import time
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
 from mpenv.core.model import ConfigurationWrapper
-from rlkit.samplers.rollout_functions import multitask_rollout
+from rlkit.samplers.rollout_functions import multitask_rollout, our_multiagent_rollout
 
 EPSILON = 1e-7
 
@@ -77,9 +77,9 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
         reset_kwargs = {}
 
         def rollout_fn():
-            return multitask_rollout(
+            return our_multiagent_rollout(
                 policy_env,
-                policies[0],
+                policies,
                 horizon,  # max length in one step
                 render,
                 observation_key="observation",

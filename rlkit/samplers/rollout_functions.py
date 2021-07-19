@@ -220,7 +220,7 @@ def our_multiagent_rollout(
     actions = []
     rewards = []
     terminals = []
-    agent_infos = []
+    agents_infos = []
     env_infos = {}
     next_observations = []
     path_length = 0
@@ -254,45 +254,52 @@ def our_multiagent_rollout(
 
         # policy time
         start_time = time.time()
-        a, agent_info = agents[0].get_action(new_obs, **get_action_kwargs)
-        multi_a = np.zeros((len(agents), a.shape[0]))
-        multi_a[0] = a
+        single_a, single_agent_info = agents[0].get_action(new_obs, **get_action_kwargs)
+        agents_infos.append(single_agent_info)
+        multi_a = np.zeros((len(agents), single_a.shape[0]))
+        multi_a[0] = single_a
         for i, agent in enumerate(agents[1:]):
-            a, agent_info = agent.get_action(new_obs, **get_action_kwargs)
-            multi_a[i] = a
+            single_a, single_agent_info = agent.get_action(new_obs, **get_action_kwargs)
+            multi_a[i+1] = single_a
+            agents_infos.append(single_agent_info)
         policy_time += time.time()-start_time
 
         # step time
-        # TODO: adjust step according to diversity calculation result
-        start_time = time.time()
-        next_o, r, d, env_info = env.step(a)
-        step_time += time.time()-start_time
+        threshold = 1.0
+        if calculate_diversity(multi_a) < threshold:
+            a = multi_a.mean(axis=0)
+            start_time = time.time()
+            next_o, r, d, env_info = env.step(a)
+            step_time += time.time()-start_time
 
-        # print("environment step")
-        # input()
-        if render:
-            env.render(**render_kwargs)
-        # print("after render")
-        # input()
+            # print("environment step")
+            # input()
+            if render:
+                env.render(**render_kwargs)
+            # print("after render")
+            # input()
 
-        observations.append(o)
-        rewards.append(r)
-        terminals.append(d)
-        actions.append(a)
-        next_observations.append(next_o)
-        dict_next_obs.append(next_o)
-        agent_infos.append(agent_info)
+            observations.append(o)
+            rewards.append(r)
+            terminals.append(d)
+            actions.append(a)
+            next_observations.append(next_o)
+            dict_next_obs.append(next_o)
+            # agent_infos.append(agent_info)
+        
 
-        if not env_infos:
-            for k, v in env_info.items():
-                env_infos[k] = [v]
+            if not env_infos:
+                for k, v in env_info.items():
+                    env_infos[k] = [v]
+            else:
+                for k, v in env_info.items():
+                    env_infos[k].append(v)
+            path_length += 1
+            if d:
+                break
+            o = next_o
         else:
-            for k, v in env_info.items():
-                env_infos[k].append(v)
-        path_length += 1
-        if d:
             break
-        o = next_o
     # print("policy time:", policy_time)
     # print("step time:", step_time)
     actions = np.array(actions)
@@ -313,7 +320,7 @@ def our_multiagent_rollout(
         rewards=np.array(rewards),
         next_observations=next_observations,
         terminals=np.array(terminals).reshape(-1, 1),
-        agent_infos=agent_infos,
+        agents_infos=agents_infos,
         env_infos=env_infos,
         desired_goals=np.repeat(desired_goal[None], path_length, 0),
         full_observations=dict_obs,
