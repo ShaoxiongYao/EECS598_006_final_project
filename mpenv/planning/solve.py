@@ -127,7 +127,10 @@ def solve(env, delta_growth, iterations, simplify, render=False, nmp_input=None,
                 policy_env.env.env.goal_state = goal
 
                 policy_path = rollout_fn()
-                end = policy_path["terminals"][-1][0]
+                if policy_path["terminals"].size == 0:
+                    end = False
+                else:
+                    end = policy_path["terminals"][-1][0]
                 # print("end or nor: ", end)
 
                 obs = policy_path["observations"]

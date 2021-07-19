@@ -191,10 +191,13 @@ def multitask_rollout(
     )
 
 def calculate_diversity(multi_a):
-    n = multi_a.shape[0]
-    multi_a_tiled = np.tile(multi_a, (n, 1, 1))
-    diff = multi_a_tiled - multi_a_tiled.swapaxes(0, 1)
-    return np.linalg.norm(diff, axis=2).sum()/(n*(n-1))
+    if multi_a.shape[0] == 1:
+        return 0
+    else:
+        n = multi_a.shape[0]
+        multi_a_tiled = np.tile(multi_a, (n, 1, 1))
+        diff = multi_a_tiled - multi_a_tiled.swapaxes(0, 1)
+        return np.linalg.norm(diff, axis=2).sum()/(n*(n-1))
 
 def our_multiagent_rollout(
     env,
@@ -265,7 +268,9 @@ def our_multiagent_rollout(
         policy_time += time.time()-start_time
 
         # step time
-        threshold = 1.0
+        threshold = 2.0
+        # print(calculate_diversity(multi_a))
+        # print(multi_a)
         if calculate_diversity(multi_a) < threshold:
             a = multi_a.mean(axis=0)
             start_time = time.time()
