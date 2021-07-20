@@ -35,7 +35,8 @@ def path_len(path):
 
 @click.command()
 @click.argument("env_name", type=str)
-@click.option("-exp", "--exp-name", default="", type=str)
+# @click.option("-exp", "--exp-names", default="", multiple=True, type=str)
+@click.option("-exp", "--exp-names", default="", type=str)
 @click.option("-s", "--seed", default=None, type=int)
 @click.option("-h", "--horizon", default=50, type=int, help="max steps allowed")
 @click.option("-cpu", "--cpu/--no-cpu", default=False, is_flag=True, help="use cpu")
@@ -54,7 +55,7 @@ def path_len(path):
     help="type of obstacles, boxes, ycb or handcraft")
 @click.option("-max_iters", "--max_iterations", default=50000, type=int, 
     help="maximum number of iterations in Normal_RRT or RL_RRT")
-def main(env_name, exp_name, seed, horizon, cpu, 
+def main(env_name, exp_names, seed, horizon, cpu, 
          render, verbose, stochastic, solver_type, obstacles_type, max_iterations):
     print("-------- start running --------")
     begin_t = time.time()
@@ -64,22 +65,31 @@ def main(env_name, exp_name, seed, horizon, cpu,
     env = gym.make(env_name)
     env.seed(seed)
     env.set_eval()
-    log_dir = settings.log_dir()
+    # log_dir = settings.log_dir()
+    # hard-code log_dir
+    log_dir = '/home/yaosx/Desktop/EECS598_006_final_project/ensemble_models'
+    print("log_dir:", log_dir)
+    input()
 
     print("seed:", seed)
     print("horizon:", horizon)
     print("cpu:", cpu)
     print("render:", render)
-    print("obstacle_type:", obstacles_type)
-    if exp_name:
-        policy = utils.load(log_dir, exp_name, cpu, stochastic)
-        if stochastic:
-            num_params = policy.num_params()
-        else:
-            num_params = policy.stochastic_policy.num_params()
-        print(f"num params: {num_params}")
+    print("obstacles_type:", obstacles_type)
+
+    policies = []
+    if exp_names:
+        exp_names_list = exp_names.split(",")
+        for exp_name in exp_names_list:
+            policies.append(utils.load(log_dir, exp_name, cpu, stochastic))
+        # if stochastic:
+        #     num_params = policy.num_params()
+        # else:
+        #     num_params = policy.stochastic_policy.num_params()
+        # print(f"num params: {num_params}")
     else:
-        policy = RandomPolicy(env)
+        policies.append(RandomPolicy(env))
+    input("load policies succeeded\n")
 
     # sampling obstacles parameters
     geoms_args = {
@@ -112,7 +122,7 @@ def main(env_name, exp_name, seed, horizon, cpu,
         print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(nmp_input=[env, policy, horizon], 
+        success, path, trees, iterations = env.env.env.solve_rrt(nmp_input=[env, policies, horizon], 
                                                                  solver_config=solver_config)
         print("SOLVER: RL_RRT")
         print("success: ", success)
@@ -127,7 +137,7 @@ def main(env_name, exp_name, seed, horizon, cpu,
         def rollout_fn():
             return multitask_rollout(
                 env,
-                policy,
+                policies[0],
                 horizon,
                 render,
                 observation_key="observation",

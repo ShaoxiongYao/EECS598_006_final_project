@@ -65,7 +65,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
 
         # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
         # TODO: col_free_a should be added to if condition
-        if not close_fn(x_a, x_a_new_list[-1]):
+        if x_a_new_list and not close_fn(x_a, x_a_new_list[-1]):
 
             # expand tree_a
             for i_a, x_a_new in enumerate(x_a_new_list):
@@ -80,7 +80,10 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             
             # save tree_a last expand node
             node_a_new = nodes_ab[growing_index][-1]
-            x_a_new = x_a_new_list[-1]
+            if x_a_new_list:
+                x_a_new = x_a
+            else:
+                x_a_new = x_a_new_list[-1]
 
             # grows tree_b toward x_a_new
             node_b = nearest_neighbor(x_a_new, nodes_b, distance_fn)
@@ -90,7 +93,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             x_b_new_list, col_free_b, expand_type_b = expand_fn(x_b, x_a_new)
 
             # if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
-            if not close_fn(x_b, x_b_new_list[-1]):
+            if x_b_new_list and not close_fn(x_b, x_b_new_list[-1]):
                 for i_b, x_b_new in enumerate(x_b_new_list):
                     if i_b == 0:
                         node_b_new = Node(x_b_new, parent=node_b)
@@ -103,8 +106,13 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                         active_nodes_ab[1 - growing_index].append(node_b_new)
 
                 node_b_new = nodes_ab[1 - growing_index][-1]
+            
+            # TODO: check meaning of this part
+            if x_b_new_list:
+                x_b_new = x_b_new_list[-1]
+            else:
+                x_b_new = x_b
 
-            x_b_new = x_b_new_list[-1]
             # if the two trees are connected, stop the algorithm
             if close_fn(x_a_new, x_b_new):
                 # print("Tree a and tree b connected")

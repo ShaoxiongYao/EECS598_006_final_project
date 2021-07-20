@@ -3,7 +3,7 @@ import time
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
 from mpenv.core.model import ConfigurationWrapper
-from rlkit.samplers.rollout_functions import multitask_rollout
+from rlkit.samplers.rollout_functions import multitask_rollout, our_multiagent_rollout
 
 EPSILON = 1e-7
 
@@ -68,9 +68,9 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
         start_t = time.time()
-        policy_env, policy, horizon = None, None, None
+        policy_env, policies, horizon = None, None, None
         if not nmp_input == None:
-            policy_env, policy, horizon = nmp_input
+            policy_env, policies, horizon = nmp_input
             # print("Use RL policy to extend")
 
         if limit_growth:
@@ -81,9 +81,9 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
         reset_kwargs = {}
 
         def rollout_fn():
-            return multitask_rollout(
+            return our_multiagent_rollout(
                 policy_env,
-                policy,
+                policies,
                 horizon,  # max length in one step
                 render,
                 observation_key="observation",
@@ -93,7 +93,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
                 **reset_kwargs,
             )
 
-        if policy == None:
+        if policies == None:
             # print("Normal extension function")
             path = arange_fn(q0, q1, delta_collision_check)
             # q_stop: ConfigurationWrapper
@@ -162,7 +162,10 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
                 policy_env.env.env.goal_state = goal
 
                 policy_path = rollout_fn()
-                end = policy_path["terminals"][-1][0]
+                if policy_path["terminals"].size == 0:
+                    end = False
+                else:
+                    end = policy_path["terminals"][-1][0]
                 # print("end or nor: ", end)
 
                 obs = policy_path["observations"]
