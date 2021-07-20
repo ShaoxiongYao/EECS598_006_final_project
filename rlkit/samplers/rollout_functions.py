@@ -268,7 +268,7 @@ def our_multiagent_rollout(
         policy_time += time.time()-start_time
 
         # step time
-        threshold = 1.0
+        threshold = 1.5
         # print(calculate_diversity(multi_a))
         # print(multi_a)
         if calculate_diversity(multi_a) < threshold:
