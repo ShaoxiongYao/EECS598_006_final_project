@@ -69,7 +69,6 @@ def main(env_name, exp_names, seed, horizon, cpu,
     # hard-code log_dir
     log_dir = '/home/yaosx/Desktop/EECS598_006_final_project/ensemble_models'
     print("log_dir:", log_dir)
-    input()
 
     print("seed:", seed)
     print("horizon:", horizon)
@@ -89,7 +88,6 @@ def main(env_name, exp_names, seed, horizon, cpu,
         # print(f"num params: {num_params}")
     else:
         policies.append(RandomPolicy(env))
-    input("load policies succeeded\n")
 
     # sampling obstacles parameters
     geoms_args = {
