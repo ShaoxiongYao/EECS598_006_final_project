@@ -67,7 +67,7 @@ def main(env_name, exp_names, seed, horizon, cpu,
     env.set_eval()
     # log_dir = settings.log_dir()
     # hard-code log_dir
-    log_dir = '/home/yaosx/Desktop/EECS598_006_final_project/ensemble_models'
+    log_dir = '/home/yixuan/EECS598_006_final_project/ensemble_models'
     print("log_dir:", log_dir)
 
     print("seed:", seed)
