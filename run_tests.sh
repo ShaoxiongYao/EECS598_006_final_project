@@ -18,8 +18,8 @@ LOG_DIR=/home/yixuan/EECS598_006_final_project/ensemble_models
 SOLVER_TYPE=RL_RRT
 # ENV_NAME=SShape-Boxes-64Pts-Rays-v0
 ENV_NAME=SShape-Boxes-1024Pts-SurfaceNormals-v0
-EXP_NAMES=itr_900.pkl,itr_920.pkl,itr_940.pkl,itr_960.pkl,itr_980.pkl
-# EXP_NAMES=itr_900.pkl
+# EXP_NAMES=itr_900.pkl,itr_920.pkl,itr_940.pkl,itr_960.pkl,itr_980.pkl
+EXP_NAMES=itr_900.pkl
 
 # for HORIZON in $(seq 10 5 81)
 for HORIZON in 5
