@@ -1,0 +1,170 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 1
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  4.172738898146759
+iterations: 8
+time spent:  19.04212784767151
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 2
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  4.152226017924629
+iterations: 16
+time spent:  32.30006980895996
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 3
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  2.697324153635527
+iterations: 0
+time spent:  5.15265417098999
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 4
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  3.749358188103554
+iterations: 6
+time spent:  13.955722332000732
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 5
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  1.3403572195659115
+iterations: 2
+time spent:  8.746102333068848
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 6
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  1.651581698078834
+iterations: 4
+time spent:  13.251314640045166
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 7
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  3.5763345455084705
+iterations: 0
+time spent:  9.263410568237305
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 8
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  0.9498904936887553
+iterations: 0
+time spent:  5.462547540664673
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 9
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  5.450142017104848
+iterations: 44
+time spent:  64.69700980186462
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yaosx/Desktop/EECS598_006_final_project/ensemble_models
+seed: 10
+horizon: 5
+cpu: True
+render: True
+obstacles_type: boxes
+About to visualize the smoothed path
+
+SOLVER: RL_RRT
+success:  True
+length:  2.952905031586482
+iterations: 0
+time spent:  6.254990577697754
+-------- stop running --------
