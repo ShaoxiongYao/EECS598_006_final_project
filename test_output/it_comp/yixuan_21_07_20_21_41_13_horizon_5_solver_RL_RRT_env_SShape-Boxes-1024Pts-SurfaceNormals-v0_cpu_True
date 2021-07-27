@@ -1,0 +1,1499 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 1
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  8.81023987293775
+iterations: 187818
+time spent:  64077.8624625206
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 2
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.2778273092610748
+iterations: 4
+time spent:  1.5028049945831299
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 3
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.761755120534362
+iterations: 52638
+time spent:  7528.174117088318
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 4
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.6952667492744558
+iterations: 2
+time spent:  1.6686017513275146
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 5
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.5724041661522715
+iterations: 0
+time spent:  1.4925382137298584
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 6
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.4177410285668253
+iterations: 0
+time spent:  1.500136375427246
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 7
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.600369821290085
+iterations: 10852
+time spent:  498.28779649734497
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 8
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.387618364448434
+iterations: 4
+time spent:  1.7613210678100586
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 9
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.289077135184161
+iterations: 7232
+time spent:  300.6126365661621
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 10
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.211171727298052
+iterations: 16000
+time spent:  1034.8067140579224
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 11
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.8322863556964295
+iterations: 73632
+time spent:  13851.696876049042
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 12
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.23344443136967
+iterations: 0
+time spent:  1.466888189315796
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 13
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.8888713961896055
+iterations: 30914
+time spent:  2769.8275661468506
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 14
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.6718088360111456
+iterations: 2
+time spent:  1.575310230255127
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 15
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.8375215677973441
+iterations: 0
+time spent:  1.4004156589508057
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 16
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.120212463325805
+iterations: 0
+time spent:  1.4736027717590332
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 17
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  9.281644619495754
+iterations: 26750
+time spent:  1894.4049942493439
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 18
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  6.185261109998626
+iterations: 9466
+time spent:  335.9390025138855
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 19
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.563929129391618
+iterations: 0
+time spent:  1.333378791809082
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 20
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.4967254094114573
+iterations: 0
+time spent:  1.3639919757843018
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 21
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.5700953802068414
+iterations: 0
+time spent:  1.352360486984253
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 22
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.552024138206326
+iterations: 0
+time spent:  1.3490321636199951
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 23
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.7599615950977608
+iterations: 0
+time spent:  1.3613779544830322
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 24
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.1343598259463696
+iterations: 0
+time spent:  1.377284288406372
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 25
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.324004915851393
+iterations: 34356
+time spent:  2849.2850291728973
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 26
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.824613858007643
+iterations: 33092
+time spent:  2728.768707036972
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 27
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.7316031573225095
+iterations: 39626
+time spent:  3697.686408996582
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 28
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  6.8873071950262865
+iterations: 137966
+time spent:  37112.16466116905
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 29
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.546247585418899
+iterations: 0
+time spent:  1.4003186225891113
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 30
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.167140531398505
+iterations: 2
+time spent:  1.4655468463897705
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 31
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.0679951311661577
+iterations: 0
+time spent:  1.4053905010223389
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 32
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.540824977831427
+iterations: 6
+time spent:  1.6249487400054932
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 33
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.2436207965098913
+iterations: 0
+time spent:  1.4871835708618164
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 34
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.9612234938368032
+iterations: 0
+time spent:  1.4293138980865479
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 35
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.5003652870802109
+iterations: 0
+time spent:  1.446997880935669
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 36
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.489851266041793
+iterations: 23168
+time spent:  1723.0525996685028
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 37
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.69269446609962
+iterations: 38600
+time spent:  4505.23760175705
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 38
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.559974200013812
+iterations: 7762
+time spent:  339.2572500705719
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 39
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.500629901957273
+iterations: 0
+time spent:  1.6128513813018799
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 40
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.794591615960632
+iterations: 22076
+time spent:  1766.7180609703064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 41
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.5370803424934154
+iterations: 4
+time spent:  1.8136708736419678
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 42
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.216101018950889
+iterations: 8522
+time spent:  380.9558026790619
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 43
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.4989030528742653
+iterations: 2
+time spent:  1.7376742362976074
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 44
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.8865475198493127
+iterations: 48928
+time spent:  7012.902622461319
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 45
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.213637144249534
+iterations: 11342
+time spent:  559.2420437335968
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 46
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.114015523927768
+iterations: 5398
+time spent:  179.97137188911438
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 47
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.5231252972000218
+iterations: 0
+time spent:  1.552215576171875
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 48
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.028228535773715
+iterations: 38202
+time spent:  4617.6877653598785
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 49
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.4325873682971013
+iterations: 2
+time spent:  1.9407904148101807
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 50
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.8421440080543876
+iterations: 4
+time spent:  2.0664868354797363
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 51
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  7.570645045362914
+iterations: 50094
+time spent:  6725.1123559474945
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 52
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.236935440139336
+iterations: 15676
+time spent:  1025.0855808258057
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 53
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.0145322940591466
+iterations: 0
+time spent:  1.3406634330749512
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 54
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  8.094695599777097
+iterations: 20752
+time spent:  1251.0677297115326
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 55
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.0935486295663608
+iterations: 0
+time spent:  1.3666481971740723
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 56
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.613597122140901
+iterations: 2
+time spent:  1.4797642230987549
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 57
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.46940011421712
+iterations: 2
+time spent:  1.4041519165039062
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 58
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.2393314557767585
+iterations: 2
+time spent:  1.40966796875
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 59
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.57838842442756
+iterations: 0
+time spent:  1.3806674480438232
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 60
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.5870695045843815
+iterations: 0
+time spent:  1.3778786659240723
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 61
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.6539801700145236
+iterations: 4
+time spent:  1.546928882598877
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 62
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.1278113183217968
+iterations: 4
+time spent:  1.4691944122314453
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 63
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  6.688506717499131
+iterations: 69620
+time spent:  9881.237060785294
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 64
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.053895806272985
+iterations: 44524
+time spent:  5557.779387712479
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 65
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.410066571912448
+iterations: 2
+time spent:  1.5237596035003662
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 66
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.894824988514364
+iterations: 38184
+time spent:  3739.7606558799744
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 67
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.872537707628212
+iterations: 41222
+time spent:  3967.6579003334045
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 68
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.4009532880795557
+iterations: 2
+time spent:  1.4450438022613525
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 69
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.7129850561281226
+iterations: 2
+time spent:  1.3797035217285156
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 70
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.849527834234088
+iterations: 24632
+time spent:  1569.4355790615082
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 71
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.015875813605602
+iterations: 2
+time spent:  1.4233787059783936
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 72
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.3034158745494606
+iterations: 6
+time spent:  1.5424644947052002
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 73
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.489585817317279
+iterations: 14000
+time spent:  694.5931949615479
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 74
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  False
+iterations: 200000
+time spent:  73847.77019906044
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 75
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.572311453220657
+iterations: 61638
+time spent:  9812.439607858658
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 76
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.960281590537126
+iterations: 0
+time spent:  1.466256856918335
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 77
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.756691270422835
+iterations: 6842
+time spent:  260.85970091819763
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 78
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  2.412387761404331
+iterations: 12242
+time spent:  597.1437525749207
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 79
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  9.537188289397866
+iterations: 14960
+time spent:  839.5921454429626
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 80
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.4775558618096403
+iterations: 47432
+time spent:  6080.2979345321655
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 81
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.0426502339294195
+iterations: 0
+time spent:  1.4334673881530762
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 82
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.587323663738738
+iterations: 17590
+time spent:  1094.9260168075562
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 83
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.635839448685111
+iterations: 2
+time spent:  1.5309169292449951
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 84
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.8585268647564455
+iterations: 21460
+time spent:  1526.5565600395203
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 85
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.275041180149728
+iterations: 0
+time spent:  1.4227662086486816
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 86
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.3079543857101505
+iterations: 16384
+time spent:  967.2366902828217
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 87
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  8.354112765971587
+iterations: 42544
+time spent:  4800.871264219284
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 88
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.6994455846124737
+iterations: 0
+time spent:  1.4249472618103027
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 89
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.337690369824114
+iterations: 0
+time spent:  1.4000701904296875
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 90
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.488796127223102
+iterations: 0
+time spent:  1.4043209552764893
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 91
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  9.133627980396474
+iterations: 81400
+time spent:  14924.538432598114
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 92
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  6.0826939938682685
+iterations: 27746
+time spent:  2243.490329504013
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 93
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  4.799536138861871
+iterations: 3258
+time spent:  82.1994047164917
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 94
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.091675055468202
+iterations: 28634
+time spent:  2254.694241285324
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 95
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  3.58420181554879
+iterations: 4
+time spent:  1.543623924255371
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 96
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  1.6413044280070226
+iterations: 0
+time spent:  1.4477951526641846
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 97
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  6.505936027961489
+iterations: 63754
+time spent:  9053.822315454483
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 98
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.6875107517634074
+iterations: 0
+time spent:  1.4225664138793945
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 99
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  0.906319616338695
+iterations: 0
+time spent:  1.412463665008545
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+log_dir: /home/yixuan/EECS598_006_final_project/ensemble_models
+seed: 100
+horizon: 5
+cpu: True
+render: False
+obstacles_type: handcraft:hardest
+SOLVER: RL_RRT
+success:  True
+length:  5.150439965856756
+iterations: 34820
+time spent:  3110.4546842575073
+-------- stop running --------
