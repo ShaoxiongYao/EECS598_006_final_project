@@ -67,7 +67,7 @@ class NarrowGoal(Base):
         straight_path = self.model_wrapper.arange(
             state, goal_state, self.delta_collision_check
         )
-        _, collide = self.stopping_configuration(straight_path)
+        _, collide, _ = self.stopping_configuration(straight_path)
         return collide
 
     def get_obstacles_geoms(self, idx_env):

@@ -21,15 +21,18 @@ import open3d as o3d
 
 np.set_printoptions(threshold=sys.maxsize)
 
+# sampling obstacles parameters
+default_geoms_args = {
+    "num_obstacles_range": [3, 10],
+    "obstacles_type": "boxes" 
+}
+
 class Boxes(Base):
     def __init__(
         self,
         robot_name,
         has_boxes,
         cube_bounds=True,
-        obstacles_type="boxes",
-        # obstacles_type="shapes",
-        # obstacles_type="ycb",
         dynamic_obstacles=False,
     ):
         super().__init__(robot_name)
@@ -37,7 +40,6 @@ class Boxes(Base):
         self.has_boxes = has_boxes
         self.geoms = None
         self.cube_bounds = cube_bounds
-        self.obstacles_type = obstacles_type
         self.dynamic_obstacles = dynamic_obstacles
 
         self.robot_props = ROBOTS_PROPS[self.robot_name]
@@ -69,8 +71,8 @@ class Boxes(Base):
         self.center_bounds
         self.size_bounds = [0.15, 0.5]
 
-    def _reset(self, start=None, goal=None):
-        self.geoms = self.get_obstacles_geoms()
+    def _reset(self, start=None, goal=None, geoms_args=default_geoms_args):
+        self.geoms = self.get_obstacles_geoms(geoms_args=geoms_args)
         self.robot = self.add_robot(self.robot_name, self.freeflyer_bounds)
 
         for geom_obj in self.geoms.geom_objs:
@@ -95,12 +97,17 @@ class Boxes(Base):
 
         return self.observation()
 
-    def get_obstacles_geoms(self):
+    def get_obstacles_geoms(self, geoms_args=None):
         if not self.has_boxes:
             return Geometries()
-        
-        min_num_obs, max_num_obs = 3, 10
-        # boxes
+        assert(type(geoms_args) is dict)
+
+        min_num_obs, max_num_obs = geoms_args["num_obstacles_range"]        
+        obstacles_type = geoms_args["obstacles_type"]
+        assert((obstacles_type in ["boxes", "shapes", "ycb"]) or 
+               (obstacles_type.split(":")[0] == "handcraft") )
+
+        # determine the number of obstacles
         if self.n_obstacles is None:
             n_obstacles = self._np_random.randint(min_num_obs, max_num_obs)
         else:
@@ -113,7 +120,7 @@ class Boxes(Base):
             self.size_bounds,
             self.cube_bounds,
             n_obstacles,
-            self.obstacles_type,
+            obstacles_type,
             self.dynamic_obstacles,
             self.obstacles_color,
             self.obstacles_alpha,
@@ -183,7 +190,6 @@ def generate_geom_objs(
     dynamic_obstacles,
     obstacles_color,
     obstacles_alpha,
-    handcraft=False,
     o3d_viz=None
 ):
     colors = np_random.uniform(0, 1, (n_obstacles, 4))
@@ -193,6 +199,15 @@ def generate_geom_objs(
     name = "box{}"
     geom_objs = []
     placement_tuple = []
+
+    handcraft = False
+    handcraft_name = None
+    if obstacles_type.split(":")[0] == "handcraft":
+        handcraft = True
+        handcraft_name = obstacles_type.split(":")[1]
+        # we use boxes in the handcraft case
+        obstacles_type = "boxes"
+
     # obstacles
     for i in range(n_obstacles):
         if not handcraft:
@@ -200,14 +215,14 @@ def generate_geom_objs(
                 np_random, center_bounds, size_bounds
             )
         else:
-            rand_se3_init, obst_size = add_handcraft_obs(i)
+            rand_se3_init, obst_size = add_handcraft_obs(i, handcraft_name=handcraft_name)
         
         if not handcraft:
             rand_se3_target, obst_size = sample_box_parameters(
                 np_random, center_bounds, size_bounds
             )
         else:
-            rand_se3_target, obst_size = add_handcraft_obs(i)
+            rand_se3_target, obst_size = add_handcraft_obs(i, handcraft_name=handcraft_name)
 
         placement_tuple.append((rand_se3_init, rand_se3_target))
         geom, path, scale = sample_geom(np_random, obstacles_type, obst_size, i)
@@ -240,21 +255,29 @@ def generate_geom_objs(
         geom_objs += geom_objs_bounds
     return geom_objs, placement_tuple
 
-def add_handcraft_obs(idx):
+def add_handcraft_obs(idx, handcraft_name="set_3"):
+    # Note: handcraft_name is input through command line, no space in the string
 
     # parameter set 1
-    # translation_matrix = np.array([[0.3, -0.3, 0], [-0.3, -0.3, 0], [0, 0.3, 0], 
-    #                                [0.35, 0.3, 0], [-0.35, 0.3, 0]])
-    # obst_size_matrix = np.array([[0.35, 0.5, 0.1], [0.35, 0.5, 0.1], [0.05, 0.5, 0.1], 
-    #                              [0.2, 0.5, 0.1], [0.2, 0.5, 0.1]])
-
+    if handcraft_name == "set_1":
+        translation_matrix = np.array([[0.3, -0.3, 0], [-0.3, -0.3, 0], [0, 0.3, 0], 
+                                    [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+        obst_size_matrix = np.array([[0.35, 0.5, 0.1], [0.35, 0.5, 0.1], [0.05, 0.5, 0.1], 
+                                    [0.2, 0.5, 0.1], [0.2, 0.5, 0.1]])
     # parameter set 2
-    # translation_matrix = np.array([[0.35, 0, 0], [-0.35, 0, 0]])
-    # obst_size_matrix = np.array([[0.45, 1.2, 0.1], [0.45, 1.2, 0.1]])
-
+    elif handcraft_name == "set_2":
+        translation_matrix = np.array([[0.35, 0, 0], [-0.35, 0, 0]])
+        obst_size_matrix = np.array([[0.45, 1.2, 0.1], [0.45, 1.2, 0.1]])
     #  parameter set 3
-    translation_matrix = np.array([[0, -0.3, 0], [0.35, 0.3, 0], [-0.35, 0.3, 0]])
-    obst_size_matrix = np.array([[0.8, 0.5, 0.1], [0.6, 0.5, 0.1], [0.6, 0.5, 0.1]])
+    elif handcraft_name == "set_3":
+        translation_matrix = np.array([[0, -0.3, 0], [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+        obst_size_matrix = np.array([[0.8, 0.5, 0.1], [0.6, 0.5, 0.1], [0.6, 0.5, 0.1]])
+    # hardest test case
+    elif handcraft_name == "hardest":
+        translation_matrix = np.array([[0, -0.3, 0], [0.35, 0.3, 0], [-0.35, 0.3, 0]])
+        obst_size_matrix = np.array([[1.2, 0.5, 0.1], [0.6, 0.5, 0.1], [0.6, 0.5, 0.1]])
+    else:
+        raise ValueError("Unknown handcraft name: {}".format(handcraft_name))
 
     se3 = pin.SE3.Identity()
     se3.rotation = np.eye(3)
