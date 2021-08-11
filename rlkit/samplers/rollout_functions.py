@@ -1,4 +1,5 @@
 import numpy as np
+import torch
 import time
 from rlkit.samplers.rollout import Rollout
 
@@ -197,9 +198,29 @@ def calculate_diversity(multi_a):
         n = multi_a.shape[0]
         multi_a_tiled = np.tile(multi_a, (n, 1, 1))
         diff = multi_a_tiled - multi_a_tiled.swapaxes(0, 1)
+        f = open("diversity.txt", "a")
+        f.write(str(np.linalg.norm(diff, axis=2).sum()/(n*(n-1))) + "\n")
+        f.close()
         return np.linalg.norm(diff, axis=2).sum()/(n*(n-1))
 
-def our_multiagent_rollout(
+# @torch.jit.script
+def get_ensemble_actions(agents, observations, get_action_kwargs):
+    actions=[]
+    actions_info=[]
+    futures=[]
+    # print("get_action_kwargs:", get_action_kwargs)
+    # print("**get_action_kwargs:", **get_action_kwargs)
+    for agent in agents:
+        futures.append(torch.jit.fork(agent.get_action, observations, **get_action_kwargs))
+    for future in futures:
+        single_a, single_agent_info = torch.jit.wait(future)
+        actions.append(single_a)
+        actions_info.append(single_agent_info)
+    return np.array(actions), actions_info
+    
+
+
+def our_multiagent_rollout_avg(
     env,
     agents,
     max_path_length=np.inf,
@@ -257,6 +278,7 @@ def our_multiagent_rollout(
 
         # policy time
         start_time = time.time()
+        # multi_a, agents_infos = get_ensemble_actions(agents, new_obs, **get_action_kwargs)
         single_a, single_agent_info = agents[0].get_action(new_obs, **get_action_kwargs)
         agents_infos.append(single_agent_info)
         multi_a = np.zeros((len(agents), single_a.shape[0]))
@@ -271,8 +293,147 @@ def our_multiagent_rollout(
         threshold = 2.0
         # print(calculate_diversity(multi_a))
         # print(multi_a)
-        if calculate_diversity(multi_a) < threshold:
+        calculate_diversity(multi_a)
+        if calculate_diversity(multi_a) > -1: # < threshold:
             a = multi_a.mean(axis=0)
+            start_time = time.time()
+            next_o, r, d, env_info = env.step(a)
+            step_time += time.time()-start_time
+
+            # print("environment step")
+            # input()
+            if render:
+                env.render(**render_kwargs)
+            # print("after render")
+            # input()
+
+            observations.append(o)
+            rewards.append(r)
+            terminals.append(d)
+            actions.append(a)
+            next_observations.append(next_o)
+            dict_next_obs.append(next_o)
+            # agent_infos.append(agent_info)
+        
+
+            if not env_infos:
+                for k, v in env_info.items():
+                    env_infos[k] = [v]
+            else:
+                for k, v in env_info.items():
+                    env_infos[k].append(v)
+            path_length += 1
+            if d:
+                break
+            o = next_o
+        else:
+            break
+    # print("policy time:", policy_time)
+    # print("step time:", step_time)
+    actions = np.array(actions)
+    if len(actions.shape) == 1:
+        actions = np.expand_dims(actions, 1)
+    observations = np.array(observations)
+    next_observations = np.array(next_observations)
+    if return_dict_obs:
+        observations = dict_obs
+        next_observations = dict_next_obs
+    for k, v in env_infos.items():
+        env_infos[k] = np.array(v)
+    # print("stop policy run")
+    return dict(
+        observations=observations,
+        actions=actions,
+        # rewards=np.array(rewards).reshape(-1, 1),
+        rewards=np.array(rewards),
+        next_observations=next_observations,
+        terminals=np.array(terminals).reshape(-1, 1),
+        agents_infos=agents_infos,
+        env_infos=env_infos,
+        desired_goals=np.repeat(desired_goal[None], path_length, 0),
+        full_observations=dict_obs,
+    )
+
+def our_multiagent_rollout_final(
+    env,
+    agents,
+    max_path_length=np.inf,
+    render=False,
+    render_kwargs=None,
+    observation_key=None,
+    desired_goal_key=None,
+    representation_goal_key=None,
+    get_action_kwargs=None,
+    return_dict_obs=False,
+    reset_kwargs=None,
+    is_reset=True
+):
+    if render_kwargs is None:
+        render_kwargs = {}
+    if get_action_kwargs is None:
+        get_action_kwargs = {}
+    dict_obs = []
+    dict_next_obs = []
+    observations = []
+    actions = []
+    rewards = []
+    terminals = []
+    agents_infos = []
+    env_infos = {}
+    next_observations = []
+    path_length = 0
+    if is_reset:
+        if reset_kwargs:
+            o = env.reset(**reset_kwargs)
+        else:
+            o = env.reset()
+    else:
+        # check no reset
+        # print("No reset")
+        # input()
+        o = env.env.env.observation()
+        o = env.env.observation(o)
+        o = env.observation(o)
+
+    for agent in agents:
+        agent.reset()
+    if render:
+        env.render(**render_kwargs)
+    desired_goal = o[desired_goal_key]
+    step_time, policy_time = 0, 0
+
+    # print(type(agents[0]))
+    # print(help(agents[0]))
+    # agents[0].__dict__['stochastic_policy'] -- torch model
+    while path_length < max_path_length:
+        # print("before step")
+        # input()
+        dict_obs.append(o)
+        if observation_key:
+            s = o[observation_key]
+        g = o[representation_goal_key]
+        new_obs = np.hstack((s, g))
+
+        # policy time
+        start_time = time.time()
+        # multi_a, agents_infos = get_ensemble_actions(agents, new_obs, get_action_kwargs)
+        single_a, single_agent_info = agents[0].get_action(new_obs, **get_action_kwargs)
+        agents_infos.append(single_agent_info)
+        multi_a = np.zeros((len(agents), single_a.shape[0]))
+        multi_a[0] = single_a
+        for i, agent in enumerate(agents[1:]):
+            single_a, single_agent_info = agent.get_action(new_obs, **get_action_kwargs)
+            multi_a[i+1] = single_a
+            agents_infos.append(single_agent_info)
+        policy_time += time.time()-start_time
+
+        # step time
+        threshold = 2.0
+        # print(calculate_diversity(multi_a))
+        # print(multi_a)
+        calculate_diversity(multi_a)
+        if calculate_diversity(multi_a) > -1: # < threshold:
+            a = multi_a[-1]
             start_time = time.time()
             next_o, r, d, env_info = env.step(a)
             step_time += time.time()-start_time

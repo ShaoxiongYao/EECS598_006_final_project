@@ -295,10 +295,10 @@ class Base(gym.Env):
             max_growth = self.robot_props["action_range"]
             if isinstance(max_growth, np.ndarray) and max_growth.shape[0] > 1:
                 max_growth = max_growth[0]
-        success, path, trees, iterations = solve.solve(
+        success, path, trees, iterations, inference_time = solve.solve(
             self, max_growth, nmp_input=nmp_input, solver_config=solver_config
         )
-        return success, path, trees, iterations
+        return success, path, trees, iterations, inference_time
 
     def init_viz(self):
         model_wrapper = self.model_wrapper

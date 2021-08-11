@@ -3,7 +3,7 @@ import time
 from mpenv.planning import rrt_bidir
 from mpenv.planning import utils
 from mpenv.core.model import ConfigurationWrapper
-from rlkit.samplers.rollout_functions import multitask_rollout, our_multiagent_rollout
+from rlkit.samplers.rollout_functions import multitask_rollout, our_multiagent_rollout_avg, our_multiagent_rollout_final
 
 EPSILON = 1e-7
 
@@ -67,6 +67,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
         """
         policy_env: mpenv.observers.robot_links.RobotLinksObserver
         """
+        inference_time = 0
         start_t = time.time()
         policy_env, policies, horizon = None, None, None
         if not nmp_input == None:
@@ -81,7 +82,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
         reset_kwargs = {}
 
         def rollout_fn():
-            return our_multiagent_rollout(
+            return our_multiagent_rollout_avg(
                 policy_env,
                 policies,
                 horizon,  # max length in one step
@@ -112,7 +113,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
             end_t = time.time()
             if verbose:
                 print("expanding needs time:", end_t-start_t)
-            return q_stop_list, not collide.any(), "straight_line"
+            return q_stop_list, not collide.any(), "straight_line", inference_time
         else:
             path = arange_fn(q0, q1, delta_collision_check)
             assert(not policy_env.env.env.model_wrapper.collision(path[0]))
@@ -161,7 +162,10 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
                     goal = ConfigurationWrapper(policy_env.env.env.model_wrapper, goal)
                 policy_env.env.env.goal_state = goal
 
+                start_rollout = time.time()
                 policy_path = rollout_fn()
+                end_rollout = time.time()
+                inference_time += end_rollout-start_rollout
                 if policy_path["terminals"].size == 0:
                     end = False
                 else:
@@ -177,7 +181,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
                 end_t = time.time()
                 if verbose:
                     print("expanding needs time:", end_t-start_t)
-                return q_stop_list, end, "rl_controller"
+                return q_stop_list, end, "rl_controller", inference_time
             else:
                 q_stop_list.append(q_stop)
 
@@ -198,7 +202,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
                 end_t = time.time()
                 if verbose:
                     print("expanding needs:", end_t-start_t)
-                return q_stop_list, not collide.any(), "straight_line"
+                return q_stop_list, not collide.any(), "straight_line", inference_time
 
     def expand_fn_short(q0, q1, limit_growth=False):
         if limit_growth:
@@ -233,7 +237,7 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
     else:
         switch_tree_policy = 'compare_size'
 
-    success, path, trees, iterations = algo(
+    success, path, trees, iterations, inference_time = algo(
         start, goal, sample_fn, expand_fn, distance_fn, close_fn, iterations=iterations, 
         verbose=verbose, 
         expand_mode=solver_config["expand_mode"], 
@@ -260,4 +264,4 @@ def solve(env, delta_growth, nmp_input=None, solver_config=None):
         path["collisions"] = np.array(path["collisions"])
         path["start"] = path["points"][0]
         path["goal"] = path["points"][-1]
-    return success, path, trees, iterations
+    return success, path, trees, iterations, inference_time

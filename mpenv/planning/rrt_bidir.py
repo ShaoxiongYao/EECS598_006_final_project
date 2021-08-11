@@ -35,6 +35,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
 
     nodes_ab = [[], []]
     active_nodes_ab = [[], []]
+    inference_time = 0.0
     for i, x in enumerate((start, goal)):
         node = Node(x, parent=None)
         nodes_ab[i].append(node)
@@ -61,7 +62,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         x_a = node_a.point
         # print("x_a", x_a)
         # path_a = interpolate_fn(x_a, x_a_new)
-        x_a_new_list, col_free_a, expand_type_a = expand_fn(x_a, x_rand)
+        x_a_new_list, col_free_a, expand_type_a, one_infer_time = expand_fn(x_a, x_rand)
+        inference_time += one_infer_time
 
         # if col_free_a and not close_fn(x_a, x_a_new_list[-1]): # normal birrt
         # TODO: col_free_a should be added to if condition
@@ -90,7 +92,8 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
             solution["n_samples"] += 1
             x_b = node_b.point
             # path_b = interpolate_fn(x_b, x_b_new)
-            x_b_new_list, col_free_b, expand_type_b = expand_fn(x_b, x_a_new)
+            x_b_new_list, col_free_b, expand_type_b, one_infer_time = expand_fn(x_b, x_a_new)
+            inference_time += one_infer_time
 
             # if col_free_b and not close_fn(x_b, x_b_new_list[-1]):
             if x_b_new_list and not close_fn(x_b, x_b_new_list[-1]):
@@ -106,15 +109,10 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                         active_nodes_ab[1 - growing_index].append(node_b_new)
 
                 node_b_new = nodes_ab[1 - growing_index][-1]
-<<<<<<< HEAD
             if x_b_new_list:
                 x_b_new = x_b_new_list[-1]
             else:
                 x_b_new = x_b
-=======
-
-            x_b_new = x_b_new_list[-1]
->>>>>>> b7ef5a2d37fc8202f90d0d73134cf90523553ebc
             # if the two trees are connected, stop the algorithm
             if close_fn(x_a_new, x_b_new):
                 # print("Tree a and tree b connected")
@@ -124,7 +122,7 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
                 seq_b_goal = node_b_new.path_from_root()[::-1]
                 seq = seq_start_a + seq_b_goal[1:]
                 solution["points"] = seq
-                return True, solution, nodes_ab, 2 * i
+                return True, solution, nodes_ab, 2 * i, inference_time
 
         if verbose:
             print("iteration: ", i)
@@ -150,4 +148,5 @@ def rrt_bidir(start, goal, sample_fn, expand_fn, distance_fn, close_fn, iteratio
         {"collisions": solution["collisions"]},
         nodes_ab,
         2 * iterations,
+        inference_time
     )

@@ -16,6 +16,7 @@ from rlkit.launchers.launcher_util import set_seed
 from rlkit.samplers.rollout_functions import (
     multitask_rollout,
     rollout,
+    our_multiagent_rollout_final
 )
 
 def path_len(path):
@@ -35,7 +36,7 @@ def path_len(path):
 
 @click.command()
 @click.argument("env_name", type=str)
-@click.option("-exp", "--exp-names", default="", multiple=True, type=str)
+@click.option("-exp", "--exp-names", default=[], multiple=True, type=str)
 @click.option("-s", "--seed", default=None, type=int)
 @click.option("-h", "--horizon", default=50, type=int, help="max steps allowed")
 @click.option("-cpu", "--cpu/--no-cpu", default=False, is_flag=True, help="use cpu")
@@ -51,13 +52,12 @@ def path_len(path):
 @click.option("-solver_type", "--solver_type", default=None, type=str, help="type of solver")
 @click.option(
     "-obstacles_type", "--obstacles_type", default="boxes", type=str, 
-    help="type of obstacles, boxes, ycb or handcraft")
+    help="type of obstacles, boxes, ycb, handcraft:set_3, or handcraft:hardest")
 @click.option("-max_iters", "--max_iterations", default=50000, type=int, 
     help="maximum number of iterations in Normal_RRT or RL_RRT")
 def main(env_name, exp_names, seed, horizon, cpu, 
          render, verbose, stochastic, solver_type, obstacles_type, max_iterations):
     print("-------- start running --------")
-    begin_t = time.time()
     if not cpu:
         set_gpu_mode(True)
     set_seed(seed)
@@ -81,7 +81,8 @@ def main(env_name, exp_names, seed, horizon, cpu,
         # print(f"num params: {num_params}")
     else:
         policies.append(RandomPolicy(env))
-
+    
+    begin_t = time.time()
     # sampling obstacles parameters
     geoms_args = {
         "num_obstacles_range": [3, 10],
@@ -105,7 +106,7 @@ def main(env_name, exp_names, seed, horizon, cpu,
     # setup environment, do not use the first observation
     env.reset(start=None, goal=None, geoms_args=geoms_args)
     if solver_type == "Normal_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(solver_config=solver_config)
+        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(solver_config=solver_config)
         print("SOLVER: Normal RRT")
         print("success: ", success)
         if 'points' in path.keys():
@@ -113,7 +114,7 @@ def main(env_name, exp_names, seed, horizon, cpu,
         print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations = env.env.env.solve_rrt(nmp_input=[env, policies, horizon], 
+        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(nmp_input=[env, policies, horizon], 
                                                                  solver_config=solver_config)
         print("SOLVER: RL_RRT")
         print("success: ", success)
@@ -126,16 +127,16 @@ def main(env_name, exp_names, seed, horizon, cpu,
         reset_kwargs = {}
 
         def rollout_fn():
-            return multitask_rollout(
+            return our_multiagent_rollout_final(
                 env,
-                policies[0],
-                horizon,
+                policies,
+                horizon,  # max length in one step
                 render,
                 observation_key="observation",
                 desired_goal_key="desired_goal",
                 representation_goal_key="representation_goal",
+                is_reset=False,
                 **reset_kwargs,
-                is_reset=False
             )
 
         returns = []
@@ -167,12 +168,15 @@ def main(env_name, exp_names, seed, horizon, cpu,
 
         path = rollout_fn()
         process_path(path)
+        inference_time = 0
         print("SOLVER: RL")
         print("successes", successes)
         print("length: ", lengths[0])
 
     stop_t = time.time()
     print("time spent: ", stop_t - begin_t)
+    print("inference time:", inference_time)
+    print("parallel time:", stop_t - begin_t - inference_time*0.8)
     print("-------- stop running --------")
 
 

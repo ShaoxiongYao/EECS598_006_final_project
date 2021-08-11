@@ -1,0 +1,1700 @@
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 1
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.0487203453231775
+iterations: 10
+time spent:  4.184924125671387
+inference time: 3.7466413974761963
+parallel time: 1.1876110076904296
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 2
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.274678215486013
+iterations: 4
+time spent:  2.3609745502471924
+inference time: 1.413813591003418
+parallel time: 1.229923677444458
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 3
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.697324153635527
+iterations: 0
+time spent:  0.5030133724212646
+inference time: 0.4164242744445801
+parallel time: 0.16987395286560059
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 4
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.8467351884648293
+iterations: 6
+time spent:  2.9538755416870117
+inference time: 2.821577548980713
+parallel time: 0.6966135025024411
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 5
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.33419601386624
+iterations: 2
+time spent:  0.5400123596191406
+inference time: 0.4338395595550537
+parallel time: 0.19294071197509766
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 6
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.6881558100542178
+iterations: 2
+time spent:  0.6326866149902344
+inference time: 0.5366909503936768
+parallel time: 0.20333385467529297
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 7
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.5763345455084705
+iterations: 0
+time spent:  0.4830336570739746
+inference time: 0.3977046012878418
+parallel time: 0.16486997604370113
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 8
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.9498904936887553
+iterations: 0
+time spent:  0.0767972469329834
+inference time: 0.0
+parallel time: 0.0767972469329834
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 9
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.354476039320649
+iterations: 66
+time spent:  24.420708179473877
+inference time: 23.727344036102295
+parallel time: 5.43883295059204
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 10
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.952905031586482
+iterations: 0
+time spent:  0.5635507106781006
+inference time: 0.4662327766418457
+parallel time: 0.190564489364624
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 11
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.6793720734261175
+iterations: 0
+time spent:  0.13982343673706055
+inference time: 0.07018804550170898
+parallel time: 0.08367300033569336
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 12
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.0573026436247521
+iterations: 8
+time spent:  3.174410104751587
+inference time: 3.0651731491088867
+parallel time: 0.7222715854644775
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 13
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.51718486905426
+iterations: 12
+time spent:  4.9046242237091064
+inference time: 3.712501049041748
+parallel time: 1.934623384475708
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 14
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.6197196942742618
+iterations: 2
+time spent:  1.4781854152679443
+inference time: 0.8956770896911621
+parallel time: 0.7616437435150146
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 15
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.09363898308936
+iterations: 0
+time spent:  0.45807504653930664
+inference time: 0.37262678146362305
+parallel time: 0.1599736213684082
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 16
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.8389033799911854
+iterations: 2
+time spent:  0.6257543563842773
+inference time: 0.5352988243103027
+parallel time: 0.19751529693603515
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 17
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.8037955908991052
+iterations: 4
+time spent:  1.5185446739196777
+inference time: 1.4262917041778564
+parallel time: 0.3775113105773926
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 18
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.045420959284836
+iterations: 4
+time spent:  1.791022539138794
+inference time: 1.387451171875
+parallel time: 0.6810616016387938
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 19
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.228335705311113
+iterations: 4
+time spent:  1.1661138534545898
+inference time: 0.9320716857910156
+parallel time: 0.4204565048217773
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 20
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.31779718959598
+iterations: 36
+time spent:  11.844632625579834
+inference time: 11.576538801193237
+parallel time: 2.5834015846252445
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 21
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.2094484507158807
+iterations: 10
+time spent:  3.5818862915039062
+inference time: 3.4444780349731445
+parallel time: 0.8263038635253905
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 22
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.0304686736771163
+iterations: 2
+time spent:  1.391526460647583
+inference time: 0.8088841438293457
+parallel time: 0.7444191455841064
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 23
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.1146827266391592
+iterations: 0
+time spent:  0.08544397354125977
+inference time: 0.0
+parallel time: 0.08544397354125977
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 24
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.1245207079640906
+iterations: 4
+time spent:  1.733792781829834
+inference time: 1.578054666519165
+parallel time: 0.4713490486145018
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 25
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.221238473757305
+iterations: 8
+time spent:  4.539425849914551
+inference time: 2.6921141147613525
+parallel time: 2.3857345581054688
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 26
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.5076071779212072
+iterations: 2
+time spent:  0.9147729873657227
+inference time: 0.8197262287139893
+parallel time: 0.2589920043945312
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 27
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4755568692208216
+iterations: 16
+time spent:  5.815875768661499
+inference time: 5.236521244049072
+parallel time: 1.6266587734222409
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 28
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.798664120984137
+iterations: 0
+time spent:  0.5389318466186523
+inference time: 0.43563175201416016
+parallel time: 0.1904264450073242
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 29
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.9344539960945735
+iterations: 0
+time spent:  0.5454087257385254
+inference time: 0.46410632133483887
+parallel time: 0.17412366867065426
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 30
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.1473656789466087
+iterations: 0
+time spent:  0.5052089691162109
+inference time: 0.42237424850463867
+parallel time: 0.1673095703125
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 31
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.6809537199709044
+iterations: 10
+time spent:  3.9624547958374023
+inference time: 3.7870333194732666
+parallel time: 0.9328281402587888
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 32
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.582983858873437
+iterations: 0
+time spent:  0.5279922485351562
+inference time: 0.4328441619873047
+parallel time: 0.1817169189453125
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 33
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.7906184073973511
+iterations: 0
+time spent:  0.13393378257751465
+inference time: 0.045224666595458984
+parallel time: 0.09775404930114745
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 34
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.975083648655103
+iterations: 2
+time spent:  1.2686982154846191
+inference time: 0.9468426704406738
+parallel time: 0.51122407913208
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 35
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4512608594503233
+iterations: 0
+time spent:  0.4862792491912842
+inference time: 0.39548826217651367
+parallel time: 0.1698886394500732
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 36
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.008934940018206
+iterations: 0
+time spent:  0.48398256301879883
+inference time: 0.3993213176727295
+parallel time: 0.16452550888061523
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 37
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.357394765764785
+iterations: 4
+time spent:  2.1630091667175293
+inference time: 1.2165348529815674
+parallel time: 1.1897812843322755
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 38
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.9103755427993172
+iterations: 0
+time spent:  0.46311187744140625
+inference time: 0.38140273094177246
+parallel time: 0.15798969268798824
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 39
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.3876574844358265
+iterations: 6
+time spent:  2.0164849758148193
+inference time: 1.9134023189544678
+parallel time: 0.48576312065124494
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 40
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  6.062053749006786
+iterations: 2
+time spent:  1.2416021823883057
+inference time: 0.8978097438812256
+parallel time: 0.5233543872833252
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 41
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.1074411956196895
+iterations: 2
+time spent:  1.0219447612762451
+inference time: 0.8013772964477539
+parallel time: 0.380842924118042
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 42
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.548128709519147
+iterations: 2
+time spent:  0.7297148704528809
+inference time: 0.5819790363311768
+parallel time: 0.26413164138793943
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 43
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.3436805099290137
+iterations: 4
+time spent:  1.7636778354644775
+inference time: 1.413182258605957
+parallel time: 0.633132028579712
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 44
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.229765287575927
+iterations: 32
+time spent:  10.967455863952637
+inference time: 10.408561706542969
+parallel time: 2.6406064987182614
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 45
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.745146482402599
+iterations: 10
+time spent:  2.8366920948028564
+inference time: 2.471461772918701
+parallel time: 0.8595226764678954
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 46
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.7445989322222294
+iterations: 2
+time spent:  0.5336685180664062
+inference time: 0.4471733570098877
+parallel time: 0.17592983245849608
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 47
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.415703432556037
+iterations: 4
+time spent:  1.3578603267669678
+inference time: 1.251347303390503
+parallel time: 0.3567824840545655
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 48
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.2738777537664245
+iterations: 2
+time spent:  0.9121289253234863
+inference time: 0.8121042251586914
+parallel time: 0.2624455451965332
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 49
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.47883810761793416
+iterations: 0
+time spent:  0.43543457984924316
+inference time: 0.3721003532409668
+parallel time: 0.1377542972564697
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 50
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.0696712358912872
+iterations: 0
+time spent:  0.5356485843658447
+inference time: 0.4489274024963379
+parallel time: 0.17650666236877438
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 51
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4811694495326453
+iterations: 4
+time spent:  1.0066077709197998
+inference time: 0.900841474533081
+parallel time: 0.28593459129333487
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 52
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.333852343439975
+iterations: 4
+time spent:  2.0726122856140137
+inference time: 1.804424524307251
+parallel time: 0.6290726661682129
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 53
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.114347046999058
+iterations: 2
+time spent:  0.20004630088806152
+inference time: 0.09970760345458984
+parallel time: 0.12028021812438965
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 54
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.455844757786446
+iterations: 0
+time spent:  0.4925382137298584
+inference time: 0.3901529312133789
+parallel time: 0.18041586875915527
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 55
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.005479621918248
+iterations: 16
+time spent:  6.034922361373901
+inference time: 5.527328968048096
+parallel time: 1.6130591869354243
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 56
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.116791154805097
+iterations: 4
+time spent:  2.0325732231140137
+inference time: 1.840986728668213
+parallel time: 0.5597838401794433
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 57
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  0.9928091197648925
+iterations: 0
+time spent:  0.487213134765625
+inference time: 0.4003479480743408
+parallel time: 0.16693477630615233
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 58
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.5762248818210636
+iterations: 2
+time spent:  0.6692085266113281
+inference time: 0.49697208404541016
+parallel time: 0.271630859375
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 59
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.1413313072803042
+iterations: 0
+time spent:  0.4544384479522705
+inference time: 0.37438178062438965
+parallel time: 0.15493302345275878
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 60
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.5923967044121206
+iterations: 0
+time spent:  0.49016737937927246
+inference time: 0.38278770446777344
+parallel time: 0.18393721580505368
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 61
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.2374811485763775
+iterations: 0
+time spent:  0.4796791076660156
+inference time: 0.3961620330810547
+parallel time: 0.16274948120117183
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 62
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.340104775148406
+iterations: 2
+time spent:  0.6415035724639893
+inference time: 0.49060940742492676
+parallel time: 0.24901604652404785
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 63
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.125964808991344
+iterations: 0
+time spent:  0.4728717803955078
+inference time: 0.3955516815185547
+parallel time: 0.15643043518066402
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 64
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.0323437290030353
+iterations: 2
+time spent:  0.8886137008666992
+inference time: 0.7949538230895996
+parallel time: 0.25265064239501944
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 65
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.895031208312645
+iterations: 2
+time spent:  1.0230801105499268
+inference time: 0.915684700012207
+parallel time: 0.29053235054016113
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 66
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.7391568871942424
+iterations: 6
+time spent:  2.643754482269287
+inference time: 2.1525588035583496
+parallel time: 0.9217074394226072
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 67
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.9352282477370002
+iterations: 2
+time spent:  0.6099216938018799
+inference time: 0.5028374195098877
+parallel time: 0.2076517581939697
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 68
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.9853092144025983
+iterations: 2
+time spent:  0.541818380355835
+inference time: 0.44176292419433594
+parallel time: 0.18840804100036618
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 69
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  5.4939922006086075
+iterations: 92
+time spent:  37.92720985412598
+inference time: 32.950937032699585
+parallel time: 11.566460227966306
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 70
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4284205483945733
+iterations: 2
+time spent:  0.8842427730560303
+inference time: 0.7761945724487305
+parallel time: 0.26328711509704583
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 71
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.8457993600786406
+iterations: 2
+time spent:  0.9510698318481445
+inference time: 0.8664603233337402
+parallel time: 0.25790157318115225
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 72
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.3064980372734873
+iterations: 0
+time spent:  0.5203266143798828
+inference time: 0.4253807067871094
+parallel time: 0.1800220489501953
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 73
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.4768222683415415
+iterations: 0
+time spent:  0.4836897850036621
+inference time: 0.38576841354370117
+parallel time: 0.17507505416870117
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 74
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.1853951471629574
+iterations: 0
+time spent:  0.4554483890533447
+inference time: 0.36966824531555176
+parallel time: 0.1597137928009033
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 75
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.9814401728984357
+iterations: 4
+time spent:  1.4045689105987549
+inference time: 1.2805454730987549
+parallel time: 0.38013253211975084
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 76
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.3031088207673094
+iterations: 0
+time spent:  0.585284948348999
+inference time: 0.5024240016937256
+parallel time: 0.1833457469940185
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 77
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.694824499429527
+iterations: 20
+time spent:  7.543396949768066
+inference time: 7.273136138916016
+parallel time: 1.7248880386352532
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 78
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.3431396604031995
+iterations: 4
+time spent:  0.8322584629058838
+inference time: 0.710883378982544
+parallel time: 0.26355175971984857
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 79
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.3935259875560801
+iterations: 6
+time spent:  2.147958993911743
+inference time: 2.0089876651763916
+parallel time: 0.5407688617706299
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 80
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4373807936764096
+iterations: 0
+time spent:  0.5370264053344727
+inference time: 0.44105100631713867
+parallel time: 0.1841856002807617
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 81
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.668338651279072
+iterations: 8
+time spent:  2.728276491165161
+inference time: 2.58316707611084
+parallel time: 0.6617428302764892
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 82
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.8995734330736338
+iterations: 42
+time spent:  15.009732484817505
+inference time: 14.337469339370728
+parallel time: 3.539757013320923
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 83
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.980741384143087
+iterations: 0
+time spent:  0.4916982650756836
+inference time: 0.39330458641052246
+parallel time: 0.17705459594726558
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 84
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  2.9343230379437624
+iterations: 0
+time spent:  0.09022998809814453
+inference time: 0.0
+parallel time: 0.09022998809814453
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 85
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.7056046030543923
+iterations: 0
+time spent:  0.5010213851928711
+inference time: 0.40552735328674316
+parallel time: 0.17659950256347656
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 86
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.7518084760997858
+iterations: 2
+time spent:  1.2739403247833252
+inference time: 1.1588680744171143
+parallel time: 0.3468458652496338
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 87
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.6475036582503972
+iterations: 2
+time spent:  1.4170851707458496
+inference time: 0.9358189105987549
+parallel time: 0.6684300422668457
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 88
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.6273459045745204
+iterations: 4
+time spent:  1.6318395137786865
+inference time: 1.525346279144287
+parallel time: 0.41156249046325666
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 89
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.12145929820708
+iterations: 2
+time spent:  0.9252243041992188
+inference time: 0.8280680179595947
+parallel time: 0.2627698898315429
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 90
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.198197537787752
+iterations: 0
+time spent:  0.09076809883117676
+inference time: 0.0
+parallel time: 0.09076809883117676
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 91
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.2345405996097054
+iterations: 4
+time spent:  2.188408613204956
+inference time: 1.5600395202636719
+parallel time: 0.9403769969940186
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 92
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.98230750259385
+iterations: 2
+time spent:  0.7107772827148438
+inference time: 0.4995739459991455
+parallel time: 0.31111812591552734
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 93
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4448598951313207
+iterations: 0
+time spent:  0.4992032051086426
+inference time: 0.41361403465270996
+parallel time: 0.16831197738647458
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 94
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.3737912989508534
+iterations: 2
+time spent:  0.924175500869751
+inference time: 0.8341197967529297
+parallel time: 0.2568796634674072
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 95
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.4683498610448704
+iterations: 0
+time spent:  0.46184563636779785
+inference time: 0.3768177032470703
+parallel time: 0.16039147377014157
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 96
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.45008948790537
+iterations: 4
+time spent:  1.4049036502838135
+inference time: 1.278813362121582
+parallel time: 0.3818529605865477
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 97
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  4.109355197515526
+iterations: 38
+time spent:  17.057186126708984
+inference time: 15.074491024017334
+parallel time: 4.997593307495116
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 98
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  3.0150440488503567
+iterations: 2
+time spent:  0.9674863815307617
+inference time: 0.8710627555847168
+parallel time: 0.27063617706298826
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 99
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.4608313407264715
+iterations: 2
+time spent:  0.9620780944824219
+inference time: 0.8004965782165527
+parallel time: 0.3216808319091796
+-------- stop running --------
+No personal conf_private.py found.
+doodad not detected
+-------- start running --------
+CHECKPOINT is not defined in the os variables, it is required for model checkpointing.
+Use home directory by default.
+seed: 100
+horizon: 80
+cpu: False
+render: False
+SOLVER: RL_RRT
+success:  True
+length:  1.7120275397699403
+iterations: 18
+time spent:  7.068676710128784
+inference time: 6.630631923675537
+parallel time: 1.7641711711883543
+-------- stop running --------

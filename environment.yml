@@ -1,11 +1,11 @@
-name: nmprepr
+name: nmprepr_2
 dependencies:
   - python=3.8
   - conda-forge::pinocchio=2.5.2
   - conda-forge::gepetto-viewer-corba=5.5.1
   - conda-forge::pyembree=0.1.6
-  - pytorch::pytorch=1.7.0
-  - pytorch::torchvision=0.8.1
+  # - pytorch::pytorch=1.7.0
+  # - pytorch::torchvision=0.8.1
   # - pytorch::cudatoolkit==10.2
   - numpy=1.19.2
   - pip
@@ -21,3 +21,4 @@ dependencies:
     - tensorboard==2.3.0
     - networkx==2.5
     - git+https://github.com/rstrudel/nmprepr.git
+    # - pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
