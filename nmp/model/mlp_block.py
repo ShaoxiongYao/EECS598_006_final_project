@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from rlkit.torch import pytorch_util as ptu
@@ -19,7 +20,7 @@ class MLPBlock(nn.Module):
         self.b_init_value = b_init_value
         self.sizes = sizes
 
-        self.fcs = []
+        self.fcs = nn.ModuleList()
         in_size = sizes[0]
         for i, next_size in enumerate(sizes[1:]):
             fc = nn.Linear(in_size, next_size)
@@ -30,7 +31,7 @@ class MLPBlock(nn.Module):
             self.__setattr__(fc_name, fc)
             self.fcs.append(fc)
 
-    def forward(self, x):
+    def forward(self, x : torch.Tensor) -> torch.Tensor:
         for fc in self.fcs[:-1]:
             res = x
             x = fc(x)
