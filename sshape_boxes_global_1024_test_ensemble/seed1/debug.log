@@ -1,0 +1,92 @@
+2021-08-14 05:31:58.789467 EDT | [seed1] Epoch 0 finished
+-----------------------------  ---------------------
+replay_buffer/Size             2000
+replay_buffer/MeanObs          0.0712591
+replay_buffer/StdObs           0.9859638
+replay_buffer/MeanGoal         0.0077960207
+replay_buffer/StdGoal          0.95434904
+trainer/QF1 Loss               16.766247
+trainer/QF2 Loss               16.76972
+trainer/Policy Loss            -4.0232954
+trainer/QF1 Grad Norm          8.101231
+trainer/QF2 Grad Norm          8.93914
+trainer/Policy Grad Norm       1.8250934
+trainer/Q1 Predictions Mean    -0.0031516377
+trainer/Q1 Predictions Std     0.0010003437
+trainer/Q1 Predictions Max     0.0001786318
+trainer/Q1 Predictions Min     -0.0063774525
+trainer/Q2 Predictions Mean    -0.0044073616
+trainer/Q2 Predictions Std     0.0007366035
+trainer/Q2 Predictions Max     -0.0022752099
+trainer/Q2 Predictions Min     -0.006595741
+trainer/Q Targets Mean         1.457892
+trainer/Q Targets Std          3.8251042
+trainer/Q Targets Max          18.632975
+trainer/Q Targets Min          -2.756654
+trainer/Log Pis Mean           -4.0278354
+trainer/Log Pis Std            0.50060683
+trainer/Log Pis Max            -2.422212
+trainer/Log Pis Min            -5.251877
+trainer/Policy mu Mean         -0.0045567905
+trainer/Policy mu Std          0.0053015104
+trainer/Policy mu Max          0.0074338457
+trainer/Policy mu Min          -0.013232265
+trainer/Policy log std Mean    -0.0021816876
+trainer/Policy log std Std     0.000893545
+trainer/Policy log std Max     0.00017083675
+trainer/Policy log std Min     -0.0040009264
+trainer/Alpha                  0.9997000694274902
+trainer/Alpha Loss             -0.0
+exploration/num steps total    2000
+exploration/num paths total    26
+exploration/path length Mean   76.92307692307692
+exploration/path length Std    10.65877420042386
+exploration/path length Max    80
+exploration/path length Min    40
+exploration/SuccessRate        [0.]
+exploration/Rewards Mean       -3.2852581633567817
+exploration/Rewards Std        1.9726698860635983
+exploration/Rewards Max        -0.6183955430984497
+exploration/Rewards Min        -6.131546974182129
+exploration/Returns Mean       -252.71216641206001
+exploration/Returns Std        60.3728196296266
+exploration/Returns Max        -86.45493640899656
+exploration/Returns Min        -330.546706700325
+exploration/Actions Mean       0.0055529163
+exploration/Actions Std        0.63056296
+exploration/Actions Max        0.99916744
+exploration/Actions Min        -0.9992991
+exploration/Num Paths          13
+exploration/Average Returns    -252.71216641206001
+evaluation/num steps total     960
+evaluation/num paths total     12
+evaluation/path length Mean    80.0
+evaluation/path length Std     0.0
+evaluation/path length Max     80
+evaluation/path length Min     80
+evaluation/SuccessRate         [0.]
+evaluation/Rewards Mean        -0.11749639849488937
+evaluation/Rewards Std         0.0004606140472400661
+evaluation/Rewards Max         -0.11678112149238587
+evaluation/Rewards Min         -0.11874065585434437
+evaluation/Returns Mean        -9.399711879591132
+evaluation/Returns Std         0.03684912377920529
+evaluation/Returns Max         -9.342489719390855
+evaluation/Returns Min         -9.499252468347535
+evaluation/Actions Mean        -0.0046419217
+evaluation/Actions Std         0.00543218
+evaluation/Actions Max         0.006528403
+evaluation/Actions Min         -0.012785998
+evaluation/Num Paths           12
+evaluation/Average Returns     -9.399711879591132
+time/batch sampling (s)        5.1787250731140375
+time/data storing (s)          0.041945287957787514
+time/evaluation sampling (s)   2.133992997929454
+time/exploration sampling (s)  3.0882570687681437
+time/logging (s)               0.039152100682258606
+time/saving (s)                0.02286585047841072
+time/training (s)              219.6823527123779
+time/epoch (s)                 230.187291091308
+time/total (s)                 240.3774164672941
+Epoch                          0
+-----------------------------  ---------------------
