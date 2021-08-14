@@ -20,7 +20,9 @@ class MLPBlock(nn.Module):
         self.b_init_value = b_init_value
         self.sizes = sizes
 
-        self.fcs = nn.ModuleList()
+        self.fcs = torch.nn.ModuleList()
+        print("init")
+        print(type(self.fcs))
         in_size = sizes[0]
         for i, next_size in enumerate(sizes[1:]):
             fc = nn.Linear(in_size, next_size)

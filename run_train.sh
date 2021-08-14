@@ -1,10 +1,10 @@
 #!/bin/bash
 # training script
 
-LOG_DIR=sshape_boxes_global_1024
+LOG_DIR=sshape_boxes_global_1024_test_ensemble
 # ENV_NAME=SShape-Boxes-64Pts-Rays-v0
 ENV_NAME=SShape-Boxes-1024Pts-SurfaceNormals-v0
-GPU_ID=1
+GPU_ID=0
 
 EPOCHS=1000
 

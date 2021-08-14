@@ -40,6 +40,7 @@ class policiesEnsemble(torch.nn.Module):
         # print("**get_action_kwargs:", **get_action_kwargs)
         kwargs={"deterministic" : True}
         for agent in self.agents:
+            # agent.forward(observations, **kwargs)
             futures.append(torch.jit.fork(agent.forward, observations))
         for future in futures:
             single_a_torch, _, _, _, _, _, _, _ = torch.jit.wait(future)
@@ -51,7 +52,7 @@ start_t = time.time()
 
 for i in range(1000):
     ens = policiesEnsemble(policies) # work
-    ens = torch.jit.script(policiesEnsemble(policies)) # fail
+    # ens = torch.jit.script(policiesEnsemble(policies)) # fail
     actions = ens(torch.ones((1000,6), device='cuda'))
     # for policy in policies:
     #     policy.get_action(np.ones(6000))

@@ -48,7 +48,7 @@ class PointNet(nn.Module):
             self.hidden_sizes,
             self.coordinate_frame,
         )
-
+        print("init MLP")
         self.block0 = MLPBlock(
             self.blocks_sizes[0],
             hidden_activation=hidden_activation,
