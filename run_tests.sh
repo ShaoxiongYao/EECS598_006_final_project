@@ -15,9 +15,9 @@ LOG_DIR=/home/yixuan/sshape_boxes_global_1024/seed1
 # SOLVER_TYPE=RL
 # ENV_NAME=SShape-Boxes-64Pts-Rays-v0
 ENV_NAME=SShape-Boxes-1024Pts-SurfaceNormals-v0
-OBS_TYPE=boxes
+OBS_TYPE=handcraft:set_3
 
-for SOLVER_TYPE in RL_RRT
+for SOLVER_TYPE in single_RL_RRT
 do
 # for HORIZON in $(seq 10 5 81)
 for HORIZON in 80
