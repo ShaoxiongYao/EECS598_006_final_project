@@ -106,17 +106,17 @@ def main(env_name, exp_names, seed, horizon, cpu,
     # setup environment, do not use the first observation
     env.reset(start=None, goal=None, geoms_args=geoms_args)
     if solver_type == "Normal_RRT":
-        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(solver_config=solver_config)
         print("SOLVER: Normal RRT")
+        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(solver_config=solver_config)
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
         print("iterations:", iterations)
 
     elif solver_type == "RL_RRT":
-        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(nmp_input=[env, policies, horizon], 
-                                                                 solver_config=solver_config)
         print("SOLVER: RL_RRT")
+        success, path, trees, iterations, inference_time = env.env.env.solve_rrt(nmp_input=[env, policies, horizon], 
+                                                                                 solver_config=solver_config)
         print("success: ", success)
         if 'points' in path.keys():
             print("length: ", path_len(path))
@@ -166,10 +166,10 @@ def main(env_name, exp_names, seed, horizon, cpu,
             returns.append(np.sum(path["rewards"]))
             n_steps.append(len(path["rewards"]))
 
+        print("SOLVER: RL")
         path = rollout_fn()
         process_path(path)
         inference_time = 0
-        print("SOLVER: RL")
         print("successes", successes)
         print("length: ", lengths[0])
 

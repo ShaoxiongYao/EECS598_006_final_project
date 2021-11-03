@@ -220,8 +220,15 @@ class Base(gym.Env):
             previous_ee = self.robot.get_ee(previous_oMg).translation
             current_ee = self.robot.get_ee(current_oMg).translation
             self.viz.add_edge_to_roadmap("path", previous_ee, current_ee)
+        
+        # save previous q
+        prev_dist = model_wrapper.distance(self.goal_state, self.state)
 
+        # update state
         self.state = new_state
+
+        # calculate new distance
+        new_dist = model_wrapper.distance(self.goal_state, self.state)
 
         q, oMi, oMg = self.state.q_oM
         goal_q, goal_oMi, goal_oMg = self.goal_state.q_oM
@@ -237,7 +244,7 @@ class Base(gym.Env):
         reward, done, success = reward[0], done[0], success[0]
         self.done = done
 
-        info = {"collided": collided, "success": success}
+        info = {"collided": collided, "success": success, "prev_dist": prev_dist, "new_dist": new_dist}
 
         return self.observation(), reward, done, info
 

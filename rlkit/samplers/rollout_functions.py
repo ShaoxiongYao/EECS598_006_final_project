@@ -122,8 +122,6 @@ def multitask_rollout(
     desired_goal = o[desired_goal_key]
     step_time, policy_time = 0, 0
     while path_length < max_path_length:
-        # print("before step")
-        # input()
         dict_obs.append(o)
         if observation_key:
             s = o[observation_key]
@@ -254,9 +252,7 @@ def our_multiagent_rollout_avg(
         else:
             o = env.reset()
     else:
-        # check no reset
-        # print("No reset")
-        # input()
+        # no reset
         o = env.env.env.observation()
         o = env.env.observation(o)
         o = env.observation(o)
@@ -268,8 +264,6 @@ def our_multiagent_rollout_avg(
     desired_goal = o[desired_goal_key]
     step_time, policy_time = 0, 0
     while path_length < max_path_length:
-        # print("before step")
-        # input()
         dict_obs.append(o)
         if observation_key:
             s = o[observation_key]
@@ -289,23 +283,16 @@ def our_multiagent_rollout_avg(
             agents_infos.append(single_agent_info)
         policy_time += time.time()-start_time
 
-        # step time
         threshold = 2.0
-        # print(calculate_diversity(multi_a))
-        # print(multi_a)
-        calculate_diversity(multi_a)
         if calculate_diversity(multi_a) > -1: # < threshold:
             a = multi_a.mean(axis=0)
+            # store step time
             start_time = time.time()
             next_o, r, d, env_info = env.step(a)
             step_time += time.time()-start_time
 
-            # print("environment step")
-            # input()
             if render:
                 env.render(**render_kwargs)
-            # print("after render")
-            # input()
 
             observations.append(o)
             rewards.append(r)
@@ -314,7 +301,8 @@ def our_multiagent_rollout_avg(
             next_observations.append(next_o)
             dict_next_obs.append(next_o)
             # agent_infos.append(agent_info)
-        
+
+            print(env_info['new_dist'])
 
             if not env_infos:
                 for k, v in env_info.items():
@@ -325,9 +313,14 @@ def our_multiagent_rollout_avg(
             path_length += 1
             if d:
                 break
+            # break if distance to goal increases
+            # if env_info['prev_dist'] - env_info['new_dist'] < 0.001:
+            #     break
             o = next_o
         else:
             break
+    
+    print("path_length", path_length)
     # print("policy time:", policy_time)
     # print("step time:", step_time)
     actions = np.array(actions)
@@ -402,12 +395,8 @@ def our_multiagent_rollout_final(
     desired_goal = o[desired_goal_key]
     step_time, policy_time = 0, 0
 
-    # print(type(agents[0]))
-    # print(help(agents[0]))
     # agents[0].__dict__['stochastic_policy'] -- torch model
     while path_length < max_path_length:
-        # print("before step")
-        # input()
         dict_obs.append(o)
         if observation_key:
             s = o[observation_key]
