@@ -14,6 +14,8 @@ hard_seeds = [ 0, 2, 6, 8, 9, 10, 12, 16, 17, 24, 25, 26, 27, 35 ,36, 37, 39, 41
 # key = "iterations:"
 key = "time"
 
+data_np_list = []
+
 for filename in f_list:
     print(filename)
     data_list = []
@@ -25,11 +27,21 @@ for filename in f_list:
     data_np = np.array(data_list)
     data_np = data_np[hard_seeds]
 
+    data_np_list.append(data_np)
+
     print("mean:", data_np.mean())
     print("std:", data_np.std())
 
-    plt.figure()
-    plt.hist(data_np, bins=20, range=(0, 80000))
-    plt.xlabel("time(s)")
-    plt.ylabel("number of examples")
-    plt.savefig(filename.replace('/', '_')+'.png')
+    # plt.figure()
+    # plt.hist(data_np, bins=20, range=(0, 80000))
+    # plt.xlabel("time(s)")
+    # plt.ylabel("number of examples")
+    # plt.savefig(filename.replace('/', '_')+'.png')
+
+plt.figure()
+plt.scatter(data_np_list[0], data_np_list[1])
+plt.xlim(0, 80000)
+plt.ylim(0, 80000)
+plt.xlabel("RL RRT time")
+plt.ylabel("Normal RRT time")
+plt.savefig('compare.png')
